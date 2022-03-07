@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+<head>
+    {% block head %}
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="{{ attach }}/static/favicon.jpg" />
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+
+        {% assets filters="libsass,cssmin", output="css/main.min.css", "css/main.css" %}
+          <link rel="stylesheet" href="{{SITEURL}}/{{ASSET_URL}}">
+        {% endassets %}
+
+        {% if FEED_ALL_ATOM %}
+            <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="Flux du site de {{ SITENAME }}"/>
+        {% endif %}
+    {% endblock head %}
+        <link rel="me" href="mailto:nicolas@loeuillet.org" />
+        <link rel="webmention" href="https://webmention.io/nicolas.loeuillet.org/webmention" />
+        <link rel="pingback" href="https://webmention.io/nicolas.loeuillet.org/xmlrpc" />
+</head>
+<body>
+
+<div id="container">
+    <header>
+        <h1><a href="{{ SITEURL }}/" class="h-card" rel="me">{{ SITENAME }}</a></h1>
+    </header>
+    <nav>
+        <ul>
+          <li><a {% if output_file=="index.html" %} class="active" {% endif %}href="{{ SITEURL }}/">Billets</a>
+          <li><a {% if output_file=="veille.html" %} class="active" {% endif %}href="{{ SITEURL }}/veille.html">Veille</a>
+          </li>
+          {% if DISPLAY_PAGES_ON_MENU %}
+              {% for p in pages %}
+                  <li><a {% if p==page %} class="active" {% endif %}href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
+                  </li>
+              {% endfor %}
+          {% endif %}
+          <li>
+            <div class="toggle-theme">
+              <button class="theme-btn light" onclick="setTheme('light')" title="Mode clair">
+                <svg viewBox="0 0 24 24" class="SunIcon" transform="translate(0, 0) translate(-12, -12) scale(1, 1) translate(12, 12) rotate(0, 12, 12) skewX(0) skewY(0) ">
+                  <path d="M12 6a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v2a1 1 0 0 0 1 1zm9 5h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM6 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h2a1 1 0 0 0 1-1zm.22-7a1 1 0 0 0-1.39 1.47l1.44 1.39a1 1 0 0 0 .73.28 1 1 0 0 0 .72-.31 1 1 0 0 0 0-1.41zM17 8.14a1 1 0 0 0 .69-.28l1.44-1.39A1 1 0 0 0 17.78 5l-1.44 1.42a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.31zM12 18a1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-2a1 1 0 0 0-1-1zm5.73-1.86a1 1 0 0 0-1.39 1.44L17.78 19a1 1 0 0 0 .69.28 1 1 0 0 0 .72-.3 1 1 0 0 0 0-1.42zm-11.46 0l-1.44 1.39a1 1 0 0 0 0 1.42 1 1 0 0 0 .72.3 1 1 0 0 0 .67-.25l1.44-1.39a1 1 0 0 0-1.39-1.44zM12 8a4 4 0 1 0 4 4 4 4 0 0 0-4-4z">
+                  </path>
+                </svg>
+              </button>
+              <button class="theme-btn dark" onclick="setTheme('dark')" title="Mode sombre">
+                <svg viewBox="0 0 24 24" class="MoonIcon" transform="translate(0, 0) translate(-12.021059513092041, -12.021673440933228) scale(1, 1) translate(12.021059513092041, 12.021673440933228) rotate(0, 12.021059513092041, 12.021673440933228) skewX(0) skewY(0) ">
+                  <path d="M12.3 22h-.1a10.31 10.31 0 0 1-7.34-3.15 10.46 10.46 0 0 1-.26-14 10.13 10.13 0 0 1 4-2.74 1 1 0 0 1 1.06.22 1 1 0 0 1 .24 1 8.4 8.4 0 0 0 1.94 8.81 8.47 8.47 0 0 0 8.83 1.94 1 1 0 0 1 1.27 1.29A10.16 10.16 0 0 1 19.6 19a10.28 10.28 0 0 1-7.3 3z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </li>
+        </ul>
+    </nav>
+    {% block content %}
+    {% endblock %}
+    <footer>
+        <p>
+            Ce site utilise <a href="http://getpelican.com/">Pelican</a> avec un thème largement inspiré de <a href="https://github.com/aleylara/Peli-Kiera">Peli-Kiera</a>.
+        </p>
+        <p>
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">CC by-nc-sa</a> : ce site peut être reproduit, tout ou partie, sous réserve de respecter la licence (attribution, non commerciale, partage dans les mêmes conditions). Ce site est la propriété de son auteur, <span class="p-name u-url u-uid" rel="me">Nicolas Lœuillet</span></a>.
+        </p>
+    </footer>
+</div>
+<script type="text/javascript">
+  const setTheme = (theme) => {
+    document.documentElement.className = theme;
+    localStorage.setItem('theme', theme);
+  }
+  const getTheme = () => {
+    const theme = localStorage.getItem('theme');
+    theme && setTheme(theme);
+  }
+  getTheme();
+</script>
+</body>
+</html>

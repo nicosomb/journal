@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+    <main>
+        <section id="links">
+
+          <h2>Veille</h2>
+
+          <p>Je partage ici les liens découverts au détour de ma veille. Un flux dédié à cette catégorie est disponible : <code>{{ SITEURL }}/feeds/veille.atom.xml</code>.</p>
+
+          <hr />
+
+            <ul>
+
+              {% set new = namespace(p=0) %}
+                {% for article in articles if article.category == "veille" %}
+                    <li>
+                        <a href="{{ article.source }}" title="{{ article.title }}">{{ article.title }}{% if article.langue is defined %} ({{ article.langue }}){%endif%}</a> ({{ article.source.rpartition("//")[-1].partition("/")[0] }})
+                        <time class="shared">{{ article.date|strftime('%d %b %Y') }}</time>
+                        <p>{{ article.content }}</p>
+
+                    </li>
+                {% endfor %}
+            </ul>
+        </section>
+    </main>
+{% endblock content %}

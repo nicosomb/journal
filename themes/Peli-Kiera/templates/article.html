@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block html_lang %}{{ article.lang }}{% endblock %}
+{% block title %}{{ article.title }} - {{ SITENAME }}{% endblock %}
+{% block head %}
+{{ super() }}
+{% if article.description %}
+<meta name="description" content="{{ article.description }}" />
+{% endif %}
+{% for tag in article.tags %}
+<meta name="tags" content="{{ tag }}" />
+{% endfor %}
+{% endblock %}
+{% block content %}
+
+<main>
+    <article class="h-entry">
+        <h1 class="p-name">{% if article.category.name == 'veille' %}Lu ailleurs : {% endif %}{{ article.title }} </h1>
+        <a class="u-url" href="{{ article.url }}" rel="bookmark" title="{{ article.title }}"> </a>
+        <aside>
+            <ul>
+                <li>
+                    Publié le <time class="dt-published" datetime="{{ article.date }}">{{ article.date|strftime('%d') }} <a href="{{ SITEURL }}/{{ ROOT_POSTS }}/{{ article.date|strftime('%Y') }}/{{ article.date|strftime('%m') }}">{{ article.date|strftime('%b') }}</a> <a href="{{ SITEURL }}/{{ ROOT_POSTS }}/{{ article.date|strftime('%Y') }}">{{ article.date|strftime('%Y') }}</a></time>
+                </li>
+            </ul>
+        </aside>
+        <div class="e-content">
+          {{ article.content }}
+        </div>
+        {% if article.category.name == 'veille' %}<p>Source : <a href="{{ article.source }}">{{ article.title }}</a> ({{ article.source.rpartition("//")[-1].partition("/")[0] }})</p>{% endif %}
+    </article>
+
+{% if article.webmentions.mentioned %}
+    <section id="webmentions">
+
+    <h2>Réactions (<a href="https://fr.wikipedia.org/wiki/Webmention" title="Qu'est-ce qu'une webmention ?">aide</a>)</h2>
+    <h3>Mentions</h3>
+    <ul>
+      {% for item_mentioned in article.webmentions.mentioned %}
+        <li><a href="{{ item_mentioned['wm-source'] }}"
+            rel="nofollow noopener noreferrer ugc"
+            title="{{ item_mentioned['author_name'] }} {{ item_mentioned['reaction'] }}">{{ item_mentioned['author_name'] }} {{ item_mentioned['name'] }}</a></li>
+      {% endfor %}
+      </ul>
+
+      <h3>Réponses</h3>
+
+      <ul>
+        {% for item_replied in article.webmentions.replied %}
+            <li><a href="{{ item_replied['author_url'] }}"
+               rel="nofollow noopener noreferrer ugc"
+               title="{{ item_replied['author_name'] }} {{ item_replied['reaction'] }}">
+            {% if item_replied['author_photo'] %}
+               <img src="{{ item_replied['author_photo'] }}" class="avatar">
+            {% endif %}
+            {{ item_replied['author_name'] }}
+            </a><br />{{ item_replied['text']|safe }}<br />
+            <a href="{{ item_replied['url'] }}">{{ item_replied['published'] }}</a>
+            </li>
+         {% endfor %}
+        </ul>
+
+    </section>
+    {% endif %}
+
+    <section class="post-nav">
+        <div id="left-page">
+          <div id="right-link">
+              {% if article.prev_article %}
+              Billet plus ancien : <a href="{{ SITEURL }}/{{ article.prev_article.url }}">{{ article.prev_article.title }} </a>
+              {% endif %}
+          </div>
+        </div>
+    </section>
+</main>
+{% endblock %}
