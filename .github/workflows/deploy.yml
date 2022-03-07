@@ -1,0 +1,54 @@
+name: deploy
+
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+        - uses: actions/checkout@v1
+
+        - name: Set up Python 3.8
+          uses: actions/setup-python@v2
+          with:
+            python-version: 3.8
+
+        - name: Install pelican with markdown
+          shell: bash
+          run: "pip install invoke pelican[markdown]"
+
+        - name: Set up pelican and dependencies
+          shell: bash
+          run: "pip install -r requirements.txt"
+
+        - name: Build the project
+          shell: bash
+          run: "pelican content -s publishconf.py"
+
+        - name: Check if we have everything
+          shell: bash
+          run: "ls -la output/"
+
+        - name: Remove the existing file structure
+          uses: appleboy/ssh-action@master
+          with:
+              host: ${{ secrets.HOST }}
+              username: ${{ secrets.USER }}
+              key: ${{ secrets.SSHKEY }}
+              port: ${{ secrets.PORT }}
+              script: |
+                rm -rf /var/www/loeuillet.org/nicolas/*
+
+        - name: Copy output via scp
+          uses: appleboy/scp-action@master
+          with:
+              host: ${{ secrets.HOST }}
+              username: ${{ secrets.USER }}
+              port: ${{ secrets.PORT }}
+              key: ${{ secrets.SSHKEY }}
+              source: "output/"
+              target: "/var/www/loeuillet.org/nicolas"
