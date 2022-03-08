@@ -44,20 +44,6 @@ SITEMAP = {
     'format': 'xml',
 }
 
-WEBMENTION_USERNAME = 'nicolas.loeuillet.org'
-WEBMENTION_FETCH_URL = 'https://webmention.io/nicolas.loeuillet.org/webmention'
-WEBMENTION_SITEURL = 'https://nicolas.loeuillet.org'
-WEBMENTION_IO_JF2_URL = 'https://webmention.io/api/mentions.jf2'
-WEBMENTION_IO_CACHE_FILENAME = './webmention-cache/cache.json'
-WEBMENTION_IO_DOMAIN = 'nicolas.loeuillet.org'
-WEBMENTION_IO_OVERWRITE_INITIAL_CACHE = False
-WEBMENTION_IO_UPDATE_INITIAL_CACHE = True
-WEBMENTION_IO_UPDATE_CACHE = True
-WEBMENTION_IO_REPLIED_PAGINATION_SIZE = 10
-WEBMENTION_IO_MAX_ITEMS = 50
-WEBMENTION_IO_API_KEY = ''
-
 TYPOGRIFY = True
-
 
 DIRECT_TEMPLATES = ['index', 'archives', 'veille']
