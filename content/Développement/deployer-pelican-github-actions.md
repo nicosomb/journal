@@ -2,7 +2,7 @@ Title: Déployer son site Pelican avec Github Actions
 Date: 2022-03-08 10:00
 Category: Billets
 
-[Depuis que je génère ce site avec Pelican](../re-pelican.md), je faisais toute la partie génération / déploiement à la main. À savoir :
+[Depuis que je génère ce site avec Pelican]({filename}re-pelican.md), je faisais toute la partie génération / déploiement à la main. À savoir :
 
 ```
 pelican content -s publishconf.py
@@ -15,4 +15,4 @@ Bref, je me suis posé un peu pour voir comment améliorer ça, et je suis tomb�
 
 L'article est bien détaillé et tout est fonctionnel.
 
-Seule contrainte pour l'instant : j'ai désactivé la partie Webmentions parce que le plugin faisait tout péter dans le déploiement, sans comprendre quoique ce soit. 
+Seule contrainte pour l'instant : j'ai désactivé la partie Webmentions parce que le plugin faisait tout péter dans le déploiement, sans comprendre quoique ce soit.
