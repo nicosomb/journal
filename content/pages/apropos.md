@@ -4,16 +4,28 @@ Bienvenue sur mon journal personnel, où il arrive parfois que [je publie des ch
 
 Comme beaucoup, j'ai plusieurs casquettes.
 
-Je suis **développeur PHP depuis près de 15 ans, spécialisé dans le framework Symfony**. [Mon CV au format PDF est disponible en téléchargement ici]({attach}/static/CV_nicolas_loeuillet.pdf). Vous retrouverez également toutes mes différentes expériences [sur mon profil Linkedin](https://www.linkedin.com/in/nicolas-l%C5%93uillet/). 
+---
+
+Je suis **développeur PHP depuis près de 16 ans, spécialisé dans le framework Symfony**. [Mon CV au format PDF est disponible en téléchargement ici]({attach}/static/CV_nicolas_loeuillet.pdf). Vous retrouverez également toutes mes différentes expériences [sur mon profil Linkedin](https://www.linkedin.com/in/nicolas-l%C5%93uillet/).
+
+---
 
 Début 2018, j'ai souhaité m'impliquer dans la vie de ma commune. C'est ainsi que j'ai été **élu maire de Rinxent en mars 2018.** [J'en parle plus longuement ici]({filename}../Pensées/pourquoi-et-comment-je-suis-devenu-le-maire-de-ma-commune.md). J'ai été réélu en mars 2020 pour un mandat de 6 ans. Tous les jours, nous gérons donc une collectivité de 3.000 habitants avec une équipe de 30 agents municipaux et une équipe d'élus de 25 personnes. Comptabilité, RH, organisation de festivités, urbanisme, travaux, relationnel avec les associations, les concitoyens, les écoles ou encore les entreprises sont une partie des sujets qui rythment la vie municipale.  
 J'ai un blog où je parle de mon actualité en tant qu'élu : [https://www.nicolasloeuillet.fr/](https://www.nicolasloeuillet.fr/).
 
+---
+
 Je suis aussi **papa de deux enfants** de 9 et bientôt 8 ans, en garde alternée.
+
+---
 
 **Je tente de faire de la photo**. [J'ai un site pour ça et ça se passe ici](https://photos.loeuillet.org).
 
+---
+
 Depuis de nombreuses années, **je contribue à l'open source et aux logiciels libres**. En avril 2013, j'ai décidé de créer une alternative à Pocket, Instapaper ou encore Pinboard : [wallabag](https://wallabag.org/fr) a maintenant plus de 8 ans et est utilisé dans le monde entier (traduit en plus de 15 langues). Afin de pouvoir proposer à tout le monde d'utiliser cette application (sans forcément avoir les connaissances techniques pour ça), j'ai créé le service en ligne [wallabag.it](https://www.wallabag.it/fr/) : pour un montant dérisoire, il vous est possible d'archiver et consulter sur différents supports (mobile, liseuse, tablette) les articles que vous sauvegardez. En quatre ans, c'est ainsi plus de 3.000 abonnements qui ont été souscrits.
+
+---
 
 **J'aime expliquer, former, enseigner**. C'est pour cette raison que j'ai enseigné des cours de développement à l'Université (Université du Littoral à Calais ou IG2I à Lens).  
 J'ai également **donné plusieurs formations en entreprise **sur le framework Symfony.
