@@ -6,7 +6,7 @@ Je suis très heureux que wallabag (application de lecture différée créée en
 
 Je suis très fier d'être aux côtés de Gimp, LibreOffice, VLC ou encore Jitsi 😍
 
-👉 Si vous voulez en savoir sur le #BlueHats Semester of Code, c'est ici : [https://communs.numerique.gouv.fr/bluehats/bluehats-semester-of-code/](https://communs.numerique.gouv.fr/bluehats/bluehats-semester-of-code/) et la liste complète des projets sélectionnés est là [https://communs.numerique.gouv.fr/bluehats/bsoc-contributions-2022/](https://communs.numerique.gouv.fr/bluehats/bsoc-contributions-2022/)
+👉 Si vous voulez en savoir plus sur le #BlueHats Semester of Code, c'est ici : [https://communs.numerique.gouv.fr/bluehats/bluehats-semester-of-code/](https://communs.numerique.gouv.fr/bluehats/bluehats-semester-of-code/) et la liste complète des projets sélectionnés est là [https://communs.numerique.gouv.fr/bluehats/bsoc-contributions-2022/](https://communs.numerique.gouv.fr/bluehats/bsoc-contributions-2022/)
 
 👉 Si vous voulez en savoir plus sur wallabag, c'est ici [https://wallabag.org/fr](https://wallabag.org/fr) (mais normalement, vous connaissez hein !).
 
