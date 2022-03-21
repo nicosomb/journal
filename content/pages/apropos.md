@@ -23,7 +23,7 @@ Je suis aussi **papa de deux enfants** de 9 et bientôt 8 ans, en garde alterné
 
 ---
 
-Depuis de nombreuses années, **je contribue à l'open source et aux logiciels libres**. En avril 2013, j'ai décidé de créer une alternative à Pocket, Instapaper ou encore Pinboard : [wallabag](https://wallabag.org/fr) a maintenant plus de 8 ans et est utilisé dans le monde entier (traduit en plus de 15 langues). Afin de pouvoir proposer à tout le monde d'utiliser cette application (sans forcément avoir les connaissances techniques pour ça), j'ai créé le service en ligne [wallabag.it](https://www.wallabag.it/fr/) : pour un montant dérisoire, il vous est possible d'archiver et consulter sur différents supports (mobile, liseuse, tablette) les articles que vous sauvegardez. En quatre ans, c'est ainsi plus de 3.000 abonnements qui ont été souscrits.
+Depuis de nombreuses années, **je contribue à l'open source et aux logiciels libres**. En avril 2013, j'ai décidé de créer une alternative à Pocket, Instapaper ou encore Pinboard : [wallabag](https://wallabag.org/fr) a maintenant plus de 8 ans et est utilisé dans le monde entier (traduit en plus de 15 langues). Afin de pouvoir proposer à tout le monde d'utiliser cette application (sans forcément avoir les connaissances techniques pour ça), j'ai créé le service en ligne [wallabag.it](https://www.wallabag.it/fr/) : pour un montant dérisoire, il vous est possible d'archiver et consulter sur différents supports (mobile, liseuse, tablette) les articles que vous sauvegardez. En cinq ans, c'est ainsi plus de 5.500 abonnements qui ont été souscrits.
 
 ---
 
