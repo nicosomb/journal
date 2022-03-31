@@ -2,7 +2,7 @@ Title: Un peu de mouvement chez Pocket et l'info du coût du rachat
 Date: 2022-03-31 13:30
 Category: Billets
 
-En lisant l'article (en allemand) [« Bevorstehende Umstellung der Pocket-Konten auf Firefox-Konten »](https://www.soeren-hentzschel.at/mozilla/pocket-umstellung-firefox-konto/), on apprend qu'il sera très prochainement obligatoire d'avoir un compte Firefox pour accéder à son compte Pocket. 
+En lisant l'article allemand [« Bevorstehende Umstellung der Pocket-Konten auf Firefox-Konten »](https://www.soeren-hentzschel.at/mozilla/pocket-umstellung-firefox-konto/), on apprend qu'il sera très prochainement obligatoire d'avoir un compte Firefox pour accéder à son compte Pocket. 
 
 On peut trouver un peu de détails dans le site de support de Mozilla : [Transition de Pocket vers les comptes Firefox](https://support.mozilla.org/fr/kb/transition-pocket-vers-comptes-firefox). 
 
