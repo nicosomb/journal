@@ -11,9 +11,9 @@ J'aurais pu écrire quasiment le même billet, en ne l'intitulant juste « Pourq
 Extraits : 
 
 > Premièrement, ce n’est pas parce qu’on tient un blog qu’on est forcément en quête d’un lectorat à analyser pour mieux le fidéliser et le faire croître.
-
+> (...)
 > l’acte de publication est une récompense en soi ; il y a une satisfaction simple mais fondamentale à compléter une tâche d’écriture. Sinon, pourquoi procrastinerait-on la rédaction de thèse en écrivant des billets de blog ?
-
+> (...)
 > pour moi bloguer c’est d’abord prendre part à une conversation.
 
 ## Retour aux sources pour publier du contenu 
