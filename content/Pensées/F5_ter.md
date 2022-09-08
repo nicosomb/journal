@@ -13,7 +13,7 @@ Précédemment :
 
 Mi mars, nous avons été informés de la situation complexe de la boite. Les (longues) démarches pour une liquidation judiciaire ont démarré et ont pris fin cet été. 
 
-Depuis le 5 septembre, j'ai rejoins l'équipe Core de Prestashop. Mon boulot au quotidien est donc de contribuer et participer à un projet open source. 
+Depuis le 5 septembre, j'ai rejoint l'équipe Core de Prestashop. Mon boulot au quotidien est donc de contribuer et participer à un projet open source. 
 Depuis 20 ans maintenant, je contribue à différents logiciels open source (PwsPHP, PunBB / FluxBB, aussi et surtout wallabag et bien d'autres) et au monde du libre avec un passage dans l'équipe Framasoft. Et bien après toutes ces années, j'en fait mon métier. 
 
 Deux sentiments : fierté et satisfaction :) 
