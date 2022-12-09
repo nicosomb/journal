@@ -46,4 +46,4 @@ SITEMAP = {
 
 TYPOGRIFY = True
 
-DIRECT_TEMPLATES = ['index', 'archives', 'veille']
+DIRECT_TEMPLATES = ['index', 'archives']
