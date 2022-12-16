@@ -43,7 +43,7 @@ R: Voir la réponse à la question précédente.
 R: Rien, juste que tu trompes la confiance que tes parents ils ont mis à l'intérieur de toi.
 
 **Q: Autre chose?**  
-R: Oui: n'oublie pas de mettre le hashtag #Januaryphoto2023 avec tes photos, et amuse-toi !
+R: Oui: n'oublie pas de mettre le hashtag #PhotoJanuary2023 avec tes photos, et amuse-toi !
 
 ## Thèmes quotidiens
 
