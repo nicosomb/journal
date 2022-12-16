@@ -16,6 +16,7 @@ Si tu joues, envoie-moi un petit mail à nicolas@loeuillet.org ou contacte moi s
 
 **Q: Pourquoi y a-t-il 2 thèmes par jour?**  
 R: Pour que ça soit plus amusant. 3 niveaux de difficulté :
+
 * Niveau 1: Poster une photo sur un des deux thèmes
 * Niveau 2 : Poster deux photos, une pour chaque thème
 * Niveau 3 : Poster une photo avec les deux thèmes
