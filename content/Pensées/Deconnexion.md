@@ -1,6 +1,6 @@
 Title: Tentative de déconnexion
 Date: 2022-02-25 09:00
-Category: Billets
+Category: Pensées
 
 Il y a quelques jours, discussion avec ma fille (9 ans).
 

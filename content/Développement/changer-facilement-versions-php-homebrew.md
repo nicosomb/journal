@@ -1,10 +1,10 @@
 Title: Changer facilement de version de php avec Homebrew
 Date: 2022-11-04 10:45
-Category: Billets
+Category: Développement
 
 Le code ci-dessous (à ajouter dans dans votre `~/.zshrc` ou `~/.bashrc`) ne fonctionne que si vous avez `homebrew` d'installé.
 
-Il vous permet de permuter facilement de version de PHP en ligne de commande. 
+Il vous permet de permuter facilement de version de PHP en ligne de commande.
 
 ```
 # determine versions of PHP installed with HomeBrew
@@ -25,9 +25,9 @@ for phpVersion in ${installedPhpVersions[*]}; do
 done
 ```
 
-Il vous faut la dernière version de `grep` (`brew install grep`). 
+Il vous faut la dernière version de `grep` (`brew install grep`).
 
-Et maintenant, avec un `alias | grep php`, voici le résultat : 
+Et maintenant, avec un `alias | grep php`, voici le résultat :
 
 ```
 7.4='{ brew unlink php@8.0; brew unlink php@8.1; brew link php@7.4 --force --overwrite; } &> /dev/null && php -v'
@@ -35,4 +35,4 @@ Et maintenant, avec un `alias | grep php`, voici le résultat :
 8.1='{ brew unlink php@7.4; brew unlink php@8.0; brew link php@8.1 --force --overwrite; } &> /dev/null && php -v'
 ```
 
-Vous n'avez plus qu'à jouer la commande `8.0` pour basculer sur la version 8.0 de PHP. Et ainsi de suite. 
+Vous n'avez plus qu'à jouer la commande `8.0` pour basculer sur la version 8.0 de PHP. Et ainsi de suite.

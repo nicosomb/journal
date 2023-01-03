@@ -1,6 +1,6 @@
 Title: Notre poche n’est pas trouée
 Date: 13-05-2013 12:00
-Category: Billets
+Category: wallabag
 Tags: wallabag
 
 poche, l’alternative open source à pocket et autre instapaper n’est pas trouée. Mais mon planning ne me permettait pas de bosser dessus dernièrement. C’est du passé : j’ai remis les mains dans le code.

@@ -1,6 +1,6 @@
 Title: #PhotoJanuary2023, tu participes avec moi ?
 Date: 2022-12-16 14:00
-Category: Billets
+Category: Photos
 
 Je tente de faire de la photo depuis plusieurs années. J'ai même un site pour ça : [https://photos.loeuillet.org](https://photos.loeuillet.org/).
 

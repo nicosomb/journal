@@ -1,6 +1,6 @@
 Title: wallabag a un vrai logo
 Date: 2014-02-11 08:17
-Category: Billets
+Category: wallabag
 Tags: wallabag
 
 [Je le disais il y a quelques jours]({filename}un-mal-pour-un-bien.md), cette histoire ne m'a pas apporté que des soucis.

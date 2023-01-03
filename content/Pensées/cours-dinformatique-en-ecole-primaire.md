@@ -1,6 +1,6 @@
 Title: Cours d'informatique en école primaire
 Date: 2017-11-06 12:38
-Category: Billets
+Category: Pensées
 Tags: école, cours, rinxent
 
 Depuis quelques temps, j'étais intéressé pour intervenir en primaire pour des cours d'informatique. Je pensais au début à des cours de programmation (avec [Scratch](https://scratch.mit.edu/)). En discutant avec le directeur du groupe scolaire de ma commune, on s'est déjà dit que la bureautique et la recherche sur internet seraient déjà deux bons points à démarrer avec les enfants.

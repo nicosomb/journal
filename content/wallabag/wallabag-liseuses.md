@@ -1,6 +1,6 @@
 Title: Appel aux fabricants de liseuses
 Date: 22-08-2016 16:00
-Category: Billets
+Category: wallabag
 Tags: wallabag
 
 La rentrée littéraire approche.  

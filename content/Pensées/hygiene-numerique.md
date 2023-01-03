@@ -1,6 +1,6 @@
 Title: Hygiène numérique
 Date: 2017-10-12 17:14
-Category: Billets
+Category: Pensées
 Tags: backup, hygiène numérique
 
 Journée hygiène numérique. Je partage.

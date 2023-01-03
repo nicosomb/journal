@@ -1,6 +1,6 @@
 Title: Situation après trois années d'activité pour wallabag.it
 Date: 2020-01-02 09:14
-Category: Billets
+Category: wallabag
 Tags: wallabag, wallabagit, entrepreneuriat
 
 Après trois années d'activité pour wallabag.it, je souhaite vous communiquer un petit bilan de mon service en ligne.

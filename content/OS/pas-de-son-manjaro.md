@@ -2,7 +2,7 @@ Title: Pas de son avec Manjaro 20.0.3 et xfce
 Date: 2020-09-14 14:48
 Tags: manjaro, xfce
 Description: Et on coupe le son.
-Category: Billets
+Category: OS
 
 Je viens tout juste d'installer Manjaro 20.0.3 sur mon HP Probook 450 et surprise, pas de son.
 

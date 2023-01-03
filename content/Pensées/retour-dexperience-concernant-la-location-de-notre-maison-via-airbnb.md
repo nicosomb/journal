@@ -1,6 +1,6 @@
 Title: Retour d'expérience concernant la location de notre maison via Airbnb
 Date: 2017-10-12 20:46
-Category: Billets
+Category: Pensées
 Tags: airbnb
 
 

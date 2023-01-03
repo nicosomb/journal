@@ -1,8 +1,8 @@
 Title: wallabag.it a 6 ans
 Date: 2023-01-03 13:30
 Tags: wallabagit, entrepreneuriat, wallabag
-Category: Billets
-Summary: C'est l'heure de faire le bilan de wallabag.it pour l'année 2022. 
+Category: wallabag
+Summary: C'est l'heure de faire le bilan de wallabag.it pour l'année 2022.
 
 Billet traditionnel pour faire le bilan de l'année écoulée sur [le service en ligne wallabag.it](https://wallabag.it/fr), lancé en décembre 2016.
 

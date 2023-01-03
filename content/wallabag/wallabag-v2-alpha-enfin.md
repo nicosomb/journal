@@ -1,6 +1,6 @@
 Title: une alpha pour wallabag v2, enfin
 Date: 14-09-2015 21:30
-Category: Billets
+Category: wallabag
 Tags: php, symfony, wallabag
 
 Et voila ! Enfin. Nous venons de publier la première alpha de wallabag v2. Vous pouvez aller [le billet complet sur le blog du projet](https://www.wallabag.org/blog/2015/09/14/wallabag-v2-alpha-finally).

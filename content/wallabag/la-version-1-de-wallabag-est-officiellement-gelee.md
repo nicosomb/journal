@@ -1,6 +1,6 @@
 Title: La version 1 de wallabag est officiellement gelée
 Date: 19-05-2014 15:00
-Category: Billets
+Category: wallabag
 Tags: wallabag
 
 La [version 2]({filename}avenir-poche.md) de wallabag est prévue de [longue](https://www.wallabag.org/2013/11/06/first-commit-for-poche-v2/) [date](https://www.wallabag.org/2014/01/15/working-poche-v2/).

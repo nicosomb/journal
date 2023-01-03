@@ -1,6 +1,6 @@
 Title: Changement de nom à prévoir pour poche
 Date: 23-01-2014 19:14
-Category: Billets
+Category: wallabag
 Tags: pocket, wallabag
 
 Il fallait s'y attendre. J'ai reçu un courrier ce soir de la part d'un cabinet d'avocats US représentant un grand nom des services « concurrents » à poche.

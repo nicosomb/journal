@@ -1,6 +1,6 @@
 Title: Y'a quand même des gens sympas hein
 Date: 14-02-2014 07:52
-Category: Billets
+Category: wallabag
 Tags: wallabag
 
 Cette semaine, j'étais [un peu grognon]({filename}on-ma-prevenu.md).

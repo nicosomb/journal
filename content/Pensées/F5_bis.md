@@ -2,7 +2,7 @@ Title: F5 (bis)
 Date: 2021-02-21 11:31
 Tags: wallabag, perso, boulot, wallabagit, mairie, testament numérique
 Description: Petite mise à jour personnelle (bis)
-Category: Billets
+Category: Pensées
 
 ![Une table avec un ordinateur, un clavier externe, un casque et un café]({static}/images/f5-bis/banniere.jpg#mid "Une table avec un ordinateur, un clavier externe, un casque et un café")
 

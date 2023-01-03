@@ -1,6 +1,6 @@
 Title: Pro libre, oui. Intégriste du libre, pas du tout.
 Date: 2014-06-10 20:59
-Category: Billets
+Category: Pensées
 Tags: libre
 
 [Libère l’intégriste qu’il y a en toi !](http://blog-libre.org/post/2014/06/01/libere-lintegriste-quil-y-a-en-toi) : c'est l'appel de Cyrille Borne.

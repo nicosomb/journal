@@ -2,7 +2,7 @@ Title: Obsidian, mon nouvel outil de prise de notes
 Date: 2021-03-02 17:51
 Tags: logiciel, test
 Description: Une appli forte comme un roc.
-Category: Billets
+Category: Pensées
 
 Il y a quelques jours, j'ai découvert [Obsidian](https://obsidian.md/), un logiciel de prise de notes.
 

@@ -1,6 +1,6 @@
 Title: On m'a prévenu
 Date: 2014-02-11 20:54
-Category: Billets
+Category: wallabag
 Tags: wallabag
 
 Mon projet grossit.

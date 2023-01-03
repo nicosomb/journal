@@ -2,7 +2,7 @@ Title: Ma recette pour un welsh réussi 🧀
 Date: 2021-03-19 10:01
 Description: Le gras, c'est la vie.
 Tags: welsh, cheddar
-Category: Billets
+Category: Recettes
 
 Depuis le temps que certains (Luc, Stéphane : je vous vois 👀) me la réclament, voici ma recette pour un welsh réussi (ou presque).
 

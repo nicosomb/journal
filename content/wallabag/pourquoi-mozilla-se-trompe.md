@@ -1,6 +1,6 @@
 Title: Pourquoi Mozilla se trompe
 Date: 15-05-2015 22:00
-Category: Billets
+Category: wallabag
 Tags: pocket, wallabag, mozilla
 
 Vous avez peut-être manqué ça, mais [Mozilla va intégrer nativement le plugin Pocket dans la prochaine version de Firefox](http://techdows.com/2015/05/mozilla-integrates-pocket-into-firefox-nightly.html).

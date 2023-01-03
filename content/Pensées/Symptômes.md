@@ -1,7 +1,7 @@
 Title: Symptômes
 Date: 2022-02-09 17:00
 Tags: perso, covid
-Category: Billets
+Category: Pensées
 
 Gros mal de crâne durant 24 heures et une toux, surtout le matin. Depuis lundi soir, c'est moins douloureux pour le crâne.
 

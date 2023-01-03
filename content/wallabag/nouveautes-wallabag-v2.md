@@ -1,6 +1,6 @@
 Title: wallabag v2, quelles nouveautés ?
 Date: 16-08-2015 13:30
-Category: Billets
+Category: wallabag
 Tags: php, symfony, wallabag
 
 Bon maintenant, on ne rigole plus, depuis que j'ai annoncé [aux RMLL]({filename}effectuez-veille-liberte-rmll2015-beauvais.md) qu'une alpha de wallabag v2 allait sortir en septembre 2015, il a fallu se mettre à bosser activement.

@@ -1,6 +1,6 @@
 Title: Un petit point rapide sur wallabag et son avancement
 Date: 07-07-2014 17:00
-Category: Billets
+Category: wallabag
 Tags: wallabag
 
 [Régulièrement]({filename}la-version-1-de-wallabag-est-officiellement-gelee.md), je fais un point sur [wallabag]({filename}la-roadmap-pour-la-v2-de-poche-est-en-cours.md).

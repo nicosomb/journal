@@ -1,6 +1,6 @@
 Title: poche a sa maison
 Date: 2013-04-12 16:00
-Category: Billets
+Category: wallabag
 Tags: wallabag
 
 Voila, c’est fait, comme dirait [@Gregoire_M](https://twitter.com/Gregoire_M), si à 28 stars t’as pas de nom de domaine, t’as un peu râté ta vie :-) . Donc dorénavant ça se passe sur [inthepoche.com](https://wallabag.org) (merci à lui pour la proposition).

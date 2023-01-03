@@ -1,6 +1,6 @@
 Title: CMS, frameworks : recensement des versions de PHP (décembre 2015)
 Date: 2015-12-11 12:00
-Category: Billets
+Category: Développement
 Tags: php, symfony, wallabag, magento
 
 

@@ -1,6 +1,6 @@
 Title: Rendez-vous à Nantes vendredi pour fOSSa
 Date: 20-09-2015 14:00
-Category: Billets
+Category: wallabag
 Tags: wallabag, fossa, framasoft, conférences
 
 Je serai vendredi en fin de matinée (11h30) à Nantes à [fOSSa](https://fossa.inria.fr/), événement organisé par l'Inria de Nantes.

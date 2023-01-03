@@ -1,6 +1,6 @@
 Title: Un an après le premier commit, nouvelle version pour wallabag
 Date: 2014-04-03 18:33
-Category: Billets
+Category: wallabag
 Tags: wallabag
 
 Il y a un an démarrait le projet wallabag (et s'appelait alors poche).

@@ -1,6 +1,6 @@
 Title: Un plugin wallabag pour récupérer un article sur web.archive.org
 Date: 2019-10-04 18:00
-Category: Billets
+Category: wallabag
 Tags: wallabag
 
 Ce plugin me trottait dans la tête depuis des années : en cas d'échec pour récupérer un article (si l'article est introuvable par exemple), aller interroger web.archive.org pour voir si une version était encore présente là-bas.

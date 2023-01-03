@@ -1,6 +1,6 @@
 Title: Petits changements au quotidien
 Date: 10-10-2019 14:30
-Category: Billets
+Category: Pensées
 
 Liste non exhaustive de petits changements récents assez simples :
 

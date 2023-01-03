@@ -1,6 +1,6 @@
 Title: La roadmap pour la v2 de poche est en cours
 Date: 25-09-2013 13:05
-Category: Billets
+Category: wallabag
 Tags: wallabag
 
 Une v2, déjà. Et oui, alors que la v1 n'est même pas encore sortie en version finale (ça n'est qu'une question de jours par contre).

@@ -1,6 +1,6 @@
 Title: Manjaro : "Erreur GPGME : Pas de données" / pas de clé publique
 Date: 2021-12-20 10:23
-Tags: manjaro
+Tags: OS
 Description: Plus de mise à jour possible ...
 Category: Billets
 

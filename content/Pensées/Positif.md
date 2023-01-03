@@ -1,7 +1,7 @@
 Title: Positif
 Date: 2022-02-08 12:00
 Tags: perso, covid
-Category: Billets
+Category: Pensées
 
 Voila, depuis quelques semaines que ça me tournait autour, je suis officiellement positif au Covid. Pile la semaine où les enfants sont à la maison. Pile la semaine où on devait aller ensemble à la patinoire, à la piscine et p'tet même au Planétarium.
 

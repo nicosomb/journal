@@ -1,6 +1,6 @@
 Title: Comment je vais tenter de gagner un peu d'argent avec un projet opensource
 Date: 2016-12-05 13:00
-Category: Billets
+Category: wallabag
 Tags: wallabag, entrepreneuriat, wallabagit
 
 > Quoi ? Argent et opensource dans la même phrase ?

@@ -1,6 +1,6 @@
 Title: Pourquoi et comment je suis devenu le maire de ma commune 😱 (non je ne suis pas tombé sur la tête)
 date: 2018-10-09 12:08
-Category: Billets
+Category: Pensées
 Tags: wallabag, mairie, rinxent
 
 Neuf mois. Ça fait neuf mois que j'ai mis en stand by pas mal de choses, dont wallabag et plus généralement, ma vie sur internet.

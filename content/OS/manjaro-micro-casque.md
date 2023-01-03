@@ -1,6 +1,6 @@
 Title: Manjaro - Impossible d'utiliser mon micro de mon casque bluetooth
 Date: 2020-09-15 14:43
-Tags: manjaro
+Tags: OS
 Category: Billets
 
 [Après le son]({filename}pas-de-son-manjaro.md), voila que je n'arrivais pas à utiliser le micro de mon casque bluetooth.

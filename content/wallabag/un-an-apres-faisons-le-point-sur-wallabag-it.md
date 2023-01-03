@@ -1,6 +1,6 @@
 Title: Un an après, faisons le point sur wallabag.it
 Date: 30-11-2017 18:00
-Category: Billets
+Category: wallabag
 Tags: wallabag, wallabagit, entrepreneuriat
 
 ## Précédémment ...

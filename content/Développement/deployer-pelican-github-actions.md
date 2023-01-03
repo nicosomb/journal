@@ -1,6 +1,6 @@
 Title: Déployer son site Pelican avec Github Actions
 Date: 2022-03-08 10:00
-Category: Billets
+Category: Développement
 
 [Depuis que je génère ce site avec Pelican]({filename}re-pelican.md), je faisais toute la partie génération / déploiement à la main. À savoir :
 

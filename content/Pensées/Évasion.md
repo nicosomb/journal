@@ -1,6 +1,6 @@
 Title: Tentative d'évasion
 Date: 2022-03-04 13:30
-Category: Billets
+Category: Pensées
 
 Je ne sais pas si vous avez suivi, mais côté actualité, c'est pas foufou. Alors, faut tenter de s'évader.
 

@@ -1,6 +1,6 @@
 Title: wallabag 2.1 : imports asynchrones, gestion des utilisateurs, etc.
 Date: 2016-10-03 13:00
-Category: Billets
+Category: wallabag
 Tags: wallabag
 
 Aujourd'hui est un grand jour pour wallabag : il y a trois ans tout juste, [nous sortions la version 1.0.0 de poche](https://www.wallabag.org/blog/2013/10/03/117), [il y a six mois](https://www.wallabag.org/blog/2016/04/03/wallabag-v2), c'était la 2.0.0 et aujourd'hui, [c'est la **2.1.0**](https://www.wallabag.org/blog/2016/10/03/wallabag-21).

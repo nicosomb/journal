@@ -1,6 +1,6 @@
 Title: Impact de nos partages
 Date: 2022-02-24 08:30
-Category: Billets
+Category: Pensées
 
 Je lisais chez David l'autre jour [son billet Envie](https://larlet.fr/david/2022/02/17/).
 
@@ -10,4 +10,4 @@ Et j'avoue que je ne me suis jamais posé cette question, pourtant pertinente.
 
 Est-il judicieux de mettre en avant mon séjour en Islande d'il y a quelques années, séjour où j'avais loué une grosse voiture qui pollue bien pour faire le tour de l'île ?
 
-Je doute de refaire ce type de voyage aujourd'hui, et je ne sais pas s'il faut le mettre en avant. 
+Je doute de refaire ce type de voyage aujourd'hui, et je ne sais pas s'il faut le mettre en avant.

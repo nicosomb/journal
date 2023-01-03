@@ -1,6 +1,6 @@
 Title: poche 1.0.0
 Date: 2013-10-04 09:56
-Category: Billets
+Category: wallabag
 Tags: wallabag
 
 Six mois. [Entre le premier commit]({filename}poche-pour-remplacer-instapaper-pocket-et-readability.md) (le 3 avril 2013) et la 1.0.0 (3 octobre 2013), six mois tout juste.
