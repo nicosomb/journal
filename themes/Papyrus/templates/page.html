@@ -6,16 +6,16 @@
 {% block content %}
 
 <main class="text-zinc-800 dark:text-zinc-300">
-    <div class="max-w-7xl container mx-auto my-2 text-zinc-800 dark:text-zinc-300  
-            prose lg:max-w-none prose-headings:text-zinc-800 prose-headings:dark:text-zinc-300 
-            prose-h1:text-3xl lg:prose-h1:text-3xl prose-headings:font-semibold 
+    <div class="max-w-7xl container mx-auto my-2 text-zinc-800 dark:text-zinc-300
+            prose lg:max-w-none prose-headings:text-zinc-800 prose-headings:dark:text-zinc-300
+            prose-h1:text-3xl lg:prose-h1:text-3xl prose-headings:font-semibold
             prose-pre:bg-zinc-200 prose-pre:text-zinc-800
             dark:prose-pre:bg-zinc-800 dark:prose-pre:text-zinc-200
             prose-blockquote:text-zinc-800
             dark:prose-blockquote:text-zinc-200
             prose-a:text-gray-500
             dark:prose-a:text-gray-400
-            dark:prose-strong:text-zinc-200 
+            dark:prose-strong:text-zinc-200
             dark:prose-code:text-zinc-200
             dark:prose-code:bg-zinc-800
             prose-code:bg-zinc-200
@@ -27,6 +27,7 @@
         {{ page.content }}
         <!-- <div class="aspect-w-16 aspect-h-9 mx-auto"></div> CSS placeholder -->
     </div>
+    {% if SHARE %}
     <footer class="flex bg-zinc-200 dark:bg-zinc-700 mt-10 py-2 rounded-lg justify-center space-x-2 text-xs">
         {% for name, link in SHARE %}
         <ul>
@@ -39,6 +40,7 @@
         </ul>
         {% endfor %}
     </footer>
+    {% endif %}
     <div>
         {% include 'disqus_script.html' %}
     </div>
