@@ -58,14 +58,6 @@ SOCIAL = (
     ('github', 'https://github.com/nicosomb'),
 )
 
-# Article share widgets
-SHARE = (
-    ("mastodon", "https://twitter.com/intent/tweet/?text=Features&amp;url="),
-    ("linkedin", "https://www.linkedin.com/sharing/share-offsite/?url="),
-    ("reddit", "https://reddit.com/submit?url="),
-)
-
-
 STATIC_PATHS = [
     'static',
 ]
