@@ -35,7 +35,7 @@ jobs:
 
         - name: Check if stork is ok
           shell: bash
-          run: "stork -h"
+          run: "stork --help"
 
         - name: Check if we have everything
           shell: bash
