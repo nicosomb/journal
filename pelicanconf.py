@@ -29,7 +29,7 @@ PLUGINS = ['search', 'readtime', 'pelican-toc', 'neighbors', 'sitemap', 'pelican
 
 DISPLAY_PAGES_ON_MENU = True
 DIRECT_TEMPLATES = (('index', 'search', 'tags', 'categories', 'archives',))
-PAGINATED_TEMPLATES = {'index':None,'tag':None,'category':None,'archives':None,}
+PAGINATED_TEMPLATES = {'index':None,'tag':None,'category':None,'archives':10000,}
 
 SEARCH_MODE = "output"
 SEARCH_HTML_SELECTOR = "main"
