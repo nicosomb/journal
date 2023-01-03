@@ -19,7 +19,7 @@ AUTHOR_FEED_RSS = ''
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = 'themes/Peli-Kiera'
+THEME = 'themes/Papyrus'
 DEFAULT_PAGINATION = 10000
 
 PLUGIN_PATHS = ['plugins']
