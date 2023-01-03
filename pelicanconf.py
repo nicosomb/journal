@@ -23,7 +23,7 @@ THEME = 'themes/Peli-Kiera'
 DEFAULT_PAGINATION = 10000
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['search', 'readtime', 'toc', 'neighbors', 'sitemap', 'pelican.plugins.webassets']
+PLUGINS = ['pelican.plugins.search', 'pelican.plugins.readtime', 'pelican.plugins.toc', 'neighbors', 'sitemap', 'pelican.plugins.webassets']
 
 ARTICLE_URL = ROOT_POSTS + '/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = ROOT_POSTS + '/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
