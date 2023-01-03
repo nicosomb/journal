@@ -56,6 +56,8 @@ AUTHOR_SAVE_AS = ''
 # Social widgets
 SOCIAL = (
     ('github', 'https://github.com/nicosomb'),
+    ('linkedin', 'https://www.linkedin.com/in/nicolas-l%C5%93uillet/'),
+    ('mastodon', 'https://piaille.fr/@nicosomb'),
 )
 
 STATIC_PATHS = [
