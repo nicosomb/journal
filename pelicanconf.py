@@ -1,6 +1,6 @@
 AUTHOR = 'Nicolas Lœuillet'
 SITENAME = 'Nicolas Lœuillet'
-SITEURL = ''
+SITEURL = 'http://127.0.0.1:8000'
 
 PATH = 'content'
 ROOT_POSTS = 'billets'
@@ -20,10 +20,31 @@ AUTHOR_FEED_RSS = ''
 #RELATIVE_URLS = True
 
 THEME = 'themes/Papyrus'
-DEFAULT_PAGINATION = 10000
+
+SUBTITLE = 'Dev web, père et maire'
+SUBTEXT = '''Bienvenue sur mon journal personnel, où il arrive parfois que je publie des choses intéressantes. Ou pas.'''
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['search', 'readtime', 'toc', 'neighbors', 'sitemap', 'pelican.plugins.webassets']
+PLUGINS = ['search', 'readtime', 'pelican-toc', 'neighbors', 'sitemap', 'pelican.plugins.webassets']
+
+DISPLAY_PAGES_ON_MENU = True
+DIRECT_TEMPLATES = (('index', 'search', 'tags', 'categories', 'archives',))
+PAGINATED_TEMPLATES = {'index':None,'tag':None,'category':None,'archives':None,}
+
+SEARCH_MODE = "output"
+SEARCH_HTML_SELECTOR = "main"
+# Table of Content Plugin
+TOC = {
+    'TOC_HEADERS'       : '^h[1-3]', # What headers should be included in
+                                     # the generated toc
+                                     # Expected format is a regular expression
+    'TOC_RUN'           : 'true',    # Default value for toc generation,
+                                     # if it does not evaluate
+                                     # to 'true' no toc will be generated
+    'TOC_INCLUDE_TITLE': 'false',    # If 'true' include title in toc
+}
+
+DEFAULT_PAGINATION = 5
 
 ARTICLE_URL = ROOT_POSTS + '/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = ROOT_POSTS + '/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
@@ -31,10 +52,19 @@ YEAR_ARCHIVE_SAVE_AS = ROOT_POSTS + '/{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = ROOT_POSTS + '/{date:%Y}/{date:%m}/index.html'
 AUTHORS_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
-CATEGORY_SAVE_AS = ''
-TAG_SAVE_AS = ''
-TAGS_SAVE_AS = ''
-CATEGORIES_SAVE_AS = ''
+
+# Social widgets
+SOCIAL = (
+    ('github', 'https://github.com/nicosomb'),
+)
+
+# Article share widgets
+SHARE = (
+    ("mastodon", "https://twitter.com/intent/tweet/?text=Features&amp;url="),
+    ("linkedin", "https://www.linkedin.com/sharing/share-offsite/?url="),
+    ("reddit", "https://reddit.com/submit?url="),
+)
+
 
 STATIC_PATHS = [
     'static',
@@ -45,5 +75,3 @@ SITEMAP = {
 }
 
 TYPOGRIFY = True
-
-DIRECT_TEMPLATES = ['index', 'archives']

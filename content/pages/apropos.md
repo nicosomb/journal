@@ -1,21 +1,14 @@
 Title: À propos
 
-Bienvenue sur mon journal personnel, où il arrive parfois que [je publie des choses](/).
-
-Comme beaucoup, j'ai plusieurs casquettes.
-
----
-
 Je suis **développeur PHP depuis près de 16 ans, spécialisé dans le framework Symfony**. [Mon CV au format PDF est disponible en téléchargement ici]({attach}/static/CV_nicolas_loeuillet.pdf). Vous retrouverez également toutes mes différentes expériences [sur mon profil Linkedin](https://www.linkedin.com/in/nicolas-l%C5%93uillet/).
 
 ---
-
 Début 2018, j'ai souhaité m'impliquer dans la vie de ma commune. C'est ainsi que j'ai été **élu maire de Rinxent en mars 2018.** [J'en parle plus longuement ici]({filename}../Pensées/pourquoi-et-comment-je-suis-devenu-le-maire-de-ma-commune.md). J'ai été réélu en mars 2020 pour un mandat de 6 ans. Tous les jours, nous gérons donc une collectivité de 3.000 habitants avec une équipe de 30 agents municipaux et une équipe d'élus de 25 personnes. Comptabilité, RH, organisation de festivités, urbanisme, travaux, relationnel avec les associations, les concitoyens, les écoles ou encore les entreprises sont une partie des sujets qui rythment la vie municipale.  
 J'ai un blog où je parle de mon actualité en tant qu'élu : [https://www.nicolasloeuillet.fr/](https://www.nicolasloeuillet.fr/).
 
 ---
 
-Je suis aussi **papa de deux enfants** de 9 et bientôt 8 ans, en garde alternée.
+Je suis aussi **papa de deux enfants** de 10 et bientôt 9 ans, en garde alternée.
 
 ---
 

@@ -17,6 +17,10 @@ jobs:
           with:
             python-version: 3.10.9
 
+        - name: Install stork
+          shell: bash
+          run: "wget https://files.stork-search.net/releases/v1.5.0/stork-ubuntu-20-04 && chmod +x stork-ubuntu-20-04"
+
         - name: Install pelican with markdown
           shell: bash
           run: "pip install invoke pelican[markdown]"

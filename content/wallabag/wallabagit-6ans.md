@@ -2,8 +2,9 @@ Title: wallabag.it a 6 ans
 Date: 2023-01-03 13:30
 Tags: wallabagit, entrepreneuriat, wallabag
 Category: Billets
+Summary: C'est l'heure de faire le bilan de wallabag.it pour l'année 2022. 
 
-Billet traditionnel pour faire le bilan de l'année écoulée sur [le service en ligne wallabag.it](https://wallabag.it/fr), lancé en décembre 2016. 
+Billet traditionnel pour faire le bilan de l'année écoulée sur [le service en ligne wallabag.it](https://wallabag.it/fr), lancé en décembre 2016.
 
 ## Pour rappel
 
@@ -16,7 +17,7 @@ Billet traditionnel pour faire le bilan de l'année écoulée sur [le service en
 * [wallabag.it : 5 ans d'activité]({filename}bilan-5ans.md)
 
 En parallèle de cette activité (en micro entrepreneur), je suis salarié à 80% en tant que développeur web. Donc wallabag.it n'est pas mon activité principale et je n'y consacre pas énormément de temps. Et je ne fais aucune publicité du service.  
-C'est uniquement le bouche à oreille qui fonctionne. 
+C'est uniquement le bouche à oreille qui fonctionne.
 
 Pour info, j'ai démarré wallabag.it le 3 décembre 2016.
 
@@ -109,10 +110,10 @@ J'ai également payé environ 3725 € de cotisations sociales.
 
 ## Conclusion
 
-Habituellement, je me fixais un objectif de +20%. En début d'année 2021, j'ai voulu être raisonnable en restant ambitieux. J'étais parti sur +10%. 
+Habituellement, je me fixais un objectif de +20%. En début d'année 2021, j'ai voulu être raisonnable en restant ambitieux. J'étais parti sur +10%.
 
-Pour la toute première fois depuis la création du service, l'objectif n'est pas atteint (+1,8%). J'évoquais en conclusion l'an dernier des "premiers signes de fatigue pour ce projet". En effet, ça semble s'essouffler mais absolument rien de catastrophique. 
+Pour la toute première fois depuis la création du service, l'objectif n'est pas atteint (+1,8%). J'évoquais en conclusion l'an dernier des "premiers signes de fatigue pour ce projet". En effet, ça semble s'essouffler mais absolument rien de catastrophique.
 
-Pour l'année prochaine, tentons de redresser la barre et visons 5% de hausse. Je vais voir comment je peux faire pour améliorer ça. J'ai quelques idées en tête, on verra si le temps disponible me permet d'avancer au mieux. 
+Pour l'année prochaine, tentons de redresser la barre et visons 5% de hausse. Je vais voir comment je peux faire pour améliorer ça. J'ai quelques idées en tête, on verra si le temps disponible me permet d'avancer au mieux.
 
 En tout cas, je tiens à remercier l'ensemble des utilisateurs/trices de ce beau projet. Et énorme merci à l'équipe derrière le projet open source !

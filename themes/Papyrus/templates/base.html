@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
     <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/main.css" />
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/stork.css">
+    <link rel="shortcut icon" href="{{ attach }}/static/favicon.jpg" />
     <link rel="stylesheet" media="screen and (prefers-color-scheme: dark)"
         href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/stork-dark.css">
     {% if FEED_ALL_ATOM %}
@@ -35,7 +36,7 @@
     </script>
 </head>
 
-<body class="min-h-screen flex flex-col max-w-7xl lg:max-w-none text-zinc-800 bg-neutral-100 
+<body class="min-h-screen flex flex-col max-w-7xl lg:max-w-none text-zinc-800 bg-neutral-100
     dark:bg-neutral-900 dark:text-zinc-300 container mx-auto justify-center md:px-3 ">
     <nav class="sm:flex sm:justify-between xl:ml-32 pl-4 items-center">
         <div class="flex pt-4">
@@ -62,14 +63,14 @@
             {% endfor %}
             {% endif %}
             <li class="mr-4 pt-6"><a {% if current=="archive" %} class="border-b-2 border-zinc-800 dark:border-zinc-300"
-                    {% endif %} href="{{ SITEURL }}/archives.html">Archive</a></li>
+                    {% endif %} href="{{ SITEURL }}/archives.html">Archives</a></li>
             <li class="mr-4 pt-6"><a {% if current=="categories" %}
                     class="border-b-2 border-zinc-800 dark:border-zinc-300" {% endif %}
-                    href="{{ SITEURL }}/categories.html">Categories</a></li>
+                    href="{{ SITEURL }}/categories.html">Catégories</a></li>
             <li class="mr-4 pt-6"><a {% if current=="tags" %} class="border-b-2 border-zinc-800 dark:border-zinc-300"
                     {% endif %} href="{{ SITEURL }}/tags.html">Tags</a></li>
             <li class="mr-4 pt-6"><a {% if current=="search" %} class="border-b-2 border-zinc-800 dark:border-zinc-300"
-                    {% endif %} href="{{ SITEURL }}/search.html">Search</a></li>
+                    {% endif %} href="{{ SITEURL }}/search.html">Recherche</a></li>
         </ul>
     </nav>
     <div class="flex-grow md:max-w-screen-md md:mx-auto md:w-3/4 px-4">
@@ -84,7 +85,7 @@
                                 d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z">
                             </path>
                         </svg>
-                        Home
+                        Accueil
                     </a>
                     <svg class="fill-current w-3 h-3 mr-2 ml-1" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 320 512">
@@ -93,7 +94,7 @@
                     </svg>
                 </li>
                 <li class="flex items-center">
-                    <a href="{{ SITEURL }}/categories.html">Categories</a>
+                    <a href="{{ SITEURL }}/categories.html">Catégories</a>
                     <svg class="fill-current w-3 h-3 mr-2 ml-1" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 320 512">
                         <path
@@ -120,7 +121,7 @@
                                 d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z">
                             </path>
                         </svg>
-                        Home
+                        Accueil
                     </a>
                     <svg class="fill-current w-3 h-3 mr-2 ml-1" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 320 512">
@@ -152,7 +153,7 @@
                                 d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z">
                             </path>
                         </svg>
-                        Home
+                        Accueil
                     </a>
                     <svg class="fill-current w-3 h-3 mr-2 ml-1" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 320 512">
@@ -176,7 +177,7 @@
                                 d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z">
                             </path>
                         </svg>
-                        Home
+                        Accueil
                     </a>
                     <svg class="fill-current w-3 h-3 mr-2 ml-1" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 320 512">
@@ -185,7 +186,7 @@
                     </svg>
                 </li>
                 <li class="flex items-center">
-                    <a href="{{ SITEURL }}/categories.html">Categories</a>
+                    <a href="{{ SITEURL }}/categories.html">Catégories</a>
                     <svg class="fill-current w-3 h-3 mr-2 ml-1" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 320 512">
                         <path
