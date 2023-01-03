@@ -1,14 +1,11 @@
-Title: wallabag.it : 5 ans d'activité
-Date: 2022-01-03 17:02
+Title: wallabag.it a 6 ans
+Date: 2022-01-03 13:30
 Tags: wallabagit, entrepreneuriat, wallabag
-Description: La cinquième vague.
 Category: Billets
 
-Début d'année (ne) rime (pas) avec bilan. Il est donc l'heure de faire le bilan de mon activité wallabag.it.
+Billet traditionnel pour faire le bilan de l'année écoulée sur [le service en ligne wallabag.it](https://wallabag.it/fr), lancé en décembre 2016. 
 
 ## Pour rappel
-
-
 
 * [Comment je vais tenter de gagner un peu d'argent avec un projet opensource]({filename}service-wallabag-it.md)
 * [Comment je vais tenter de gagner ma vie avec un projet opensource]({filename}comment-je-vais-tenter-de-gagner-ma-vie-avec-un-projet-opensource.md)
@@ -16,8 +13,10 @@ Début d'année (ne) rime (pas) avec bilan. Il est donc l'heure de faire le bila
 * [Un an après, faisons le point sur wallabag.it]({filename}un-an-apres-faisons-le-point-sur-wallabag-it.md)
 * [Situation après trois années d'activité pour wallabag.it]({filename}situation-apres-trois-annees-dactivites-pour-wallabag-it.md)
 * [Quatre années de wallabag.it]({filename}quatre-annees.md)
+* [wallabag.it : 5 ans d'activité]({filename}bilan-5ans.md)
 
-En parallèle de cette activité (en micro entrepreneur), je suis salarié à 80% en tant que développeur web. Donc wallabag.it n'est pas mon activité principale et je n'y consacre pas énormément de temps. Et je ne fais aucune publicité du service.
+En parallèle de cette activité (en micro entrepreneur), je suis salarié à 80% en tant que développeur web. Donc wallabag.it n'est pas mon activité principale et je n'y consacre pas énormément de temps. Et je ne fais aucune publicité du service.  
+C'est uniquement le bouche à oreille qui fonctionne. 
 
 Pour info, j'ai démarré wallabag.it le 3 décembre 2016.
 
@@ -40,6 +39,7 @@ Une facture est un abonnement, peu importe que ça soit pour 3 mois ou 1 an, et 
 * 2019 : 959 factures (+21,9%)
 * 2020 : 1266 (+32%)
 * 2021 : 1526 (+20,5%)
+* 2022 : 1531 (+0,3%)
 
 Nombre moyen mensuel de factures :
 
@@ -49,15 +49,17 @@ Nombre moyen mensuel de factures :
 * 2019 : 79,9 factures / mois
 * 2020 : 105,5 factures / mois
 * 2021 : 127 factures / mois
+* 2022 : 127 factures / mois
 
 ## Chiffre d'affaires (CA)
 
 * 2016 : 783 € (un seul mois d'activité)
-* 2017 : 6093 €
-* 2018 : 7593 € (+24,6%)
-* 2019 : 9481 € (+24,9%)
+* 2017 : 6093 €
+* 2018 : 7593 € (+24,6%)
+* 2019 : 9481 € (+24,9%)
 * 2020 : 12922 € (+36,3%)
 * 2021 : 15460 € (+21,5%)
+* 2022 : 15735 € (+1,8%)
 
 CA mensuel moyen :
 
@@ -67,15 +69,17 @@ CA mensuel moyen :
 * 2019 : 790 €
 * 2020 : 1076 €
 * 2021 : 1288 €
+* 2021 : 1311 €
 
 Abonnement moyen (en moyenne, combien un client paie pour s'abonner) :
 
 * 2016 : 8,80 €
-* 2017 : 9,19 €
-* 2018 : 9,54 €
-* 2019 : 9,83 €
+* 2017 : 9,19 €
+* 2018 : 9,54 €
+* 2019 : 9,83 €
 * 2020 : 10,20 €
 * 2021 : 10,09 €
+* 2022 : 10,23 €
 
 ## Type d'abonnements
 
@@ -84,12 +88,15 @@ Abonnement moyen (en moyenne, combien un client paie pour s'abonner) :
 * 2019 : 668 abonnements à 9 €, 118 abonnements à 25 € et 173 abonnements à 3 €
 * 2020 : 853 abonnements à 9 €, 173 abonnements à 25 € et 240 abonnements à 3 €
 * 2021 : 1084 abonnements à 9 €, 199 abonnements à 25 € et 243 abonnements à 3 €
+* 2022 : 1098 abonnements à 9 €, 207 abonnements à 25 € et 226 abonnements à 3 €
 
 Sur cette partie, c'est compliqué d'avoir des choses très détaillées surtout pour 2017, car j'ai tenté plusieurs choses (changement d'abonnements), il y a aussi eu une offre "Anniversaire" etc.
 
 ## Dépenses
 
-En 2021, j'ai dépensé pour 1685 € de frais (hébergement, nom de domaine, prestation admin sys, etc.), soit 140€ en moyenne par mois. J'ai payé 1055 € de commissions pour PayPal et PayPlug, mes prestataires de paiement en ligne. J'ai également payé environ 3685 € de cotisations sociales.
+En 2022, j'ai dépensé pour 1510 € de frais (hébergement, nom de domaine, prestation admin sys, etc.), soit 126€ en moyenne par mois.  
+J'ai payé 1097 € de commissions pour PayPal et PayPlug, mes prestataires de paiement en ligne.  
+J'ai également payé environ 3725 € de cotisations sociales.
 
 ## Résultat net
 
@@ -98,11 +105,14 @@ En 2021, j'ai dépensé pour 1685 € de frais (hébergement, nom de domaine, pr
 * 2019 : 4823 €
 * 2020 : 6591 €
 * 2021 : 9034 €
+* 2021 : 9401 €
 
 ## Conclusion
 
-L'objectif que je m'étais fixé l'an dernier (1500 factures et 15000 € de CA) est rempli. Depuis quelques années, je suis sur une croissance de 20%, ce que j'atteins à chaque fois. **Mais**, le dernier trimestre de 2021 a montré des signes de ralentissements. Ça ne se voit pas plus haut, car je ne détaille pas mois par mois. Mais un exemple frappant, c'est le dernier trimestre, qui n'a connu une hausse que de 4%, alors que sur les 7 derniers trimestres, je suis en moyenne à +30%.
+Habituellement, je me fixais un objectif de +20%. En début d'année 2021, j'ai voulu être raisonnable en restant ambitieux. J'étais parti sur +10%. 
 
-Premiers signes de fatigue pour ce projet ? Pour rappel, je n'y effectue que du support. J'ai tout de même ajouté quelques fonctionnalités ces derniers mois. Mais toujours aucune publicité ...
+Pour la toute première fois depuis la création du service, l'objectif n'est pas atteint (+1,8%). J'évoquais en conclusion l'an dernier des "premiers signes de fatigue pour ce projet". En effet, ça semble s'essouffler mais absolument rien de catastrophique. 
 
-Objectif pour 2022 — qui serait déjà une belle réussite : +10% de CA. **Soit atteindre les 17.000 € de CA (pour 1.700 factures) ? RDV dans un an**.
+Pour l'année prochaine, tentons de redresser la barre et visons 5% de hausse. Je vais voir comment je peux faire pour améliorer ça. J'ai quelques idées en tête, on verra si le temps disponible me permet d'avancer au mieux. 
+
+En tout cas, je tiens à remercier l'ensemble des utilisateurs/trices de ce beau projet. Et énorme merci à l'équipe derrière le projet open source !
