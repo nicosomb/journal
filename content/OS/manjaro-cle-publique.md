@@ -1,8 +1,8 @@
 Title: Manjaro : "Erreur GPGME : Pas de données" / pas de clé publique
 Date: 2021-12-20 10:23
-Tags: OS
+Tags: manjaro, xfce
 Description: Plus de mise à jour possible ...
-Category: Billets
+Category: OS
 
 Depuis quelques jours, à chaque fois que je lançais une commande de mise à jour avec `pacman` sur mon PC du boulot, j'avais cette erreur qui s'affichait :
 
