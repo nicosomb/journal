@@ -70,7 +70,7 @@ CA mensuel moyen :
 * 2019 : 790 €
 * 2020 : 1076 €
 * 2021 : 1288 €
-* 2021 : 1311 €
+* 2022 : 1311 €
 
 Abonnement moyen (en moyenne, combien un client paie pour s'abonner) :
 
@@ -106,7 +106,7 @@ J'ai également payé environ 3725 € de cotisations sociales.
 * 2019 : 4823 €
 * 2020 : 6591 €
 * 2021 : 9034 €
-* 2021 : 9401 €
+* 2022 : 9401 €
 
 ## Conclusion
 
