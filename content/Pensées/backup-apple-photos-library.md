@@ -91,6 +91,23 @@ osxphotos export ~/Desktop/export --load-config ~/dev/osxphotos.toml
 osxphotos export ~/Desktop/export --load-config ~/dev/osxphotos-album.toml
 ```
 
+Voici par exemple ce que contient `osxphotos.toml` : 
+```toml
+[export]
+cleanup = true
+convert_to_jpeg = true
+directory = "{created.year}/01-{created.mm}-{created.year} {created.month}"
+download_missing = true
+jpeg_quality = 0.9
+not_in_album = true
+only_new = true
+only_photos = true
+photos_library = [ "/Users/nLoeuillet/Pictures/Photos Library.photoslibrary",]
+skip_live = true
+skip_original_if_edited = true
+update = true
+```
+
 Deux fichiers de configuration, pour mes 2 cas d’usage (photos dans un dossier d’événement, photos du quotidien et donc pas un dossier). Peut-être est-il possible de n’avoir qu’une seule commande qui permettrait d’exporter tout comme il faut : si jamais c’est un album, alors tel format de sortie, sinon tel autre format de sortie. Il existe [la fonctionnalité de template](https://github.com/RhetTbull/osxphotos#template-system), si j’ai du temps et l’envie, je regarderai un jour. 
 
 Limite, je pourrais aussi renvoyer directement l’export sur le NAS, puisque la volumétrie est plus faible qu’avec les exports annuels précédents. Mais pour le moment, je conserve le même fonctionnement. 
