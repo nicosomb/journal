@@ -19,7 +19,7 @@ J'ai déjà un endroit où je publie tout ça ([https://photos.loeuillet.org/](h
 
 Je voulais mettre en avant uniquement une sélection de photos, celles que je trouve jolies ou celles qui sont importantes pour moi. C'est pourquoi j'ai créé ce petit site, sans prétention : Instantanés [https://instantanes.loeuillet.org/](https://instantanes.loeuillet.org/)
 
-Le choix des photos est totalement subjectif, donc tout le monde n'est pas obligé de les apprécier ![😁](https://static.xx.fbcdn.net/images/emoji.php/v9/tee/2/16/1f601.png). Certaines ont déjà été publiées ici (mais Facebook, c'est éphémère), d'autres sont peut-être inédites pour vous.
+Le choix des photos est totalement subjectif, donc tout le monde n'est pas obligé de les apprécier. Certaines ont déjà été publiées sur certains réseaux sociaux (mais les réseaux sociaux, c'est éphémère), d'autres sont peut-être inédites pour vous.
 
 Bref, vous n'êtes pas obligé/es d'aller regarder, vous n'êtes pas obligé/es d'aimer.
 
