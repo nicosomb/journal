@@ -12,7 +12,7 @@ Je suis aussi **papa de deux enfants** de 10 et bientôt 9 ans, en garde altern�
 
 ---
 
-**Je tente de faire de la photo**. [J'ai un site pour ça et ça se passe ici](https://photos.loeuillet.org).
+**Je tente de faire de la photo**. J’en parle ici notamment : [Publier des photos, c’est intime]({filename}../Pensées/pourquoi-et-comment-je-suis-devenu-le-maire-de-ma-commune.md).
 
 ---
 
