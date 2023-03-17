@@ -1,4 +1,4 @@
-Title: Publier des photos, c’est intime 
+Title: Mon workflow de publication de photos
 Date: 2023-03-17 09:30  
 Category: Développement  
 Tags: photos
