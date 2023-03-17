@@ -1,6 +1,7 @@
 Title: Impact de nos partages
 Date: 2022-02-24 08:30
 Category: Pensées
+Tags: photos
 
 Je lisais chez David l'autre jour [son billet Envie](https://larlet.fr/david/2022/02/17/).
 

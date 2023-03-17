@@ -5,7 +5,7 @@ Category: Pensées
 
 Gros mal de crâne durant 24 heures et une toux, surtout le matin. Depuis lundi soir, c'est moins douloureux pour le crâne.
 
-La sécurité sociale m'a téléphoné vient de me téléphoner. Les premiers symptômes datant de dimanche, je peux déjà faire un test dès demain pour sortir de l'isolement. J'ai des doutes.
+La sécurité sociale vient de me téléphoner. Les premiers symptômes datant de dimanche, je peux déjà faire un test dès demain pour sortir de l'isolement. J'ai des doutes.
 
 ---
 
