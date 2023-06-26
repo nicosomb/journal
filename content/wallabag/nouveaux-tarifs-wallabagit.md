@@ -7,7 +7,7 @@ Category: wallabag
 
 wallabag est une application pour enregistrer le contenu d'une page web. Vous pouvez l'installer sur un serveur web et l'utiliser librement et gratuitement. 
 
-Mais pour les personne qui ne peuvent ou ne veulent pas installer wallabag, nous avons lancé wallabag.it en décembre 2016. wallabag.it vous propose un hébergement de qualité, respectueux de votre vie privée. Nous nous occupons de tout : vous n'avez qu'à lire vos articles. 
+Mais pour les personnes qui ne peuvent ou ne veulent pas installer wallabag, nous avons lancé wallabag.it en décembre 2016. wallabag.it vous propose un hébergement de qualité, respectueux de votre vie privée. Nous nous occupons de tout : vous n'avez qu'à lire vos articles. 
 
 Il y a plusieurs abonnements : 
 
