@@ -15,7 +15,7 @@ Il y a plusieurs abonnements :
 * 3€ pour 3 mois
 * 25€ par an si vous adorez wallabag 🦘 et si vous pouvez vous permettre cet abonnement. 
 
-wallabag.is a bientôt 7 ans. Depuis le début, les prix n'ont pas évolué. 
+wallabag.it a bientôt 7 ans. Depuis le début, les prix n'ont pas évolué. 
 
 Mais récemment, notre hébergeur a augmenté ses tarifs. C'est pourquoi nous avons décidé d'augmenter les nôtres également. 
 
