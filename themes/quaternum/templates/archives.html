@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Archives | {{ SITENAME }}{% endblock %}
+{% set current = "archive" %}
+
+{% block content %}
+
+<main>
+    <article>
+        <h1>Archives</h1>
+        <p>Des articles sur les enjeux de la publication : web, publication numérique, questionnements technologiques, design, etc. Depuis 2019 en lien avec <a href="/phd">mon doctorat</a>.</p>
+
+        <ul class="nolist">
+        {% for article in articles %}
+            <li><a href="{{ SITEURL }}/{{ article.url }}"><strong>{{ article.title}}</strong> — {{ article.date|strftime('%d-%m-%Y') }}</a></li>
+        {% endfor %}
+        </ul>
+    </article>
+</main>
+
+{% endblock %}

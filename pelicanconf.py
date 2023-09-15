@@ -11,7 +11,7 @@ DEFAULT_DATE = 'fs'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+CATEGORY_FEED_ATOM = ''
 TRANSLATION_FEED_ATOM = ''
 AUTHOR_FEED_ATOM = ''
 AUTHOR_FEED_RSS = ''
@@ -19,39 +19,29 @@ AUTHOR_FEED_RSS = ''
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = 'themes/Papyrus'
+THEME = 'themes/quaternum'
 
 SUBTITLE = 'Dev web, père et maire'
-SUBTEXT = '''Bienvenue sur mon journal personnel, où il arrive parfois que je publie des choses intéressantes. Ou pas.'''
+SUBTEXT = '''<p>Bienvenue sur mon journal personnel, où il arrive parfois que je
+publie des <a href="archives.html">choses intéressantes</a>. Ou pas.</p>
+<p>Si vous voulez en savoir un peu plus sur moi, <a href="/pages/a-propos.html">j'ai listé ici</a> les sujets qui me passionnent.</p>
+<p>N'hésitez pas à <a href="mailto:nicolas@loeuillet.org">m'envoyer un petit mail</a> si vous souhaitez que l'on discute.</p>
+'''
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['search', 'readtime', 'pelican-toc', 'neighbors', 'sitemap', 'pelican.plugins.webassets']
+PLUGINS = ['sitemap', 'pelican.plugins.webassets']
 
 DISPLAY_PAGES_ON_MENU = True
-DIRECT_TEMPLATES = (('index', 'search', 'tags', 'categories', 'archives',))
-PAGINATED_TEMPLATES = {'index':None,'tag':None,'category':None,'archives':10000,}
-
-SEARCH_MODE = "output"
-SEARCH_HTML_SELECTOR = "main"
-# Table of Content Plugin
-TOC = {
-    'TOC_HEADERS'       : '^h[1-3]', # What headers should be included in
-                                     # the generated toc
-                                     # Expected format is a regular expression
-    'TOC_RUN'           : 'true',    # Default value for toc generation,
-                                     # if it does not evaluate
-                                     # to 'true' no toc will be generated
-    'TOC_INCLUDE_TITLE': 'false',    # If 'true' include title in toc
-}
-
-DEFAULT_PAGINATION = 5
+DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives',))
+DEFAULT_PAGINATION = False
 
 ARTICLE_URL = ROOT_POSTS + '/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = ROOT_POSTS + '/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
-YEAR_ARCHIVE_SAVE_AS = ROOT_POSTS + '/{date:%Y}/index.html'
-MONTH_ARCHIVE_SAVE_AS = ROOT_POSTS + '/{date:%Y}/{date:%m}/index.html'
+YEAR_ARCHIVE_SAVE_AS = ''
+MONTH_ARCHIVE_SAVE_AS = ''
 AUTHORS_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
+TAG_SAVE_AS = ''
 
 # Social widgets
 SOCIAL = (
