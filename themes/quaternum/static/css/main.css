@@ -637,8 +637,7 @@ img {
     fill: currentColor; }
 
 summary {
-    cursor: pointer;
-    list-style: none; }
+    cursor: pointer; }
 
 .menu {
     display: flex;
