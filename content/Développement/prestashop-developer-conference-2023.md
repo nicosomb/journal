@@ -7,6 +7,7 @@ Jeudi 30 novembre 2023 se tenait la toute première [PrestaShop Developer Confer
 
 ![Julie Varisellaz et Nicolas Lœuillet]({static}/images/prestashop-conference/prestashop-conference.jpg#mid "Julie Varisellaz et Nicolas Lœuillet")
 
+(merci [@Progi1984](https://piaille.fr/@progi1984) pour la photo)
 
 > Découvrez le parcours d’une chaîne de traduction, du code jusqu’à votre boutique. Après une présentation de la plateforme Crowdin et du travail de la communauté de traducteurs, nous vous expliquerons comment nous avons automatisé le processus pour gagner en efficacité.
 
