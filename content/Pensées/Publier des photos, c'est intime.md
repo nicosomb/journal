@@ -23,4 +23,4 @@ Le choix des photos est totalement subjectif, donc tout le monde n'est pas oblig
 
 Bref, vous n'êtes pas obligé/es d'aller regarder, vous n'êtes pas obligé/es d'aimer.
 
-Bonne balade là-bas [https://instantanes.loeuillet.org/](https://instantantes.loeuillet.org) !
+Bonne balade là-bas [https://instantanes.loeuillet.org/](https://instantanes.loeuillet.org) !
