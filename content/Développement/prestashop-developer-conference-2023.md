@@ -47,7 +47,9 @@ Au moyen des Github Actions.
 
 **Qu'est-ce qu'une Github Action ?** 
 
-> GitHub Actions est une plateforme d’intégration continue et livraison continue (CI/CD) qui vous permet d’automatiser votre pipeline de génération, de test et de déploiement. 
+> GitHub Actions est une plateforme d’intégration continue et livraison continue (CI/CD) qui vous permet d’automatiser votre pipeline de génération, de test et de déploiement.
+> 
+> <cite>Documentation GitHub</cite>
 
 Ces actions peuvent être déclenchées de manière manuelle ou automatique, suite à un événement : quand on ouvre une pull request, quand on l'assigne à quelqu'un, quand on démarre une discussion, etc. Bref : dès qu'on fait quelque chose sur Github, on peut déclencher une action. 
 

@@ -6,6 +6,8 @@ Tags: photos
 Je lisais chez David l'autre jour [son billet Envie](https://larlet.fr/david/2022/02/17/).
 
 > Lorsque je partage des photos du Japon ou des vidéos de la forêt canadienne, à qui est-ce que je donne envie et quel va être l’impact de cet envie sur une action future — potentiellement néfaste à un environnement dont j’aspire à la préservation ? Qui suis-je pour donner des leçons d’exotisme après en avoir tant bénéficié ? Rédemption mal placée.
+>
+> <cite><em>Envie</em>, David Larlet</cite>
 
 Et j'avoue que je ne me suis jamais posé cette question, pourtant pertinente.
 

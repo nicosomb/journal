@@ -11,14 +11,14 @@ En train de découvrir le dernier album de Stromaé, Multitude.
 > C'est parce qu'y a des bas qu'y a des hauts  
 > Et parce qu'y a des hauts qu'y a des bas
 >
-> **Bonne journée**
+> <cite><em>Bonne journée</em>, Stromaé</cite>
 
 Un peu de tentative d'évasion dans cet album, et de bien-être.
 
 > Tant que j'suis en vie j'suis invaincu  
 > Toujours invaincu
 >
-> **Invaincu**
+> <cite><em>Invaincu</em>, Stromaé</cite>
 
 ---
 

@@ -157,18 +157,6 @@ strong {
     font-weight: bolder; }
 
 /**
-  * 1. Correct the inheritance and scaling of font size in all browsers.
-  * 2. Correct the odd `em` font sizing in all browsers.
-  */
-code,
-kbd,
-samp {
-    font-family: monospace, monospace;
-    /* 1 */
-    font-size: 1em;
-    /* 2 */ }
-
-/**
   * Add the correct font size in all browsers.
   */
 small {
@@ -584,18 +572,6 @@ a {
 a:hover {
     color: inherit; }
 
-code {
-    padding: 0.125em; }
-
-pre {
-    padding: 1em;
-    white-space: pre-wrap; }
-
-pre, code {
-    color: var(--background);
-    background: var(--text-color);
-    border-radius: 5px; }
-
 h1, h2, h3, h4 {
     font-size: 18px;
     font-weight: 700;
@@ -685,3 +661,72 @@ summary {
 .nolist {
     list-style: none;
     padding-left: 0; }
+pre {
+    background-color: #D7FBC1;
+    border-top: 1px solid #5DD121;
+    border-bottom: 1px solid #5DD121;
+}
+pre::before {
+    color: #5DD121;
+}
+blockquote {
+    background-color: #FBEDF4;
+    border-top: 1px solid #FA9ACF;
+    border-bottom: 1px solid #FA9ACF;
+}
+blockquote::before {
+    color: #FA9ACF;
+}
+
+blockquote {
+    margin: 0;
+    width: 100%;
+    grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns:
+      1fr
+      min(60ch, calc(100% - 64px))
+      1fr;
+    grid-column-gap: 32px;
+}
+blockquote > * {
+    grid-column: 2;
+}
+blockquote cite {
+    display: block;
+    text-align: right;
+}
+pre, code, mark {
+    padding: 1px 3px;
+    border-radius: 2px;
+}
+pre {
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+    grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns:
+      1fr
+      min(60ch, calc(100% - 64px))
+      1fr;
+    grid-column-gap: 32px;
+}
+pre > * {
+    grid-column: 2;
+}
+blockquote::before,
+pre::before {
+    content: "citation";
+    transform: rotate(-90deg);
+    position: absolute;
+    margin-left: -1rem;
+    margin-top: 3.5rem;
+}
+blockquote::before {
+    content: "citation";
+}
+
+pre::before {
+    content: "";
+}
