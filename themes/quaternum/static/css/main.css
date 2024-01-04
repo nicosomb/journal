@@ -674,6 +674,11 @@ blockquote {
     border-top: 1px solid #FA9ACF;
     border-bottom: 1px solid #FA9ACF;
 }
+
+.dark blockquote {
+    background-color: #111E2C;
+}
+
 blockquote::before {
     color: #FA9ACF;
 }
@@ -729,4 +734,8 @@ blockquote::before {
 
 pre::before {
     content: "";
+}
+
+.dark pre {
+    color: var(--background);
 }
