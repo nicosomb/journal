@@ -677,9 +677,6 @@ blockquote {
 
 .dark blockquote {
     background-color: #111E2C;
-}
-
-blockquote::before {
     color: #FA9ACF;
 }
 
