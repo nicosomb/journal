@@ -29,6 +29,7 @@ Je ne vais pas non plus refaire l'historique du changement d'offres, ça se trou
 Autre changement : j'ai aussi ajouté la possibilité de s'abonner via Stripe. 
 
 En l'état actuel des choses, voici donc les offres disponibles :
+
 * 3 mois pour 4 €
 * 1 an pour 11 €
 * 1 an pour 30 € (abonnement de soutien)
