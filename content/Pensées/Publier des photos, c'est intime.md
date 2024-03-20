@@ -7,11 +7,11 @@ Tags: photos
 
 Des années que ce sujet me passionne, sans pouvoir y passer autant de temps que je l'aimerais (mais ça, ça sera pour ma cinquième ou sixième vie).
 
-Auparavant, je me baladais avec mon appareil-photo reflex. Le poids, l'encombrement, le souci de changer d'objectif selon les conditions et surtout … la qualité toujours plus grandissante des smartphones ont fait que je n'utilise que mon téléphone.
+Auparavant, je me baladais avec mon appareil-photo reflex. Le poids, l'encombrement, le souci de changer d'objectif selon les conditions et surtout … la qualité toujours plus grandissante des smartphones a fait que je n'utilise que mon téléphone.
 
 Je conserve beaucoup de ces clichés sur mes disques durs.
 
-Publier des photos, surtout dans mon cercle proches (famille et amis), je n'ai pas toujours osé.
+Publier des photos, surtout dans mon cercle proche (famille et amis), je n'ai pas toujours osé.
 
 **Publier des photos, j'ai l'impression que c'est comme publier un texte que l'on a rédigé : c'est intime, personnel et pas toujours évident à accepter qu'il soit lu / qu'elle soit regardée par d'autres**.
 
