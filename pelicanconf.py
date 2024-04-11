@@ -45,6 +45,8 @@ TAG_SAVE_AS = ''
 
 # Social widgets
 SOCIAL = (
+    ('photos', 'https://instantanes.loeuillet.org'),
+    ('flickr', 'https://www.flickr.com/photos/nicolasloeuillet'),
     ('github', 'https://github.com/nicosomb'),
     ('mastodon', 'https://piaille.fr/@nicosomb'),
     ('facebook', 'https://www.facebook.com/nicolasloeuillet.rinxent'),
