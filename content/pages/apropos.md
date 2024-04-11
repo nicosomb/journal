@@ -17,6 +17,8 @@ Je suis aussi **papa de deux enfants** de 10 et bientôt 9 ans, en garde altern�
 
 **Je tente de faire de la photo**. J’en parle ici notamment : [Publier des photos, c’est intime]({filename}../Pensées/Publier des photos, c'est intime.md).
 
+Je publie mes photos sur le site [« Instantanés »](https://instantanes.loeuillet.org/) et sur [Flickr](https://www.flickr.com/photos/nicolasloeuillet/) (qui n'est qu'un miroir du site Instantanés).
+
 ## Open source
 
 Depuis de nombreuses années, **je contribue à l'open source et aux logiciels libres**. En avril 2013, j'ai décidé de créer une alternative à Pocket, Instapaper ou encore Pinboard : [wallabag](https://wallabag.org/fr) a maintenant plus de 8 ans et est utilisé dans le monde entier (traduit en plus de 15 langues). Afin de pouvoir proposer à tout le monde d'utiliser cette application (sans forcément avoir les connaissances techniques pour ça), j'ai créé le service en ligne [wallabag.it](https://www.wallabag.it/fr/) : pour un montant dérisoire, il vous est possible d'archiver et consulter sur différents supports (mobile, liseuse, tablette) les articles que vous sauvegardez. En cinq ans, c'est ainsi plus de 5.500 abonnements qui ont été souscrits.
