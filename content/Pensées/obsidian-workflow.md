@@ -1,4 +1,4 @@
-Title: Mon workflow de rédaction avec Obsidian
+Title: Créer une note bien rangée dans Obsidian grâce à une seule lettre
 Date: 2024-08-25 17:00
 Tags: logiciel, test
 Category: Pensées
