@@ -9,7 +9,7 @@ Aujourd'hui, je vais vous présenter comment je crée une note bien rangée dans
 
 Rien de plus simple que de créer une note, me direz-vous, et vous avez raison ! On fait "Fichier > Créer une note".  
 Oui, sauf que si vous faites ça, ça crée une note à la racine (ou alors dans un seul dossier spécifique défini dans les paramètres, "Fichiers et liens > Emplacement par défaut de la nouvelle note").  
-Ça fonctionne, mais ça n'est pas pratique si vous avec plusieurs dossiers dans lesquels vous créez régulièrement des fichiers.  
+Ça fonctionne, mais ça n'est pas pratique si vous avez plusieurs dossiers dans lesquels vous créez régulièrement des fichiers.  
 Il faut du coup créer la note, la nommer, la déplacer dans le dossier qui va bien.  
 
 De mon côté, je n'ai qu'un seul coffre-fort ("vault") dans Obsidian. J'y range tout : 
