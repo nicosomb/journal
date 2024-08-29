@@ -14,6 +14,7 @@ One of Obsidian's great strengths is that you save your notes locally and in mar
 Locally and in markdown ❤️
 
 Requirements:
+
 - Obsidian 😅
 - [ReadItLater plugin](https://github.com/DominikPieper/obsidian-ReadItLater)
 
