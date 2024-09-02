@@ -2,7 +2,7 @@ Title: À propos
 
 ## Développeur PHP / Symfony
 
-Je suis **développeur PHP depuis près de 16 ans, spécialisé dans le framework Symfony**. [Mon CV au format PDF est disponible en téléchargement ici]({attach}/static/CV_nicolas_loeuillet.pdf). Vous retrouverez également toutes mes différentes expériences [sur mon profil Linkedin](https://www.linkedin.com/in/nicolas-l%C5%93uillet/).
+Je suis **développeur PHP depuis près de 18 ans, spécialisé dans le framework Symfony**. [Mon CV au format PDF est disponible en téléchargement ici]({attach}/static/CV_nicolas_loeuillet.pdf). Vous retrouverez également toutes mes différentes expériences [sur mon profil Linkedin](https://www.linkedin.com/in/nicolas-l%C5%93uillet/).
 
 ## Maire de Rinxent
 
