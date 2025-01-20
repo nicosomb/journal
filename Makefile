@@ -70,7 +70,7 @@ publish:
 
 deploy:
 	pip install invoke
-	pip install pelican
+	pip install pelican[markdown]
 	pip install -r requirements.txt
 	pelican content -s publishconf.py
 
