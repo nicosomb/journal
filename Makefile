@@ -68,8 +68,9 @@ devserver-global:
 publish:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
-deploy: 
-	pip install invoke pelican[markdown]
+deploy:
+	pip install invoke
+	#pip install "pelican[markdown]"
 	pip install -r requirements.txt
 	pelican content -s publishconf.py
 
