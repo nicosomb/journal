@@ -1,7 +1,7 @@
-pelican==4.5.4
+pelican==4.10.0
 markupsafe==2.0.1
 pelican-webassets==2.0.0
-typogrify==2.0.7
+#typogrify==2.0.7
 cssmin==0.2.0
 libsass==0.21.0
 beautifulsoup4==4.11.1
