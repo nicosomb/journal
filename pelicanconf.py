@@ -61,4 +61,4 @@ SITEMAP = {
     'format': 'xml',
 }
 
-TYPOGRIFY = True
+#TYPOGRIFY = True
