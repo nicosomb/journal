@@ -18,3 +18,5 @@ Par contre, ce n'est pas la peine de venir me faire un cours sur les réseaux te
 Je suis sur Mastodon depuis assez longtemps, je suis assez sensibilisé sur tout ça.
 
 Et c’est tout l’intérêt de mon message : comment faire quand on est conscients de ça, avec aucun budget financier / humain etc et que beaucoup de monde se trouve sur Facebook et ne s’abonnera pas à une newsletter / flux RSS / mastodon ce que vous voulez comme truc de « geek ».
+
+Je vais étudier toutes les réponses et je vous tiendrai au courant.
