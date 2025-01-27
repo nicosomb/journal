@@ -1,7 +1,6 @@
 Title: wallabag v2 et conférence au PHP Tour à Clermont-Ferrand
 Date: 25-03-2016 14:00
 Category: billets
-Tags: php, symfony, phptour, conférences, wallabag
 
 Lundi 23 mai, avec [Jérémy](https://twitter.com/j0k), nous serons à Clermont-Ferrand pour parler de **[wallabag, comment on a migré vers Symfony3](http://event.afup.org/php-tour-2016/programme/#1777)**.
 

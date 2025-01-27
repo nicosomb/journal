@@ -1,7 +1,6 @@
 Title: Effectuez votre veille en toute liberté, aux RMLL 2015 de Beauvais
 Date: 27-07-2015 13:00
 Category: billets
-Tags: conférences, rmll, wallabag
 
 Le 8 juillet 2015, j'étais présent aux Rencontres Mondiales du Logiciel Libre à Beauvais pour parler de veille, de liberté et principalement de wallabag.
 

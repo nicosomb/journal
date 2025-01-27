@@ -1,6 +1,5 @@
 Title: Eunice et Franklin (ceci n'est pas une bédé)
 Date: 2022-02-21 09:30
-Tags: tempête, mairie
 Category: billets
 
 ![Des panneaux de chantier, bloquant une route, dans la nuit]({static}/images/mairie/IMG_5099.jpg#full)

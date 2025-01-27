@@ -1,7 +1,6 @@
 Title: Un dépôt monolithique pour wallabag ?
 Date: 21-04-2016 17:00
 Category: billets
-Tags: wallabag, git, github
 
 Un dépôt monolithique, kézaco ? C'est un dépôt global, qui regroupe tous les applications de votre projet.
 

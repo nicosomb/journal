@@ -1,7 +1,5 @@
 Title: wallabag.it : 5 ans d'activité
 Date: 2022-01-03 17:02
-Tags: wallabagit, entrepreneuriat, wallabag
-Description: La cinquième vague.
 Category: billets
 
 Début d'année (ne) rime (pas) avec bilan. Il est donc l'heure de faire le bilan de mon activité wallabag.it.

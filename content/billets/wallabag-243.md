@@ -1,6 +1,5 @@
 Title: Nouvelle version de wallabag, la 2.4.3
 Date: 2022-02-15 08:45
-Tags: wallabag, covid
 Category: billets
 
 Un petit billet par ici pour signaler que wallabag vit encore et ce n'est certainement pas grâce à moi.

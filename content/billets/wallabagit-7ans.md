@@ -1,6 +1,5 @@
 Title: wallabag.it a 7 ans
 Date: 2024-02-21 14:30
-Tags: wallabagit, entrepreneuriat, wallabag
 Category: billets
 
 Billet traditionnel pour faire le bilan de l'année écoulée sur [le service en ligne wallabag.it](https://wallabag.it/fr), lancé en décembre 2016.

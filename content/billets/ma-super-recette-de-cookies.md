@@ -1,7 +1,6 @@
 Title: Ma super recette de cookies 🍪
 Date: 14-10-2017 14:43
 Category: billets
-Tags: cookies
 
 Histoire d'avoir toujours sous la main ma recette de 🍪, je la note ici, pas besoin de retrouver mes notes à chaque fois.
 

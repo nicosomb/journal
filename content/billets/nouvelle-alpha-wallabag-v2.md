@@ -1,7 +1,6 @@
 Title: Nouvelle alpha pour wallabag v2
 Date: 2016-01-08 13:37
 Category: billets
-Tags: php, symfony, wallabag
 
 Et voila, après 4 mois de travail plus ou moins acharnés, on vient de sortir une nouvelle alpha avec pas mal de nouvelles fonctionnalités bien sympas, comme :
 

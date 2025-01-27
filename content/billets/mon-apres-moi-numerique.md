@@ -1,7 +1,6 @@
 Title: Mon après-moi numérique
 Date: 2017-11-08 17:26
 Category: billets
-Tags: aperoweb, testament numérique, conférences
 
 > Comment préparer tout ça dès maintenant (parce qu’après il sera trop tard).
 >

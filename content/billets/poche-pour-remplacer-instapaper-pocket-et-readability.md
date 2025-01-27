@@ -1,7 +1,6 @@
 Title: poche : pour remplacer Instapaper, Pocket et Readability
 Date: 2013-04-03 16:00
 Category: billets
-Tags: wallabag, pocket, instapaper
 
 Puisqu’on n’est jamais mieux servi que par soi même, et puisque mon idée d’utiliser shaarli pour remplacer Pocket ne correspond pas à 100% à mes besoins, je viens de démarrer un nouveau petit projet, poche qu’il s’appelle. C’est du PHP, c’est pas forcément propre, mais c’est que je sais faire de mieux assez rapidement. Je me mettrais bien à python pour ce projet, mais pas le courage. La base de données est en SQlite. La mise en page est gérée avec Knacss.
 

@@ -1,7 +1,6 @@
 Title: gpg failed to sign the data
 Date: 2023-10-16 16:30
 Category: billets
-Tags: git
 
 Cet après-midi, sans raison apparente, plus possible de signer mes commits. Voici l'erreur que j'avais : 
 

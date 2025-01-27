@@ -1,6 +1,5 @@
 Title: Dernières lectures - Janvier 2025
 Date: 2025-01-24 10:00
-Tags: lecture
 Category: billets
 
 Mes lectures des 6 derniers mois.

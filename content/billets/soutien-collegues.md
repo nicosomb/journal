@@ -1,7 +1,6 @@
 Title: Soutien à mes collègues des communes voisines
 Date: 2023-11-20 10:00
 Category: billets
-Tags: mairie, rinxent
 
 _(fil publié initialement sur Mastodon : [https://piaille.fr/@nicosomb/111430399741728800](https://piaille.fr/@nicosomb/111430399741728800))_
 

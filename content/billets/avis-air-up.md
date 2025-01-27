@@ -1,6 +1,5 @@
 Title: Air up, ou le sucre désucrifié
 Date: 2025-01-20 09:00
-Tags: airup
 Category: billets
 
 Un jour on abordera le concept de ces gourdes à 40€ qui te font croire que tu bois de l’eau aromatisée alors que tu bois de l’eau plate, mais ton cerveau lui, il assimile forcément le fait de boire à quelque chose qui sent le sucre ?

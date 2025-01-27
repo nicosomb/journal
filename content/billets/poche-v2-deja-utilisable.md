@@ -1,7 +1,6 @@
 Title: poche v2 déjà utilisable
 Date: 17-01-2014 13:38
 Category: billets
-Tags: wallabag
 
 Houla, pas de panique, rien d'extraordinaire pour l'instant.
 

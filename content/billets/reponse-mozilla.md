@@ -1,7 +1,6 @@
 Title: Mozilla / Pocket : la réponse de Mark Mayo
 Date: 22-05-2015 11:42
 Category: billets
-Tags: pocket, wallabag, mozilla
 
 *Ajout le 21 mai 2015 : NextInpact m'a contacté pour évoquer le sujet et a publié un article : [Mozilla critiquée pour son intégration prochaine de Pocket dans Firefox](http://www.nextinpact.com/news/95144-mozilla-critiquee-pour-son-integration-prochaine-pocket-dans-firefox.htm)*.
 

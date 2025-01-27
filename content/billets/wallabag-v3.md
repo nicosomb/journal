@@ -1,7 +1,6 @@
 Title: Bientôt neuf ans, et une v3 ?
 Date: 2022-03-25 13:30
 Category: billets
-Tags: wallabag
 
 Dans neuf jours, [wallabag fêtera ses neuf ans]({filename}poche-pour-remplacer-instapaper-pocket-et-readability.md).
 

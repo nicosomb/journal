@@ -1,7 +1,6 @@
 Title: Publier des photos, c’est intime 
 Date: 2023-03-10 14:00  
 Category: billets  
-Tags: photos
 
 Ça fait des années que je tente de faire de la photographie.
 

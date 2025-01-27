@@ -1,7 +1,6 @@
 Title: Mon workflow de publication de photos
 Date: 2023-03-17 09:30  
 Category: billets  
-Tags: photos
 
 L’autre jour, [j’annonçais un nouvel espace de publication]({filename}../Pensées/Publier des photos, c'est intime.md) de certaines de mes photos.  
 

@@ -1,7 +1,6 @@
 Title: Pièces à conviction sur les EHPAD en France
 date: 23-10-2017 21:17
 Category: billets
-Tags: ehpad
 
 Si vous voulez connaître le quotidien du personnel et des résidents d'un EHPAD (maison de retraite), je vous conseille de regarder [Pièces à conviction de jeudi dernier](https://www.france.tv/france-3/pieces-a-conviction/292271-maisons-de-retraite-les-secrets-d-un-gros-business.html). Affligeant.
 

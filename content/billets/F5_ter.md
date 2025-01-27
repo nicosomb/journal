@@ -1,7 +1,5 @@
 Title: F5 (ter)
 Date: 2022-09-08 13:30
-Tags: boulot
-Description: Petite mise à jour personnelle (ter)
 Category: billets
 
 Précédemment :

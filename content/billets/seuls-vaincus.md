@@ -1,6 +1,5 @@
 Title: Seuls et vaincus / Lueurs
 Date: 2021-03-05 11:16
-Description: 🎧
 Category: billets
 
 ![Gaël Faye]({static}/images/seuls-vaincus/faye.jpg#mid "Gaël Faye")

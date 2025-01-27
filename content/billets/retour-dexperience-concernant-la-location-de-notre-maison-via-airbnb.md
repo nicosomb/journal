@@ -1,7 +1,6 @@
 Title: Retour d'expérience concernant la location de notre maison via Airbnb
 Date: 2017-10-12 20:46
 Category: billets
-Tags: airbnb
 
 
 Depuis le début de l'année 2017, nous avons mis notre maison en location sur Airbnb. Pour quelles raisons ?

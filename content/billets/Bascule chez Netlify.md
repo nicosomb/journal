@@ -1,7 +1,6 @@
 title: Bascule chez Netlify
 Date: 2024-04-04 18:00  
-Category: billets  
-Tags: photos
+Category: billets
 
 Depuis quelques mois, je publie des photos sur [instantanes.loeuillet.org](https://instantanes.loeuillet.org). J'étais content du résultat visuel, mais techniquement, la solution en place ne me plaisait pas du tout. 
 

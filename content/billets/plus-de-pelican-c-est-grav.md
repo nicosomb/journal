@@ -1,7 +1,6 @@
 Title: Plus de pélican, c'est grav
 Date: 29-12-2016 15:43
 Category: billets
-Tags: php, blog, pelican
 
 Voila, on termine l'année avec un titre de billet bien pourri.
 

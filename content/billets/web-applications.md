@@ -1,6 +1,5 @@
 Title: Applications web et logiciels
 Date: 2025-01-25 11:00
-Tags: web
 Category: billets
 
 [Lu chez Karl Dubost](https://www.la-grange.net/2025/01/16/rose) :

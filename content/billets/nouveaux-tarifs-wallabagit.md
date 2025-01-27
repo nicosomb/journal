@@ -1,6 +1,5 @@
 Title: Nouveaux tarifs pour wallabag.it
 Date: 2023-06-26 13:30
-Tags: wallabagit, entrepreneuriat, wallabag
 Category: billets
 
 ## Histoire de wallabag.it

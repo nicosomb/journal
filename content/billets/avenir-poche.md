@@ -1,7 +1,6 @@
 Title: Avenir de poche
 Date: 31-07-2013 10:57
 Category: billets
-Tags: wallabag
 
 Bonjour à toutes et à tous (Ce message est une copie du mail envoyé aux personnes qui ont soutenu poche sur Flattr),
 

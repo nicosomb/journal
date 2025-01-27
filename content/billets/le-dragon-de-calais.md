@@ -1,8 +1,6 @@
 Title: Le Dragon de Calais
 Date: 2020-09-07 14:16
 Category: billets
-Tags: calais, côte d'opale
-Description: 🐲 🔥
 ---
 
 En ce dimanche de septembre, sous le soleil, nous avons rendu visite au Dragon de Calais.

@@ -1,7 +1,6 @@
 Title: poche - Le mode déconnecté disponible avec l''appli Android
 Date: 2014-01-06 08:28
 Category: billets
-Tags: wallabag
 
 C'était sûrement la fonctionnalité qui manquait le plus à tout le monde : **pouvoir lire ses articles en étant dans le bus / sous la couette / dans le métro / au bureau et sans utiliser le Wifi ou la 3G**.
 

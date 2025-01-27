@@ -1,7 +1,6 @@
 Title: Comment je vais tenter de gagner ma vie avec un projet opensource
 Date: 26-02-2017 15:52
 Category:  wallabag
-Tags: entrepreneuriat, wallabag, wallabagit
 
 Suite du billet ["Comment je vais tenter de gagner un peu d'argent avec un projet opensource"]({filename}service-wallabag-it.md).
 
