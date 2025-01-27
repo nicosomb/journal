@@ -27,26 +27,6 @@
             <summary>Menu</summary>
         {% endif %}
             <section class="menu">
-                <section class="colonnes">
-                    <section class="colonne">
-                        <h2>Catégories</h2>
-                        <ul>
-                            {% for cat, null in categories %}
-                            <li><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-                            {% endfor %}
-                        </ul>
-                    </section>
-                    <section class="colonne">
-                        <h2>Ailleurs</h2>
-                        {% if SOCIAL %}
-                        <ul>
-                            {% for name, link in SOCIAL %}
-                            <li><a href="{{ link }}">{{ name }}</a></li>
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
-                    </section>
-                </section>
                 <section class="flux">
                     <h2>Derniers billets</h2>
                     <ul>
@@ -63,6 +43,14 @@
                         <li><a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}">Abonnez-vous</a>
                         </li>
                     </ul>
+                    <h2>Ailleurs</h2>
+                        {% if SOCIAL %}
+                        <ul>
+                            {% for name, link in SOCIAL %}
+                            <li><a href="{{ link }}">{{ name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
                 </nav>
             </section>
         {% if current is defined or (articles is defined and article is defined) or page is defined or category is defined %}
