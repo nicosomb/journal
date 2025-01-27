@@ -8,8 +8,8 @@ ROOT_POSTS = 'billets'
 LOCALE = ('fr_FR')
 
 TIMEZONE = 'Europe/Paris'
-DEFAULT_DATE_FORMAT = '%a %d %B %Y'
-DEFAULT_DATE = '%a %d %B %Y'
+DEFAULT_DATE_FORMAT = '%A %d %B %Y'
+DEFAULT_DATE = '%A %d %B %Y'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
