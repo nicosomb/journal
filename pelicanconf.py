@@ -5,6 +5,8 @@ SITEURL = 'http://127.0.0.1:8000'
 PATH = 'content'
 ROOT_POSTS = 'billets'
 
+LOCALE = ('fr_FR')
+
 TIMEZONE = 'Europe/Paris'
 DEFAULT_DATE_FORMAT = '%a %d %B %Y'
 DEFAULT_DATE = 'fs'
