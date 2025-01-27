@@ -22,39 +22,32 @@
             13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"></path>
             </svg></button>
         </div>
-        {% if current is defined or (articles is defined and article is defined) or page is defined or category is defined %}
-        <details>
-            <summary>Menu</summary>
-        {% endif %}
-            <section class="menu">
-                <section class="flux">
-                    <h2>Derniers billets</h2>
-                    <ul>
-                        {% for article in articles[:10] %}
-                        <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
-                        {% endfor %}
-                        <li class="plus"><a href="/archives.html">voir plus</a></li>
-                    </ul>
-                </section>
-                <nav class="navigation">
-                    <h2>Ailleurs</h2>
-                        {% if SOCIAL %}
-                        <ul>
-                            {% for name, link in SOCIAL %}
-                            <li><a href="{{ link }}">{{ name }}</a></li>
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
-                </nav>
+        <section class="menu">
+            <section class="flux">
+                <h2>Derniers billets</h2>
+                <ul>
+                    {% for article in articles[:5] %}
+                    <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+                    {% endfor %}
+                    <li class="plus"><a href="/archives.html">les archives</a></li>
+                </ul>
             </section>
-        {% if current is defined or (articles is defined and article is defined) or page is defined or category is defined %}
-        </details>
-        {% endif %}
+            <nav class="navigation">
+                <h2>Ailleurs</h2>
+                    {% if SOCIAL %}
+                    <ul>
+                        {% for name, link in SOCIAL %}
+                        <li><a href="{{ link }}">{{ name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+            </nav>
+        </section>
     </header>
 
     {% block content %}{% endblock %}
 
-    <footer>Propulsé par <a href="https://getpelican.com/">Pelican</a> — <a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}">S'abonner au site</a></footer>
+    <footer><a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}">S'abonner au site via le flux Atom</a></footer>
 
     <script>
         const btn = document.querySelector(".mode");
