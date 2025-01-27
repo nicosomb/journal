@@ -1,7 +1,6 @@
 Title: RDV au PHP Tour 2018 à Montpellier
 Date: 19-01-2018 15:23
 Category: billets
-Tags: phptour, conférences, wallabag
 
 Cette année, [je serai présent au PHP Tour à Montpellier](https://event.afup.org/phptourmontpellier2018/programme/) avec mes collègues de [Code-Rhapsodie](https://www.code-rhapsodie.fr/).
 

@@ -1,7 +1,5 @@
 Title: Quatre années de wallabag.it
 Date: 2020-12-03 14:07
-Tags: wallabagit, entrepreneuriat, wallabag
-Description: On fait l'bilan
 Category: billets
 
 ![Logo de wallabag]({static}/images/wallabag/banniere.png#full "Logo de wallabag")

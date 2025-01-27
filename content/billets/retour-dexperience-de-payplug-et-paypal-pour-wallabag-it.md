@@ -1,7 +1,6 @@
 Title: Retour d'expérience de PayPlug et PayPal pour wallabag.it
 Date: 30-07-2019 16:00
 Category: billets
-Tags: entrepreneuriat, wallabag, wallabagit
 
 Suite à un message de [Marien](https://tutut.delire.party/@marien), voici un petit retour concernant mon usage de PayPlug et de PayPal pour [wallabag.it](https://www.wallabag.it/fr/).
 Voici ses questions :

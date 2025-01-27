@@ -1,6 +1,5 @@
 Title: L'écosystème wallabag 
 Date: 2023-07-07 09:00
-Tags: wallabag, wallabagit, entrepreneuriat, opensource
 Category: billets
 
 Il y a un peu plus de 10 ans (en avril 2013 😱), je démarrais un projet solo (pas dans mon garage). Juste quelque chose qui était là pour répondre à mes propres besoins, rien d'autre.

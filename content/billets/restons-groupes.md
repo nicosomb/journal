@@ -1,7 +1,6 @@
 Title: Restons groupés
 Date: 2017-05-02 15:40
 Category: billets
-Tags: politique
 
 Dimanche 5 mai 2002. Jacques Chirac vient d’être réélu Président de la République.
 

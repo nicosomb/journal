@@ -1,6 +1,5 @@
 Title: C’est quoi, pour moi, être « libriste » ?
 Date: 2023-01-03 18:00
-Tags: libre, ailleurs
 Category: billets
 
 

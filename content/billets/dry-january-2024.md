@@ -1,7 +1,6 @@
 Title: Dry January 2024
 Date: 2024-02-01 08:00
 Category: billets
-Tags: alcool
 
 Durant la fin de l'année 2023, je me suis posé quelques questions. 
 

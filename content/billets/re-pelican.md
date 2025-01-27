@@ -1,6 +1,5 @@
 Title: Le retour du Pelican
 Date: 2022-02-08 17:00
-Tags: blog, pelican
 Category: billets
 
 Wow le titre qui fait peur !

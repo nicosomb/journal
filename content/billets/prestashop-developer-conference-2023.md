@@ -1,7 +1,6 @@
 Title: Do you speak PrestaShop? 
 Date: 2023-12-01 11:00
 Category: billets
-Tags: conférence, prestashop
 
 Jeudi 30 novembre 2023 se tenait la toute première [PrestaShop Developer Conference](https://events.prestashop.com/prestashop-developer-conference). Avec [Julie Varisellaz](https://www.linkedin.com/in/julievarisellaz/), nous intervenions pour parler traductions au sein du projet PrestaShop. 
 

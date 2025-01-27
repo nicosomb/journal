@@ -1,7 +1,6 @@
 Title: Ce n’est finalement pas du vol, c’est de la copie
 Date: 2023-09-15 14:00  
 Category: billets  
-Tags: données personnelles
 
 Lu dans [« Six mois après la cyberattaque à la mairie de Lille, où en est-on ? »](https://www.lavoixdunord.fr/1373238/article/2023-09-15/six-mois-apres-la-cyberattaque-la-mairie-de-lille-ou-en-est) (La Voix du Nord, 15/09/2023)
 

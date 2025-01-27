@@ -1,6 +1,5 @@
 Title: Vasectomie
 Date: 2021-03-19 15:45
-Description: Ça va couper chérie.
 Category: billets
 
 ![Ça va couper chérie.]({static}/images/vasectomie/ca-va-couper-720x340.webp#full "Ça va couper chérie.")

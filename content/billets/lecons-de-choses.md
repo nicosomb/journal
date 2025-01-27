@@ -1,7 +1,6 @@
 Title: Leçons de choses
 Date: 2020-09-02 14:17
 Category: billets
-Tags: mairie, rinxent
 
 ![Un livre intitulé Leçons de choses, publié en 1955]({static}/images/lecons-de-choses/1024.jpg#mid "Un livre intitulé Leçons de choses, publié en 1955")
 

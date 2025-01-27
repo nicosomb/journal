@@ -1,7 +1,6 @@
 Title: Paris Web ❤️💙
 Date: 2022-03-12 14:00
 Category: billets
-Tags: web, parisweb, conférences
 
 Cette semaine, j'ai assisté à ma toute première réunion au sein de [Paris Web](https://www.paris-web.fr/).
 

@@ -1,7 +1,6 @@
 Title: Un mal pour un bien
 Date: 2014-02-04 20:35
 Category: billets
-Tags: wallabag
 
 Quelques jours après la période d'excitation liée à poche / wallabag, voici mes retours à tête reposée :
 

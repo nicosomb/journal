@@ -1,6 +1,5 @@
 Title: Reprise
 Date: 2022-02-14 10:00
-Tags: perso, covid
 Category: billets
 
 ![Lever de soleil sur Rinxent, samedi 12 février 2021]({static}/images/reprise/IMG_4903.jpg#full "Lever de soleil sur Rinxent, samedi 12 février 2021")

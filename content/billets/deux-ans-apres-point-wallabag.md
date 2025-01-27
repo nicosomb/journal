@@ -1,7 +1,6 @@
 Title: Deux ans après le début du projet, faisons un point sur wallabag
 Date: 18-05-2015 12:00
 Category: billets
-Tags: wallabag, pocket, conférences
 
 [Le dernier point sur ce blog remonte à Juillet 2014]({filename}un-petit-point-rapide-sur-wallabag-et-son-avancement.md).
 

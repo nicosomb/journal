@@ -1,7 +1,6 @@
 Title: Racisme ordinaire entre Paris et Calais
 Date: 20-11-2015 17:00
 Category: billets
-Tags: racisme, politique, égalité
 
 À bord du TGV Paris - Rang-du-Fliers, qui passe par la gare de Calais Fréthun.
 

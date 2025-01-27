@@ -1,6 +1,5 @@
 Title: wallabag.it a 8 ans : merci Omnivore !
 Date: 2025-01-22 09:00
-Tags: wallabagit, entrepreneuriat, wallabag
 Category: billets
 
 Billet traditionnel pour faire le bilan de l'année écoulée sur [le service en ligne wallabag.it](https://wallabag.it/fr), lancé en décembre 2016.

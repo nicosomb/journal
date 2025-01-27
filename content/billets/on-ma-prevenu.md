@@ -1,7 +1,6 @@
 Title: On m'a prévenu
 Date: 2014-02-11 20:54
 Category: billets
-Tags: wallabag
 
 Mon projet grossit.
 Mon projet a de plus en plus d'utilisateurs.

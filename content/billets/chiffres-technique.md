@@ -1,6 +1,5 @@
 Title: wallabag.it en chiffres, un peu de technique
 Date: 2020-12-10 16:52
-Tags: wallabagit, entrepreneuriat, wallabag
 Category: billets
 
 Dernièrement, j'ai publié [le bilan financier de l'année 2020]({filename}quatre-annees.md).

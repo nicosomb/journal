@@ -1,7 +1,6 @@
 Title: HAProxy, Let's Encrypt et plusieurs certificats
 Date: 2017-02-10 15:46
 Category: billets
-Tags: wallabag, haproxy, letsencrypt
 
 Voici ma recette pour gérer plusieurs noms de domaine avec donc forcément plusieurs certificats SSL.
 

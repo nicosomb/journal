@@ -1,7 +1,6 @@
 Title: Et si on créait une asso de coding dans ma commune ?
 Date: 2017-12-06 08:07
 Category: billets
-Tags: école, cours, rinxent
 
 J'étais en train de rédiger un mail [au directeur de l'école où j'interviens]({filename}cours-dinformatique-en-ecole-primaire.md), et en fait, je me dis que ça pourrait être sympa d'avoir une association de coding / développement / programmation à Rinxent.
 

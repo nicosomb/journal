@@ -1,6 +1,5 @@
 Title: Comment quitter Facebook dans mon cas ?
 Date: 2025-01-20 17:00
-Tags: facebook
 Category: billets
 
 J'ai une page "pro" pour mon statut d'élu. C'est via cette page que je communique à 99% ([j'ai un blog](https://www.nicolasloeuillet.fr/) mais très peu de personnes de la commune le suivent).

@@ -1,6 +1,5 @@
 Title: Créer une note bien rangée dans Obsidian grâce à une seule lettre
 Date: 2024-08-25 17:00
-Tags: logiciel, test
 Category: billets
 
 [Il y a plus de trois ans déjà](https://nicolas.loeuillet.org/billets/2021/03/02/obsidian-mon-nouvel-outil-de-prise-de-notes/), je vous parlais d'Obsidian. 

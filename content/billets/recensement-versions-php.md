@@ -1,7 +1,6 @@
 Title: CMS, frameworks : recensement des versions de PHP (décembre 2015)
 Date: 2015-12-11 12:00
 Category: billets
-Tags: php, symfony, wallabag, magento
 
 
 J'ai annoncé hier que [wallabag 2 ne serait pas compatible avec PHP <= 5.4](https://twitter.com/wallabagapp/status/674985952159338501), en conseillant vivement aux personnes qui avaient un serveur avec une version de PHP <= 5.4 de le mettre à jour.

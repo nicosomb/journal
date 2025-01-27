@@ -1,7 +1,6 @@
 Title: #poche, le Pocket open source, disponible en version 0.2
 Date: 21-04-2013 20:29
 Category: billets
-Tags: wallabag
 
 Depuis ce soir, la version 0.2 est disponible. Voici le changelog :
 

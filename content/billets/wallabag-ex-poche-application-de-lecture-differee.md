@@ -1,7 +1,6 @@
 Title: wallabag, ex-poche, application de lecture différée
 Date: 27-01-2014 19:26
 Category: billets
-Tags: wallabag
 
 Suite aux derniers épisodes, j'ai préféré renommer poche. Faites place à [wallabag](http://www.wallabag.org).
 

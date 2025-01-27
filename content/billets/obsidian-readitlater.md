@@ -1,6 +1,5 @@
 Title: Obsidian, my new read-it-later app?
 Date: 2024-08-29 12:00
-Tags: obsidian
 Category: billets
 
 I use and love Obsidian for more than 3 years now.

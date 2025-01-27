@@ -1,6 +1,5 @@
 Title: Tatouage
 Date: 2023-01-05 09:00
-Tags: tatouage, enfants
 Category: billets
 
 Depuis des années, je savais que j'étais tenté par un tatouage. Mais je souhaitais quelque chose qui avait du sens.

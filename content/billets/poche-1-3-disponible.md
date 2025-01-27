@@ -1,7 +1,6 @@
 Title: poche 1.3 disponible
 Date: 23-12-2013 13:12
 Category: billets
-Tags: wallabag
 
 Je vous avais présenté il y a quelques jours les nouveautés qui seraient présentes dans poche 1.3 en vous promettant sa sortie pour Noël : c'est fait, poche 1.3 est disponible au téléchargement.
 

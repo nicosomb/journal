@@ -1,7 +1,6 @@
 Title: poche : retours, site et Flattr
 date: 2013-04-11 20:26
 Category: billets
-Tags: wallabag
 
 Après quelques jours de mise en ligne, petit bilan sur poche, un remplaçant open source et gratuit à Pocket, Readability, instapaper et les autres.
 

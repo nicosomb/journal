@@ -1,7 +1,6 @@
 Title: osxphotos, pour sauvegarder sa bibliothèque Apple Photos vers son NAS 
 Date: 2023-02-27 12:00
 Category: billets
-Tags: logiciel, apple, macos, library, ios, photos, backup
 
 En lisant dernièrement «[ Migrating Google Photos to my Personal NAS](https://danb.me/blog/posts/migrating-google-photos/) », je me suis posé une question à laquelle je n’avais pas encore pensé : « comment être sûr de ne pas perdre mes photos stockées sur mon iPhone depuis toutes ces années ? ». 
 

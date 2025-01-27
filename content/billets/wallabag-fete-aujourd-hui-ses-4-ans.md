@@ -1,7 +1,6 @@
 Title: wallabag fête aujourd'hui ses 4 ans
 Date: 2017-04-03 15:38
 Category: billets
-Tags: wallabag
 
 Aujourd'hui, [wallabag](https://wallabag.org/fr) a 4 ans. Je ne vous refais pas l'histoire du projet, mais y'a eu pas mal de choses de faites depuis le début. Le projet évolue toujours, et pour ça, **je tiens à remercier ceux qui m'aident depuis longtemps (coucou Thomas et Jérémy) et tous ceux qui s'occupent des projets applications smartphones / extensions de navigateur**. Et merci forcément aux utilisateurs (ça me surprend tout le temps que vous soyez aussi nombreux).
 
