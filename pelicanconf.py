@@ -45,12 +45,9 @@ TAG_SAVE_AS = ''
 
 # Social widgets
 SOCIAL = (
-    ('photos', 'https://instantanes.loeuillet.org'),
-    ('flickr', 'https://www.flickr.com/photos/nicolasloeuillet'),
-    ('github', 'https://github.com/nicosomb'),
     ('mastodon', 'https://piaille.fr/@nicosomb'),
-    ('facebook', 'https://www.facebook.com/nicolasloeuillet.rinxent'),
-    ('linkedin', 'https://www.linkedin.com/in/nicolas-l%C5%93uillet/'),
+    ('photos', 'https://instantanes.loeuillet.org'),
+    ('github', 'https://github.com/nicosomb'),
 )
 
 STATIC_PATHS = [
