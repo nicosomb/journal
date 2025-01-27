@@ -18,7 +18,13 @@
 
 <main>
     <section>
-      <p>{{ article.date|strftime('%d-%m-%Y') }}</p>
+        <p>
+        {% if article.date.day == 1 %}
+            {{ article.date|strftime('%A 1er %B %Y') }}
+        {% else %}
+            {{ article.date|strftime('%A %d %B %Y') }}
+        {% endif %}
+        </p>
     </section>
     <article>
       <h1>{{article.title}}</h1>
