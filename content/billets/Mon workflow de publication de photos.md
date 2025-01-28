@@ -1,30 +1,30 @@
 Title: Mon workflow de publication de photos
-Date: 2023-03-17 09:30  
-Category: billets  
+Date: 2023-03-17 09:30
+Category: billets
 
-L’autre jour, [j’annonçais un nouvel espace de publication]({filename}../Pensées/Publier des photos, c'est intime.md) de certaines de mes photos.  
+L’autre jour, [j’annonçais un nouvel espace de publication]({filename}Publier des photos, c'est intime.md) de certaines de mes photos.
 
-Je vais aujourd’hui lister les différentes étapes pour publier ces photos. 
+Je vais aujourd’hui lister les différentes étapes pour publier ces photos.
 
-## Conversion en WebP 
+## Conversion en WebP
 
-Afin de ne pas publier des photos au poids trop important, j’ai décidé d’utiliser [le format WebP](https://fr.wikipedia.org/wiki/WebP) pour chacune de mes photos. 
+Afin de ne pas publier des photos au poids trop important, j’ai décidé d’utiliser [le format WebP](https://fr.wikipedia.org/wiki/WebP) pour chacune de mes photos.
 
-Pour cette étape, j’utilise l’outil [`bespoke`](https://github.com/tmcw/bespoke) de Tom MacWright. Il redimensionne et convertit en jpg et en WebP. 
+Pour cette étape, j’utilise l’outil [`bespoke`](https://github.com/tmcw/bespoke) de Tom MacWright. Il redimensionne et convertit en jpg et en WebP.
 
-Je l’ai adapté pour mes besoins, à savoir : 
+Je l’ai adapté pour mes besoins, à savoir :
 * conservation des données EXIF
-* uniquement générer du WebP et uniquement en 2880 px de large maximum. 
+* uniquement générer du WebP et uniquement en 2880 px de large maximum.
 
-Cet outil est très efficace et rapide. 
+Cet outil est très efficace et rapide.
 
-## Génération du site 
+## Génération du site
 
-Pour le site en ligne, j’utilise [`photo-stream`](https://github.com/waschinski/photo-stream). C’est écrit en `ruby`, donc pas vraiment ce que je préfère. Mais ça fonctionne très bien et l’équipe de contribution est assez réactive (j’ai remonté des bugs et ai demandé le support de WebP, tout a été implémenté en quelques jours ❤️). 
+Pour le site en ligne, j’utilise [`photo-stream`](https://github.com/waschinski/photo-stream). C’est écrit en `ruby`, donc pas vraiment ce que je préfère. Mais ça fonctionne très bien et l’équipe de contribution est assez réactive (j’ai remonté des bugs et ai demandé le support de WebP, tout a été implémenté en quelques jours ❤️).
 
-### Localement 
+### Localement
 
-Je ne maitrise absolument pas l’écosystème `ruby` alors je reconnais que j’ai un peu galéré. Passé mes déboires d’installation de dépendances, j’ai trouvé ce qu’il me fallait : 
+Je ne maitrise absolument pas l’écosystème `ruby` alors je reconnais que j’ai un peu galéré. Passé mes déboires d’installation de dépendances, j’ai trouvé ce qu’il me fallait :
 
 ```ruby
 rbenv init
@@ -32,30 +32,30 @@ eval "$(rbenv init - zsh)"
 rbenv shell 3.1.2
 ```
 
-J’ai enfin un terminal qui est dans les bonnes conditions pour lancer les commandes suivantes : 
+J’ai enfin un terminal qui est dans les bonnes conditions pour lancer les commandes suivantes :
 
 ```ruby
 bundle install
 bundle exec jekyll build # génération du site
 ```
 
-Pour tester localement, je lance un petit serveur web dans le répertoire `_site` généré pour ouvrir le fichier `index.html` (je peux faire ça puisque j’ai `php` installé en local sur ma machine) : 
+Pour tester localement, je lance un petit serveur web dans le répertoire `_site` généré pour ouvrir le fichier `index.html` (je peux faire ça puisque j’ai `php` installé en local sur ma machine) :
 
 ```
 php -S localhost:8002
 ```
 
-Et voila ! 
+Et voila !
 
-### En ligne 
+### En ligne
 
-Maintenant que j’ai vérifié que tout était OK en local, je peux publier. 
+Maintenant que j’ai vérifié que tout était OK en local, je peux publier.
 
-J’ai un dépôt privé sur Github où je stocke mon fork de `photo-stream` et le répertoire `photos` nécessaire pour stocker mes photos. 
+J’ai un dépôt privé sur Github où je stocke mon fork de `photo-stream` et le répertoire `photos` nécessaire pour stocker mes photos.
 
-Pour la publication, j’ai créé une Github actions. À chaque commit sur mon dépôt, l’action génère le site (c’est-à-dire ce que je fais en local dans l’étape précédente) et déploie le site généré sur mon serveur. 
+Pour la publication, j’ai créé une Github actions. À chaque commit sur mon dépôt, l’action génère le site (c’est-à-dire ce que je fais en local dans l’étape précédente) et déploie le site généré sur mon serveur.
 
-Voici le fichier `.github/workflows/deploy.yml` que j’ai concocté : 
+Voici le fichier `.github/workflows/deploy.yml` que j’ai concocté :
 
 ```yaml
 name: deploy
@@ -119,10 +119,10 @@ jobs:
                 rmdir /var/www/_site
 ```
 
-Magie, ça fonctionne ! 
+Magie, ça fonctionne !
 
-## Pour conclure 
+## Pour conclure
 
-Il y a sûrement des choses à améliorer dans mon process, mais ça fonctionne et pour le moment, c’est le principal. 
+Il y a sûrement des choses à améliorer dans mon process, mais ça fonctionne et pour le moment, c’est le principal.
 
-Dans les choses à faire, j’aimerais par exemple ne plus versionner le fork de `photo-stream` et le cloner (ou l’installer via `ruby` ?) depuis la Github action uniquement. Je n’aurais ainsi que mes photos dans un dépôt Github et ça serait amplement suffisant. 
+Dans les choses à faire, j’aimerais par exemple ne plus versionner le fork de `photo-stream` et le cloner (ou l’installer via `ruby` ?) depuis la Github action uniquement. Je n’aurais ainsi que mes photos dans un dépôt Github et ça serait amplement suffisant.

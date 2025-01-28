@@ -10,17 +10,17 @@ Et bien aujourd'hui, je publie la suite de ce billet.
 
 ## Nouveau job
 
-Il y a quelques mois, je me suis retrouvé sur le marché du travail. J'ai rapidement vu une annonce pour [Simplon.Prod](https://www.simplonprod.co/), une agence web qui travaille pour des acteurs de l'économie sociale et solidaire (associations, ministères, etc.).  
+Il y a quelques mois, je me suis retrouvé sur le marché du travail. J'ai rapidement vu une annonce pour [Simplon.Prod](https://www.simplonprod.co/), une agence web qui travaille pour des acteurs de l'économie sociale et solidaire (associations, ministères, etc.).
 L'objectif de Simplon.Prod était d'ouvrir une antenne à Boulogne-sur-Mer et de trouver un référent pour cette agence.
 
 Six mois après mon embauche, tout se passe très bien. Mes journées sont partagées entre une partie organisationnelle (scrum master pour un projet de 6 développeurs), du chiffrage, du développement et de l'accompagnement. Les journées passent très vite. Et la typologie des clients (<abbr title="Économie Sociale et Solidaire">ESS</abbr>) rend les projets beaucoup plus intéressants.
 
-Niveau techno : on fait du symfony et on touche à quelques CMS (oui y'a des Wordpress qui trainent par-ci, par-là, mais aussi Craft CMS, assez prometteur).  
+Niveau techno : on fait du symfony et on touche à quelques CMS (oui y'a des Wordpress qui trainent par-ci, par-là, mais aussi Craft CMS, assez prometteur).
 Et j'ai quitté le monde macOS pour revenir sur un environnement Linux (Manjaro pour être précis). Aucun regret !
 
 ## wallabag et wallabag.it
 
-J'ai récemment publié un compte-rendu de mon activite d'entrepreneur, je vous invite à lire ça ici [Quatre années de wallabag.it]({filename}../wallabag/quatre-annees.md) et là [wallabag.it en chiffres, un peu de technique]({filename}../wallabag/chiffres-technique.md).
+J'ai récemment publié un compte-rendu de mon activite d'entrepreneur, je vous invite à lire ça ici [Quatre années de wallabag.it]({filename}quatre-annees.md) et là [wallabag.it en chiffres, un peu de technique]({filename}chiffres-technique.md).
 
 ## Vie perso
 
