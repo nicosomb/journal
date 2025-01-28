@@ -531,13 +531,13 @@ body {
     background-color: var(--background); }
 
 body.dark {
-    --text-color: #E8ECED;
-    --background: #111E2C; }
+    --text-color: #ffb7cb;
+    --background: #121212; }
 
 @media (prefers-color-scheme: dark) {
     body {
-        --text-color: #E8ECED;
-        --background: #111E2C; }
+        --text-color: #ffb7cb;
+        --background: #121212; }
     body.light-theme {
         --text-color: #1D3249;
         --background: #ffffff; } }
@@ -676,8 +676,8 @@ blockquote {
 }
 
 .dark blockquote {
-    background-color: #111E2C;
-    color: #FA9ACF;
+    background-color: #121212;
+    color: #ffb7cb;
 }
 
 blockquote {
