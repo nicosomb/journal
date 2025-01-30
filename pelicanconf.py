@@ -16,9 +16,6 @@ TRANSLATION_FEED_ATOM = ''
 AUTHOR_FEED_ATOM = ''
 AUTHOR_FEED_RSS = ''
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
-
 THEME = 'themes/quaternum'
 
 SUBTITLE = 'Dev web, père et maire'
@@ -57,5 +54,3 @@ STATIC_PATHS = [
 SITEMAP = {
     'format': 'xml',
 }
-
-#TYPOGRIFY = True
