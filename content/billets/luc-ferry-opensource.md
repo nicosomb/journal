@@ -6,4 +6,4 @@ Luc Ferry a publié [une tribune dans le Figaro](https://www.lefigaro.fr/vox/soc
 
 Sans commentaire.
 
-![« Le danger mortel de l'open source et des deepfakes »]({static}/images/ferry-opensource/image.jpeg#full "Le danger mortel de l'open source et des deepfakes"))
+![« Le danger mortel de l'open source et des deepfakes »]({static}/images/ferry-opensource/image.jpeg#full "Le danger mortel de l'open source et des deepfakes")
