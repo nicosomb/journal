@@ -70,7 +70,7 @@ Sans le dire officiellement, j'avais pour projet de tenir bien plus longtemps. N
 
 ### Nouvelles boissons
 
-J'ai commencé le mois de janvier en carburant à l'eau gazeuse avec de temps en temps (quand vraiment c'était la fête 🥳), une rondelle citron (youhou). Et puis en discutant avec plusieurs personnes sur Mastodon, je me suis laissé tenter de goûter autre chose.
+J'ai commencé le mois de janvier en carburant à l'eau gazeuse avec de temps en temps (quand vraiment c'était la fête 🥳), une rondelle de citron (youhou). Et puis en discutant avec plusieurs personnes sur Mastodon, je me suis laissé tenter de goûter autre chose.
 
 J'ai commandé (sur [LeFourgon.com](<https://www.lefourgon.com/> "LeFourgon.com"), faudrait que je vous en parle aussi, ou allez voir sinon) du Kombucha (au houblon, de la marque NOKO) ou encore du Club-Mate.
 
