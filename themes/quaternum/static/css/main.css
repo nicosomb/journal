@@ -676,8 +676,10 @@ blockquote {
 }
 
 .dark blockquote {
-    background-color: #111E2C;
-    color: #FA9ACF;
+    background-color: #1A2F45;
+    color: var(--text-color);
+    border-top: 1px solid #FA9ACF;
+    border-bottom: 1px solid #FA9ACF;
 }
 
 blockquote {
