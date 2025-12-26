@@ -540,7 +540,12 @@ body.dark {
         --background: #111E2C; }
     body.light-theme {
         --text-color: #1D3249;
-        --background: #ffffff; } }
+        --background: #ffffff; }
+    body:not(.light-theme) blockquote {
+        background-color: #1A2F45;
+        color: var(--text-color);
+        border-top: 1px solid #FA9ACF;
+        border-bottom: 1px solid #FA9ACF; } }
 
 .mode {
     font-family: inherit;
