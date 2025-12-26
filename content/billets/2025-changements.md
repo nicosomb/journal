@@ -12,7 +12,7 @@ Je ne regrette absolument pas ma décision. Je rate des "infos", mais rien d'imp
 
 Certains médias s'intéressent encore à ce sujet : dernièrement, ce sujet a été relancé à l'approche des prochaines élections municipales. 
 
-Je ne suis pas coupé du monde, j'ai toujours ce blog, mon blog d'élu (où il est possible de s'inscrire à une newsletter) et je suis aussi sur Mastodon. 
+Je n'ai pas l'impression d'être coupé du monde, j'ai des boites mail, j'ai ce blog et mon blog d'élu (où il est possible de s'inscrire à une newsletter) et je suis aussi sur Mastodon. Donc il est assez simple de suivre mon actualité municipale et de me contacter. 
 
 ## Salut les notifications
 
@@ -24,12 +24,13 @@ Gros changement fin août, j'ai en plus coupé les notifications mail de ma boit
 
 Dernièrement, y'a Karl qui évoque le sujet des notifications. 
 
-> La notification est utile uniquement si on peut faire quelque chose à son propos au moment où on la reçoit.
+> La notification est utile uniquement si on peut faire quelque chose à son propos au moment où on la reçoit.  
 > ([fonctions](https://www.la-grange.net/2025/11/28/fonctions), publié le 28 novembre 2025)
 
 ## Salut Spotify 
 
-Fin de l'été, prise de conscience concernant Spotify. [J'ai abordé le sujet rapidement ici](https://nicolas.loeuillet.org/billets/2025/09/02/je-ne-donne-plus-dargent-a-trump/). Depuis, le compte a été supprimé et j'ai suivi les tutos évoqués dans le billet de FLOZz : j'ai ma bibliothèque personnelle en ligne et ça me suffit amplement. 
+Fin de l'été, prise de conscience concernant Spotify. [J'ai abordé le sujet rapidement ici](https://nicolas.loeuillet.org/billets/2025/09/02/je-ne-donne-plus-dargent-a-trump/).  
+Depuis, le compte a été supprimé et j'ai suivi les tutos évoqués dans le billet de FLOZz : j'ai ma bibliothèque personnelle en ligne et ça me suffit amplement. 
 
 ## Salut les kilos
 
