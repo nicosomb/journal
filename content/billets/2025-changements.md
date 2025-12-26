@@ -1,5 +1,5 @@
 Title: 2025, l'année des changements impactants 
-Date: 2025-09-15 12:00
+Date: 2025-12-26 16:00
 Category: billets
 
 Fin 2024, quarante ans. L'occasion pour réfléchir à vivre plus sainement. 
