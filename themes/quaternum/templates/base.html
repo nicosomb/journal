@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content="Pelican" />
     <title>{% block title %} {{ SITENAME }} {% endblock %}</title>
-    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/{{ THEME_STATIC_DIR }}/css/main.css" />
     <link rel="shortcut icon" href="{{ attach }}/static/favicon.ico" />
     <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="Flux RSS du journal de{{ SITENAME }}" />
     {% block extra_head %}{% endblock extra_head %}
@@ -15,7 +15,7 @@
 <body>
     <header class="entete">
         <div class="titre">
-            <a href="{{ SITEURL }}">{{ SITENAME }}</a>
+            <a href="/">{{ SITENAME }}</a>
             <button class="mode"><svg class="switch" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
             3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
@@ -27,7 +27,7 @@
                 <h2>Derniers billets</h2>
                 <ul>
                     {% for article in articles[:5] %}
-                    <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+                    <li><a href="/{{ article.url }}">{{ article.title }}</a></li>
                     {% endfor %}
                     <li class="plus"><a href="/archives.html">les archives</a></li>
                 </ul>
