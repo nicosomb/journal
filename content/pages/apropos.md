@@ -2,7 +2,7 @@ Title: À propos
 
 ## Développeur PHP / Symfony
 
-Je suis **développeur PHP depuis près de 18 ans, spécialisé dans le framework Symfony**. [Mon CV au format PDF est disponible en téléchargement ici]({attach}/static/CV_nicolas_loeuillet.pdf). Vous retrouverez également toutes mes différentes expériences [sur mon profil Linkedin](https://www.linkedin.com/in/nicolas-l%C5%93uillet/).
+Je suis **développeur PHP depuis près de 20 ans, spécialisé dans le framework Symfony**. [Mon CV au format PDF est disponible en téléchargement ici]({attach}/static/CV_nicolas_loeuillet.pdf). Vous retrouverez également toutes mes différentes expériences [sur mon profil Linkedin](https://www.linkedin.com/in/nicolas-l%C5%93uillet/).
 
 ## Maire de Rinxent
 
@@ -11,7 +11,7 @@ J'ai un blog où je parle de mon actualité en tant qu'élu : [https://www.nicol
 
 ## Papa
 
-Je suis aussi **papa de deux enfants** de 10 et bientôt 9 ans, en garde alternée.
+Je suis aussi **papa de deux enfants** de 13 et bientôt 12 ans, en garde alternée.
 
 ## Passion photo
 
@@ -21,7 +21,7 @@ Je publie mes photos sur le site [« Instantanés »](https://instantanes.loeuil
 
 ## Open source
 
-Depuis de nombreuses années, **je contribue à l'open source et aux logiciels libres**. En avril 2013, j'ai décidé de créer une alternative à Pocket, Instapaper ou encore Pinboard : [wallabag](https://wallabag.org/fr) a maintenant plus de 8 ans et est utilisé dans le monde entier (traduit en plus de 15 langues). Afin de pouvoir proposer à tout le monde d'utiliser cette application (sans forcément avoir les connaissances techniques pour ça), j'ai créé le service en ligne [wallabag.it](https://www.wallabag.it/fr/) : pour un montant dérisoire, il vous est possible d'archiver et consulter sur différents supports (mobile, liseuse, tablette) les articles que vous sauvegardez. En cinq ans, c'est ainsi plus de 5.500 abonnements qui ont été souscrits.
+Depuis de nombreuses années, **je contribue à l'open source et aux logiciels libres**. En avril 2013, j'ai décidé de créer une alternative à Pocket, Instapaper ou encore Pinboard : [wallabag](https://wallabag.org/fr) a maintenant plus de 8 ans et est utilisé dans le monde entier (traduit en plus de 15 langues). Afin de pouvoir proposer à tout le monde d'utiliser cette application (sans forcément avoir les connaissances techniques pour ça), j'ai créé le service en ligne [wallabag.it](https://www.wallabag.it/fr/) : pour un montant dérisoire, il vous est possible d'archiver et consulter sur différents supports (mobile, liseuse, tablette) les articles que vous sauvegardez. En neuf ans, c'est ainsi plus de 13.000 abonnements qui ont été souscrits.
 
 ## Partager, transmettre, enseigner
 
@@ -35,4 +35,4 @@ De par mon expérience en tant que maire, en tant que formateur et enseignant, j
 
 ## On discute ?
 
-Je suis prêt à discuter avec vous si vous pensez que nous nous rejoignons sur plusieurs points. Envoyez-moi un mail à [nicolas@loeuillet.org](mailto:nicolas@loeuillet.org), je vous répondrai avec plaisir.
+Il y a quelques années, [j'ai détaillé ici comment j'aimerais me rendre utile au sein de votre organisation]({filename}../billets/ce-que-jaimerais-comme-emploi.md). Ça peut vous donner des idées pour que l'on puisse discuter ensemble. Envoyez-moi un mail à [nicolas@loeuillet.org](mailto:nicolas@loeuillet.org), je vous répondrai avec plaisir.
