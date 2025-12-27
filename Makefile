@@ -71,6 +71,6 @@ publish:
 deploy:
 	pip install invoke pelican[markdown]
 	pip install -r requirements.txt
-	pelican content -s publishconf.py
+	python -m pelican content -s publishconf.py
 
 .PHONY: html help clean regenerate serve serve-global devserver publish deploy
