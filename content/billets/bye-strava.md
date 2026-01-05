@@ -20,7 +20,7 @@ Le 1er janvier a donc été ma dernière sortie running publiée sur Strava, et 
 
 Ça donne donc : 
 
-- application Kiprun Racer (par Décathlon), qui me donne un programme d'entrainement de mantien en forme (à raison de 3 sorties par semaine)
+- application Kiprun Racer (par Décathlon), qui me donne un programme d'entrainement de maintien en forme (à raison de 3 sorties par semaine)
 - j'envoie chaque entrainement depuis cette application vers l'application Garmin et donc sur ma montre. 
 - je cours 🏃
 - y'a le suivi dans Kiprun Racer qui me juge un peu et qui me dit si ça va ou pas (et c'est bien mieux que vos likes 😝 !) et ça s'enregistre aussi dans Garmin. 
