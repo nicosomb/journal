@@ -27,5 +27,5 @@ Le 1er janvier a donc été ma dernière sortie running publiée sur Strava, et 
 - j'ai un tableau de bord de suivi si vraiment je veux revoir ça 
 - et c'est tout 
 
-Rapidement, avec Strava, j'avais recrée les contraintes d'un réseau social à la Facebook … que je venais justement de quitter.  
+Rapidement, avec Strava, j'avais recrée les contraintes d'un réseau social à la Facebook … [que je venais justement de quitter](https://nicolas.loeuillet.org/billets/2025/04/07/jai-quitte-facebook/).  
 Incohérent.
