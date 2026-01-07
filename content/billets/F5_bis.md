@@ -34,6 +34,6 @@ En mars 2018, j'ai été [élu maire de Rinxent]({filename}pourquoi-et-comment-j
 
 ## Photos
 
-J'ai toujours tenté de faire de la photo. Et j'ai récemment mis sur pied un petit site qui stocke tout ça. Ça tourne avec Piwigo et c'est ici : [photos.loeuillet.org](https://photos.loeuillet.org/).
+J'ai toujours tenté de faire de la photo. Et j'ai récemment mis sur pied un petit site qui stocke tout ça. Ça tourne avec Piwigo et c'est ici : photos.loeuillet.org *(MAJ en 2026 : ce site n'est plus en ligne, il est remplacé par [instantanes.loeuillet.org](https://instantanes.loeuillet.org/))*.
 
 Bonne journée à vous !

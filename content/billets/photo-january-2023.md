@@ -2,10 +2,9 @@ Title: #PhotoJanuary2023, tu participes avec moi ?
 Date: 2022-12-16 14:00
 Category: billets
 
-Je tente de faire de la photo depuis plusieurs années. J'ai même un site pour ça : [https://photos.loeuillet.org](https://photos.loeuillet.org/).
+Je tente de faire de la photo depuis plusieurs années. J'ai même un site pour ça : https://photos.loeuillet.org *(MAJ en 2026 : ce site n'est plus en ligne, il est remplacé par [instantanes.loeuillet.org](https://instantanes.loeuillet.org/))*.
 
-Ce mois-ci, j'ai tenté de m'imposer un exercice : publier une photo par jour, comme chaque petite fenêtre du calendrier de l'avent. [Ça se passe ici](https://photos.loeuillet.org/index.php?/tags/283-avent2022/posted-monthly-list).
-C'est pas tous les jours évident, mais c'est intéressant comme challenge.
+Ce mois-ci, j'ai tenté de m'imposer un exercice : publier une photo par jour, comme chaque petite fenêtre du calendrier de l'avent. C'est pas tous les jours évident, mais c'est intéressant comme challenge.
 
 Dans la même veine, Yann Chemineau, qui publie [de bien belles photos par ici](http://gallery.chemineau.eu/), a eu l'idée de (re)lancer [un défi photo mensuel sur Mastodon](https://piaille.fr/@yanncphoto/109517105084526705).
 Je vais donc y participer. C'est juste pour le plaisir : tu participes avec moi ?
