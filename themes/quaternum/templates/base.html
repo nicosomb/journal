@@ -47,7 +47,7 @@
 
     {% block content %}{% endblock %}
 
-    <footer><a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}">S'abonner au site via le flux Atom</a></footer>
+    <footer>Ce billet vous a plu ? <a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}">Abonnez-vous au flux Atom</a> pour ne pas rater les prochains.</footer>
 
     <script>
         const btn = document.querySelector(".mode");

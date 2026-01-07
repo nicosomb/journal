@@ -25,9 +25,11 @@
 
       {{ article.content }}
 
-        <section>
-            <aside><a href="mailto:nicolas@loeuillet.org">Réagir par mail</a></aside>
-        </section>
+      <hr />
+
+      <section>
+          <aside><a href="mailto:nicolas@loeuillet.org?subject={{article.title|striptags}}">Réagir par mail au billet <strong>« {{ article.title|striptags }} »</strong></a></aside>
+      </section>
 
     </article>
 </main>
