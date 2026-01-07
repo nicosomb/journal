@@ -5,7 +5,7 @@ Category: billets
 
 En ce dimanche de septembre, sous le soleil, nous avons rendu visite au Dragon de Calais.
 
-Le reste des photos se trouve [sur mon site photo](https://photos.loeuillet.org/index.php?/category/740).
+Le reste des photos se trouve sur mon site photo.
 
 ![Dragon de Calais]({static}/images/le-dragon-de-calais/3840.jpg#full "Dragon de Calais")
 

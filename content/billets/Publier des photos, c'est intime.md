@@ -14,7 +14,7 @@ Publier des photos, surtout dans mon cercle proche (famille et amis), je n'ai pa
 
 **Publier des photos, j'ai l'impression que c'est comme publier un texte que l'on a rédigé : c'est intime, personnel et pas toujours évident à accepter qu'il soit lu / qu'elle soit regardée par d'autres**.
 
-J'ai déjà un endroit où je publie tout ça ([https://photos.loeuillet.org/](https://photos.loeuillet.org)), mais le format de ce site (d'avoir tout ça rangé sous forme d'albums) ne me convient pas tout le temps. Il restera en ligne, mais c'est plus pour y stocker un ensemble de photos (un séjour, un événement particulier, etc.)
+J'ai déjà un endroit où je publie tout ça (photos.loeuillet.org *(MAJ en 2026 : ce site n'est plus en ligne)*), mais le format de ce site (d'avoir tout ça rangé sous forme d'albums) ne me convient pas tout le temps. Il restera en ligne, mais c'est plus pour y stocker un ensemble de photos (un séjour, un événement particulier, etc.)
 
 Je voulais mettre en avant uniquement une sélection de photos, celles que je trouve jolies ou celles qui sont importantes pour moi. C'est pourquoi j'ai créé ce petit site, sans prétention : Instantanés [https://instantanes.loeuillet.org/](https://instantanes.loeuillet.org/)
 
