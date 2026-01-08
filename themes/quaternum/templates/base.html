@@ -29,7 +29,7 @@
                     {% for article in articles[:5] %}
                     <li><a href="/{{ article.url }}">{{ article.title }}</a></li>
                     {% endfor %}
-                    <li class="plus"><a href="/archives.html">les archives</a></li>
+                    <li class="plus"><a href="/archives.html">les archives</a> ({{ articles|length }} billets)</li>
                 </ul>
             </section>
             <nav class="navigation">
@@ -47,7 +47,7 @@
 
     {% block content %}{% endblock %}
 
-    <footer>Ce billet vous a plu ? <a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}">Abonnez-vous au flux Atom</a> pour ne pas rater les prochains.</footer>
+    <footer><a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}">Abonnez-vous au flux Atom</a> pour ne rater aucun article.</footer>
 
     <script>
         const btn = document.querySelector(".mode");
