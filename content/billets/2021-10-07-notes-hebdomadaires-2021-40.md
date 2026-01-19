@@ -1,0 +1,47 @@
+---
+title: Notes hebdomadaires 2021-40
+date: 2021-10-07 15:37:00
+category: billets
+layout: article.njk
+permalink: billets/2021/10/07/notes-hebdomadaires-2021-40/index.html
+---
+
+![Arc en ciel](/images/2021-10-07-notes-hebdomadaires-2021-40/arcenciel.jpeg)
+
+(photo de la bannière : arc en ciel en revenant d'une journée chez des amis)
+
+## Amis
+
+Des amis, c’est des personnes que tu n’es pas obligé de voir régulièrement.  
+Et qui ne te jugent pas sur ce que tu fais dans ta vie perso.  
+Et qui t’acceptent tout le temps.  
+Et qui t’aiment quand même.
+
+Le week-end dernier, j’étais chez de vrais amis. Et ça fait du bien <3
+
+## Bureau d'hiver
+
+Mon bureau à la maison se situe au bout du garage. Une pièce à part. Mais pas isolée. Et là, depuis une semaine, j'ai quitté mon bureau d'été pour le bureau d'hiver. Ça fait classe je trouve de dire ça.
+
+## Cheminée
+
+![Poêle à bois en route, à côté d'un fauteuil marron](/images/2021-10-07-notes-hebdomadaires-2021-40/IMG_0534.jpg)
+
+Et forcément, par la même occasion, on a remis en route la cheminée. Et c'est pas désagréable.
+
+
+## Panne Facebook
+
+Avec la coupure, il y a quelques jours, de Facebook, Whatsapp etc., on se rend compte que des personnes n'ont une "vie sociale" qu'avec ces plateformes. Nombreuses sont celles qui ne savaient plus comment contacter tel/le ou tel/le proche.
+
+Que certaines activités (restaurants, hôtels, etc) sont dépendantes de ces plateformes pour les prises de RDV, de contacts, etc. Que leurs clients sont dépendants également pour avoir des informations.
+
+On a vraiment perdu un truc avec le web en 15 ans de temps.
+
+Car pour beaucoup, oui, tous ces services sont **le web**.
+
+Mais toutes ces personnes ne consultent que ces réseaux, ces applications fermées. Et ne se rendent pas sur les sites internet des restaurants / hôtels en question.
+
+Pendant ce temps, au boulot, je prépare la certification Opquast. Alors que Facebook, Instagram et cie s'en tapent le cul par terre d'Opquast.
+
+**Nos métiers sont-ils encore utiles ?**

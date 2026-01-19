@@ -1,0 +1,37 @@
+---
+title: Notes hebdomadaires 2021-41
+date: 2021-10-14 15:59:00
+category: billets
+layout: article.njk
+permalink: billets/2021/10/14/notes-hebdomadaires-2021-41/index.html
+---
+
+![Clavier Typematrix](/images/2021-10-14-notes-hebdomadaires-2021-41/typematrix.jpg)
+
+(photo de la bannière : mon clavier Typematrix avec la disposition BÉPO)
+
+## Paris web
+
+J’ai eu la chance de pouvoir suivre quelques conférences proposées la semaine dernière lors de [Paris web 2021](https://www.paris-web.fr/2021/). La dernière fois (et la première fois, c’était en [2012](https://www.paris-web.fr/2012/), une éternité.
+
+PW se veut généraliste et elle concerne tous les métiers du web. Cette année, dans les choses à ne pas manquer (mais faut tout regarder hein) :
+* [Réseaux sociaux, GAFAM et vie privée chez les ados (vu par une ado)](https://www.paris-web.fr/2021/conferences/reseaux-sociaux-gafam-et-vie-privee-chez-les-ados-vu-par-une-ado.php). À montrer aux enfants de votre entourage (et aux parents aussi). Et puis Camille est top, alors voila hein.
+* [Tous sur écran, quels enjeux éthiques ?](https://www.paris-web.fr/2021/conferences/tous-sur-ecran-quels-enjeux-ethiques.php). Amélie Boucher est une pointure en UX. Cette vidéo est à montrer à tous les corps de métier du web, mais aussi à toutes les personnes qui utilisent le web (coucou maman !). Avec plein d’exemples concrets, on a un aperçu des mauvaises pratiques en terme d’interfaces.
+* [Palmarès 2021 des idées fausses sur l'accessibilité numérique](https://www.paris-web.fr/2021/conferences/palmares-2021-des-idees-fausses-sur-laccessibilite-numerique.php). Plein d’exemples concrets sur l’accessibilité. Pour tous les métiers du web mais aussi pour les clients.
+
+Bon, et vous savez quoi ? J’ai envoyé ma candidature pour postuler au staff de PW. Gloups.
+
+## Engie, épisode 42
+
+Courrier du service contentieux d’Engie et coup de fil de leur boite vocale la même journée. Donc j’appelle le service contentieux.
+
+> Ah oui Monsieur je vois que vous avez contesté votre facture. Mais la procédure est en cours et on peut pas l’arrêter. Donc si vous ne payez rien d’ici le 23/10, c’est possible que votre abonnement soit diminué.
+
+Du coup j’ai dit que je voulais bien payer 5€.
+
+Voilà, logiquement, je ne devrais plus être emmerdé.  
+Ou pas.
+
+## BÉPO
+
+L’an dernier, j’ai racheté un clavier orthogonal de Typematrix, avec comme disposition du BÉPO. Il y a de nombreuses années, j’avais tenté, puis laissé tomber. Je retente. On verra ce que ça donne au bout de quelques semaines.

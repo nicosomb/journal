@@ -1,0 +1,34 @@
+{% extends "base.njk" %}
+
+{% block html_lang %}fr{% endblock %}
+
+{% block head %}
+{{ super() }}
+{% if summary %}
+<meta name="description" content="{{ summary | striptags | truncate(150) }}" />
+{% endif %}
+{% endblock %}
+
+{% block title %}{{ title | striptags }} | {{ site.siteName }}{% endblock %}
+
+{% block content %}
+
+<main>
+    <section>
+      <p>{{ date | strftime('%d-%m-%Y') }}</p>
+    </section>
+    <article>
+      <h1>{{ title }}</h1>
+
+      {{ content | safe }}
+
+      <hr />
+
+      <section>
+          <aside><a href="mailto:nicolas@loeuillet.org?subject={{ title | striptags | urlencode }}">Réagir par mail au billet <strong>« {{ title | striptags }} »</strong></a></aside>
+      </section>
+
+    </article>
+</main>
+
+{% endblock %}
