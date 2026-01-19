@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="{% if html_lang %}{{ html_lang }}{% else %}fr{% endif %}">
+<head>
+    {% block head %}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}{{ site.siteName }}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="/theme/css/main.css" />
+    <link rel="shortcut icon" href="/static/favicon.ico" />
+    <link href="{{ site.siteUrl }}/{{ site.feedAllAtom }}" type="application/atom+xml" rel="alternate" title="Flux RSS du {{ site.siteName }}" />
+    {% block extra_head %}{% endblock extra_head %}
+    {% endblock head %}
+</head>
+<body>
+    <header class="entete">
+        <div class="titre">
+            {% if page.url != '/' %}
+            <a href="/">Page d'accueil</a>
+            {% endif %}
+            <button class="mode"><svg class="switch" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+            3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+            13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"></path>
+            </svg></button>
+        </div>
+        <section class="menu">
+            <section class="flux">
+                <h2>Derniers billets</h2>
+                <ul>
+                    {% for article in collections.billets | limit(5) %}
+                    <li><a href="{{ article.url }}">{{ article.data.title }}</a></li>
+                    {% endfor %}
+                    <li class="plus"><a href="/archives.html">les archives</a> ({{ collections.billets | length }} billets)</li>
+                </ul>
+            </section>
+            <nav class="navigation">
+                <h2>Ailleurs</h2>
+                    {% if site.social %}
+                    <ul>
+                        {% for item in site.social %}
+                        <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+            </nav>
+        </section>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer>
+        <p><a href="{{ site.siteUrl }}/{{ site.feedAllAtom }}">Abonnez-vous au flux Atom</a> pour ne rater aucun article.</p>
+        {% if page.url != '/' %}
+        <p>{{ site.siteName }}, par <a href="mailto:nicolas@loeuillet.org">{{ site.author }}</a></p>
+        {% endif %}
+    </footer>
+
+    <script>
+        const btn = document.querySelector(".mode");
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+        const currentTheme = localStorage.getItem("theme");
+        if (currentTheme === "dark") {
+            document.body.classList.toggle("dark");
+        } else if (currentTheme === "light") {
+            document.body.classList.toggle("light-theme");
+        }
+
+        btn.addEventListener("click", function () {
+            if (prefersDarkScheme.matches) {
+                document.body.classList.toggle("light-theme");
+                var theme = document.body.classList.contains("light-theme")
+                    ? "light"
+                    : "dark";
+            } else {
+                document.body.classList.toggle("dark");
+                var theme = document.body.classList.contains("dark")
+                    ? "dark"
+                    : "light";
+            }
+            localStorage.setItem("theme", theme);
+        });
+    </script>
+</body>
+</html>
