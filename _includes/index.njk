@@ -1,0 +1,16 @@
+{% extends "base.njk" %}
+
+{% block content %}
+
+{% if not category and not tag %}
+<main>
+  <article>
+    <h1>{{ site.siteName }}</h1>
+    {% if site.subtext %}
+      {{ site.subtext | safe }}
+    {% endif %}
+  </article>
+</main>
+{% endif %}
+
+{% endblock %}

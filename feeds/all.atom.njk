@@ -1,0 +1,32 @@
+---
+layout: null
+permalink: feeds/all.atom.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.siteName }}</title>
+  <link href="{{ site.siteUrl }}/" rel="alternate"></link>
+  <link href="{{ site.siteUrl }}/feeds/all.atom.xml" rel="self"></link>
+  <id>{{ site.siteUrl }}/</id>
+  <updated>{% if collections.billets[0] %}{{ collections.billets[0].date | dateToRfc3339 }}{% else %}{{ "" | nowToRfc3339 }}{% endif %}</updated>
+  <subtitle>{{ site.subtitle }}</subtitle>
+  {%- for post in collections.billets | limit(20) %}
+  {%- set absolutePostUrl = post.url | absoluteUrl(site.siteUrl) %}
+  {%- set postDateOnly = post.date | strftime('%Y-%m-%d') %}
+  {%- set siteId = site.siteUrl | replace('https://', '') | replace('http://', '') | replace('://', '') | replace(':8080', '') | replace(':8000', '') %}
+  {%- set postContent = post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | escape %}
+  <entry>
+    <title>{{ post.data.title | escape }}</title>
+    <link href="{{ absolutePostUrl }}" rel="alternate"></link>
+    <published>{{ post.date | dateToRfc3339 }}</published>
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <author>
+      <name>{{ site.author }}</name>
+    </author>
+    <id>tag:{{ siteId }},{{ postDateOnly }}:{{ post.url }}</id>
+    <summary type="html">{{ postContent }}</summary>
+    <content type="html">{{ postContent }}</content>
+  </entry>
+  {%- endfor %}
+</feed>

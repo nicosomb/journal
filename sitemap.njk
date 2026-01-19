@@ -1,0 +1,45 @@
+---
+layout: null
+permalink: sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+<loc>{{ site.siteUrl }}/</loc>
+<lastmod>{% if collections.billets[0] %}{{ collections.billets[0].date | dateToRfc3339 }}{% else %}{{ "" | nowToRfc3339 }}{% endif %}</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>{{ site.siteUrl }}/archives.html</loc>
+<lastmod>{% if collections.billets[0] %}{{ collections.billets[0].date | dateToRfc3339 }}{% else %}{{ "" | nowToRfc3339 }}{% endif %}</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+{%- for page in collections.all %}
+{%- if page.data.layout == 'page.njk' %}
+<url>
+<loc>{{ site.siteUrl }}{{ page.url }}</loc>
+<lastmod>{% if page.date %}{{ page.date | dateToRfc3339 }}{% else %}{{ "" | nowToRfc3339 }}{% endif %}</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+{%- endif %}
+{%- endfor %}
+
+{%- for post in collections.billets %}
+<url>
+<loc>{{ site.siteUrl }}{{ post.url }}</loc>
+<lastmod>{{ post.date | dateToRfc3339 }}</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+{%- endfor %}
+
+</urlset>
