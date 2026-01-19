@@ -1,3 +1,7 @@
-__pycache__/
+node_modules/
 output/
-webmention-cache/
+.DS_Store
+*.log
+migration-scripts/
+__pycache__/
+11ty/

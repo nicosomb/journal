@@ -1,12 +1,16 @@
-Title: À propos
+---
+title: À propos
+layout: page.njk
+permalink: pages/a-propos.html
+---
 
 ## Développeur PHP / Symfony
 
-Je suis **développeur PHP depuis près de 20 ans, spécialisé dans le framework Symfony**. [Mon CV au format PDF est disponible en téléchargement ici]({attach}/static/CV_nicolas_loeuillet.pdf). Vous retrouverez également toutes mes différentes expériences [sur mon profil Linkedin](https://www.linkedin.com/in/nicolas-l%C5%93uillet/).
+Je suis **développeur PHP depuis près de 20 ans, spécialisé dans le framework Symfony**. [Mon CV au format PDF est disponible en téléchargement ici](/static/CV_nicolas_loeuillet.pdf). Vous retrouverez également toutes mes différentes expériences [sur mon profil Linkedin](https://www.linkedin.com/in/nicolas-l%C5%93uillet/).
 
 ## Maire de Rinxent
 
-Début 2018, j'ai souhaité m'impliquer dans la vie de ma commune. C'est ainsi que j'ai été **élu maire de Rinxent en mars 2018.** [J'en parle plus longuement ici]({filename}../billets/pourquoi-et-comment-je-suis-devenu-le-maire-de-ma-commune.md). J'ai été réélu en mars 2020 pour un mandat de 6 ans. Tous les jours, nous gérons donc une collectivité de 3.000 habitants avec une équipe de 30 agents municipaux et une équipe d'élus de 25 personnes. Comptabilité, RH, organisation de festivités, urbanisme, travaux, relationnel avec les associations, les concitoyens, les écoles ou encore les entreprises sont une partie des sujets qui rythment la vie municipale.
+Début 2018, j'ai souhaité m'impliquer dans la vie de ma commune. C'est ainsi que j'ai été **élu maire de Rinxent en mars 2018.** [J'en parle plus longuement ici](/billets/2018/10/09/pourquoi-et-comment-je-suis-devenu-le-maire-de-ma-commune-non-je-ne-suis-pas-tombe-sur-la-tete/). J'ai été réélu en mars 2020 pour un mandat de 6 ans. Tous les jours, nous gérons donc une collectivité de 3.000 habitants avec une équipe de 30 agents municipaux et une équipe d'élus de 25 personnes. Comptabilité, RH, organisation de festivités, urbanisme, travaux, relationnel avec les associations, les concitoyens, les écoles ou encore les entreprises sont une partie des sujets qui rythment la vie municipale.
 J'ai un blog où je parle de mon actualité en tant qu'élu : [https://www.nicolasloeuillet.fr/](https://www.nicolasloeuillet.fr/).
 
 ## Papa
@@ -15,7 +19,7 @@ Je suis aussi **papa de deux enfants** de 13 et bientôt 12 ans, en garde altern
 
 ## Passion photo
 
-**Je tente de faire de la photo**. J’en parle ici notamment : [Publier des photos, c’est intime]({filename}../billets/Publier des photos, c'est intime.md).
+**Je tente de faire de la photo**. J'en parle ici notamment : [Publier des photos, c'est intime](/billets/2023/03/10/publier-des-photos-cest-intime/).
 
 Je publie mes photos sur le site [« Instantanés »](https://instantanes.loeuillet.org/) et sur [Flickr](https://www.flickr.com/photos/nicolasloeuillet/) (qui n'est qu'un miroir du site Instantanés).
 
@@ -35,4 +39,4 @@ De par mon expérience en tant que maire, en tant que formateur et enseignant, j
 
 ## On discute ?
 
-Il y a quelques années, [j'ai détaillé ici comment j'aimerais me rendre utile au sein de votre organisation]({filename}../billets/ce-que-jaimerais-comme-emploi.md). Ça peut vous donner des idées pour que l'on puisse discuter ensemble. Envoyez-moi un mail à [nicolas@loeuillet.org](mailto:nicolas@loeuillet.org), je vous répondrai avec plaisir.
+Il y a quelques années, [j'ai détaillé ici comment j'aimerais me rendre utile au sein de votre organisation](/billets/2017/02/26/ce-que-jaimerais-comme-emploi/). Ça peut vous donner des idées pour que l'on puisse discuter ensemble. Envoyez-moi un mail à [nicolas@loeuillet.org](mailto:nicolas@loeuillet.org), je vous répondrai avec plaisir.
