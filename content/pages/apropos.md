@@ -6,7 +6,7 @@ permalink: pages/a-propos.html
 
 ## Développeur PHP / Symfony
 
-Je suis **développeur PHP depuis près de 20 ans, spécialisé dans le framework Symfony**. [Mon CV au format PDF est disponible en téléchargement ici](/static/CV_nicolas_loeuillet.pdf). Vous retrouverez également toutes mes différentes expériences [sur mon profil Linkedin](https://www.linkedin.com/in/nicolas-l%C5%93uillet/).
+Je m'appelle Nicolas Lœuillet, je suis **développeur PHP depuis près de 20 ans, spécialisé dans le framework Symfony**. [Mon CV au format PDF est disponible en téléchargement ici](/static/CV_nicolas_loeuillet.pdf). Vous retrouverez également toutes mes différentes expériences [sur mon profil Linkedin](https://www.linkedin.com/in/nicolas-l%C5%93uillet/).
 
 ## Maire de Rinxent
 
@@ -40,3 +40,7 @@ De par mon expérience en tant que maire, en tant que formateur et enseignant, j
 ## On discute ?
 
 Il y a quelques années, [j'ai détaillé ici comment j'aimerais me rendre utile au sein de votre organisation](/billets/2017/02/26/ce-que-jaimerais-comme-emploi/). Ça peut vous donner des idées pour que l'on puisse discuter ensemble. Envoyez-moi un mail à [nicolas@loeuillet.org](mailto:nicolas@loeuillet.org), je vous répondrai avec plaisir.
+
+## Ce site 
+
+Ce site est généré par Eleventy. Le thème est largement ~~inspiré~~ copié-collé (avec son accord) de [quaternum.net](https://www.quaternum.net/) d'Antoine.
