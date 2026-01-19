@@ -12,6 +12,8 @@ publie des <a href="archives.html">choses intéressantes</a> (ou pas). Je tente 
     { name: 'mastodon', url: 'https://piaille.fr/@nicosomb' },
     { name: 'github', url: 'https://github.com/nicosomb' }
   ],
+  githubRepo: 'https://github.com/nicosomb/journal',
+  githubBranch: 'main',
   timezone: 'Europe/Paris',
   feedAllAtom: 'feeds/all.atom.xml'
 };

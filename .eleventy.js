@@ -57,6 +57,14 @@ module.exports = function(eleventyConfig) {
     return link;
   });
 
+  // Filtre pour nettoyer le chemin de fichier (enlever ./ au début)
+  eleventyConfig.addFilter("cleanPath", (path) => {
+    if (path && path.startsWith('./')) {
+      return path.substring(2);
+    }
+    return path;
+  });
+
   // Filtre pour limiter une collection à N éléments
   eleventyConfig.addFilter("limit", function(array, limit) {
     return array.slice(0, limit);

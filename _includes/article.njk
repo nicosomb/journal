@@ -25,7 +25,12 @@
       <hr />
 
       <section>
-          <aside><a href="mailto:nicolas@loeuillet.org?subject={{ title | striptags | urlencode }}">Réagir par mail au billet <strong>« {{ title | striptags }} »</strong></a></aside>
+          <aside>
+          <a href="mailto:nicolas@loeuillet.org?subject={{ title | striptags | urlencode }}">Réagir par mail au billet <strong>«&nbsp;{{ title | striptags }}&nbsp;»</strong></a>. 
+          {% if page.inputPath %}
+          Si vous constatez une coquille dans ce billet, vous pouvez <a href="{{ site.githubRepo }}/blob/{{ site.githubBranch }}/{{ page.inputPath | cleanPath }}">proposer une correction ici</a>.
+          {% endif %}<hr />
+          </aside>
       </section>
 
     </article>
