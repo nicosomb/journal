@@ -3,7 +3,7 @@
 {% block content %}
 
 {% if not category and not tag %}
-<main>
+<main data-pagefind-ignore>
   <article>
     <h1>{{ site.siteName }}</h1>
     {% if site.subtext %}

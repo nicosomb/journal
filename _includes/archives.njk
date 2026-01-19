@@ -3,7 +3,7 @@
 {% block title %}Archives | {{ site.siteName }}{% endblock %}
 
 {% block content %}
-<main>
+<main data-pagefind-ignore>
     <article>
         <h1>Archives</h1>
         {% set grouped = collections.billets | groupByYear %}

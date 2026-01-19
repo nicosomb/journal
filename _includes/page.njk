@@ -4,7 +4,7 @@
 
 {% block content %}
 
-<main>
+<main{% if page.url == '/404.html' %} data-pagefind-ignore{% endif %}>
     <article>
         <h1>{{ title }}</h1>
         {{ content | safe }}
