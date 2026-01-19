@@ -557,7 +557,8 @@ body.dark {
     color: var(--text-color);
     background-color: var(--background);
     cursor: pointer;
-    border: none; }
+    border: none;
+}
 
 nav ul, nav li, .colonne ul, .colonne li, .flux ul, .flux li, .liste ul, .liste li {
     margin: 0;
@@ -619,6 +620,10 @@ img {
 
 summary {
     cursor: pointer; }
+
+.titre a {
+    font-size: 0.75em;
+}
 
 .menu {
     display: flex;
@@ -783,4 +788,97 @@ pre::before {
     .photos-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+/* Pagefind search styles */
+#search {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+#search[data-state="open"] {
+    display: block;
+}
+
+#search .pagefind-ui {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 900px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    background: var(--background);
+    color: var(--text-color);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    pointer-events: auto;
+}
+
+#search[data-state="open"] {
+    pointer-events: auto;
+}
+
+.search-close-link {
+    color: var(--text-color);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    margin-left: 1rem;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.search-close-link:hover {
+    color: var(--text-color);
+}
+
+.search-close:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.search-close:focus {
+    outline: 2px solid var(--text-color);
+    outline-offset: 2px;
+}
+
+#search .pagefind-ui__search-input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid var(--text-color);
+    border-radius: 4px;
+    background: var(--background);
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+#search .pagefind-ui__results-area {
+    margin-top: 1rem;
+}
+
+#search .pagefind-ui__result {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--text-color);
+}
+
+#search .pagefind-ui__result-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+#search .pagefind-ui__result-excerpt {
+    font-size: 0.9rem;
+    color: var(--text-color);
+    opacity: 0.8;
 }
