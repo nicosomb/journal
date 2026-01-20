@@ -983,3 +983,54 @@ body.dark .webmention {
     opacity: 1;
     text-decoration: underline;
 }
+
+.webmentions-group {
+    margin-bottom: 2em;
+}
+
+.webmentions-group-title {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 0.75em;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.webmention-icon {
+    font-size: 1.2em;
+}
+
+.webmentions-list-compact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+.webmentions-list-compact .webmention {
+    margin-bottom: 0;
+    padding: 0.5em 0.75em;
+    border-left: none;
+    border-radius: 4px;
+    flex: 0 0 auto;
+}
+
+.webmentions-list-compact .webmention-author {
+    margin-bottom: 0;
+    gap: 0.5em;
+}
+
+.webmentions-list-compact .webmention-avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.webmentions-list-compact .webmention-author-name {
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+
+.webmentions-list-compact .webmention-author-info {
+    display: flex;
+    align-items: center;
+}

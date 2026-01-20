@@ -74,6 +74,16 @@ module.exports = function(eleventyConfig) {
     return path;
   });
 
+  eleventyConfig.addFilter("filterByProperty", (array, property, value) => {
+    if (!Array.isArray(array)) return [];
+    return array.filter(item => item && item[property] === value);
+  });
+
+  eleventyConfig.addFilter("filterByPropertyNot", (array, property, ...values) => {
+    if (!Array.isArray(array)) return [];
+    return array.filter(item => item && item[property] && !values.includes(item[property]));
+  });
+
   // Filtre pour limiter une collection à N éléments
   eleventyConfig.addFilter("limit", function(array, limit) {
     return array.slice(0, limit);
