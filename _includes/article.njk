@@ -7,9 +7,9 @@
 {% if summary %}
 <meta name="description" content="{{ summary | striptags | truncate(150) }}" />
 {% endif %}
-{% endblock %}
+{% endblock head %}
 
-{% block title %}{{ title | striptags }} | {{ site.siteName }}{% endblock %}
+{% block title %}{{ title | striptags }} | {{ site.siteName }}{% endblock title %}
 
 {% block content %}
 
@@ -41,4 +41,4 @@
     </article>
 </main>
 
-{% endblock %}
+{% endblock content %}
