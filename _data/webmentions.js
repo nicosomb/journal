@@ -71,7 +71,7 @@ async function fetchWebmentions() {
       organized[url].sort((a, b) => {
         const dateA = new Date(a.published || a['wm-received']);
         const dateB = new Date(b.published || b['wm-received']);
-        return dateB - dateA;
+        return dateA - dateB;
       });
     });
 
