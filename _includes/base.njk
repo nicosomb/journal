@@ -8,6 +8,10 @@
     <link rel="stylesheet" type="text/css" href="/theme/css/main.css" />
     <link rel="shortcut icon" href="/static/favicon.ico" />
     <link href="{{ site.siteUrl }}/{{ site.feedAllAtom }}" type="application/atom+xml" rel="alternate" title="Flux RSS du {{ site.siteName }}" />
+    {% if page.url %}
+    <link rel="webmention" href="https://webmention.io/{{ site.webmentionDomain }}/webmention" />
+    <link rel="pingback" href="https://webmention.io/{{ site.webmentionDomain }}/xmlrpc" />
+    {% endif %}
     {% block extra_head %}{% endblock extra_head %}
     {% endblock head %}
 </head>
@@ -27,8 +31,8 @@
             <section class="flux">
                 <h2>Derniers billets</h2>
                 <ul>
-                    {% for article in collections.billets | limit(5) %}
-                    <li><a href="{{ article.url }}">{{ article.data.title }}</a></li>
+                    {% for article in collections.billets | limit(3) %}
+                    <li><a href="{{ article.url }}">{{ article.data.title }}</a> ({{ article.date | strftime('%d-%m-%Y') }})</li>
                     {% endfor %}
                     <li class="plus"><a href="/archives.html">les archives</a> ({{ collections.billets | length }} billets)</li>
                     <li class="plus"><a href="#" id="search-link">Recherche</a></li>
