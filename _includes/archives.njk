@@ -13,7 +13,12 @@
             <h2>{{ year }} ({{ articles | length }} billets)</h2>
             <ul class="nolist">
             {% for article in articles %}
-                <li><a href="{{ article.url }}"><strong>{{ article.data.title }}</strong> — {{ article.date | strftime('%d-%m-%Y') }}</a></li>
+                <li>
+                    <a href="{{ article.url }}"><strong>{{ article.data.title }}</strong></a>
+                    {% set reactionCount = webmentions | countWebmentions(article.url, site.siteUrl) %}
+                    <span class="reaction-count">({% if reactionCount > 0 %}<a href="{{ article.url }}#webmentions">{{ reactionCount }} {% if reactionCount > 1 %}réactions{% else %}réaction{% endif %}</a>{% else %}0 réaction{% endif %})</span>
+                    — {{ article.date | strftime('%d-%m-%Y') }}
+                </li>
             {% endfor %}
             </ul>
         {% endfor %}

@@ -15,7 +15,14 @@
 
 <main>
     <section>
-      <p>{{ date | strftime('%d-%m-%Y') }}</p>
+      <p>{{ date | strftime('%d-%m-%Y') }}
+      {% set reactionCount = webmentions | countWebmentions(page.url, site.siteUrl) %}
+      {% if reactionCount > 0 %}
+      — <a href="#webmentions">{{ reactionCount }} {% if reactionCount > 1 %}réactions{% else %}réaction{% endif %}</a>
+      {% else %}
+      — 0 réaction
+      {% endif %}
+      </p>
     </section>
     <article>
       <h1>{{ title }}</h1>

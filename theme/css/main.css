@@ -669,6 +669,19 @@ summary {
 .plus {
     font-weight: 700; }
 
+.reaction-count {
+    font-weight: normal;
+}
+
+.reaction-count a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.reaction-count a:hover {
+    text-decoration: underline;
+}
+
 .nolist {
     list-style: none;
     padding-left: 0; }

@@ -89,6 +89,23 @@ module.exports = function(eleventyConfig) {
     return array.filter(item => item && item[property] && !values.includes(item[property]));
   });
 
+  eleventyConfig.addFilter("countWebmentions", (webmentions, url, siteUrl) => {
+    if (!webmentions || !url) return 0;
+    
+    const baseUrl = siteUrl || process.env.URL || process.env.SITEURL || 'http://127.0.0.1:8080';
+    const pageUrl = url;
+    const normalizedPageUrl = url.replace('/index.html', '').replace('.html', '');
+    const fullPageUrl = baseUrl + url;
+    const fullNormalizedPageUrl = baseUrl + normalizedPageUrl;
+    
+    const mentions = webmentions[pageUrl] || 
+                     webmentions[normalizedPageUrl] || 
+                     webmentions[fullPageUrl] || 
+                     webmentions[fullNormalizedPageUrl] || 
+                     [];
+    return Array.isArray(mentions) ? mentions.length : 0;
+  });
+
   // Filtre pour limiter une collection à N éléments
   eleventyConfig.addFilter("limit", function(array, limit) {
     return array.slice(0, limit);
