@@ -225,12 +225,12 @@
                     const icon = this.querySelector('.webmentions-toggle-icon');
                     
                     if (target) {
-                        if (target.style.display === 'none') {
-                            target.style.display = 'block';
-                            if (icon) icon.textContent = '▲';
-                        } else {
-                            target.style.display = 'none';
+                        if (target.classList.contains('webmentions-visible')) {
+                            target.classList.remove('webmentions-visible');
                             if (icon) icon.textContent = '▼';
+                        } else {
+                            target.classList.add('webmentions-visible');
+                            if (icon) icon.textContent = '▲';
                         }
                     }
                 });
