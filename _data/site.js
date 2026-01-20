@@ -32,6 +32,5 @@ publie des <a href="archives.html">choses intéressantes</a> (ou pas). Je tente 
   githubRepo: 'https://github.com/nicosomb/journal',
   githubBranch: 'main',
   timezone: 'Europe/Paris',
-  feedAllAtom: 'feeds/all.atom.xml',
-  webmentionDomain: process.env.WEBMENTION_IO_DOMAIN || ''
+  feedAllAtom: 'feeds/all.atom.xml'
 };
