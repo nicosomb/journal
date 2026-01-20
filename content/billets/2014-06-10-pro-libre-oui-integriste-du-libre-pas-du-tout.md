@@ -1,7 +1,7 @@
 ---
 title: Pro libre, oui. Intégriste du libre, pas du tout.
-date: 2014-06-10 20:59:00
 category: billets
+date: 2014-06-10 20:59:00
 layout: article.njk
 permalink: billets/2014/06/10/pro-libre-oui-integriste-du-libre-pas-du-tout/index.html
 ---

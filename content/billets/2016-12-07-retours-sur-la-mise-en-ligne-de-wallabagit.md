@@ -1,7 +1,7 @@
 ---
 title: Retours sur la mise en ligne de wallabag.it
-date: 2016-12-07 23:00:00
 category: billets
+date: 2016-12-07 23:00:00
 layout: article.njk
 permalink: billets/2016/12/07/retours-sur-la-mise-en-ligne-de-wallabagit/index.html
 ---

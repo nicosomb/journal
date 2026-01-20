@@ -1,7 +1,7 @@
 ---
 title: Air up, ou le sucre désucrifié
-date: 2025-01-20 09:00:00
 category: billets
+date: 2025-01-20 09:00:00
 layout: article.njk
 permalink: billets/2025/01/20/air-up-ou-le-sucre-desucrifie/index.html
 ---

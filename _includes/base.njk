@@ -34,8 +34,7 @@
                     {% for article in collections.billets | limit(3) %}
                     <li><a href="{{ article.url }}">{{ article.data.title }}</a> ({{ article.date | strftime('%d-%m-%Y') }})</li>
                     {% endfor %}
-                    <li class="plus"><a href="/archives.html">les archives</a> ({{ collections.billets | length }} billets)</li>
-                    <li class="plus"><a href="#" id="search-link">Recherche</a></li>
+                    <li class="plus"><a href="/archives.html">Archives</a> ({{ collections.billets | length }} billets)</li>
                 </ul>
             </section>
             <nav class="navigation">
@@ -47,6 +46,10 @@
                         {% endfor %}
                     </ul>
                     {% endif %}
+                    <ul>
+                        <li class="plus"><a href="#" id="search-link">Recherche</a></li>
+                        <li class="plus"><a href="{{ site.siteUrl }}/{{ site.feedAllAtom }}">Flux Atom</a></li>
+                    </ul>
             </nav>
         </section>
     </header>
@@ -67,10 +70,11 @@
     {% endif %}
 
     <footer data-pagefind-ignore>
-        <p><a href="{{ site.siteUrl }}/{{ site.feedAllAtom }}">Abonnez-vous au flux Atom</a> pour ne rater aucun article.</p>
-        {% if page.url != '/' %}
-        <p>{{ site.siteName }}, par <a href="/pages/a-propos.html">{{ site.author }}</a></p>
-        {% endif %}
+        <p>
+            {% if page.url != '/' %}
+            {{ site.siteName }}, par <a href="/pages/a-propos.html">{{ site.author }}</a>
+            {% endif %}
+        </p>
     </footer>
 
     <script>

@@ -1,7 +1,7 @@
 ---
 title: "Manjaro : \"Erreur GPGME : Pas de données\" / pas de clé publique"
-date: 2021-12-20 10:23:00
 category: billets
+date: 2021-12-20 10:23:00
 layout: article.njk
 permalink: billets/2021/12/20/manjaro-erreur-gpgme-pas-de-donnees-pas-de-cle-publique/index.html
 ---

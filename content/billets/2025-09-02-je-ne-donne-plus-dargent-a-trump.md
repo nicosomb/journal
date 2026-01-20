@@ -1,7 +1,7 @@
 ---
 title: "Je ne donne plus d'argent à Trump"
-date: 2025-09-02 09:00:00
 category: billets
+date: 2025-09-02 09:00:00
 layout: article.njk
 permalink: billets/2025/09/02/je-ne-donne-plus-dargent-a-trump/index.html
 ---

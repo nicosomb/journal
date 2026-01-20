@@ -1,7 +1,7 @@
 ---
 title: Promenade et concerts à Boulogne-sur-Mer
-date: 2021-07-20 10:05:00
 category: billets
+date: 2021-07-20 10:05:00
 layout: article.njk
 permalink: billets/2021/07/20/promenade-et-concerts-a-boulogne-sur-mer/index.html
 ---

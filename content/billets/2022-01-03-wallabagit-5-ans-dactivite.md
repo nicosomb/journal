@@ -1,7 +1,7 @@
 ---
 title: "wallabag.it : 5 ans d'activité"
-date: 2022-01-03 17:02:00
 category: billets
+date: 2022-01-03 17:02:00
 layout: article.njk
 permalink: billets/2022/01/03/wallabagit-5-ans-dactivite/index.html
 ---

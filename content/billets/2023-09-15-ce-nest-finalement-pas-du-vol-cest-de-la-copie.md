@@ -1,7 +1,7 @@
 ---
 title: Ce n’est finalement pas du vol, c’est de la copie
-date: 2023-09-15 14:00:00
 category: billets
+date: 2023-09-15 14:00:00
 layout: article.njk
 permalink: billets/2023/09/15/ce-nest-finalement-pas-du-vol-cest-de-la-copie/index.html
 ---

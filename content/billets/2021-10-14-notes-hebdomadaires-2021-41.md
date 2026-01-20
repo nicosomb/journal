@@ -1,7 +1,7 @@
 ---
 title: Notes hebdomadaires 2021-41
-date: 2021-10-14 15:59:00
 category: billets
+date: 2021-10-14 15:59:00
 layout: article.njk
 permalink: billets/2021/10/14/notes-hebdomadaires-2021-41/index.html
 ---

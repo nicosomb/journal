@@ -1,7 +1,7 @@
 ---
 title: Un mal pour un bien
-date: 2014-02-04 20:35:00
 category: billets
+date: 2014-02-04 20:35:00
 layout: article.njk
 permalink: billets/2014/02/04/un-mal-pour-un-bien/index.html
 ---

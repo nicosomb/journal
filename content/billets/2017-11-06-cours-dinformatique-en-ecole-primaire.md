@@ -1,7 +1,7 @@
 ---
 title: "Cours d'informatique en école primaire"
-date: 2017-11-06 12:38:00
 category: billets
+date: 2017-11-06 12:38:00
 layout: article.njk
 permalink: billets/2017/11/06/cours-dinformatique-en-ecole-primaire/index.html
 ---

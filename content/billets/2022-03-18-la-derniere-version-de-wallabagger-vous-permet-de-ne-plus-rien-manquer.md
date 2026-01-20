@@ -1,7 +1,7 @@
 ---
 title: La dernière version de wallabagger vous permet de ne plus rien manquer
-date: 2022-03-18 11:00:00
 category: billets
+date: 2022-03-18 11:00:00
 layout: article.njk
 permalink: billets/2022/03/18/la-derniere-version-de-wallabagger-vous-permet-de-ne-plus-rien-manquer/index.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: Pas de son avec Manjaro 20.0.3 et xfce
-date: 2020-09-14 14:48:00
 category: billets
+date: 2020-09-14 14:48:00
 layout: article.njk
 permalink: billets/2020/09/14/pas-de-son-avec-manjaro-2003-et-xfce/index.html
 ---

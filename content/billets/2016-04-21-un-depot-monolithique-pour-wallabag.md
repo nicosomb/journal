@@ -1,7 +1,7 @@
 ---
 title: Un dépôt monolithique pour wallabag ?
-date: 2016-04-21 17:00:00
 category: billets
+date: 2016-04-21 17:00:00
 layout: article.njk
 permalink: billets/2016/04/21/un-depot-monolithique-pour-wallabag/index.html
 ---

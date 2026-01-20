@@ -1,7 +1,7 @@
 ---
 title: "poche : retours, site et Flattr"
-date: 2013-04-11 20:26:00
 category: billets
+date: 2013-04-11 20:26:00
 layout: article.njk
 permalink: billets/2013/04/11/poche-retours-site-et-flattr/index.html
 ---

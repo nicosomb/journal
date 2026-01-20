@@ -1,7 +1,7 @@
 ---
 title: Appel aux fabricants de liseuses
-date: 2016-08-22 16:00:00
 category: billets
+date: 2016-08-22 16:00:00
 layout: article.njk
 permalink: billets/2016/08/22/appel-aux-fabricants-de-liseuses/index.html
 ---

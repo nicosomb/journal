@@ -1,7 +1,7 @@
 ---
 title: Bascule chez Netlify
-date: 2024-04-04 18:00:00
 category: billets
+date: 2024-04-04 18:00:00
 layout: article.njk
 permalink: billets/2024/04/04/bascule-chez-netlify/index.html
 ---

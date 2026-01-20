@@ -1,7 +1,7 @@
 ---
 title: wallabag a un vrai logo
-date: 2014-02-11 08:17:00
 category: billets
+date: 2014-02-11 08:17:00
 layout: article.njk
 permalink: billets/2014/02/11/wallabag-a-un-vrai-logo/index.html
 ---

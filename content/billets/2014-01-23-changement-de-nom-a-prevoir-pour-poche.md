@@ -1,7 +1,7 @@
 ---
 title: Changement de nom à prévoir pour poche
-date: 2014-01-23 19:14:00
 category: billets
+date: 2014-01-23 19:14:00
 layout: article.njk
 permalink: billets/2014/01/23/changement-de-nom-a-prevoir-pour-poche/index.html
 ---

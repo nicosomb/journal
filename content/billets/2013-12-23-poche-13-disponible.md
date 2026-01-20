@@ -1,7 +1,7 @@
 ---
 title: poche 1.3 disponible
-date: 2013-12-23 13:12:00
 category: billets
+date: 2013-12-23 13:12:00
 layout: article.njk
 permalink: billets/2013/12/23/poche-13-disponible/index.html
 ---

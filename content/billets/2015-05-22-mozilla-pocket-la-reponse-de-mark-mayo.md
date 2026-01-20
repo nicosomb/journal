@@ -1,7 +1,7 @@
 ---
 title: "Mozilla / Pocket : la réponse de Mark Mayo"
-date: 2015-05-22 11:42:00
 category: billets
+date: 2015-05-22 11:42:00
 layout: article.njk
 permalink: billets/2015/05/22/mozilla-pocket-la-reponse-de-mark-mayo/index.html
 ---

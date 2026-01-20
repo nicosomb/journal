@@ -1,7 +1,7 @@
 ---
 title: Le retour du Pelican
-date: 2022-02-08 17:00:00
 category: billets
+date: 2022-02-08 17:00:00
 layout: article.njk
 permalink: billets/2022/02/08/le-retour-du-pelican/index.html
 ---

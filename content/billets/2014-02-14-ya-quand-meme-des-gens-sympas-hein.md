@@ -1,7 +1,7 @@
 ---
 title: "Y'a quand même des gens sympas hein"
-date: 2014-02-14 07:52:00
 category: billets
+date: 2014-02-14 07:52:00
 layout: article.njk
 permalink: billets/2014/02/14/ya-quand-meme-des-gens-sympas-hein/index.html
 ---

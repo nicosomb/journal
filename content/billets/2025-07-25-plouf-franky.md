@@ -1,7 +1,7 @@
 ---
 title: Plouf Franky
-date: 2025-07-25 17:00:00
 category: billets
+date: 2025-07-25 17:00:00
 layout: article.njk
 permalink: billets/2025/07/25/plouf-franky/index.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: Un système de messagerie à domicile, merci Synology
-date: 2025-02-18 13:30:00
 category: billets
+date: 2025-02-18 13:30:00
 layout: article.njk
 permalink: billets/2025/02/18/un-systeme-de-messagerie-a-domicile-merci-synology/index.html
 ---

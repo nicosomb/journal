@@ -1,7 +1,7 @@
 ---
 title: une alpha pour wallabag v2, enfin
-date: 2015-09-14 21:30:00
 category: billets
+date: 2015-09-14 21:30:00
 layout: article.njk
 permalink: billets/2015/09/14/une-alpha-pour-wallabag-v2-enfin/index.html
 ---

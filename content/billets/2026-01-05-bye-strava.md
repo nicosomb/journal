@@ -1,7 +1,7 @@
 ---
 title: Bye Strava
-date: 2026-01-05 16:00:00
 category: billets
+date: 2026-01-05 16:00:00
 layout: article.njk
 permalink: billets/2026/01/05/bye-strava/index.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Eunice et Franklin (ceci n'est pas une bédé)"
-date: 2022-02-21 09:30:00
 category: billets
+date: 2022-02-21 09:30:00
 layout: article.njk
 permalink: billets/2022/02/21/eunice-et-franklin-ceci-nest-pas-une-bede/index.html
 ---

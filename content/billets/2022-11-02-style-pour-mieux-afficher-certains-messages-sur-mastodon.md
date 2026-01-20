@@ -1,7 +1,7 @@
 ---
 title: Style pour mieux afficher certains messages sur Mastodon
-date: 2022-11-02 13:37:00
 category: billets
+date: 2022-11-02 13:37:00
 layout: article.njk
 permalink: billets/2022/11/02/style-pour-mieux-afficher-certains-messages-sur-mastodon/index.html
 ---

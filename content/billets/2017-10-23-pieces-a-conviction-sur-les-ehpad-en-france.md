@@ -1,7 +1,7 @@
 ---
 title: Pièces à conviction sur les EHPAD en France
-date: 2017-10-23 21:17:00
 category: billets
+date: 2017-10-23 21:17:00
 layout: article.njk
 permalink: billets/2017/10/23/pieces-a-conviction-sur-les-ehpad-en-france/index.html
 ---

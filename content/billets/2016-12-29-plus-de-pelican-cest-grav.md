@@ -1,7 +1,7 @@
 ---
 title: "Plus de pélican, c'est grav"
-date: 2016-12-29 15:43:00
 category: billets
+date: 2016-12-29 15:43:00
 layout: article.njk
 permalink: billets/2016/12/29/plus-de-pelican-cest-grav/index.html
 ---

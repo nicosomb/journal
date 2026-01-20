@@ -1,7 +1,7 @@
 ---
 title: "2025, l'année des changements impactants"
-date: 2025-12-26 16:00:00
 category: billets
+date: 2025-12-26 16:00:00
 layout: article.njk
 permalink: billets/2025/12/26/2025-lannee-des-changements-impactants/index.html
 ---

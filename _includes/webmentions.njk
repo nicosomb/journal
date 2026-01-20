@@ -103,7 +103,11 @@
                             </strong>
                             {% if mention.published %}
                             <time class="webmention-date" datetime="{{ mention.published }}">
+                                {% if mention['wm-property'] == 'reply' or mention['wm-property'] == 'in-reply-to' or mention['wm-property'] == 'mention-of' %}
+                                {{ mention.published | readableDateWithTime }}
+                                {% else %}
                                 {{ mention.published | readableDate }}
+                                {% endif %}
                             </time>
                             {% endif %}
                         </div>
@@ -151,7 +155,11 @@
                             </strong>
                             {% if mention.published %}
                             <time class="webmention-date" datetime="{{ mention.published }}">
+                                {% if mention['wm-property'] == 'reply' or mention['wm-property'] == 'in-reply-to' or mention['wm-property'] == 'mention-of' %}
+                                {{ mention.published | readableDateWithTime }}
+                                {% else %}
                                 {{ mention.published | readableDate }}
+                                {% endif %}
                             </time>
                             {% endif %}
                         </div>
@@ -178,6 +186,6 @@
     </div>
     {% endif %}
 </section>
-<hr />
+<div class="separator"></div>
 {% endif %}
 {% endif %}

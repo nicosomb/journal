@@ -1,7 +1,7 @@
 ---
 title: "Retour d'expérience concernant la location de notre maison via Airbnb"
-date: 2017-10-12 20:46:00
 category: billets
+date: 2017-10-12 20:46:00
 layout: article.njk
 permalink: billets/2017/10/12/retour-dexperience-concernant-la-location-de-notre-maison-via-airbnb/index.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: Certifié Opquast
-date: 2022-02-01 14:00:00
 category: billets
+date: 2022-02-01 14:00:00
 layout: article.njk
 permalink: billets/2022/02/01/certifie-opquast/index.html
 ---

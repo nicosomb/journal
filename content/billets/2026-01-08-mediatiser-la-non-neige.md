@@ -1,7 +1,7 @@
 ---
 title: Médiatiser la non-neige
-date: 2026-01-08 08:00:00
 category: billets
+date: 2026-01-08 08:00:00
 layout: article.njk
 permalink: billets/2026/01/08/mediatiser-la-non-neige/index.html
 ---
