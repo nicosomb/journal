@@ -3,10 +3,10 @@
 {% if webmentions and (webmentions[page.url] or webmentions[normalizedPageUrl] or webmentions[pageUrl]) %}
 {% set mentions = webmentions[page.url] or webmentions[normalizedPageUrl] or webmentions[pageUrl] %}
 {% if mentions and mentions.length > 0 %}
-{% set likes = mentions | filterByProperty("wm-property", "like") %}
-{% set reposts = mentions | filterByProperty("wm-property", "repost") %}
+{% set likes = mentions | filterByPropertyIn("wm-property", "like", "like-of") %}
+{% set reposts = mentions | filterByPropertyIn("wm-property", "repost", "repost-of") %}
 {% set replies = mentions | filterByProperty("wm-property", "reply") %}
-{% set others = mentions | filterByPropertyNot("wm-property", "like", "repost", "reply") %}
+{% set others = mentions | filterByPropertyNot("wm-property", "like", "like-of", "repost", "repost-of", "reply") %}
 <section class="webmentions" id="webmentions">
     <h2>Réactions</h2>
     
@@ -78,11 +78,12 @@
     
     {% if replies | length > 0 %}
     <div class="webmentions-group">
-        <h3 class="webmentions-group-title">
+        <h3 class="webmentions-group-title webmentions-toggle" data-target="replies">
             <span class="webmention-icon webmention-icon-reply">💬</span>
-            {{ replies | length }} {% if replies | length > 1 %}réponses{% else %}réponse{% endif %}
+            <span class="webmentions-count">{{ replies | length }} {% if replies | length > 1 %}réponses{% else %}réponse{% endif %}</span>
+            <span class="webmentions-toggle-icon">▼</span>
         </h3>
-        <ul class="webmentions-list">
+        <ul class="webmentions-list webmentions-replies" id="replies" style="display: none;">
             {% for mention in replies %}
             <li class="webmention webmention-reply">
                 <article class="webmention-content">

@@ -215,6 +215,27 @@
                 }
             });
         });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleButtons = document.querySelectorAll('.webmentions-toggle');
+            toggleButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const targetId = this.getAttribute('data-target');
+                    const target = document.getElementById(targetId);
+                    const icon = this.querySelector('.webmentions-toggle-icon');
+                    
+                    if (target) {
+                        if (target.style.display === 'none') {
+                            target.style.display = 'block';
+                            if (icon) icon.textContent = '▲';
+                        } else {
+                            target.style.display = 'none';
+                            if (icon) icon.textContent = '▼';
+                        }
+                    }
+                });
+            });
+        });
     </script>
 </body>
 </html>

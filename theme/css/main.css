@@ -997,6 +997,25 @@ body.dark .webmention {
     gap: 0.5em;
 }
 
+.webmentions-toggle {
+    cursor: pointer;
+    user-select: none;
+}
+
+.webmentions-toggle:hover {
+    opacity: 0.8;
+}
+
+.webmentions-toggle-icon {
+    margin-left: auto;
+    font-size: 0.8em;
+    transition: transform 0.2s;
+}
+
+.webmentions-count {
+    flex: 1;
+}
+
 .webmention-icon {
     font-size: 1.2em;
 }
@@ -1004,15 +1023,20 @@ body.dark .webmention {
 .webmentions-list-compact {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5em;
+    gap: 0.75em;
 }
 
 .webmentions-list-compact .webmention {
     margin-bottom: 0;
-    padding: 0.5em 0.75em;
+    padding: 0;
     border-left: none;
-    border-radius: 4px;
+    border-radius: 0;
+    background: none;
     flex: 0 0 auto;
+}
+
+body.dark .webmentions-list-compact .webmention {
+    background: none;
 }
 
 .webmentions-list-compact .webmention-author {
@@ -1028,9 +1052,14 @@ body.dark .webmention {
 .webmentions-list-compact .webmention-author-name {
     font-size: 0.9em;
     margin-bottom: 0;
+    font-weight: 500;
 }
 
 .webmentions-list-compact .webmention-author-info {
     display: flex;
     align-items: center;
+}
+
+.webmentions-list-compact .webmention-content {
+    padding: 0;
 }
