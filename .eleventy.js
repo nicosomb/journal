@@ -79,6 +79,11 @@ module.exports = function(eleventyConfig) {
     return array.filter(item => item && item[property] === value);
   });
 
+  eleventyConfig.addFilter("filterByPropertyIn", (array, property, ...values) => {
+    if (!Array.isArray(array)) return [];
+    return array.filter(item => item && item[property] && values.includes(item[property]));
+  });
+
   eleventyConfig.addFilter("filterByPropertyNot", (array, property, ...values) => {
     if (!Array.isArray(array)) return [];
     return array.filter(item => item && item[property] && !values.includes(item[property]));
