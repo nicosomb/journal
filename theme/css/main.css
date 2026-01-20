@@ -1016,6 +1016,14 @@ body.dark .webmention {
     flex: 1;
 }
 
+.webmentions-replies {
+    display: none;
+}
+
+.webmentions-replies.webmentions-visible {
+    display: block;
+}
+
 .webmention-icon {
     font-size: 1.2em;
 }

@@ -78,12 +78,13 @@
     
     {% if replies | length > 0 %}
     <div class="webmentions-group">
-        <h3 class="webmentions-group-title webmentions-toggle" data-target="replies">
+        <h3>Réponses</h3>
+        <div class="webmentions-group-title webmentions-toggle" data-target="replies">
             <span class="webmention-icon webmention-icon-reply">💬</span>
             <span class="webmentions-count">{{ replies | length }} {% if replies | length > 1 %}réponses{% else %}réponse{% endif %}</span>
             <span class="webmentions-toggle-icon">▼</span>
-        </h3>
-        <ul class="webmentions-list webmentions-replies" id="replies" style="display: none;">
+        </div>
+        <ul class="webmentions-list webmentions-replies" id="replies">
             {% for mention in replies %}
             <li class="webmention webmention-reply">
                 <article class="webmention-content">
