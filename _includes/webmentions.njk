@@ -1,0 +1,53 @@
+{% set pageUrl = site.siteUrl + page.url %}
+{% set normalizedPageUrl = pageUrl | replace('/index.html', '') | replace('.html', '') %}
+{% if webmentions and (webmentions[page.url] or webmentions[normalizedPageUrl] or webmentions[pageUrl]) %}
+{% set mentions = webmentions[page.url] or webmentions[normalizedPageUrl] or webmentions[pageUrl] %}
+{% if mentions and mentions.length > 0 %}
+<section class="webmentions" id="webmentions">
+    <h2>Réactions</h2>
+    <ul class="webmentions-list">
+        {% for mention in mentions %}
+        <li class="webmention webmention-{{ mention['wm-property'] }}">
+            <article class="webmention-content">
+                {% if mention.author %}
+                <div class="webmention-author">
+                    {% if mention.author.photo %}
+                    <img src="{{ mention.author.photo }}" alt="{{ mention.author.name }}" class="webmention-avatar" loading="lazy" />
+                    {% endif %}
+                    <div class="webmention-author-info">
+                        <strong class="webmention-author-name">
+                            {% if mention.url %}
+                            <a href="{{ mention.url }}" rel="noopener noreferrer">{{ mention.author.name }}</a>
+                            {% else %}
+                            {{ mention.author.name }}
+                            {% endif %}
+                        </strong>
+                        {% if mention.published %}
+                        <time class="webmention-date" datetime="{{ mention.published }}">
+                            {{ mention.published | readableDate }}
+                        </time>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endif %}
+                
+                {% if mention.content %}
+                <div class="webmention-text">
+                    {% if mention.content.html %}
+                        {{ mention.content.html | safe }}
+                    {% else %}
+                        <p>{{ mention.content.text }}</p>
+                    {% endif %}
+                </div>
+                {% endif %}
+                
+                {% if mention.url %}
+                <a href="{{ mention.url }}" class="webmention-source" rel="noopener noreferrer" title="Voir la source">Source</a>
+                {% endif %}
+            </article>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}
+{% endif %}

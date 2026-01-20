@@ -16,6 +16,11 @@ module.exports = function(eleventyConfig) {
 
   // Filtres de date
   eleventyConfig.addFilter("readableDate", (dateObj) => {
+    if (typeof dateObj === 'string') {
+      // Si c'est une chaîne ISO, la convertir en Date
+      const dt = DateTime.fromISO(dateObj, {zone: 'Europe/Paris'});
+      return dt.toFormat("dd-MM-yyyy");
+    }
     return DateTime.fromJSDate(dateObj, {zone: 'Europe/Paris'}).toFormat("dd-MM-yyyy");
   });
 
@@ -24,6 +29,9 @@ module.exports = function(eleventyConfig) {
     // Format français similaire à Pelican
     if (format === '%d-%m-%Y') {
       return dt.toFormat("dd-MM-yyyy");
+    }
+    if (format === '%d-%m') {
+      return dt.toFormat("dd-MM");
     }
     if (format === '%Y-%m-%d') {
       return dt.toFormat("yyyy-MM-dd");
