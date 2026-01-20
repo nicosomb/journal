@@ -3,51 +3,178 @@
 {% if webmentions and (webmentions[page.url] or webmentions[normalizedPageUrl] or webmentions[pageUrl]) %}
 {% set mentions = webmentions[page.url] or webmentions[normalizedPageUrl] or webmentions[pageUrl] %}
 {% if mentions and mentions.length > 0 %}
+{% set likes = mentions | filterByProperty("wm-property", "like") %}
+{% set reposts = mentions | filterByProperty("wm-property", "repost") %}
+{% set replies = mentions | filterByProperty("wm-property", "reply") %}
+{% set others = mentions | filterByPropertyNot("wm-property", "like", "repost", "reply") %}
 <section class="webmentions" id="webmentions">
     <h2>Réactions</h2>
-    <ul class="webmentions-list">
-        {% for mention in mentions %}
-        <li class="webmention webmention-{{ mention['wm-property'] }}">
-            <article class="webmention-content">
-                {% if mention.author %}
-                <div class="webmention-author">
-                    {% if mention.author.photo %}
-                    <img src="{{ mention.author.photo }}" alt="{{ mention.author.name }}" class="webmention-avatar" loading="lazy" />
+    
+    {% if likes | length > 0 %}
+    <div class="webmentions-group">
+        <h3 class="webmentions-group-title">
+            <span class="webmention-icon webmention-icon-like">❤️</span>
+            {{ likes | length }} {% if likes | length > 1 %}likes{% else %}like{% endif %}
+        </h3>
+        <ul class="webmentions-list webmentions-list-compact">
+            {% for mention in likes %}
+            <li class="webmention webmention-like">
+                <article class="webmention-content">
+                    {% if mention.author %}
+                    <div class="webmention-author">
+                        {% if mention.author.photo %}
+                        <img src="{{ mention.author.photo }}" alt="{{ mention.author.name }}" class="webmention-avatar" loading="lazy" />
+                        {% endif %}
+                        <div class="webmention-author-info">
+                            <strong class="webmention-author-name">
+                                {% if mention.url %}
+                                <a href="{{ mention.url }}" rel="noopener noreferrer">{{ mention.author.name }}</a>
+                                {% else %}
+                                {{ mention.author.name }}
+                                {% endif %}
+                            </strong>
+                        </div>
+                    </div>
                     {% endif %}
-                    <div class="webmention-author-info">
-                        <strong class="webmention-author-name">
-                            {% if mention.url %}
-                            <a href="{{ mention.url }}" rel="noopener noreferrer">{{ mention.author.name }}</a>
-                            {% else %}
-                            {{ mention.author.name }}
+                </article>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+    
+    {% if reposts | length > 0 %}
+    <div class="webmentions-group">
+        <h3 class="webmentions-group-title">
+            <span class="webmention-icon webmention-icon-repost">🔁</span>
+            {{ reposts | length }} {% if reposts | length > 1 %}reposts{% else %}repost{% endif %}
+        </h3>
+        <ul class="webmentions-list webmentions-list-compact">
+            {% for mention in reposts %}
+            <li class="webmention webmention-repost">
+                <article class="webmention-content">
+                    {% if mention.author %}
+                    <div class="webmention-author">
+                        {% if mention.author.photo %}
+                        <img src="{{ mention.author.photo }}" alt="{{ mention.author.name }}" class="webmention-avatar" loading="lazy" />
+                        {% endif %}
+                        <div class="webmention-author-info">
+                            <strong class="webmention-author-name">
+                                {% if mention.url %}
+                                <a href="{{ mention.url }}" rel="noopener noreferrer">{{ mention.author.name }}</a>
+                                {% else %}
+                                {{ mention.author.name }}
+                                {% endif %}
+                            </strong>
+                        </div>
+                    </div>
+                    {% endif %}
+                </article>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+    
+    {% if replies | length > 0 %}
+    <div class="webmentions-group">
+        <h3 class="webmentions-group-title">
+            <span class="webmention-icon webmention-icon-reply">💬</span>
+            {{ replies | length }} {% if replies | length > 1 %}réponses{% else %}réponse{% endif %}
+        </h3>
+        <ul class="webmentions-list">
+            {% for mention in replies %}
+            <li class="webmention webmention-reply">
+                <article class="webmention-content">
+                    {% if mention.author %}
+                    <div class="webmention-author">
+                        {% if mention.author.photo %}
+                        <img src="{{ mention.author.photo }}" alt="{{ mention.author.name }}" class="webmention-avatar" loading="lazy" />
+                        {% endif %}
+                        <div class="webmention-author-info">
+                            <strong class="webmention-author-name">
+                                {% if mention.url %}
+                                <a href="{{ mention.url }}" rel="noopener noreferrer">{{ mention.author.name }}</a>
+                                {% else %}
+                                {{ mention.author.name }}
+                                {% endif %}
+                            </strong>
+                            {% if mention.published %}
+                            <time class="webmention-date" datetime="{{ mention.published }}">
+                                {{ mention.published | readableDate }}
+                            </time>
                             {% endif %}
-                        </strong>
-                        {% if mention.published %}
-                        <time class="webmention-date" datetime="{{ mention.published }}">
-                            {{ mention.published | readableDate }}
-                        </time>
+                        </div>
+                    </div>
+                    {% endif %}
+                    
+                    {% if mention.content %}
+                    <div class="webmention-text">
+                        {% if mention.content.html %}
+                            {{ mention.content.html | safe }}
+                        {% else %}
+                            <p>{{ mention.content.text }}</p>
                         {% endif %}
                     </div>
-                </div>
-                {% endif %}
-                
-                {% if mention.content %}
-                <div class="webmention-text">
-                    {% if mention.content.html %}
-                        {{ mention.content.html | safe }}
-                    {% else %}
-                        <p>{{ mention.content.text }}</p>
                     {% endif %}
-                </div>
-                {% endif %}
-                
-                {% if mention.url %}
-                <a href="{{ mention.url }}" class="webmention-source" rel="noopener noreferrer" title="Voir la source">Source</a>
-                {% endif %}
-            </article>
-        </li>
-        {% endfor %}
-    </ul>
+                    
+                    {% if mention.url %}
+                    <a href="{{ mention.url }}" class="webmention-source" rel="noopener noreferrer" title="Voir la source">Source</a>
+                    {% endif %}
+                </article>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+    
+    {% if others | length > 0 %}
+    <div class="webmentions-group">
+        <ul class="webmentions-list">
+            {% for mention in others %}
+            <li class="webmention webmention-{{ mention['wm-property'] }}">
+                <article class="webmention-content">
+                    {% if mention.author %}
+                    <div class="webmention-author">
+                        {% if mention.author.photo %}
+                        <img src="{{ mention.author.photo }}" alt="{{ mention.author.name }}" class="webmention-avatar" loading="lazy" />
+                        {% endif %}
+                        <div class="webmention-author-info">
+                            <strong class="webmention-author-name">
+                                {% if mention.url %}
+                                <a href="{{ mention.url }}" rel="noopener noreferrer">{{ mention.author.name }}</a>
+                                {% else %}
+                                {{ mention.author.name }}
+                                {% endif %}
+                            </strong>
+                            {% if mention.published %}
+                            <time class="webmention-date" datetime="{{ mention.published }}">
+                                {{ mention.published | readableDate }}
+                            </time>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endif %}
+                    
+                    {% if mention.content %}
+                    <div class="webmention-text">
+                        {% if mention.content.html %}
+                            {{ mention.content.html | safe }}
+                        {% else %}
+                            <p>{{ mention.content.text }}</p>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                    
+                    {% if mention.url %}
+                    <a href="{{ mention.url }}" class="webmention-source" rel="noopener noreferrer" title="Voir la source">Source</a>
+                    {% endif %}
+                </article>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
 </section>
 <hr />
 {% endif %}
