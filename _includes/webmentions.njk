@@ -5,8 +5,8 @@
 {% if mentions and mentions.length > 0 %}
 {% set likes = mentions | filterByPropertyIn("wm-property", "like", "like-of") %}
 {% set reposts = mentions | filterByPropertyIn("wm-property", "repost", "repost-of") %}
-{% set replies = mentions | filterByPropertyIn("wm-property", "reply", "in-reply-to") %}
-{% set others = mentions | filterByPropertyNot("wm-property", "like", "like-of", "repost", "repost-of", "reply", "in-reply-to") %}
+{% set replies = mentions | filterByPropertyIn("wm-property", "reply", "in-reply-to", "mention-of") %}
+{% set others = mentions | filterByPropertyNot("wm-property", "like", "like-of", "repost", "repost-of", "reply", "in-reply-to", "mention-of") %}
 <section class="webmentions" id="webmentions">
     <h2>Réactions</h2>
     
