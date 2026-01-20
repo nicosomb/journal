@@ -30,7 +30,7 @@
           <aside>
           <a href="mailto:nicolas@loeuillet.org?subject={{ title | striptags | urlencode }}">Réagir par mail au billet <strong>«&nbsp;{{ title | striptags }}&nbsp;»</strong></a>. 
           {% if site.webmentionDomain %}
-          Vous pouvez aussi <a href="https://webmention.io/{{ site.webmentionDomain }}/">réagir via webmention</a> (Mastodon, etc.).
+          Vous pouvez aussi <a href="https://webmention.io/{{ site.webmentionDomain }}/?target={{ site.siteUrl }}{{ page.url | replace('/index.html', '') }}">réagir via webmention</a> (Mastodon, etc.) en mentionnant cette page.
           {% endif %}
           {% if page.inputPath %}
           Si vous constatez une coquille dans ce billet, vous pouvez <a href="{{ site.githubRepo }}/blob/{{ site.githubBranch }}/{{ page.inputPath | cleanPath }}">proposer une correction ici</a>.
