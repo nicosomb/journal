@@ -14,11 +14,9 @@ module.exports = async function() {
       return [];
     }
     
-    // Extraire les 6 dernières photos
     const photos = feed.items
       .slice(0, 6)
       .map(item => {
-        // Extraire l'image depuis le contenu HTML
         const content = item.content || item['content:encoded'] || item.contentSnippet || '';
         const imgMatch = content.match(/<img[^>]+src="([^"]+)"/i);
         const imageUrl = imgMatch ? imgMatch[1] : null;
@@ -30,7 +28,7 @@ module.exports = async function() {
           date: item.pubDate || item.isoDate || ''
         };
       })
-      .filter(photo => photo.imageUrl); // Filtrer les items sans image
+      .filter(photo => photo.imageUrl);
     
     return photos;
   } catch (error) {

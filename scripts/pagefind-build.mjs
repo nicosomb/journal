@@ -1,10 +1,5 @@
 #!/usr/bin/env node
 
-/**
- * Script pour exécuter Pagefind en utilisant directement le binaire
- * Contourne le problème du wrapper npx qui ne trouve pas le bon binaire
- */
-
 import { spawn } from 'child_process';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
@@ -20,13 +15,11 @@ async function findPagefindBinary() {
   
   const fs = await import('fs');
   
-  // Essayer de trouver le binaire dans les packages optionnels
-  // Pagefind peut être "pagefind" ou "pagefind_extended"
   const binaryNames = ['pagefind_extended', 'pagefind'];
   const possiblePlatforms = [
     `${platform}-${arch}`,
     `${platform}-x64`,
-    'linux-x64',  // Pour Netlify (Linux)
+    'linux-x64',
     'linux-arm64',
     'darwin-x64',
     'darwin-arm64',
@@ -57,7 +50,6 @@ async function buildPagefind() {
   
   if (!binaryPath) {
     console.error('Impossible de trouver le binaire Pagefind. Essayez d\'utiliser l\'API Node.js.');
-    // Fallback vers l'API Node.js
     try {
       const { createIndex } = await import('pagefind');
       const result = await createIndex({ site: sitePath });
@@ -74,8 +66,6 @@ async function buildPagefind() {
       process.exit(1);
     }
   }
-  
-  // Utiliser le binaire directement
   return new Promise((resolve, reject) => {
     const child = spawn(binaryPath, ['--site', sitePath], {
       stdio: 'inherit',

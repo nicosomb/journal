@@ -1,4 +1,3 @@
-// Fonction pour extraire le domaine depuis l'URL
 function getDomainFromUrl(urlString) {
   try {
     const url = new URL(urlString);

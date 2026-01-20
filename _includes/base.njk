@@ -124,9 +124,7 @@
                 }
             });
             
-            // Ajouter le lien "Fermer" à côté du bouton "Effacer"
             function addCloseLink() {
-                // Chercher le bouton "Effacer" de différentes manières
                 const clearButton = searchElement.querySelector('button.pagefind-ui__clear-button') ||
                                    searchElement.querySelector('button[aria-label*="Effacer"]') ||
                                    searchElement.querySelector('button[aria-label*="clear"]') ||
@@ -142,32 +140,25 @@
                         e.preventDefault();
                         closeSearch();
                     });
-                    // Insérer après le bouton Effacer dans le même conteneur
                     const parent = clearButton.parentNode;
                     if (parent) {
                         parent.insertBefore(closeLink, clearButton.nextSibling);
                     }
                 }
             }
-            
-            // Essayer plusieurs fois car Pagefind peut mettre du temps à créer l'UI
             setTimeout(addCloseLink, 200);
             setTimeout(addCloseLink, 500);
             setTimeout(addCloseLink, 1000);
             
-            // Fonction pour ouvrir la recherche
             function openSearch() {
                 if (searchElement) {
                     searchElement.setAttribute('data-state', 'open');
-                    // Attendre que Pagefind UI soit prêt avant de focus
-                    // Essayer plusieurs fois car Pagefind peut mettre du temps à créer le champ
                     const tryFocus = (attempts = 0) => {
                         const searchInput = searchElement.querySelector('input[type="search"]') ||
                                            searchElement.querySelector('input[type="text"]') ||
                                            searchElement.querySelector('.pagefind-ui__search-input');
                         if (searchInput) {
                             searchInput.focus();
-                            // Sélectionner le texte si il y en a
                             if (searchInput.value) {
                                 searchInput.select();
                             }
@@ -179,19 +170,15 @@
                 }
             }
             
-            // Fonction pour fermer la recherche
             function closeSearch() {
                 if (searchElement) {
                     searchElement.removeAttribute('data-state');
-                    // Réinitialiser le champ de recherche
                     const searchInput = searchElement.querySelector('input[type="search"]');
                     if (searchInput) {
                         searchInput.value = '';
                     }
                 }
             }
-            
-            // Ouvrir la recherche au clic sur le lien
             const searchLink = document.getElementById('search-link');
             if (searchLink) {
                 searchLink.addEventListener('click', (e) => {
@@ -200,7 +187,6 @@
                 });
             }
             
-            // Fermer la recherche au clic sur le bouton de fermeture
             const searchClose = document.getElementById('search-close');
             if (searchClose) {
                 searchClose.addEventListener('click', (e) => {
@@ -209,16 +195,13 @@
                 });
             }
             
-            // Fermer la recherche en cliquant en dehors de la popin
             if (searchElement) {
                 searchElement.addEventListener('click', (e) => {
-                    // Si on clique sur le fond (pas sur le contenu)
                     if (e.target === searchElement) {
                         closeSearch();
                     }
                 });
                 
-                // Empêcher la fermeture quand on clique sur le contenu
                 const pagefindUI = searchElement.querySelector('.pagefind-ui');
                 if (pagefindUI) {
                     pagefindUI.addEventListener('click', (e) => {
@@ -226,8 +209,6 @@
                     });
                 }
             }
-            
-            // Fermer la recherche avec la touche Échap
             document.addEventListener('keydown', (e) => {
                 if (e.key === 'Escape' && searchElement && searchElement.getAttribute('data-state') === 'open') {
                     closeSearch();
