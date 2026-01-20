@@ -11,7 +11,8 @@ module.exports = function(eleventyConfig) {
     "content/images": "images",
     "content/static": "static",
     "theme/css": "theme/css",
-    "theme/fonts": "theme/fonts"
+    "theme/fonts": "theme/fonts",
+    "_redirects": "_redirects"
   });
 
   // Filtres de date
