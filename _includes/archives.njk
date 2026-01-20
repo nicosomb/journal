@@ -1,6 +1,6 @@
 {% extends "base.njk" %}
 
-{% block title %}Archives | {{ site.siteName }}{% endblock %}
+{% block title %}Archives | {{ site.siteName }}{% endblock title %}
 
 {% block content %}
 <main data-pagefind-ignore>
@@ -19,4 +19,4 @@
         {% endfor %}
     </article>
 </main>
-{% endblock %}
+{% endblock content %}
