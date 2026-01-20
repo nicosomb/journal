@@ -8,8 +8,7 @@
     <link rel="stylesheet" type="text/css" href="/theme/css/main.css" />
     <link rel="shortcut icon" href="/static/favicon.ico" />
     <link href="{{ site.siteUrl }}/{{ site.feedAllAtom }}" type="application/atom+xml" rel="alternate" title="Flux RSS du {{ site.siteName }}" />
-    {% if page.url %}
-    {% if site.webmentionDomain %}
+    {% if page.url and site.webmentionDomain %}
     <link rel="webmention" href="https://webmention.io/{{ site.webmentionDomain }}/webmention" />
     <link rel="pingback" href="https://webmention.io/{{ site.webmentionDomain }}/xmlrpc" />
     {% endif %}
@@ -52,7 +51,7 @@
         </section>
     </header>
 
-    {% block content %}{% endblock %}
+    {% block content %}{% endblock content %}
 
     {% if page.url == '/' and photos and photos.length > 0 %}
     <section class="photos">
