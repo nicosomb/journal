@@ -9,14 +9,9 @@
     <link rel="shortcut icon" href="/static/favicon.ico" />
     <link href="{{ site.siteUrl }}/{{ site.feedAllAtom }}" type="application/atom+xml" rel="alternate" title="Flux RSS du {{ site.siteName }}" />
 
-    {% if page.url %}
     {% if site.webmentionDomain %}
     <link rel="webmention" href="https://webmention.io/{{ site.webmentionDomain }}/webmention" />
     <link rel="pingback" href="https://webmention.io/{{ site.webmentionDomain }}/xmlrpc" />
-    {% else %}
-    <link rel="webmention" href="https://webmention.io/webmention" />
-    <link rel="pingback" href="https://webmention.io/xmlrpc" />
-    {% endif %}
     {% endif %}
 
     {% block extra_head %}{% endblock extra_head %}
@@ -50,7 +45,7 @@
                     {% if site.social %}
                     <ul>
                         {% for item in site.social %}
-                        <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+                        <li><a href="{{ item.url }}" rel="me">{{ item.name }}</a></li>
                         {% endfor %}
                     </ul>
                     {% endif %}

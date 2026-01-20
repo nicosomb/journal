@@ -1,5 +1,16 @@
 {% extends "base.njk" %}
 
+{% block head %}
+{{ super() }}
+{% if site.social %}
+{% for item in site.social %}
+{% if item.url %}
+<link rel="me" href="{{ item.url }}" />
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endblock %}
+
 {% block content %}
 
 {% if not category and not tag %}
