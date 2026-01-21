@@ -7,10 +7,11 @@
  * 2. Add the build hook URL as NETLIFY_BUILD_HOOK environment variable in Netlify
  * 3. The function will be called automatically every hour
  */
+const { schedule } = require('@netlify/functions');
 const https = require('https');
 const { URL } = require('url');
 
-exports.handler = async (event, context) => {
+const handler = async (event, context) => {
   // Get the build hook URL from environment variables
   const buildHook = process.env.NETLIFY_BUILD_HOOK;
   
@@ -82,5 +83,5 @@ exports.handler = async (event, context) => {
   }
 };
 
-// Schedule: run every hour (cron format: minute hour day month weekday)
-exports.schedule = '0 * * * *';
+// Schedule: run every hour using @hourly alias
+module.exports.handler = schedule('@hourly', handler);
