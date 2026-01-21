@@ -39,7 +39,7 @@ De par mon expérience en tant que maire, en tant que formateur et enseignant, j
 
 ## On discute ?
 
-Il y a quelques années, [j'ai détaillé ici comment j'aimerais me rendre utile au sein de votre organisation](/billets/2017/02/26/ce-que-jaimerais-comme-emploi/). Ça peut vous donner des idées pour que l'on puisse discuter ensemble. Envoyez-moi un mail à [nicolas@loeuillet.org](mailto:nicolas@loeuillet.org), je vous répondrai avec plaisir.
+Il y a quelques années, [j'ai détaillé ici comment j'aimerais me rendre utile au sein de votre organisation](/billets/2022/03/18/comment-jaimerais-me-rendre-utile-au-sein-de-votre-organisation/). Ça peut vous donner des idées pour que l'on puisse discuter ensemble. Envoyez-moi un mail à [nicolas@loeuillet.org](mailto:nicolas@loeuillet.org), je vous répondrai avec plaisir.
 
 ## Ce site 
 
