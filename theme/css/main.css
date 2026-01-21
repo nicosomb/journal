@@ -532,25 +532,25 @@ body {
     margin: 0 1em 3em;
     padding: 2em 20px;
     max-width: 900px;
-    --text-color: #1D3249;
+    --text-color: #970747;
     --background: #FFFFFF;
     line-height: 1.625;
     color: var(--text-color);
     background-color: var(--background); }
 
 body.dark {
-    --text-color: #E8ECED;
-    --background: #111E2C; }
+    --text-color: #FFFFFF;
+    --background: #970747; }
 
 @media (prefers-color-scheme: dark) {
     body {
-        --text-color: #E8ECED;
-        --background: #111E2C; }
+        --text-color: #FFFFFF;
+        --background: #970747; }
     body.light-theme {
-        --text-color: #1D3249;
-        --background: #ffffff; }
+        --text-color: #970747;
+        --background: #FFFFFF; }
     body:not(.light-theme) blockquote {
-        background-color: #1A2F45;
+        background-color: #970747;
         color: var(--text-color);
         border-top: 1px solid #FA9ACF;
         border-bottom: 1px solid #FA9ACF; } }
@@ -764,7 +764,7 @@ blockquote {
 }
 
 .dark blockquote {
-    background-color: #1A2F45;
+    background-color: #970747;
     color: var(--text-color);
     border-top: 1px solid #FA9ACF;
     border-bottom: 1px solid #FA9ACF;
