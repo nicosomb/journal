@@ -1,7 +1,7 @@
 ---
 title: Créer une note bien rangée dans Obsidian grâce à une seule lettre
-date: 2024-08-25 17:00:00
 category: billets
+date: 2024-08-25 17:00:00
 layout: article.njk
 permalink: billets/2024/08/25/creer-une-note-bien-rangee-dans-obsidian-grace-a-une-seule-lettre/index.html
 ---

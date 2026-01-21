@@ -1,7 +1,7 @@
 ---
 title: La version 1 de wallabag est officiellement gelée
-date: 2014-05-19 15:00:00
 category: billets
+date: 2014-05-19 15:00:00
 layout: article.njk
 permalink: billets/2014/05/19/la-version-1-de-wallabag-est-officiellement-gelee/index.html
 ---

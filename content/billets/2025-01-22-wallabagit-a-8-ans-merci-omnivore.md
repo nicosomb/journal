@@ -1,7 +1,7 @@
 ---
 title: "wallabag.it a 8 ans : merci Omnivore !"
-date: 2025-01-22 09:00:00
 category: billets
+date: 2025-01-22 09:00:00
 layout: article.njk
 permalink: billets/2025/01/22/wallabagit-a-8-ans-merci-omnivore/index.html
 ---

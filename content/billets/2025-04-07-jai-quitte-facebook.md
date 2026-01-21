@@ -1,7 +1,7 @@
 ---
 title: "J'ai quitté Facebook"
-date: 2025-04-07 09:00:00
 category: billets
+date: 2025-04-07 09:00:00
 layout: article.njk
 permalink: billets/2025/04/07/jai-quitte-facebook/index.html
 ---

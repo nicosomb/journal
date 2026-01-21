@@ -1,7 +1,7 @@
 ---
 title: Bug de mise en veille avec EndeavourOS
-date: 2022-03-23 14:45:00
 category: billets
+date: 2022-03-23 14:45:00
 layout: article.njk
 permalink: billets/2022/03/23/bug-de-mise-en-veille-avec-endeavouros/index.html
 ---

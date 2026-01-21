@@ -1,7 +1,7 @@
 ---
 title: "wallabag 2.1 : imports asynchrones, gestion des utilisateurs, etc."
-date: 2016-10-03 13:00:00
 category: billets
+date: 2016-10-03 13:00:00
 layout: article.njk
 permalink: billets/2016/10/03/wallabag-21-imports-asynchrones-gestion-des-utilisateurs-etc/index.html
 ---

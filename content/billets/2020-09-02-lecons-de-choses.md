@@ -1,7 +1,7 @@
 ---
 title: Leçons de choses
-date: 2020-09-02 14:17:00
 category: billets
+date: 2020-09-02 14:17:00
 layout: article.njk
 permalink: billets/2020/09/02/lecons-de-choses/index.html
 ---

@@ -20,5 +20,8 @@
     "luxon": "^3.4.4",
     "pagefind": "^1.4.0",
     "rss-parser": "^3.13.0"
+  },
+  "dependencies": {
+    "markdown-it-footnote": "^4.0.0"
   }
 }

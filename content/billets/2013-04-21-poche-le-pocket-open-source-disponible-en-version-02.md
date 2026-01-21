@@ -1,7 +1,7 @@
 ---
 title: "#poche, le Pocket open source, disponible en version 0.2"
-date: 2013-04-21 20:29:00
 category: billets
+date: 2013-04-21 20:29:00
 layout: article.njk
 permalink: billets/2013/04/21/poche-le-pocket-open-source-disponible-en-version-02/index.html
 ---

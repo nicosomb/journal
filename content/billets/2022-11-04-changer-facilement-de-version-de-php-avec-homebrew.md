@@ -1,7 +1,7 @@
 ---
 title: Changer facilement de version de php avec Homebrew
-date: 2022-11-04 10:45:00
 category: billets
+date: 2022-11-04 10:45:00
 layout: article.njk
 permalink: billets/2022/11/04/changer-facilement-de-version-de-php-avec-homebrew/index.html
 ---

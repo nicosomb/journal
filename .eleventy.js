@@ -1,9 +1,13 @@
 const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const footnote_plugin = require("markdown-it-footnote");
 
 module.exports = function(eleventyConfig) {
   // Plugin RSS
   eleventyConfig.addPlugin(pluginRss);
+  
+  // Plugin pour les notes de bas de page
+  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(footnote_plugin));
   
   // Configuration des dossiers
   // Copier les images et fichiers statiques depuis content/ (maintenant dans 11ty)
@@ -25,6 +29,15 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, {zone: 'Europe/Paris'}).toFormat("dd-MM-yyyy");
   });
 
+  eleventyConfig.addFilter("readableDateWithTime", (dateObj) => {
+    if (typeof dateObj === 'string') {
+      // Si c'est une chaîne ISO, la convertir en Date
+      const dt = DateTime.fromISO(dateObj, {zone: 'Europe/Paris'});
+      return dt.toFormat("dd-MM-yyyy HH:mm");
+    }
+    return DateTime.fromJSDate(dateObj, {zone: 'Europe/Paris'}).toFormat("dd-MM-yyyy HH:mm");
+  });
+
   eleventyConfig.addFilter("strftime", (dateObj, format) => {
     const dt = DateTime.fromJSDate(dateObj, {zone: 'Europe/Paris'});
     // Format français similaire à Pelican
@@ -39,6 +52,9 @@ module.exports = function(eleventyConfig) {
     }
     if (format === '%a %d %B %Y') {
       return dt.setLocale('fr').toFormat("EEE dd MMMM yyyy");
+    }
+    if (format === '%d-%m-%Y %H:%M') {
+      return dt.toFormat("dd-MM-yyyy HH:mm");
     }
     return dt.toFormat("dd-MM-yyyy");
   });

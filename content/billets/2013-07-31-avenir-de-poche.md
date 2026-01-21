@@ -1,7 +1,7 @@
 ---
 title: Avenir de poche
-date: 2013-07-31 10:57:00
 category: billets
+date: 2013-07-31 10:57:00
 layout: article.njk
 permalink: billets/2013/07/31/avenir-de-poche/index.html
 ---

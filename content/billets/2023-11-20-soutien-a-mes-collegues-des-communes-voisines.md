@@ -1,7 +1,7 @@
 ---
 title: Soutien à mes collègues des communes voisines
-date: 2023-11-20 10:00:00
 category: billets
+date: 2023-11-20 10:00:00
 layout: article.njk
 permalink: billets/2023/11/20/soutien-a-mes-collegues-des-communes-voisines/index.html
 ---

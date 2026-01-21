@@ -1,7 +1,7 @@
 ---
 title: Say no. Say thanks.
-date: 2026-01-15 16:00:00
 category: billets
+date: 2026-01-15 16:00:00
 layout: article.njk
 permalink: billets/2026/01/15/say-no-say-thanks/index.html
 ---

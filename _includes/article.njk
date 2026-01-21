@@ -29,21 +29,51 @@
 
       {{ content | safe }}
 
-      <hr />
+      <div class="separator"></div>
 
       {% include "webmentions.njk" %}
 
-      <section>
-          <aside>
-          <a href="mailto:nicolas@loeuillet.org?subject={{ title | striptags | urlencode }}">Réagir par mail au billet <strong>«&nbsp;{{ title | striptags }}&nbsp;»</strong></a>.<br />
-          {% if site.webmentionDomain %}
-          Vous pouvez aussi réagir via webmention en mentionnant cette page sur Mastodon ou votre blog.
-          {% endif %}
-          {% if page.inputPath %}
-          <br />Si vous constatez une coquille dans ce billet, vous pouvez <a href="{{ site.githubRepo }}/blob/{{ site.githubBranch }}/{{ page.inputPath | cleanPath }}">proposer une correction ici</a>.
-          {% endif %}<hr />
-          </aside>
-      </section>
+      <p class="article-meta">
+        <a href="mailto:nicolas@loeuillet.org?subject={{ title | striptags | urlencode }}">Réagir par mail</a>
+        {% if site.webmentionDomain %}
+        — <a href="https://webmention.io/{{ site.webmentionDomain }}/?target={{ site.siteUrl }}{{ page.url | replace('/index.html', '') }}">Réagir via webmention</a>
+        {% endif %}
+        {% if page.inputPath %}
+        — <a href="{{ site.githubRepo }}/blob/{{ site.githubBranch }}/{{ page.inputPath | cleanPath }}">Proposer une correction</a>
+        {% endif %}
+      </p>
+
+      <div class="separator"></div>
+
+      {% set currentIndex = -1 %}
+      {% for post in collections.billets %}
+        {% if post.url == page.url %}
+          {% set currentIndex = loop.index0 %}
+        {% endif %}
+      {% endfor %}
+      
+      {% if currentIndex >= 0 %}
+        {% set prevPost = collections.billets[currentIndex + 1] %}
+        {% set nextPost = collections.billets[currentIndex - 1] %}
+        {% if prevPost or nextPost %}
+        <nav class="article-navigation">
+          <div class="article-nav-container">
+            <div class="article-nav-prev">
+              {% if prevPost %}
+              <a href="{{ prevPost.url }}">← {{ prevPost.data.title }}</a>
+              {% endif %}
+            </div>
+            <div class="article-nav-next">
+              {% if nextPost %}
+              <a href="{{ nextPost.url }}">{{ nextPost.data.title }} →</a>
+              {% endif %}
+            </div>
+          </div>
+        </nav>
+        {% endif %}
+      {% endif %}
+
+      <div class="separator"></div>
 
     </article>
 </main>

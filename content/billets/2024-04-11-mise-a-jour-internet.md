@@ -1,7 +1,7 @@
 ---
 title: Mise à jour internet
-date: 2024-04-11 14:00:00
 category: billets
+date: 2024-04-11 14:00:00
 layout: article.njk
 permalink: billets/2024/04/11/mise-a-jour-internet/index.html
 ---

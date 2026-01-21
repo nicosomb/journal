@@ -1,7 +1,7 @@
 ---
 title: wallabag.it en chiffres, un peu de technique
-date: 2020-12-10 16:52:00
 category: billets
+date: 2020-12-10 16:52:00
 layout: article.njk
 permalink: billets/2020/12/10/wallabagit-en-chiffres-un-peu-de-technique/index.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: Obsidian, my new read-it-later app?
-date: 2024-08-29 12:00:00
 category: billets
+date: 2024-08-29 12:00:00
 layout: article.njk
 permalink: billets/2024/08/29/obsidian-my-new-read-it-later-app/index.html
 ---

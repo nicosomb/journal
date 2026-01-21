@@ -1,7 +1,7 @@
 ---
 title: wallabag.it a 7 ans
-date: 2024-02-21 14:30:00
 category: billets
+date: 2024-02-21 14:30:00
 layout: article.njk
 permalink: billets/2024/02/21/wallabagit-a-7-ans/index.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: Notes hebdomadaires 2021-39
-date: 2021-09-28 10:30:00
 category: billets
+date: 2021-09-28 10:30:00
 layout: article.njk
 permalink: billets/2021/09/28/notes-hebdomadaires-2021-39/index.html
 ---

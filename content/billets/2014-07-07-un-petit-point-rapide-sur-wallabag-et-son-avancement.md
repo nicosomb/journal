@@ -1,7 +1,7 @@
 ---
 title: Un petit point rapide sur wallabag et son avancement
-date: 2014-07-07 17:00:00
 category: billets
+date: 2014-07-07 17:00:00
 layout: article.njk
 permalink: billets/2014/07/07/un-petit-point-rapide-sur-wallabag-et-son-avancement/index.html
 ---

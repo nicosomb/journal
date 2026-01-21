@@ -1,7 +1,7 @@
 ---
 title: Nouvelle version de wallabag, la 2.4.3
-date: 2022-02-15 08:45:00
 category: billets
+date: 2022-02-15 08:45:00
 layout: article.njk
 permalink: billets/2022/02/15/nouvelle-version-de-wallabag-la-243/index.html
 ---

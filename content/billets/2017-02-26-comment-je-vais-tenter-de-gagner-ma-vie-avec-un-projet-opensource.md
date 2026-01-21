@@ -1,7 +1,7 @@
 ---
 title: Comment je vais tenter de gagner ma vie avec un projet opensource
+category: billets
 date: 2017-02-26 15:52:00
-category: wallabag
 layout: article.njk
 permalink: billets/2017/02/26/comment-je-vais-tenter-de-gagner-ma-vie-avec-un-projet-opensource/index.html
 ---

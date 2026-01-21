@@ -1,7 +1,7 @@
 ---
 title: Bientôt neuf ans, et une v3 ?
-date: 2022-03-25 13:30:00
 category: billets
+date: 2022-03-25 13:30:00
 layout: article.njk
 permalink: billets/2022/03/25/bientot-neuf-ans-et-une-v3/index.html
 ---

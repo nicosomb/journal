@@ -1,7 +1,7 @@
 ---
 title: Nouvelle alpha pour wallabag v2
-date: 2016-01-08 13:37:00
 category: billets
+date: 2016-01-08 13:37:00
 layout: article.njk
 permalink: billets/2016/01/08/nouvelle-alpha-pour-wallabag-v2/index.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: wallabag, ex-poche, application de lecture différée
-date: 2014-01-27 19:26:00
 category: billets
+date: 2014-01-27 19:26:00
 layout: article.njk
 permalink: billets/2014/01/27/wallabag-ex-poche-application-de-lecture-differee/index.html
 ---

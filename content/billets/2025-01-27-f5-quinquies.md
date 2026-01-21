@@ -1,7 +1,7 @@
 ---
 title: F5 (quinquies)
-date: 2025-01-27 18:00:00
 category: billets
+date: 2025-01-27 18:00:00
 layout: article.njk
 permalink: billets/2025/01/27/f5-quinquies/index.html
 ---

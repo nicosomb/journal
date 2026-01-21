@@ -1,7 +1,7 @@
 ---
 title: Notes hebdomadaires 2021-46
-date: 2021-11-16 09:07:00
 category: billets
+date: 2021-11-16 09:07:00
 layout: article.njk
 permalink: billets/2021/11/16/notes-hebdomadaires-2021-46/index.html
 ---

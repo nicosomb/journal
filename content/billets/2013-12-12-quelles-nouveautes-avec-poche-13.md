@@ -1,7 +1,7 @@
 ---
 title: Quelles nouveautés avec poche 1.3 ?
-date: 2013-12-12 10:24:00
 category: billets
+date: 2013-12-12 10:24:00
 layout: article.njk
 permalink: billets/2013/12/12/quelles-nouveautes-avec-poche-13/index.html
 ---

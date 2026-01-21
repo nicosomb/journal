@@ -1,7 +1,7 @@
 ---
 title: Et Mozilla décida de remettre Pocket en addon
-date: 2015-11-06 11:00:00
 category: billets
+date: 2015-11-06 11:00:00
 layout: article.njk
 permalink: billets/2015/11/06/et-mozilla-decida-de-remettre-pocket-en-addon/index.html
 ---

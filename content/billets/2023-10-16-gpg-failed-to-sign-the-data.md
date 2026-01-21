@@ -1,7 +1,7 @@
 ---
 title: gpg failed to sign the data
-date: 2023-10-16 16:30:00
 category: billets
+date: 2023-10-16 16:30:00
 layout: article.njk
 permalink: billets/2023/10/16/gpg-failed-to-sign-the-data/index.html
 ---

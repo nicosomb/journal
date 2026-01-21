@@ -1,7 +1,7 @@
 ---
 title: Un an après le premier commit, nouvelle version pour wallabag
-date: 2014-04-03 18:33:00
 category: billets
+date: 2014-04-03 18:33:00
 layout: article.njk
 permalink: billets/2014/04/03/un-an-apres-le-premier-commit-nouvelle-version-pour-wallabag/index.html
 ---

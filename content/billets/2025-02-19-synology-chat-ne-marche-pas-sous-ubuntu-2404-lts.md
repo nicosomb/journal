@@ -1,7 +1,7 @@
 ---
 title: Synology Chat ne marche pas sous Ubuntu 24.04 LTS
-date: 2025-02-19 07:30:00
 category: billets
+date: 2025-02-19 07:30:00
 layout: article.njk
 permalink: billets/2025/02/19/synology-chat-ne-marche-pas-sous-ubuntu-2404-lts/index.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: Hygiène numérique
-date: 2017-10-12 17:14:00
 category: billets
+date: 2017-10-12 17:14:00
 layout: article.njk
 permalink: billets/2017/10/12/hygiene-numerique/index.html
 ---

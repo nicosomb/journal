@@ -1,7 +1,7 @@
 ---
 title: Petits changements au quotidien
-date: 2019-10-10 14:30:00
 category: billets
+date: 2019-10-10 14:30:00
 layout: article.njk
 permalink: billets/2019/10/10/petits-changements-au-quotidien/index.html
 ---

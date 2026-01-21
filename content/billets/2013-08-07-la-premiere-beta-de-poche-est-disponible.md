@@ -1,7 +1,7 @@
 ---
 title: La première beta de poche est disponible
-date: 2013-08-07 20:24:00
 category: billets
+date: 2013-08-07 20:24:00
 layout: article.njk
 permalink: billets/2013/08/07/la-premiere-beta-de-poche-est-disponible/index.html
 ---

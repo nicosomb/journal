@@ -1,7 +1,7 @@
 ---
 title: PHP Tour à Clermont-Ferrand, les slides
-date: 2016-05-27 12:00:00
 category: billets
+date: 2016-05-27 12:00:00
 layout: article.njk
 permalink: billets/2016/05/27/php-tour-a-clermont-ferrand-les-slides/index.html
 ---

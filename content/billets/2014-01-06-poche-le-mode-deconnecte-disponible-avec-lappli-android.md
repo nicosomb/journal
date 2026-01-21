@@ -1,7 +1,7 @@
 ---
 title: "poche - Le mode déconnecté disponible avec l''appli Android"
-date: 2014-01-06 08:28:00
 category: billets
+date: 2014-01-06 08:28:00
 layout: article.njk
 permalink: billets/2014/01/06/poche-le-mode-deconnecte-disponible-avec-lappli-android/index.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: Et si on créait une asso de coding dans ma commune ?
-date: 2017-12-06 08:07:00
 category: billets
+date: 2017-12-06 08:07:00
 layout: article.njk
 permalink: billets/2017/12/06/et-si-on-creait-une-asso-de-coding-dans-ma-commune/index.html
 ---

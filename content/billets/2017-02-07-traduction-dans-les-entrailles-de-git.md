@@ -1,7 +1,7 @@
 ---
 title: "[Traduction] Dans les entrailles de Git"
-date: 2017-02-07 15:49:00
 category: billets
+date: 2017-02-07 15:49:00
 layout: article.njk
 permalink: billets/2017/02/07/traduction-dans-les-entrailles-de-git/index.html
 ---

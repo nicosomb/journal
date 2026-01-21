@@ -1,7 +1,7 @@
 ---
 title: Pourquoi Mozilla se trompe
-date: 2015-05-15 22:00:00
 category: billets
+date: 2015-05-15 22:00:00
 layout: article.njk
 permalink: billets/2015/05/15/pourquoi-mozilla-se-trompe/index.html
 ---

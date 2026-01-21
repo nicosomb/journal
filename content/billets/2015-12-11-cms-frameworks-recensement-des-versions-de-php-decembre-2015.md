@@ -1,7 +1,7 @@
 ---
 title: "CMS, frameworks : recensement des versions de PHP (décembre 2015)"
-date: 2015-12-11 12:00:00
 category: billets
+date: 2015-12-11 12:00:00
 layout: article.njk
 permalink: billets/2015/12/11/cms-frameworks-recensement-des-versions-de-php-decembre-2015/index.html
 ---

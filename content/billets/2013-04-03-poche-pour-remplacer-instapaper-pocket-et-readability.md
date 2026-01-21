@@ -1,7 +1,7 @@
 ---
 title: "poche : pour remplacer Instapaper, Pocket et Readability"
-date: 2013-04-03 16:00:00
 category: billets
+date: 2013-04-03 16:00:00
 layout: article.njk
 permalink: billets/2013/04/03/poche-pour-remplacer-instapaper-pocket-et-readability/index.html
 ---

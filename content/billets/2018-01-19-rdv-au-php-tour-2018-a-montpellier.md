@@ -1,7 +1,7 @@
 ---
 title: RDV au PHP Tour 2018 à Montpellier
-date: 2018-01-19 15:23:00
 category: billets
+date: 2018-01-19 15:23:00
 layout: article.njk
 permalink: billets/2018/01/19/rdv-au-php-tour-2018-a-montpellier/index.html
 ---

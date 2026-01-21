@@ -1,7 +1,7 @@
 ---
 title: Une collaboration entre ownCloud et poche
-date: 2014-01-22 12:37:00
 category: billets
+date: 2014-01-22 12:37:00
 layout: article.njk
 permalink: billets/2014/01/22/une-collaboration-entre-owncloud-et-poche/index.html
 ---

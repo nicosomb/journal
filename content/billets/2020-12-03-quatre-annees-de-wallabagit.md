@@ -1,7 +1,7 @@
 ---
 title: Quatre années de wallabag.it
-date: 2020-12-03 14:07:00
 category: billets
+date: 2020-12-03 14:07:00
 layout: article.njk
 permalink: billets/2020/12/03/quatre-annees-de-wallabagit/index.html
 ---

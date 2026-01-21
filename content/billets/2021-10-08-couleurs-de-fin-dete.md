@@ -1,7 +1,7 @@
 ---
 title: "Couleurs de fin d'été"
-date: 2021-10-08 14:08:00
 category: billets
+date: 2021-10-08 14:08:00
 layout: article.njk
 permalink: billets/2021/10/08/couleurs-de-fin-dete/index.html
 ---

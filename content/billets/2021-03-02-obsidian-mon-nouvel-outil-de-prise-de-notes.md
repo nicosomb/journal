@@ -1,7 +1,7 @@
 ---
 title: Obsidian, mon nouvel outil de prise de notes
-date: 2021-03-02 17:51:00
 category: billets
+date: 2021-03-02 17:51:00
 layout: article.njk
 permalink: billets/2021/03/02/obsidian-mon-nouvel-outil-de-prise-de-notes/index.html
 ---

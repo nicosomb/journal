@@ -1,7 +1,7 @@
 ---
 title: Mon après-moi numérique
-date: 2017-11-08 17:26:00
 category: billets
+date: 2017-11-08 17:26:00
 layout: article.njk
 permalink: billets/2017/11/08/mon-apres-moi-numerique/index.html
 ---

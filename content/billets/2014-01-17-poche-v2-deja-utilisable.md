@@ -1,7 +1,7 @@
 ---
 title: poche v2 déjà utilisable
-date: 2014-01-17 13:38:00
 category: billets
+date: 2014-01-17 13:38:00
 layout: article.njk
 permalink: billets/2014/01/17/poche-v2-deja-utilisable/index.html
 ---

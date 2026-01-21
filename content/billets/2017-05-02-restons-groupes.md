@@ -1,7 +1,7 @@
 ---
 title: Restons groupés
-date: 2017-05-02 15:40:00
 category: billets
+date: 2017-05-02 15:40:00
 layout: article.njk
 permalink: billets/2017/05/02/restons-groupes/index.html
 ---

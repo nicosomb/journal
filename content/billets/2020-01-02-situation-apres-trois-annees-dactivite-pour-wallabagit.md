@@ -1,7 +1,7 @@
 ---
 title: "Situation après trois années d'activité pour wallabag.it"
-date: 2020-01-02 09:14:00
 category: billets
+date: 2020-01-02 09:14:00
 layout: article.njk
 permalink: billets/2020/01/02/situation-apres-trois-annees-dactivite-pour-wallabagit/index.html
 ---

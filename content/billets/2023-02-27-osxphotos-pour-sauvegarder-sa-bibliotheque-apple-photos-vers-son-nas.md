@@ -1,7 +1,7 @@
 ---
 title: osxphotos, pour sauvegarder sa bibliothèque Apple Photos vers son NAS
-date: 2023-02-27 12:00:00
 category: billets
+date: 2023-02-27 12:00:00
 layout: article.njk
 permalink: billets/2023/02/27/osxphotos-pour-sauvegarder-sa-bibliotheque-apple-photos-vers-son-nas/index.html
 ---

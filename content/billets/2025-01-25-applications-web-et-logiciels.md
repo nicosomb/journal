@@ -1,7 +1,7 @@
 ---
 title: Applications web et logiciels
-date: 2025-01-25 11:00:00
 category: billets
+date: 2025-01-25 11:00:00
 layout: article.njk
 permalink: billets/2025/01/25/applications-web-et-logiciels/index.html
 ---

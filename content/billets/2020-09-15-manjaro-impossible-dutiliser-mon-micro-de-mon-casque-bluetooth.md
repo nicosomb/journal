@@ -1,7 +1,7 @@
 ---
 title: "Manjaro - Impossible d'utiliser mon micro de mon casque bluetooth"
-date: 2020-09-15 14:43:00
 category: billets
+date: 2020-09-15 14:43:00
 layout: article.njk
 permalink: billets/2020/09/15/manjaro-impossible-dutiliser-mon-micro-de-mon-casque-bluetooth/index.html
 ---
