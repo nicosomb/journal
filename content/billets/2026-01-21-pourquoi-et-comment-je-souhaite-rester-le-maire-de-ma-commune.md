@@ -33,9 +33,10 @@ Si tu ne veux pas t'investir plus, ne t'engage pas. Tout simplement. Et ce n'est
 
 Lorsque nous organisons des événements sur la commune (festivités du 14 juillet, remise de médailles, accueil de nouveaux habitants, etc.), viennent les élu-es qui sont disponibles ce jour-là et qui souhaitent venir. Si je dois commencer à obliger des personnes à venir, c'est raté. Je n'ai pas envie de voir des personnes qui viennent en trainant les pieds. Ça se sent, se ressent. Ne participent donc que des personnes motivées. 
 
-Ça, c'est pour les temps publics, avec la population. 
+Ça, c'est pour les temps publics, avec la population.  
+Concernant la population, ajoutons également les permanences. C'est sur rendez-vous, un samedi matin sur deux. Si c'est nécessaire, je peux recevoir en semaine (urgences familiales, etc.). Il y a aussi des RDV en semaine (le soir ou le mercredi) avec les prestataires et les partenaires de la commune. 
 
-## Les réunions de travail, ça se passe comment ? 
+## Et les réunions de travail, ça se passe comment ? 
 
 Lorsque nous avons été élu-es (rappel : en mars 2018), nous avons récupéré l'organisation précédente. Pour plein de raisons, plus ou moins valables : on ne connaissait vraiment pas grand chose[^2] et nos priorités ici étaient surtout de tenter de trouver de l'argent. 
 
