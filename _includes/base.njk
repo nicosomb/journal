@@ -21,11 +21,6 @@
             {% if page.url != '/' %}
             <a href="/">Page d'accueil</a>
             {% endif %}
-            <button class="mode"><svg class="switch" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
-            3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
-            13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"></path>
-            </svg></button>
         </div>
         <section class="menu">
             <section class="flux">
@@ -77,31 +72,6 @@
         </p>
     </footer>
 
-    <script>
-        const btn = document.querySelector(".mode");
-        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
-        const currentTheme = localStorage.getItem("theme");
-        if (currentTheme === "dark") {
-            document.body.classList.toggle("dark");
-        } else if (currentTheme === "light") {
-            document.body.classList.toggle("light-theme");
-        }
-
-        btn.addEventListener("click", function () {
-            if (prefersDarkScheme.matches) {
-                document.body.classList.toggle("light-theme");
-                var theme = document.body.classList.contains("light-theme")
-                    ? "light"
-                    : "dark";
-            } else {
-                document.body.classList.toggle("dark");
-                var theme = document.body.classList.contains("dark")
-                    ? "dark"
-                    : "light";
-            }
-            localStorage.setItem("theme", theme);
-        });
-    </script>
     <div id="search"></div>
     <script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
     <script>

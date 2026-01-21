@@ -499,74 +499,49 @@ textarea,
     position: absolute; }
 
 @font-face {
-    font-family: 'Tabular';
-    src: url("../fonts/tabular/tabular-medium.woff2") format("woff2"), url("../fonts/tabular/tabular-medium.woff") format("woff");
-    font-weight: normal;
+    font-family: 'Crimson Pro';
+    src: url("../fonts/crimson-pro/CrimsonPro-Regular.woff2") format("woff2");
+    font-weight: 400;
     font-display: swap;
-    font-style: normal; }
+    font-style: normal;
+}
 
 @font-face {
-    font-family: 'Tabular';
-    src: url("../fonts/tabular/tabular-mediumitalic.woff2") format("woff2"), url("../fonts/tabular/tabular-mediumitalic.woff") format("woff");
-    font-weight: normal;
+    font-family: 'Crimson Pro';
+    src: url("../fonts/crimson-pro/CrimsonPro-Italic.woff2") format("woff2");
+    font-weight: 400;
     font-display: swap;
-    font-style: italic; }
+    font-style: italic;
+}
 
 @font-face {
-    font-family: 'Tabular';
-    src: url("../fonts/tabular/tabular-bold.woff2") format("woff2"), url("../fonts/tabular/tabular-bold.woff") format("woff");
+    font-family: 'Crimson Pro';
+    src: url("../fonts/crimson-pro/CrimsonPro-Bold.woff2") format("woff2");
     font-weight: 700;
     font-display: swap;
-    font-style: normal; }
+    font-style: normal;
+}
 
 @font-face {
-    font-family: 'Tabular';
-    src: url("../fonts/tabular/tabular-bolditalic.woff2") format("woff2"), url("../fonts/tabular/tabular-bolditalic.woff") format("woff");
+    font-family: 'Crimson Pro';
+    src: url("../fonts/crimson-pro/CrimsonPro-BoldItalic.woff2") format("woff2");
     font-weight: 700;
     font-display: swap;
-    font-style: italic; }
+    font-style: italic;
+}
 
 body {
-    font-family: "Tabular", serif;
-    font-size: 17px;
+    font-family: "Crimson Pro", Georgia, "Times New Roman", serif;
+    font-size: 21px;
     margin: 0 1em 3em;
     padding: 2em 20px;
     max-width: 900px;
-    --text-color: #970747;
-    --background: #FFFFFF;
+    --text-color: #000000;
+    --background: #FFFDF2;
+    --title-color: #970747;
     line-height: 1.625;
     color: var(--text-color);
     background-color: var(--background); }
-
-body.dark {
-    --text-color: #FFFFFF;
-    --background: #970747; }
-
-@media (prefers-color-scheme: dark) {
-    body {
-        --text-color: #FFFFFF;
-        --background: #970747; }
-    body.light-theme {
-        --text-color: #970747;
-        --background: #FFFFFF; }
-    body:not(.light-theme) blockquote {
-        background-color: #970747;
-        color: var(--text-color);
-        border-top: 1px solid #FA9ACF;
-        border-bottom: 1px solid #FA9ACF; } }
-
-.mode {
-    font-family: inherit;
-    float: none;
-    display: block;
-    margin-left: auto;
-    margin-top: -1.5em;
-    margin-bottom: 1em;
-    color: var(--text-color);
-    background-color: var(--background);
-    cursor: pointer;
-    border: none;
-}
 
 nav ul, nav li, .colonne ul, .colonne li, .flux ul, .flux li, .liste ul, .liste li {
     margin: 0;
@@ -589,7 +564,8 @@ a:hover {
 h1, h2, h3, h4 {
     font-size: 18px;
     font-weight: 700;
-    margin: 1.5em 0 0; }
+    margin: 1.5em 0 0;
+    color: var(--title-color); }
 
 h1 {
     font-size: 1.75em;
@@ -689,7 +665,7 @@ summary {
     display: flex;
     flex-wrap: wrap;
     font-size: 0.75em;
-    margin-top: -1.5em; }
+    margin-top: 0; }
 
 .menu h2 {
     font-size: 1.25em;
@@ -763,12 +739,6 @@ blockquote {
     border-bottom: 1px solid #FA9ACF;
 }
 
-.dark blockquote {
-    background-color: #970747;
-    color: var(--text-color);
-    border-top: 1px solid #FA9ACF;
-    border-bottom: 1px solid #FA9ACF;
-}
 
 blockquote {
     margin: 0;
@@ -823,9 +793,6 @@ pre::before {
     content: "";
 }
 
-.dark pre {
-    color: var(--background);
-}
 
 /* Photos grid */
 .photos {
@@ -865,6 +832,16 @@ pre::before {
     .photos-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+    
+    .menu > .navigation {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    
+    .menu > .flux {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
 }
 
 /* Pagefind search styles */
@@ -877,10 +854,12 @@ pre::before {
     z-index: 1000;
     background: rgba(0, 0, 0, 0.5);
     display: none;
+    pointer-events: none;
 }
 
 #search[data-state="open"] {
     display: block;
+    pointer-events: auto;
 }
 
 #search .pagefind-ui {
@@ -901,9 +880,6 @@ pre::before {
     pointer-events: auto;
 }
 
-#search[data-state="open"] {
-    pointer-events: auto;
-}
 
 .search-close-link {
     color: var(--text-color);
@@ -984,9 +960,6 @@ pre::before {
     background-color: rgba(0, 0, 0, 0.02);
 }
 
-body.dark .webmention {
-    background-color: rgba(255, 255, 255, 0.05);
-}
 
 .webmention-content {
     position: relative;
@@ -1120,9 +1093,6 @@ body.dark .webmention {
     flex: 0 0 auto;
 }
 
-body.dark .webmentions-list-compact .webmention {
-    background: none;
-}
 
 .webmentions-list-compact .webmention-author {
     margin-bottom: 0;
