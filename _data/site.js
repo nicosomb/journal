@@ -24,6 +24,7 @@ publie des <a href="archives.html">choses intéressantes</a> (ou pas). Je tente 
 <p>N'hésitez pas à <a href="mailto:nicolas@loeuillet.org">m'envoyer un petit mail</a> si vous souhaitez que l'on discute.</p>
 <p>À bientôt,<br />Nicolas Lœuillet</p>`,
   social: [
+    { name: 'mon journal de maire', url: 'https://www.nicolasloeuillet.fr' },
     { name: 'photos', url: 'https://instantanes.loeuillet.org' },
     { name: 'mastodon', url: 'https://piaille.fr/@nicosomb' },
     { name: 'github', url: 'https://github.com/nicosomb' }
