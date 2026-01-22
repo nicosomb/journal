@@ -36,7 +36,7 @@
       <p class="article-meta">
         <a href="mailto:nicolas@loeuillet.org?subject={{ title | striptags | urlencode }}">Réagir par mail</a>
         {% if site.webmentionDomain %}
-        — <a href="https://webmention.io/{{ site.webmentionDomain }}/?target={{ site.siteUrl }}{{ page.url | replace('/index.html', '') }}">Réagir via webmention</a>
+        — Réagir via webmention en citant ce lien : <code>{{ site.siteUrl }}{{ page.url | replace('/index.html', '') }}</code>
         {% endif %}
         {% if page.inputPath %}
         — <a href="{{ site.githubRepo }}/blob/{{ site.githubBranch }}/{{ page.inputPath | cleanPath }}">Proposer une correction</a>
