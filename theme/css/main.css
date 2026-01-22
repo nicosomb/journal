@@ -798,45 +798,7 @@ pre::before {
 }
 
 
-/* Photos grid */
-.photos {
-    margin-top: 2rem;
-}
-
-.photos h2 {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-}
-
-.photos-grid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 0.5rem;
-}
-
-.photo-thumbnail {
-    display: block;
-    aspect-ratio: 1;
-    overflow: hidden;
-    border-radius: 4px;
-}
-
-.photo-thumbnail img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.2s;
-}
-
-.photo-thumbnail:hover img {
-    transform: scale(1.05);
-}
-
 @media (max-width: 768px) {
-    .photos-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    
     .menu > .navigation {
         flex: 1 1 100%;
         max-width: 100%;
