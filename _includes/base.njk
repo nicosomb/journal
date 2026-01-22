@@ -60,6 +60,7 @@
     </footer>
 
     <div id="search"></div>
+    <a href="#" id="back-to-top" class="back-to-top" aria-label="Retour en haut de page">↑</a>
     <script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
     <script>
         window.addEventListener('DOMContentLoaded', (event) => {
@@ -196,6 +197,31 @@
                     }
                 });
             });
+        });
+
+        window.addEventListener('DOMContentLoaded', function() {
+            const backToTop = document.getElementById('back-to-top');
+            
+            if (backToTop) {
+                function toggleBackToTop() {
+                    if (window.pageYOffset > 300) {
+                        backToTop.classList.add('visible');
+                    } else {
+                        backToTop.classList.remove('visible');
+                    }
+                }
+                
+                window.addEventListener('scroll', toggleBackToTop);
+                toggleBackToTop();
+                
+                backToTop.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            }
         });
     </script>
 </body>

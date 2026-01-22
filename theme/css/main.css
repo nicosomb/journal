@@ -1124,3 +1124,38 @@ pre::before {
 .webmentions-list-compact .webmention-content {
     padding: 0;
 }
+
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    display: none;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    background-color: #FFFDF2;
+    color: #970747;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 1.2em;
+    z-index: 1000;
+    transition: opacity 0.3s, transform 0.3s;
+    opacity: 0;
+    transform: translateY(10px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(151, 7, 71, 0.2);
+}
+
+.back-to-top:hover {
+    background-color: #970747;
+    color: #FFFDF2;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(151, 7, 71, 0.3);
+}
+
+.back-to-top.visible {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
