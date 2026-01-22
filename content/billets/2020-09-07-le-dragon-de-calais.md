@@ -3,6 +3,8 @@ title: Le Dragon de Calais
 category: billets
 date: 2020-09-07 14:16:00
 layout: article.njk
+tags:
+  - photo
 permalink: billets/2020/09/07/le-dragon-de-calais/index.html
 ---
 

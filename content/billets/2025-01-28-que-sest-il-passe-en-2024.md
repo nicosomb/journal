@@ -3,6 +3,10 @@ title: Que s’est-il passé en 2024 ?
 category: billets
 date: 2025-01-28 13:00:00
 layout: article.njk
+tags:
+  - perso
+  - wallabag
+  - photo
 permalink: billets/2025/01/28/que-sest-il-passe-en-2024/index.html
 ---
 

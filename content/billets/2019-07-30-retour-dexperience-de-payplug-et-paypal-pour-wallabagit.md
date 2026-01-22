@@ -3,6 +3,8 @@ title: "Retour d'expérience de PayPlug et PayPal pour wallabag.it"
 category: billets
 date: 2019-07-30 16:00:00
 layout: article.njk
+tags:
+  - wallabag
 permalink: billets/2019/07/30/retour-dexperience-de-payplug-et-paypal-pour-wallabagit/index.html
 ---
 

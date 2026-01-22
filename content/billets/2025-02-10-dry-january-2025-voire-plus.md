@@ -3,6 +3,8 @@ title: Dry January 2025. Voire plus.
 category: billets
 date: 2025-02-10 14:45:00
 layout: article.njk
+tags:
+  - perso
 permalink: billets/2025/02/10/dry-january-2025-voire-plus/index.html
 ---
 

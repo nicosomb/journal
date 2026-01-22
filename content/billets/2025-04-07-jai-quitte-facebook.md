@@ -3,6 +3,9 @@ title: "J'ai quitté Facebook"
 category: billets
 date: 2025-04-07 09:00:00
 layout: article.njk
+tags:
+  - vie privée
+  - mairie
 permalink: billets/2025/04/07/jai-quitte-facebook/index.html
 ---
 

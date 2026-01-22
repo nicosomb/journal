@@ -3,6 +3,8 @@ title: Rendez-vous à Nantes vendredi pour fOSSa
 category: billets
 date: 2015-09-20 14:00:00
 layout: article.njk
+tags:
+  - wallabag
 permalink: billets/2015/09/20/rendez-vous-a-nantes-vendredi-pour-fossa/index.html
 ---
 

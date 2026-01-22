@@ -3,14 +3,10 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const footnote_plugin = require("markdown-it-footnote");
 
 module.exports = function(eleventyConfig) {
-  // Plugin RSS
   eleventyConfig.addPlugin(pluginRss);
   
-  // Plugin pour les notes de bas de page
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(footnote_plugin));
   
-  // Configuration des dossiers
-  // Copier les images et fichiers statiques depuis content/ (maintenant dans 11ty)
   eleventyConfig.addPassthroughCopy({
     "content/images": "images",
     "content/static": "static",
@@ -22,7 +18,6 @@ module.exports = function(eleventyConfig) {
   // Filtres de date
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     if (typeof dateObj === 'string') {
-      // Si c'est une chaîne ISO, la convertir en Date
       const dt = DateTime.fromISO(dateObj, {zone: 'Europe/Paris'});
       return dt.toFormat("dd-MM-yyyy");
     }
@@ -31,7 +26,6 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("readableDateWithTime", (dateObj) => {
     if (typeof dateObj === 'string') {
-      // Si c'est une chaîne ISO, la convertir en Date
       const dt = DateTime.fromISO(dateObj, {zone: 'Europe/Paris'});
       return dt.toFormat("dd-MM-yyyy HH:mm");
     }
@@ -40,7 +34,6 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("strftime", (dateObj, format) => {
     const dt = DateTime.fromJSDate(dateObj, {zone: 'Europe/Paris'});
-    // Format français similaire à Pelican
     if (format === '%d-%m-%Y') {
       return dt.toFormat("dd-MM-yyyy");
     }
@@ -59,30 +52,23 @@ module.exports = function(eleventyConfig) {
     return dt.toFormat("dd-MM-yyyy");
   });
 
-  // Filtre pour gérer les références Pelican
   eleventyConfig.addFilter("pelicanUrl", (url) => {
-    // Convertit {static}/images/... en /images/...
     if (url.startsWith('{static}')) {
       return url.replace('{static}', '');
     }
-    // Convertit {attach}/static/... en /static/...
     if (url.startsWith('{attach}')) {
       return url.replace('{attach}', '');
     }
     return url;
   });
 
-  // Filtre pour les liens internes {filename}
   eleventyConfig.addFilter("pelicanLink", (link) => {
-    // Convertit {filename}../billets/... en liens relatifs
     if (link.includes('{filename}')) {
-      // À adapter selon le contexte
       return link.replace('{filename}', '').replace('../', '');
     }
     return link;
   });
 
-  // Filtre pour nettoyer le chemin de fichier (enlever ./ au début)
   eleventyConfig.addFilter("cleanPath", (path) => {
     if (path && path.startsWith('./')) {
       return path.substring(2);
@@ -122,17 +108,14 @@ module.exports = function(eleventyConfig) {
     return Array.isArray(mentions) ? mentions.length : 0;
   });
 
-  // Filtre pour limiter une collection à N éléments
   eleventyConfig.addFilter("limit", function(array, limit) {
     return array.slice(0, limit);
   });
 
-  // Filtre pour obtenir la date actuelle en RFC3339
   eleventyConfig.addFilter("nowToRfc3339", function() {
     return new Date().toISOString();
   });
 
-  // Filtre pour grouper par année
   eleventyConfig.addFilter("groupByYear", function(collection) {
     const grouped = {};
     collection.forEach(item => {
@@ -142,24 +125,65 @@ module.exports = function(eleventyConfig) {
       }
       grouped[year].push(item);
     });
-    // Convertir en array de [year, articles] et trier par année décroissante
     return Object.entries(grouped)
       .map(([year, articles]) => [parseInt(year), articles.sort((a, b) => b.date - a.date)])
       .sort((a, b) => b[0] - a[0]);
   });
 
-  // Collections
-  eleventyConfig.addCollection("billets", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("content/billets/*.md").sort((a, b) => {
-      return b.date - a.date; // Plus récent en premier
+  eleventyConfig.addFilter("filterByTag", function(collection, tag) {
+    if (!collection || !Array.isArray(collection)) return [];
+    if (!tag) return [];
+    return collection.filter(item => {
+      if (!item || !item.data) return false;
+      const tags = item.data.tags || [];
+      if (!Array.isArray(tags)) return false;
+      return tags.includes(tag);
+    }).sort((a, b) => {
+      return b.date - a.date;
     });
   });
 
-  // Ignorer les dossiers de migration et l'ancien dossier 11ty
+  eleventyConfig.addFilter("slugify", function(str) {
+    if (!str) return '';
+    return str
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  });
+
+  eleventyConfig.addCollection("billets", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("content/billets/*.md").sort((a, b) => {
+      return b.date - a.date;
+    });
+  });
+
+  eleventyConfig.addCollection("allTags", function(collectionApi) {
+    const tags = new Set();
+    const billets = collectionApi.getFilteredByGlob("content/billets/*.md");
+    billets.forEach(item => {
+      if (item && item.data) {
+        const itemTags = item.data.tags;
+        if (Array.isArray(itemTags) && itemTags.length > 0) {
+          itemTags.forEach(tag => {
+            if (tag && typeof tag === 'string') {
+              const trimmedTag = tag.trim();
+              if (trimmedTag) {
+                tags.add(trimmedTag);
+              }
+            }
+          });
+        }
+      }
+    });
+    const tagsArray = Array.from(tags).filter(t => t && t.length > 0).sort();
+    return tagsArray;
+  });
+
   eleventyConfig.ignores.add("migration-scripts/**");
   eleventyConfig.ignores.add("11ty/**");
 
-  // Configuration de base
   return {
     dir: {
       input: ".",
@@ -171,7 +195,6 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
-    // Permet d'utiliser les fichiers markdown avec front matter personnalisé
     markdownHighlighter: "prism"
   };
 };

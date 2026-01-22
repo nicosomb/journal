@@ -3,6 +3,8 @@ title: Un an après, faisons le point sur wallabag.it
 category: billets
 date: 2017-11-30 18:00:00
 layout: article.njk
+tags:
+  - wallabag
 permalink: billets/2017/11/30/un-an-apres-faisons-le-point-sur-wallabagit/index.html
 ---
 

@@ -3,6 +3,9 @@ title: Avenir de poche
 category: billets
 date: 2013-07-31 10:57:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2013/07/31/avenir-de-poche/index.html
 ---
 

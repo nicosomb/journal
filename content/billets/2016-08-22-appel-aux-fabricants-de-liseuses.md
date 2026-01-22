@@ -3,6 +3,9 @@ title: Appel aux fabricants de liseuses
 category: billets
 date: 2016-08-22 16:00:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2016/08/22/appel-aux-fabricants-de-liseuses/index.html
 ---
 

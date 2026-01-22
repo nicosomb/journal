@@ -3,6 +3,9 @@ title: Effectuez votre veille en toute liberté, aux RMLL 2015 de Beauvais
 category: billets
 date: 2015-07-27 13:00:00
 layout: article.njk
+tags:
+  - opensource
+  - wallabag
 permalink: billets/2015/07/27/effectuez-votre-veille-en-toute-liberte-aux-rmll-2015-de-beauvais/index.html
 ---
 

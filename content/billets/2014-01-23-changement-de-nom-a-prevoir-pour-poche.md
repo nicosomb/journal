@@ -3,6 +3,8 @@ title: Changement de nom à prévoir pour poche
 category: billets
 date: 2014-01-23 19:14:00
 layout: article.njk
+tags:
+  - wallabag
 permalink: billets/2014/01/23/changement-de-nom-a-prevoir-pour-poche/index.html
 ---
 

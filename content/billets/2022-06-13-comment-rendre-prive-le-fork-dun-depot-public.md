@@ -3,6 +3,9 @@ title: "Comment rendre privé le fork d'un dépôt public ?"
 category: billets
 date: 2022-06-13 14:00:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2022/06/13/comment-rendre-prive-le-fork-dun-depot-public/index.html
 ---
 

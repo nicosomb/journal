@@ -3,6 +3,9 @@ title: La première beta de poche est disponible
 category: billets
 date: 2013-08-07 20:24:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2013/08/07/la-premiere-beta-de-poche-est-disponible/index.html
 ---
 

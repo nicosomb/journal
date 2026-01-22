@@ -3,6 +3,9 @@ title: poche v2 déjà utilisable
 category: billets
 date: 2014-01-17 13:38:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2014/01/17/poche-v2-deja-utilisable/index.html
 ---
 

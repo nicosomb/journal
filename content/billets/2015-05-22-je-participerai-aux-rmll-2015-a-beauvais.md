@@ -3,6 +3,9 @@ title: Je participerai aux RMLL 2015 à Beauvais
 category: billets
 date: 2015-05-22 22:30:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2015/05/22/je-participerai-aux-rmll-2015-a-beauvais/index.html
 ---
 

@@ -3,6 +3,9 @@ title: Notes hebdomadaires 2021-46
 category: billets
 date: 2021-11-16 09:07:00
 layout: article.njk
+tags:
+  - mairie
+  - vie privée
 permalink: billets/2021/11/16/notes-hebdomadaires-2021-46/index.html
 ---
 

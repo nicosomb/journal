@@ -3,6 +3,8 @@ title: Do you speak PrestaShop?
 category: billets
 date: 2023-12-01 11:00:00
 layout: article.njk
+tags:
+  - opensource
 permalink: billets/2023/12/01/do-you-speak-prestashop/index.html
 ---
 

@@ -3,6 +3,9 @@ title: wallabag.it a 7 ans
 category: billets
 date: 2024-02-21 14:30:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2024/02/21/wallabagit-a-7-ans/index.html
 ---
 

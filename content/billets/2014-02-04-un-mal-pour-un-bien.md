@@ -3,6 +3,8 @@ title: Un mal pour un bien
 category: billets
 date: 2014-02-04 20:35:00
 layout: article.njk
+tags:
+  - wallabag
 permalink: billets/2014/02/04/un-mal-pour-un-bien/index.html
 ---
 

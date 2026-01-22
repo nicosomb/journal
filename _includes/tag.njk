@@ -1,0 +1,28 @@
+{% extends "base.njk" %}
+
+{% block title %}Tag: {{ tag }} | {{ site.siteName }}{% endblock title %}
+
+{% block content %}
+<main data-pagefind-ignore>
+    <article>
+        <h1>Tag : {{ tag }}</h1>
+        {% set taggedBillets = collections.billets | filterByTag(tag) %}
+        {% if taggedBillets and taggedBillets.length > 0 %}
+        <ul class="nolist">
+        {% for article in taggedBillets %}
+            <li>
+                <a href="{{ article.url }}"><strong>{{ article.data.title }}</strong></a>
+                {% set reactionCount = webmentions | countWebmentions(article.url, site.siteUrl) %}
+                <span class="reaction-count">({% if reactionCount > 0 %}<a href="{{ article.url }}#webmentions">{{ reactionCount }} {% if reactionCount > 1 %}réactions{% else %}réaction{% endif %}</a>{% else %}0 réaction{% endif %})</span>
+                — {{ article.date | strftime('%d-%m-%Y') }}
+            </li>
+        {% endfor %}
+        </ul>
+        {% else %}
+        <p>Aucun billet trouvé pour ce tag.</p>
+        <p>Tag: "{{ tag }}"</p>
+        <p>Nombre de billets dans la collection: {{ collections.billets | length }}</p>
+        {% endif %}
+    </article>
+</main>
+{% endblock content %}

@@ -3,6 +3,9 @@ title: Bienvenue aux utilisateurs de Pocket !
 category: billets
 date: 2013-04-18 09:00:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2013/04/18/bienvenue-aux-utilisateurs-de-pocket/index.html
 ---
 

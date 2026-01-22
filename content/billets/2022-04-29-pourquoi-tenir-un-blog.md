@@ -3,6 +3,8 @@ title: Pourquoi tenir un blog ?
 category: billets
 date: 2022-04-29 10:00:00
 layout: article.njk
+tags:
+  - blog
 permalink: billets/2022/04/29/pourquoi-tenir-un-blog/index.html
 ---
 

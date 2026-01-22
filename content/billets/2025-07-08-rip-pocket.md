@@ -3,6 +3,8 @@ title: RIP Pocket
 category: billets
 date: 2025-07-08 20:00:00
 layout: article.njk
+tags:
+  - wallabag
 permalink: billets/2025/07/08/rip-pocket/index.html
 ---
 

@@ -3,14 +3,14 @@ title: "wallabag.it : 5 ans d'activité"
 category: billets
 date: 2022-01-03 17:02:00
 layout: article.njk
+tags:
+  - wallabag
 permalink: billets/2022/01/03/wallabagit-5-ans-dactivite/index.html
 ---
 
 Début d'année (ne) rime (pas) avec bilan. Il est donc l'heure de faire le bilan de mon activité wallabag.it.
 
 ## Pour rappel
-
-
 
 * [Comment je vais tenter de gagner un peu d'argent avec un projet opensource](billets/2016/12/05/comment-je-vais-tenter-de-gagner-un-peu-dargent-avec-un-projet-opensource/)
 * [Comment je vais tenter de gagner ma vie avec un projet opensource](billets/2017/02/26/comment-je-vais-tenter-de-gagner-ma-vie-avec-un-projet-opensource/)

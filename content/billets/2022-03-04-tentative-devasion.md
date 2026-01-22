@@ -3,6 +3,8 @@ title: "Tentative d'évasion"
 category: billets
 date: 2022-03-04 13:30:00
 layout: article.njk
+tags:
+  - perso
 permalink: billets/2022/03/04/tentative-devasion/index.html
 ---
 

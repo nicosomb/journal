@@ -3,6 +3,8 @@ title: Pourquoi et comment je suis devenu le maire de ma commune 😱 (non je ne
 category: billets
 date: 2018-10-09 12:08:00
 layout: article.njk
+tags:
+  - mairie
 permalink: billets/2018/10/09/pourquoi-et-comment-je-suis-devenu-le-maire-de-ma-commune-non-je-ne-suis-pas-tombe-sur-la-tete/index.html
 ---
 

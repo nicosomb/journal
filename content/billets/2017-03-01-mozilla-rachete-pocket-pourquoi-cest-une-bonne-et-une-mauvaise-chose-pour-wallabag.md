@@ -3,6 +3,8 @@ title: "Mozilla rachète Pocket : pourquoi c’est une bonne et une mauvaise cho
 category: billets
 date: 2017-03-01 15:44:00
 layout: article.njk
+tags:
+  - wallabag
 permalink: billets/2017/03/01/mozilla-rachete-pocket-pourquoi-cest-une-bonne-et-une-mauvaise-chose-pour-wallabag/index.html
 ---
 

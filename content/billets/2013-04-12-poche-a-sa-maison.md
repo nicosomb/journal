@@ -3,6 +3,9 @@ title: poche a sa maison
 category: billets
 date: 2013-04-12 16:00:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2013/04/12/poche-a-sa-maison/index.html
 ---
 

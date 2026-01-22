@@ -3,6 +3,8 @@ title: C’est quoi, pour moi, être « libriste » ?
 category: billets
 date: 2023-01-03 18:00:00
 layout: article.njk
+tags:
+  - opensource
 permalink: billets/2023/01/03/cest-quoi-pour-moi-etre-libriste/index.html
 ---
 

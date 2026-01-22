@@ -3,6 +3,9 @@ title: wallabag sélectionné au BlueHats 🧢 Semester of Code
 category: billets
 date: 2022-03-15 15:00:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2022/03/15/wallabag-selectionne-au-bluehats-semester-of-code/index.html
 ---
 

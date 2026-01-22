@@ -3,6 +3,9 @@ title: "CMS, frameworks : recensement des versions de PHP (décembre 2015)"
 category: billets
 date: 2015-12-11 12:00:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2015/12/11/cms-frameworks-recensement-des-versions-de-php-decembre-2015/index.html
 ---
 

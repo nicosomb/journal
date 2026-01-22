@@ -3,6 +3,9 @@ title: poche 1.3 disponible
 category: billets
 date: 2013-12-23 13:12:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2013/12/23/poche-13-disponible/index.html
 ---
 
