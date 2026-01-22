@@ -5,7 +5,6 @@ date: 2021-07-20 10:05:00
 layout: article.njk
 tags:
   - photo
-  - blog
 permalink: billets/2021/07/20/promenade-et-concerts-a-boulogne-sur-mer/index.html
 ---
 
