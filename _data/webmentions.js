@@ -22,6 +22,7 @@ async function fetchWebmentions() {
     
     const data = await new Promise((resolve, reject) => {
       https.get(apiUrl, (res) => {
+        res.setEncoding('utf8');
         let data = '';
         
         res.on('data', (chunk) => {
