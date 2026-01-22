@@ -17,8 +17,22 @@
 <main data-pagefind-ignore>
   <article>
     <h1>{{ site.siteName }}</h1>
-    {% if site.subtext %}
-      {{ site.subtext | safe }}
+    {% if site.subtextBefore %}
+      {{ site.subtextBefore | safe }}
+    {% endif %}
+    {% if photos and photos.length > 0 %}
+    <section class="photos">
+      <div class="photos-grid">
+        {% for photo in photos %}
+        <a href="{{ photo.url }}" title="{{ photo.title }}" class="photo-thumbnail">
+          <img src="{{ photo.imageUrl }}" alt="{{ photo.title }}" loading="lazy" />
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+    {% if site.subtextAfter %}
+      {{ site.subtextAfter | safe }}
     {% endif %}
   </article>
 </main>
