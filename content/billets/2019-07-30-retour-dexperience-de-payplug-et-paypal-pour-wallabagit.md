@@ -20,7 +20,7 @@ Je vais aussi en profiter pour rajouter quelques informations concernant ma fact
 
 ## Es-tu content des deux services ?
 
-Globalement, oui, je suis satisfait des deux services. Au démarrage, je ne proposais pas PayPal, je ne souhaitais travailler qu'avec des solutions européennes. Et puis, de plus en plus d'utilisateurs m'ont demandé pour mettre en place cette solution. Je l'ai donc fait au bout de 3 mois d'ouverture. [J'en parlais d'ailleurs ici](billets/2017/11/30/un-an-apres-faisons-le-point-sur-wallabagit/) (vous pourrez même voir les frais de commission de PayPlug. C'est grosso modo la même chose pour PayPal).
+Globalement, oui, je suis satisfait des deux services. Au démarrage, je ne proposais pas PayPal, je ne souhaitais travailler qu'avec des solutions européennes. Et puis, de plus en plus d'utilisateurs m'ont demandé pour mettre en place cette solution. Je l'ai donc fait au bout de 3 mois d'ouverture. [J'en parlais d'ailleurs ici](/billets/2017/11/30/un-an-apres-faisons-le-point-sur-wallabagit/) (vous pourrez même voir les frais de commission de PayPlug. C'est grosso modo la même chose pour PayPal).
 
 Stat intéressante quant à l'utilisation de PayPlug par les clients de wallabag.it. Voici ci-dessous mes frais liés à l'utilisation de PayPlug (plus de clients utilisent la solution, plus je paie de frais) :
 

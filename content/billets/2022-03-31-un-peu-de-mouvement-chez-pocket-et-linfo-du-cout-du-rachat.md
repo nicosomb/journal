@@ -12,7 +12,7 @@ En lisant l'article allemand [« Bevorstehende Umstellung der Pocket-Konten auf 
 
 On peut trouver un peu de détails dans le site de support de Mozilla : [Transition de Pocket vers les comptes Firefox](https://support.mozilla.org/fr/kb/transition-pocket-vers-comptes-firefox).
 
-Bon, c'est pas un changement très important. Ça nous permet juste d'avoir aussi l'information (peut-être déjà connue du monde entier, mais moi je savais pas) du coût du [rachat de Pocket par Mozilla en 2017](billets/2017/03/01/mozilla-rachete-pocket-pourquoi-cest-une-bonne-et-une-mauvaise-chose-pour-wallabag/) :
+Bon, c'est pas un changement très important. Ça nous permet juste d'avoir aussi l'information (peut-être déjà connue du monde entier, mais moi je savais pas) du coût du [rachat de Pocket par Mozilla en 2017](/billets/2017/03/01/mozilla-rachete-pocket-pourquoi-cest-une-bonne-et-une-mauvaise-chose-pour-wallabag/) :
 
 > Pocket wurde im Februar 2017 für 30 Millionen Dollar von Mozilla übernommen.
 

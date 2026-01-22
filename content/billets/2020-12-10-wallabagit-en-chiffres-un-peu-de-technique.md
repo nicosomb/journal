@@ -8,7 +8,7 @@ tags:
 permalink: billets/2020/12/10/wallabagit-en-chiffres-un-peu-de-technique/index.html
 ---
 
-Dernièrement, j'ai publié [le bilan financier de l'année 2020](billets/2020/12/03/quatre-annees-de-wallabagit/).
+Dernièrement, j'ai publié [le bilan financier de l'année 2020](/billets/2020/12/03/quatre-annees-de-wallabagit/).
 
 Je vais prendre le temps aujourd'hui de parler de chiffres, mais du côté technique.
 

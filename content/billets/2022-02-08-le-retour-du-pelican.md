@@ -14,7 +14,7 @@ Tiens, j'ai changé le moteur de mon blog. J'ai quitté [Grav](https://getgrav.o
 
 Pourquoi changer alors ? Parce que je suis chez moi et que chacun fait fait fait c'qu'il lui plaît, plaît, plaît.
 
-Et je suis donc revenu sur [Pelican](https://blog.getpelican.com/), que j'avais pourtant [quitté en 2016](billets/2016/12/29/plus-de-pelican-cest-grav/).
+Et je suis donc revenu sur [Pelican](https://blog.getpelican.com/), que j'avais pourtant [quitté en 2016](/billets/2016/12/29/plus-de-pelican-cest-grav/).
 
 J’ai viré la notion d’étiquettes et de catégories. Priorité au contenu de chaque billet. Pas de pagination.
 Les catégories, les étiquettes, c’est bien. Mais c’est contraignant. Et j'en oublie toujours.

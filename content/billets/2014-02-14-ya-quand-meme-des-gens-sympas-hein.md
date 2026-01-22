@@ -6,7 +6,7 @@ layout: article.njk
 permalink: billets/2014/02/14/ya-quand-meme-des-gens-sympas-hein/index.html
 ---
 
-Cette semaine, j'étais [un peu grognon](billets/2014/02/11/on-ma-prevenu/).
+Cette semaine, j'étais [un peu grognon](/billets/2014/02/11/on-ma-prevenu/).
 
 Et puis, y'a des gens sympas.
 

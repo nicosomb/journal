@@ -9,7 +9,7 @@ tags:
 permalink: billets/2022/03/25/bientot-neuf-ans-et-une-v3/index.html
 ---
 
-Dans neuf jours, [wallabag fêtera ses neuf ans](billets/2013/04/03/poche-pour-remplacer-instapaper-pocket-et-readability/).
+Dans neuf jours, [wallabag fêtera ses neuf ans](/billets/2013/04/03/poche-pour-remplacer-instapaper-pocket-et-readability/).
 
 Neuf ans.
 

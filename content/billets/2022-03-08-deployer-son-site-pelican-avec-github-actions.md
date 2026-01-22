@@ -8,7 +8,7 @@ tags:
 permalink: billets/2022/03/08/deployer-son-site-pelican-avec-github-actions/index.html
 ---
 
-[Depuis que je génère ce site avec Pelican](billets/2022/02/08/le-retour-du-pelican/), je faisais toute la partie génération / déploiement à la main. À savoir :
+[Depuis que je génère ce site avec Pelican](/billets/2022/02/08/le-retour-du-pelican/), je faisais toute la partie génération / déploiement à la main. À savoir :
 
 ```
 pelican content -s publishconf.py

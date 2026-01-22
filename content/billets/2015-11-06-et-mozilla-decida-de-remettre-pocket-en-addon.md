@@ -12,8 +12,8 @@ permalink: billets/2015/11/06/et-mozilla-decida-de-remettre-pocket-en-addon/inde
 
 Pour rappel :
 
-* [Pourquoi Mozilla se trompe](billets/2015/05/15/pourquoi-mozilla-se-trompe/)
-* [Mozilla / Pocket : la réponse de Mark Mayo](billets/2015/05/22/mozilla-pocket-la-reponse-de-mark-mayo/)
+* [Pourquoi Mozilla se trompe](/billets/2015/05/15/pourquoi-mozilla-se-trompe/)
+* [Mozilla / Pocket : la réponse de Mark Mayo](/billets/2015/05/22/mozilla-pocket-la-reponse-de-mark-mayo/)
 * [Comment désactiver Pocket dans Firefox](https://support.mozilla.org/fr/kb/desactiver-reactiver-pocket-sur-firefox)
 
 Alors, forcément, c'est une bonne nouvelle que Firefox n'embarque plus nativement Pocket (pour laisser le choix aux utilisateurs, tout ça), mais ce rapide retour en arrière est quand même inquiétant sur la gestion de tout ça en interne.

@@ -9,7 +9,7 @@ tags:
 permalink: billets/2014/05/19/la-version-1-de-wallabag-est-officiellement-gelee/index.html
 ---
 
-La [version 2](billets/2013/07/31/avenir-de-poche/) de wallabag est prévue de [longue](https://www.wallabag.org/2013/11/06/first-commit-for-poche-v2/) [date](https://www.wallabag.org/2014/01/15/working-poche-v2/).
+La [version 2](/billets/2013/07/31/avenir-de-poche/) de wallabag est prévue de [longue](https://www.wallabag.org/2013/11/06/first-commit-for-poche-v2/) [date](https://www.wallabag.org/2014/01/15/working-poche-v2/).
 
 Mais on traine. J'ai l'impression que c'est dans beaucoup de projets comme ça.
 

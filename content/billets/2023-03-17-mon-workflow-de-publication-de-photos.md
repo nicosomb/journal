@@ -8,7 +8,7 @@ tags:
 permalink: billets/2023/03/17/mon-workflow-de-publication-de-photos/index.html
 ---
 
-L’autre jour, [j’annonçais un nouvel espace de publication](billets/2023/03/10/publier-des-photos-cest-intime/) de certaines de mes photos.
+L’autre jour, [j’annonçais un nouvel espace de publication](/billets/2023/03/10/publier-des-photos-cest-intime/) de certaines de mes photos.
 
 Je vais aujourd’hui lister les différentes étapes pour publier ces photos.
 

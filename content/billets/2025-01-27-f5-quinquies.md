@@ -12,10 +12,10 @@ permalink: billets/2025/01/27/f5-quinquies/index.html
 
 Précédemment :
 
-- [F5](billets/2017/10/04/f5/)
-- [F5 bis](billets/2021/02/21/f5-bis/)
-- [F5 ter](billets/2022/09/08/f5-ter/)
-- [Mise à jour internet](billets/2024/04/11/mise-a-jour-internet/)
+- [F5](/billets/2017/10/04/f5/)
+- [F5 bis](/billets/2021/02/21/f5-bis/)
+- [F5 ter](/billets/2022/09/08/f5-ter/)
+- [Mise à jour internet](/billets/2024/04/11/mise-a-jour-internet/)
 
 Quelques mises à jour concernant ma présence en ligne :
 

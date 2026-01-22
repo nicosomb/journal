@@ -14,7 +14,7 @@ permalink: billets/2021/09/28/notes-hebdomadaires-2021-39/index.html
 
 ## Testament numérique
 
-[Depuis mon dernier billet](billets/2021/09/21/notes-hebdomadaires-2021-38/), j'ai avancé un peu sur le sujet.
+[Depuis mon dernier billet](/billets/2021/09/21/notes-hebdomadaires-2021-38/), j'ai avancé un peu sur le sujet.
 
 J'ai créé un document avec la liste des prestataires du quotidien, dans tous les domaines (santé, assurance, énergies, banques, etc.). L'idée est d'avoir les coordonnées de chaque prestataire, une rapide description de son utilisé et notre compte client ou toute autre référence pour faire des démarches. Ce document sera imprimé et mis à jour à chaque fois que nécessaire.
 

@@ -58,7 +58,7 @@ Résultat : une déchirure musculo aponévrotique au mollet droit. Aïe. Et du r
 
 ## Testament numérique
 
-J'ai déjà évoqué le sujet du testament numérique il y a quelques années (« [Mon après-moi numérique](billets/2017/11/08/mon-apres-moi-numerique/) »). Et depuis, plus rien. Des événements personnels ou professionnels ont fait que j'ai mis ce sujet de côté. Alors qu'en fait, ça aurait du renforcer l'idée de bosser le sujet.
+J'ai déjà évoqué le sujet du testament numérique il y a quelques années (« [Mon après-moi numérique](/billets/2017/11/08/mon-apres-moi-numerique/) »). Et depuis, plus rien. Des événements personnels ou professionnels ont fait que j'ai mis ce sujet de côté. Alors qu'en fait, ça aurait du renforcer l'idée de bosser le sujet.
 
 Et la [mort récente de Frank](https://sudweb.github.io/frank/) a réveillé ce sujet. Ce n'est pas improbable que [le dépôt digital-legacy](https://github.com/digital-legacy/ideas) bouge prochainement.
 

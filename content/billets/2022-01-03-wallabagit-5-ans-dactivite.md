@@ -12,12 +12,12 @@ Début d'année (ne) rime (pas) avec bilan. Il est donc l'heure de faire le bila
 
 ## Pour rappel
 
-* [Comment je vais tenter de gagner un peu d'argent avec un projet opensource](billets/2016/12/05/comment-je-vais-tenter-de-gagner-un-peu-dargent-avec-un-projet-opensource/)
-* [Comment je vais tenter de gagner ma vie avec un projet opensource](billets/2017/02/26/comment-je-vais-tenter-de-gagner-ma-vie-avec-un-projet-opensource/)
-* [Retours sur la mise en ligne de wallabag.it](billets/2016/12/07/retours-sur-la-mise-en-ligne-de-wallabagit/)
-* [Un an après, faisons le point sur wallabag.it](billets/2017/11/30/un-an-apres-faisons-le-point-sur-wallabagit/)
-* [Situation après trois années d'activité pour wallabag.it](billets/2020/01/02/situation-apres-trois-annees-dactivite-pour-wallabagit/)
-* [Quatre années de wallabag.it](billets/2020/12/03/quatre-annees-de-wallabagit/)
+* [Comment je vais tenter de gagner un peu d'argent avec un projet opensource](/billets/2016/12/05/comment-je-vais-tenter-de-gagner-un-peu-dargent-avec-un-projet-opensource/)
+* [Comment je vais tenter de gagner ma vie avec un projet opensource](/billets/2017/02/26/comment-je-vais-tenter-de-gagner-ma-vie-avec-un-projet-opensource/)
+* [Retours sur la mise en ligne de wallabag.it](/billets/2016/12/07/retours-sur-la-mise-en-ligne-de-wallabagit/)
+* [Un an après, faisons le point sur wallabag.it](/billets/2017/11/30/un-an-apres-faisons-le-point-sur-wallabagit/)
+* [Situation après trois années d'activité pour wallabag.it](/billets/2020/01/02/situation-apres-trois-annees-dactivite-pour-wallabagit/)
+* [Quatre années de wallabag.it](/billets/2020/12/03/quatre-annees-de-wallabagit/)
 
 En parallèle de cette activité (en micro entrepreneur), je suis salarié à 80% en tant que développeur web. Donc wallabag.it n'est pas mon activité principale et je n'y consacre pas énormément de temps. Et je ne fais aucune publicité du service.
 

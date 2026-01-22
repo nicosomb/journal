@@ -9,7 +9,7 @@ tags:
 permalink: billets/2015/08/16/wallabag-v2-quelles-nouveautes/index.html
 ---
 
-Bon maintenant, on ne rigole plus, depuis que j'ai annoncé [aux RMLL](billets/2015/07/27/effectuez-votre-veille-en-toute-liberte-aux-rmll-2015-de-beauvais/) qu'une alpha de wallabag v2 allait sortir en septembre 2015, il a fallu se mettre à bosser activement.
+Bon maintenant, on ne rigole plus, depuis que j'ai annoncé [aux RMLL](/billets/2015/07/27/effectuez-votre-veille-en-toute-liberte-aux-rmll-2015-de-beauvais/) qu'une alpha de wallabag v2 allait sortir en septembre 2015, il a fallu se mettre à bosser activement.
 
 Listons donc les dernières nouveautés de ce mois d'août.
 

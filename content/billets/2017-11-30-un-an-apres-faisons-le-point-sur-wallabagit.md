@@ -12,11 +12,11 @@ permalink: billets/2017/11/30/un-an-apres-faisons-le-point-sur-wallabagit/index.
 
 Précédemment, sur [nicolas.loeuillet.org](https://nicolas.loeuillet.org) :
 
-* [Comment je vais tenter de gagner un peu d'argent avec un projet opensource](billets/2016/12/05/comment-je-vais-tenter-de-gagner-un-peu-dargent-avec-un-projet-opensource/)
-* [Comment je vais tenter de gagner ma vie avec un projet opensource](billets/2017/02/26/comment-je-vais-tenter-de-gagner-ma-vie-avec-un-projet-opensource/)
-* [Retours sur la mise en ligne de wallabag.it](billets/2016/12/07/retours-sur-la-mise-en-ligne-de-wallabagit/)
-* [wallabag fête aujourd'hui ses 4 ans](billets/2017/04/03/wallabag-fete-aujourdhui-ses-4-ans/)
-* [Mozilla rachète Pocket : pourquoi c’est une bonne et une mauvaise chose pour wallabag](billets/2017/03/01/mozilla-rachete-pocket-pourquoi-cest-une-bonne-et-une-mauvaise-chose-pour-wallabag/)
+* [Comment je vais tenter de gagner un peu d'argent avec un projet opensource](/billets/2016/12/05/comment-je-vais-tenter-de-gagner-un-peu-dargent-avec-un-projet-opensource/)
+* [Comment je vais tenter de gagner ma vie avec un projet opensource](/billets/2017/02/26/comment-je-vais-tenter-de-gagner-ma-vie-avec-un-projet-opensource/)
+* [Retours sur la mise en ligne de wallabag.it](/billets/2016/12/07/retours-sur-la-mise-en-ligne-de-wallabagit/)
+* [wallabag fête aujourd'hui ses 4 ans](/billets/2017/04/03/wallabag-fete-aujourdhui-ses-4-ans/)
+* [Mozilla rachète Pocket : pourquoi c’est une bonne et une mauvaise chose pour wallabag](/billets/2017/03/01/mozilla-rachete-pocket-pourquoi-cest-une-bonne-et-une-mauvaise-chose-pour-wallabag/)
 
 Voici donc les derniers épisodes concernant wallabag sur les douze derniers mois.
 

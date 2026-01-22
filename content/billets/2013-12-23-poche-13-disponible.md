@@ -11,7 +11,7 @@ permalink: billets/2013/12/23/poche-13-disponible/index.html
 
 Je vous avais présenté il y a quelques jours les nouveautés qui seraient présentes dans poche 1.3 en vous promettant sa sortie pour Noël : c'est fait, poche 1.3 est disponible au téléchargement.
 
-Les nouveautés sont donc les flux RSS, les tags, etc. Je ne vous refais pas [le même billet](billets/2013/12/12/quelles-nouveautes-avec-poche-13/).
+Les nouveautés sont donc les flux RSS, les tags, etc. Je ne vous refais pas [le même billet](/billets/2013/12/12/quelles-nouveautes-avec-poche-13/).
 
 ## Exporter ses liens au format epub
 

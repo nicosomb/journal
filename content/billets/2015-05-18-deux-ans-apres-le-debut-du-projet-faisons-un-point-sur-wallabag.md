@@ -9,7 +9,7 @@ tags:
 permalink: billets/2015/05/18/deux-ans-apres-le-debut-du-projet-faisons-un-point-sur-wallabag/index.html
 ---
 
-[Le dernier point sur ce blog remonte à Juillet 2014](billets/2014/07/07/un-petit-point-rapide-sur-wallabag-et-son-avancement/).
+[Le dernier point sur ce blog remonte à Juillet 2014](/billets/2014/07/07/un-petit-point-rapide-sur-wallabag-et-son-avancement/).
 
 C'est mal, parce que ça donne l'impression que ça n'a pas bougé alors que oui, en coulisses, ça a pas mal bougé.
 
@@ -54,7 +54,7 @@ Si vous ne savez pas ce qu'est wallabag ou Framabag, ou si vous voulez en parler
 
 ### Pocket / Firefox
 
-[Un lien vers mon précédent billet fera l'affaire](billets/2015/05/15/pourquoi-mozilla-se-trompe/).
+[Un lien vers mon précédent billet fera l'affaire](/billets/2015/05/15/pourquoi-mozilla-se-trompe/).
 
 Je vais juste préciser que je suis en contact avec un haut placé chez Mozilla, mais que ça ne changera pas grand chose à mon avis.
 

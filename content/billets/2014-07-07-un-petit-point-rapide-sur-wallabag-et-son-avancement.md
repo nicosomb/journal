@@ -9,7 +9,7 @@ tags:
 permalink: billets/2014/07/07/un-petit-point-rapide-sur-wallabag-et-son-avancement/index.html
 ---
 
-[Régulièrement](billets/2014/05/19/la-version-1-de-wallabag-est-officiellement-gelee/), je fais un point sur [wallabag](billets/2013/09/25/la-roadmap-pour-la-v2-de-poche-est-en-cours/).
+[Régulièrement](/billets/2014/05/19/la-version-1-de-wallabag-est-officiellement-gelee/), je fais un point sur [wallabag](/billets/2013/09/25/la-roadmap-pour-la-v2-de-poche-est-en-cours/).
 
 Régulièrement, je fais croire que ça avance.
 

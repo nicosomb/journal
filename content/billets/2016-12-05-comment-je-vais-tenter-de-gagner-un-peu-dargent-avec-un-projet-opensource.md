@@ -13,7 +13,7 @@ permalink: billets/2016/12/05/comment-je-vais-tenter-de-gagner-un-peu-dargent-av
 
 Oui ! Chiche.
 
-En avril 2013, je créais wallabag ([qui s'appelait alors poche](billets/2013/04/03/poche-pour-remplacer-instapaper-pocket-et-readability/)) pour mes besoins personnels uniquement.
+En avril 2013, je créais wallabag ([qui s'appelait alors poche](/billets/2013/04/03/poche-pour-remplacer-instapaper-pocket-et-readability/)) pour mes besoins personnels uniquement.
 
 De fil en aiguille, le projet a pris un peu d'ampleur. Jusqu'à devenir aujourd'hui quelque chose qui me prend beaucoup de temps **tous les jours**.
 
@@ -52,7 +52,7 @@ L'un des atouts du service wallabag.it que je voulais mettre en avant était le 
 C'est pourquoi le choix des partenaires choisis était important : [web4all.fr](https://www.web4all.fr/) pour l'hébergement, [Mailjet](https://fr.mailjet.com/?mjlang=fr) pour l'emailing et [PayPlug](https://www.payplug.com/) pour le paiement en ligne.
 Il n'y a que pour le site de support où j'ai mis en place FreshDesk, je n'ai pas encore trouvé d'alternative française ou européenne à moindre frais (si vous en connaissez, prévenez-moi). C'est moins critique car le site de support n'est pas utilisé pour stocker les articles, pour les infos bancaires ou pour les infos type adresse email. Mais il faut remplacer ce service, ça sera peut-être fait avec l'installation d'une application auto hébergée.
 
-Et puis voila, tout était prêt : il fallait bien se lancer un jour ou l'autre. Samedi 3 décembre (le 3 revient souvent dans les dates de wallabag : [3 avril 2013 et le tout premier commit](billets/2013/04/03/poche-pour-remplacer-instapaper-pocket-et-readability/), [3 octobre 2013 et la v1](https://www.wallabag.org/blog/2013/10/03/117), [3 avril 2016 et la v2](https://www.wallabag.org/blog/2016/04/03/wallabag-v2), [3 octobre 2016 et la v2.1](https://www.wallabag.org/blog/2016/10/03/wallabag-21)), samedi 3 décembre donc, j'ai sauté le pas. Tout s'est mis en place presque sans encombre.
+Et puis voila, tout était prêt : il fallait bien se lancer un jour ou l'autre. Samedi 3 décembre (le 3 revient souvent dans les dates de wallabag : [3 avril 2013 et le tout premier commit](/billets/2013/04/03/poche-pour-remplacer-instapaper-pocket-et-readability/), [3 octobre 2013 et la v1](https://www.wallabag.org/blog/2013/10/03/117), [3 avril 2016 et la v2](https://www.wallabag.org/blog/2016/04/03/wallabag-v2), [3 octobre 2016 et la v2.1](https://www.wallabag.org/blog/2016/10/03/wallabag-21)), samedi 3 décembre donc, j'ai sauté le pas. Tout s'est mis en place presque sans encombre.
 
 Beaucoup de retours positifs par mail ou sur twitter. Personne pour me dire *Quoi ? Argent et opensource dans la même phrase ?*. Des premiers clients (je ne suis pas encore arrivé aux [22 millions de comptes chez Pocket](https://getpocket.com/) mais je m'en approche tout doucement quand même !), des premiers bugs : bref ça y est. C'est parti.
 

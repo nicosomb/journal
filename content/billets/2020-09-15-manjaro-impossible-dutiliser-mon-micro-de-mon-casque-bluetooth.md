@@ -6,7 +6,7 @@ layout: article.njk
 permalink: billets/2020/09/15/manjaro-impossible-dutiliser-mon-micro-de-mon-casque-bluetooth/index.html
 ---
 
-[Après le son](billets/2020/09/14/pas-de-son-avec-manjaro-2003-et-xfce/), voila que je n'arrivais pas à utiliser le micro de mon casque bluetooth.
+[Après le son](/billets/2020/09/14/pas-de-son-avec-manjaro-2003-et-xfce/), voila que je n'arrivais pas à utiliser le micro de mon casque bluetooth.
 
 Après moult recherches et tests, j'ai enfin trouvé. En fait, Manjaro (ou le kernel ou je sais pas quoi) ne sait pas permuter automatiquement entre le mode HSP / HFP (qualité médiocre, mais micro et son fonctionnent) et le mode A2DP Sink (très bonne qualité, pour écouter de la musique).
 

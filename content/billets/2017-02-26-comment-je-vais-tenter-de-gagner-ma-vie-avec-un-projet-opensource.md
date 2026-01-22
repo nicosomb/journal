@@ -9,7 +9,7 @@ tags:
 permalink: billets/2017/02/26/comment-je-vais-tenter-de-gagner-ma-vie-avec-un-projet-opensource/index.html
 ---
 
-Suite du billet ["Comment je vais tenter de gagner un peu d'argent avec un projet opensource"](billets/2016/12/05/comment-je-vais-tenter-de-gagner-un-peu-dargent-avec-un-projet-opensource/).
+Suite du billet ["Comment je vais tenter de gagner un peu d'argent avec un projet opensource"](/billets/2016/12/05/comment-je-vais-tenter-de-gagner-un-peu-dargent-avec-un-projet-opensource/).
 
 Début décembre, j'ai donc lancé [wallabag.it](https://wallabag.it/fr). C'est pas le carton du siècle, bien évidemment, mais sans faire de publicité (à part sur twitter au sein d'un public geek / libriste déjà plus ou moins convaincu par le projet), je m'en sors pas mal. Je dis ça aussi parce que je n'ai pas besoin d'un gros succès pour vivre, j'ai un CDI à côté.
 

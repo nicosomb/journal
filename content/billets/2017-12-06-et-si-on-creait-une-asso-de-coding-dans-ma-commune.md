@@ -8,7 +8,7 @@ tags:
 permalink: billets/2017/12/06/et-si-on-creait-une-asso-de-coding-dans-ma-commune/index.html
 ---
 
-J'étais en train de rédiger un mail [au directeur de l'école où j'interviens](billets/2017/11/06/cours-dinformatique-en-ecole-primaire/), et en fait, je me dis que ça pourrait être sympa d'avoir une association de coding / développement / programmation à Rinxent.
+J'étais en train de rédiger un mail [au directeur de l'école où j'interviens](/billets/2017/11/06/cours-dinformatique-en-ecole-primaire/), et en fait, je me dis que ça pourrait être sympa d'avoir une association de coding / développement / programmation à Rinxent.
 
 Voici en partie le mail en question, avec ce qu'on a déjà fait cette année et mes idées pour l'année prochaine pour l'école primaire :
 
