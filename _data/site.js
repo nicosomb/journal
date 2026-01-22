@@ -25,7 +25,7 @@ publie des <a href="archives.html">choses intéressantes</a> (ou pas). Je tente 
 <p>À bientôt,<br />Nicolas Lœuillet</p>`,
   social: [
     { name: 'mon journal de maire', url: 'https://www.nicolasloeuillet.fr' },
-    { name: 'photos', url: 'https://instantanes.loeuillet.org' },
+    { name: 'mes photos', url: 'https://instantanes.loeuillet.org' },
     { name: 'mastodon', url: 'https://piaille.fr/@nicosomb' },
     { name: 'github', url: 'https://github.com/nicosomb' }
   ],

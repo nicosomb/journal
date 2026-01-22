@@ -51,19 +51,6 @@
 
     {% block content %}{% endblock content %}
 
-    {% if page.url == '/' and photos and photos.length > 0 %}
-    <section class="photos">
-        <h2>Quelques instantanés</h2>
-        <div class="photos-grid">
-            {% for photo in photos %}
-            <a href="{{ photo.url }}" title="{{ photo.title }}" class="photo-thumbnail">
-                <img src="{{ photo.imageUrl }}" alt="{{ photo.title }}" loading="lazy" />
-            </a>
-            {% endfor %}
-        </div>
-    </section>
-    {% endif %}
-
     <footer data-pagefind-ignore>
         <p>
             {% if page.url != '/' %}
