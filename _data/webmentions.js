@@ -21,19 +21,29 @@ async function fetchWebmentions() {
     const apiUrl = `https://webmention.io/api/mentions.jf2?domain=${WEBMENTION_IO_DOMAIN}&token=${WEBMENTION_IO_TOKEN}&per-page=1000`;
     
     const data = await new Promise((resolve, reject) => {
-      https.get(apiUrl, (res) => {
-        res.setEncoding('utf8');
-        let data = '';
+      const options = {
+        headers: {
+          'Accept': 'application/json',
+          'Accept-Charset': 'utf-8'
+        }
+      };
+      
+      https.get(apiUrl, options, (res) => {
+        const contentType = res.headers['content-type'] || '';
+        const chunks = [];
         
         res.on('data', (chunk) => {
-          data += chunk;
+          chunks.push(chunk);
         });
         
         res.on('end', () => {
           try {
+            const buffer = Buffer.concat(chunks);
+            const data = buffer.toString('utf8');
             const json = JSON.parse(data);
             resolve(json);
           } catch (e) {
+            console.error('Erreur lors du parsing JSON:', e.message);
             reject(e);
           }
         });
