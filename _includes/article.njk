@@ -34,12 +34,11 @@
       {% include "webmentions.njk" %}
 
       <p class="article-meta">
-        <a href="mailto:nicolas@loeuillet.org?subject={{ title | striptags | urlencode }}">Réagir par mail</a>
         {% if site.webmentionDomain %}
-        — Réagir via webmention en citant ce lien : <code>{{ site.siteUrl }}{{ page.url | replace('/index.html', '') }}</code>
+        Réagissez via webmention en citant ce lien : <code>{{ site.siteUrl }}{{ page.url | replace('/index.html', '') }}</code> ou <a href="mailto:nicolas@loeuillet.org?subject={{ title | striptags | urlencode }}">contactez-moi par mail</a>.
         {% endif %}
         {% if page.inputPath %}
-        — <a href="{{ site.githubRepo }}/blob/{{ site.githubBranch }}/{{ page.inputPath | cleanPath }}">Proposer une correction</a>
+        <br /><a href="{{ site.githubRepo }}/blob/{{ site.githubBranch }}/{{ page.inputPath | cleanPath }}">Vous avez trouvé une coquille ? Proposez une correction</a>
         {% endif %}
       </p>
 

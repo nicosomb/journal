@@ -103,7 +103,7 @@ hr {
     height: 1px;
     background: var(--text-color);
     opacity: 0.2;
-    margin: 3em 0;
+    margin: 1em 0;
     border: none;
 }
 
@@ -761,6 +761,10 @@ blockquote cite {
 pre, code, mark {
     padding: 1px 3px;
     border-radius: 2px;
+}
+
+code {
+    font-size: 0.8em;
 }
 pre {
     padding: 1rem;
