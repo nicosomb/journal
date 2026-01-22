@@ -3,6 +3,8 @@ title: Déployer son site Pelican avec Github Actions
 category: billets
 date: 2022-03-08 10:00:00
 layout: article.njk
+tags:
+  - blog
 permalink: billets/2022/03/08/deployer-son-site-pelican-avec-github-actions/index.html
 ---
 

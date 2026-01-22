@@ -3,6 +3,9 @@ title: Pourquoi et comment je souhaite rester le maire de ma commune
 category: billets
 date: 2026-01-21 11:00:00
 layout: article.njk
+tags:
+  - mairie
+  - perso
 permalink: billets/2026/01/21/pourquoi-et-comment-je-souhaite-rester-le-maire-de-ma-commune/index.html
 ---
 

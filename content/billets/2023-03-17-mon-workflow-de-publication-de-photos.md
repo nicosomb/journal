@@ -3,6 +3,8 @@ title: Mon workflow de publication de photos
 category: billets
 date: 2023-03-17 09:30:00
 layout: article.njk
+tags:
+  - photo
 permalink: billets/2023/03/17/mon-workflow-de-publication-de-photos/index.html
 ---
 

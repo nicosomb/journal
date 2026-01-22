@@ -3,6 +3,8 @@ title: Notes hebdomadaires 2021-49
 category: billets
 date: 2021-12-09 14:10:00
 layout: article.njk
+tags:
+  - mairie
 permalink: billets/2021/12/09/notes-hebdomadaires-2021-49/index.html
 ---
 

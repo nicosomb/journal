@@ -3,6 +3,8 @@ title: "Le danger mortel des personnes qui s'expriment à propos de tout"
 category: billets
 date: 2025-01-30 18:00:00
 layout: article.njk
+tags:
+  - opensource
 permalink: billets/2025/01/30/le-danger-mortel-des-personnes-qui-sexpriment-a-propos-de-tout/index.html
 ---
 

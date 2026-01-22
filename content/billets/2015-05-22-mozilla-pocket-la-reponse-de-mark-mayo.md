@@ -3,6 +3,9 @@ title: "Mozilla / Pocket : la réponse de Mark Mayo"
 category: billets
 date: 2015-05-22 11:42:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2015/05/22/mozilla-pocket-la-reponse-de-mark-mayo/index.html
 ---
 

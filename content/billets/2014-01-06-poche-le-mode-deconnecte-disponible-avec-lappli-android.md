@@ -3,6 +3,9 @@ title: "poche - Le mode déconnecté disponible avec l''appli Android"
 category: billets
 date: 2014-01-06 08:28:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2014/01/06/poche-le-mode-deconnecte-disponible-avec-lappli-android/index.html
 ---
 

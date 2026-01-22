@@ -3,6 +3,8 @@ title: Vasectomie
 category: billets
 date: 2021-03-19 15:45:00
 layout: article.njk
+tags:
+  - perso
 permalink: billets/2021/03/19/vasectomie/index.html
 ---
 

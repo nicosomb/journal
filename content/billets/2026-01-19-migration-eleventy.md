@@ -3,6 +3,8 @@ title: Migration de Pelican à Eleventy
 category: billets
 date: 2026-01-19 12:00:00
 layout: article.njk
+tags:
+  - blog
 permalink: billets/2026/01/19/migration-blog-eleventy/index.html
 ---
 

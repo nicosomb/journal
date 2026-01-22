@@ -3,6 +3,8 @@ title: "#PhotoJanuary2023, tu participes avec moi ?"
 category: billets
 date: 2022-12-16 14:00:00
 layout: article.njk
+tags:
+  - photo
 permalink: billets/2022/12/16/photojanuary2023-tu-participes-avec-moi/index.html
 ---
 

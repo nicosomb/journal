@@ -3,6 +3,9 @@ title: "Comment je vais tenter de gagner un peu d'argent avec un projet opensour
 category: billets
 date: 2016-12-05 13:00:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2016/12/05/comment-je-vais-tenter-de-gagner-un-peu-dargent-avec-un-projet-opensource/index.html
 ---
 

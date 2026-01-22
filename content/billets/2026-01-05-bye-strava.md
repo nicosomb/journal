@@ -3,6 +3,9 @@ title: Bye Strava
 category: billets
 date: 2026-01-05 16:00:00
 layout: article.njk
+tags:
+  - perso
+  - vie privée
 permalink: billets/2026/01/05/bye-strava/index.html
 ---
 

@@ -16,6 +16,13 @@
 <main>
     <section>
       <p>{{ date | strftime('%d-%m-%Y') }}
+      {% if tags and tags | length > 0 %}
+      — tags : <span class="article-tags">
+        {% for tag in tags %}
+        <a href="/tags/{{ tag | slugify }}/" class="tag">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+        {% endfor %}
+      </span>
+      {% endif %}
       {% set reactionCount = webmentions | countWebmentions(page.url, site.siteUrl) %}
       {% if reactionCount > 0 %}
       — <a href="#webmentions">{{ reactionCount }} {% if reactionCount > 1 %}réactions{% else %}réaction{% endif %}</a>

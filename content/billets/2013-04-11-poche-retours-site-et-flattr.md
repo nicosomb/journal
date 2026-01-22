@@ -3,6 +3,9 @@ title: "poche : retours, site et Flattr"
 category: billets
 date: 2013-04-11 20:26:00
 layout: article.njk
+tags:
+  - opensource
+  - wallabag
 permalink: billets/2013/04/11/poche-retours-site-et-flattr/index.html
 ---
 

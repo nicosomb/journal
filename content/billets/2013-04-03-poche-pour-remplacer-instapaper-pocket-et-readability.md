@@ -3,6 +3,9 @@ title: "poche : pour remplacer Instapaper, Pocket et Readability"
 category: billets
 date: 2013-04-03 16:00:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2013/04/03/poche-pour-remplacer-instapaper-pocket-et-readability/index.html
 ---
 

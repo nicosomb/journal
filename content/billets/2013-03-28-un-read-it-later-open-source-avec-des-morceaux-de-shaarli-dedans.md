@@ -3,6 +3,9 @@ title: Un read it later open source avec des morceaux de Shaarli dedans
 category: billets
 date: 2013-03-28 12:00:00
 layout: article.njk
+tags:
+  - opensource
+  - wallabag
 permalink: billets/2013/03/28/un-read-it-later-open-source-avec-des-morceaux-de-shaarli-dedans/index.html
 ---
 

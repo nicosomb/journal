@@ -3,6 +3,8 @@ title: "Un peu de mouvement chez Pocket et l'info du coût du rachat"
 category: billets
 date: 2022-03-31 13:30:00
 layout: article.njk
+tags:
+  - wallabag
 permalink: billets/2022/03/31/un-peu-de-mouvement-chez-pocket-et-linfo-du-cout-du-rachat/index.html
 ---
 

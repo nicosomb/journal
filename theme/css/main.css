@@ -648,6 +648,14 @@ footer a {
     text-decoration-style: dotted;
 }
 
+.article-tags {
+    display: inline;
+}
+
+.article-tags .tag {
+    display: inline;
+}
+
 img {
     max-width: 100%; }
 

@@ -3,6 +3,9 @@ title: Une collaboration entre ownCloud et poche
 category: billets
 date: 2014-01-22 12:37:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2014/01/22/une-collaboration-entre-owncloud-et-poche/index.html
 ---
 

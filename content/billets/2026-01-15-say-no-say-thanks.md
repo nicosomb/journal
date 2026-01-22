@@ -3,6 +3,8 @@ title: Say no. Say thanks.
 category: billets
 date: 2026-01-15 16:00:00
 layout: article.njk
+tags:
+  - opensource
 permalink: billets/2026/01/15/say-no-say-thanks/index.html
 ---
 

@@ -3,6 +3,9 @@ title: "L'écosystème wallabag"
 category: billets
 date: 2023-07-07 09:00:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2023/07/07/lecosysteme-wallabag/index.html
 ---
 

@@ -3,6 +3,9 @@ title: La roadmap pour la v2 de poche est en cours
 category: billets
 date: 2013-09-25 13:05:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2013/09/25/la-roadmap-pour-la-v2-de-poche-est-en-cours/index.html
 ---
 

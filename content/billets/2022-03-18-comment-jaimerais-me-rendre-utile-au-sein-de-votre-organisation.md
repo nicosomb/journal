@@ -3,12 +3,14 @@ title: "Comment j'aimerais me rendre utile au sein de votre organisation"
 category: billets
 date: 2022-03-18 09:45:00
 layout: article.njk
+tags:
+  - mairie
 permalink: billets/2022/03/18/comment-jaimerais-me-rendre-utile-au-sein-de-votre-organisation/index.html
 ---
 
 Actuellement en recherche d'emploi, je liste ici les typologies de projets sur lesquels je pourrais m'épanouir et donc, être utile au sein de votre organisation (entreprise, association, collectivité ou autre).
 
-Pour avoir une idée de mon parcours, vous pouvez jeter un œil à la page [« À propos »](PLACEHOLDER:../pages/apropos) de ce journal : vous y trouverez notamment mon CV complet.
+Pour avoir une idée de mon parcours, vous pouvez jeter un œil à la page [« À propos »](/pages/a-propos.html) de ce journal : vous y trouverez notamment mon CV complet.
 
 ---
 

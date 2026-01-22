@@ -3,6 +3,8 @@ title: Nouveaux tarifs pour wallabag.it
 category: billets
 date: 2023-06-26 13:30:00
 layout: article.njk
+tags:
+  - wallabag
 permalink: billets/2023/06/26/nouveaux-tarifs-pour-wallabagit/index.html
 ---
 

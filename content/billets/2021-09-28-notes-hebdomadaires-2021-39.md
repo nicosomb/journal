@@ -3,6 +3,8 @@ title: Notes hebdomadaires 2021-39
 category: billets
 date: 2021-09-28 10:30:00
 layout: article.njk
+tags:
+  - perso
 permalink: billets/2021/09/28/notes-hebdomadaires-2021-39/index.html
 ---
 

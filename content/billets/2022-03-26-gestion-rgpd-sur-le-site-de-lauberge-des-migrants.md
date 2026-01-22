@@ -3,6 +3,8 @@ title: "Gestion RGPD sur le site de l'Auberge des migrants"
 category: billets
 date: 2022-03-26 18:00:00
 layout: article.njk
+tags:
+  - vie privée
 permalink: billets/2022/03/26/gestion-rgpd-sur-le-site-de-lauberge-des-migrants/index.html
 ---
 

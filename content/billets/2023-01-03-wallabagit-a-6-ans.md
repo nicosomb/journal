@@ -3,6 +3,8 @@ title: wallabag.it a 6 ans
 category: billets
 date: 2023-01-03 13:30:00
 layout: article.njk
+tags:
+  - wallabag
 permalink: billets/2023/01/03/wallabagit-a-6-ans/index.html
 ---
 

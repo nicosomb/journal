@@ -3,6 +3,8 @@ title: Mise en place des webmentions
 category: billets
 date: 2026-01-22 07:00:00
 layout: article.njk
+tags:
+  - blog
 permalink: billets/2026/01/22/webmentions/index.html
 ---
 

@@ -3,6 +3,8 @@ title: "On m'a prévenu"
 category: billets
 date: 2014-02-11 20:54:00
 layout: article.njk
+tags:
+  - wallabag
 permalink: billets/2014/02/11/on-ma-prevenu/index.html
 ---
 

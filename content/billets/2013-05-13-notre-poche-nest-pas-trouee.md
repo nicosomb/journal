@@ -3,6 +3,9 @@ title: Notre poche n’est pas trouée
 category: billets
 date: 2013-05-13 12:00:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2013/05/13/notre-poche-nest-pas-trouee/index.html
 ---
 

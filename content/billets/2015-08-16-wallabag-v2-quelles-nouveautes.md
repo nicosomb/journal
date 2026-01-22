@@ -3,6 +3,9 @@ title: wallabag v2, quelles nouveautés ?
 category: billets
 date: 2015-08-16 13:30:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2015/08/16/wallabag-v2-quelles-nouveautes/index.html
 ---
 

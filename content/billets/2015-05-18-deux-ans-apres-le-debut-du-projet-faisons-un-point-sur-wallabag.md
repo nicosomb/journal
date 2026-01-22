@@ -3,6 +3,9 @@ title: Deux ans après le début du projet, faisons un point sur wallabag
 category: billets
 date: 2015-05-18 12:00:00
 layout: article.njk
+tags:
+  - wallabag
+  - opensource
 permalink: billets/2015/05/18/deux-ans-apres-le-debut-du-projet-faisons-un-point-sur-wallabag/index.html
 ---
 
