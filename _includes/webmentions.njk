@@ -86,7 +86,8 @@
         </div>
         <ul class="webmentions-list webmentions-replies" id="replies">
             {% for mention in replies %}
-            <li class="webmention webmention-reply">
+            {% set replyId = 'webmention-' + (mention['wm-id'] or loop.index) %}
+            <li class="webmention webmention-reply" id="{{ replyId }}">
                 <article class="webmention-content">
                     {% if mention.author %}
                     <div class="webmention-author">
@@ -104,7 +105,7 @@
                             {% if mention.published %}
                             <time class="webmention-date" datetime="{{ mention.published }}">
                                 {% if mention['wm-property'] == 'reply' or mention['wm-property'] == 'in-reply-to' or mention['wm-property'] == 'mention-of' %}
-                                {{ mention.published | readableDateWithTime }}
+                                <a href="#{{ replyId }}">{{ mention.published | readableDateWithTime }}</a>
                                 {% else %}
                                 {{ mention.published | readableDate }}
                                 {% endif %}

@@ -1004,6 +1004,17 @@ pre::before {
     display: block;
 }
 
+.webmention-date a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.webmention-date a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    opacity: 1;
+}
+
 .webmention-text {
     margin-top: 0.5em;
     line-height: 1.6;
