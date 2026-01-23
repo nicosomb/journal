@@ -18,7 +18,7 @@ module.exports = {
   author: 'Nicolas Lœuillet',
   siteUrl: siteUrl,
   webmentionDomain: webmentionDomain,
-  subtextBefore: `<p>Bienvenue ici !</p><p>Je suis <strong>papa de deux enfants à mi-temps</strong>, <strong>développeur PHP à 80% chez PrestaShop</strong>, et <strong>maire de Rinxent à temps plein</strong>. Il m'arrive parfois d'avoir un peu de temps pour rédiger des <a href="archives.html">billets qui me paraissent intéressants</a> (mais attention, parfois, ils le sont moins).</p><p>Je <strong>tente aussi de faire un peu de photo</strong>, et j'en poste quelques-unes sur un joli (enfin, moi je trouve) site qui s'appelle <a href="https://instantanes.loeuillet.org/">Instantanés</a>.</p>`,
+  subtextBefore: `<p>Bienvenue ici !<br />Je suis <strong>papa de deux enfants à mi-temps</strong>, <strong>développeur PHP à 80% chez PrestaShop</strong>, et <strong>maire de Rinxent à temps plein</strong>. Il m'arrive parfois d'avoir un peu de temps pour rédiger des <a href="archives.html">billets qui me paraissent intéressants</a> (mais attention, parfois, ils le sont moins).</p><p>Je <strong>tente aussi de faire un peu de photo</strong>, et j'en poste quelques-unes sur un joli (enfin, moi je trouve) site qui s'appelle <a href="https://instantanes.loeuillet.org/">Instantanés</a>.</p>`,
   subtextAfter: `<p>Si vous voulez en savoir un peu plus sur moi, <a href="/pages/a-propos.html">j'ai détaillé un peu plus ma vie ici</a>. Et pour que l'on discute ensemble, n'hésitez pas à <a href="mailto:nicolas@loeuillet.org">m'envoyer un petit mail</a> ou alors à venir sur <a href="https://piaille.fr/@nicosomb">Mastodon</a>.</p>
 <p>À bientôt, je l'espère !<br /><strong>Nicolas Lœuillet</strong></p>`,
   social: [
