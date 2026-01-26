@@ -143,6 +143,23 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  eleventyConfig.addFilter("filterWithoutTags", function(collection) {
+    if (!collection || !Array.isArray(collection)) return [];
+    return collection.filter(item => {
+      if (!item || !item.data) return false;
+      const tags = item.data.tags;
+      // Un billet n'a pas de tags si :
+      // - tags est undefined/null
+      // - tags est un tableau vide
+      // - tags n'est pas un tableau
+      if (!tags) return true;
+      if (!Array.isArray(tags)) return true;
+      return tags.length === 0;
+    }).sort((a, b) => {
+      return b.date - a.date;
+    });
+  });
+
   eleventyConfig.addFilter("slugify", function(str) {
     if (!str) return '';
     return str

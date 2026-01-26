@@ -4,6 +4,8 @@ category: billets
 date: 2022-03-23 14:45:00
 layout: article.njk
 permalink: billets/2022/03/23/bug-de-mise-en-veille-avec-endeavouros/index.html
+tags: 
+  - outillage
 ---
 
 Ça fait quelques semaines que j'ai basculé sur [EndeavourOS](https://endeavouros.com/) niveau distribution. C'est basé sur Arch Linux, c'est léger, ça fonctionne : ça me va très bien.  

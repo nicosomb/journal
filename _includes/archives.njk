@@ -10,7 +10,7 @@
         {% for group in grouped %}
             {% set year = group[0] %}
             {% set articles = group[1] %}
-            <h2>{{ year }} ({{ articles | length }} billets)</h2>
+            <h2>{{ year }} ({{ articles | length }} {% if articles | length > 1 %}billets{% else %}billet{% endif %})</h2>
             <ul class="nolist">
             {% for article in articles %}
                 <li>

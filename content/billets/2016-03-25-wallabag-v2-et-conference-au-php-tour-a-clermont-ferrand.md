@@ -5,6 +5,7 @@ date: 2016-03-25 14:00:00
 layout: article.njk
 tags:
   - wallabag
+  - conférence
 permalink: billets/2016/03/25/wallabag-v2-et-conference-au-php-tour-a-clermont-ferrand/index.html
 ---
 

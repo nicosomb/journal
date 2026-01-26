@@ -3,6 +3,8 @@ title: "HAProxy, Let's Encrypt et plusieurs certificats"
 category: billets
 date: 2017-02-10 15:46:00
 layout: article.njk
+tags: 
+  - outillage
 permalink: billets/2017/02/10/haproxy-lets-encrypt-et-plusieurs-certificats/index.html
 ---
 

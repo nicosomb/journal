@@ -4,6 +4,8 @@ category: billets
 date: 2025-01-24 10:00:00
 layout: article.njk
 permalink: billets/2025/01/24/dernieres-lectures-janvier-2025/index.html
+tags:
+  - lecture
 ---
 
 Mes lectures des 6 derniers mois.

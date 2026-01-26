@@ -4,6 +4,8 @@ category: billets
 date: 2023-10-16 16:30:00
 layout: article.njk
 permalink: billets/2023/10/16/gpg-failed-to-sign-the-data/index.html
+tags: 
+  - outillage
 ---
 
 Cet après-midi, sans raison apparente, plus possible de signer mes commits. Voici l'erreur que j'avais : 

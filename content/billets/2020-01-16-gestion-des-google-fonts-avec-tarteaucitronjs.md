@@ -3,6 +3,8 @@ title: Gestion des Google Fonts avec tarteaucitron.js
 category: billets
 date: 2020-01-16 10:50:00
 layout: article.njk
+tags: 
+  - outillage
 permalink: billets/2020/01/16/gestion-des-google-fonts-avec-tarteaucitronjs/index.html
 ---
 

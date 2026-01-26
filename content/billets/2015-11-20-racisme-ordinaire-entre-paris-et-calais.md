@@ -3,6 +3,8 @@ title: Racisme ordinaire entre Paris et Calais
 category: billets
 date: 2015-11-20 17:00:00
 layout: article.njk
+tags: 
+  - pensées
 permalink: billets/2015/11/20/racisme-ordinaire-entre-paris-et-calais/index.html
 ---
 

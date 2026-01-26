@@ -4,6 +4,8 @@ category: billets
 date: 2025-02-19 07:30:00
 layout: article.njk
 permalink: billets/2025/02/19/synology-chat-ne-marche-pas-sous-ubuntu-2404-lts/index.html
+tags:
+  - outillage
 ---
 
 [J'expliquais hier](https://nicolas.loeuillet.org/billets/2025/02/18/un-systeme-de-messagerie-a-domicile-merci-synology/) que j'avais installé à la maison Synology Chat sur les ordinateurs de la maison.

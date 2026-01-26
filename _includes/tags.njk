@@ -1,0 +1,28 @@
+{% extends "base.njk" %}
+
+{% block title %}Tags | {{ site.siteName }}{% endblock title %}
+
+{% block content %}
+<main data-pagefind-ignore>
+    <article>
+        <h1>Tags</h1>
+        {% set billetsSansTags = collections.billets | filterWithoutTags %}
+        {% if collections.allTags and collections.allTags.length > 0 %}
+        <ul class="nolist">
+        {% for tag in collections.allTags %}
+            {% set taggedBillets = collections.billets | filterByTag(tag) %}
+            <li>
+                <a href="/tags/{{ tag | slugify }}/"><strong>{{ tag }}</strong></a>
+                ({{ taggedBillets | length }} {% if taggedBillets | length > 1 %}billets{% else %}billet{% endif %})
+            </li>
+        {% endfor %}
+        {% if billetsSansTags and billetsSansTags.length > 0 %}
+            <li><a href="/sans-tag.html"><strong>sans tag</strong></a> ({{ billetsSansTags | length }} {% if billetsSansTags | length > 1 %}billets{% else %}billet{% endif %})</li>
+        {% endif %}
+        </ul>
+        {% else %}
+        <p>Aucun tag disponible.</p>
+        {% endif %}
+    </article>
+</main>
+{% endblock content %}

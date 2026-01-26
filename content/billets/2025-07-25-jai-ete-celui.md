@@ -4,6 +4,8 @@ category: billets
 date: 2025-07-25 14:00:00
 layout: article.njk
 permalink: billets/2025/07/25/jai-ete-celui/index.html
+tags:
+  - pensées
 ---
 
 J’ai été celui qui a été fan.

@@ -4,6 +4,8 @@ category: billets
 date: 2025-01-20 09:00:00
 layout: article.njk
 permalink: billets/2025/01/20/air-up-ou-le-sucre-desucrifie/index.html
+tags:
+  - pensées
 ---
 
 Un jour on abordera le concept de ces gourdes à 40€ qui te font croire que tu bois de l’eau aromatisée alors que tu bois de l’eau plate, mais ton cerveau lui, il assimile forcément le fait de boire à quelque chose qui sent le sucre ?

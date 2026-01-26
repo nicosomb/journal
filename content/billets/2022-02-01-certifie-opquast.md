@@ -4,6 +4,8 @@ category: billets
 date: 2022-02-01 14:00:00
 layout: article.njk
 permalink: billets/2022/02/01/certifie-opquast/index.html
+tags: 
+  - perso
 ---
 
 Depuis un moment que je me disais de passer la certification Opquast : c’est aujourd’hui chose faite, avec un résultat de 925/1000 😊 ([le certificat est disponible en ligne](https://directory.opquast.com/fr/certificat/EMPZFD/)).

@@ -4,6 +4,8 @@ category: billets
 date: 2020-09-15 14:43:00
 layout: article.njk
 permalink: billets/2020/09/15/manjaro-impossible-dutiliser-mon-micro-de-mon-casque-bluetooth/index.html
+tags: 
+  - outillage
 ---
 
 [Après le son](/billets/2020/09/14/pas-de-son-avec-manjaro-2003-et-xfce/), voila que je n'arrivais pas à utiliser le micro de mon casque bluetooth.
