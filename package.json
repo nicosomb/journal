@@ -9,7 +9,7 @@
     "clean": "rm -rf output",
     "convert": "node convert-pelican.js",
     "rename": "node rename-billets.js",
-    "new-billet": "node create-billet.js"
+    "new-post": "node scripts/create-post.js"
   },
   "keywords": [],
   "author": "",
