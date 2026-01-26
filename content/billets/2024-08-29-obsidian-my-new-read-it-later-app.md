@@ -4,6 +4,8 @@ category: billets
 date: 2024-08-29 12:00:00
 layout: article.njk
 permalink: billets/2024/08/29/obsidian-my-new-read-it-later-app/index.html
+tags: 
+  - outillage
 ---
 
 I use and love Obsidian for more than 3 years now.

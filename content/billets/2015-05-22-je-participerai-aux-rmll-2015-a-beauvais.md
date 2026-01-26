@@ -6,6 +6,7 @@ layout: article.njk
 tags:
   - wallabag
   - opensource
+  - conférence
 permalink: billets/2015/05/22/je-participerai-aux-rmll-2015-a-beauvais/index.html
 ---
 

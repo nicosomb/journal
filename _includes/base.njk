@@ -15,7 +15,7 @@
     {% block extra_head %}{% endblock extra_head %}
     {% endblock head %}
 </head>
-<body{% if page.url == '/' or page.url == '/404.html' or page.url == '/archives.html' %} data-pagefind-ignore{% endif %}>
+<body{% if page.url == '/' or page.url == '/404.html' or page.url == '/archives.html' or page.url == '/tags.html' or page.url == '/sans-tag.html' %} data-pagefind-ignore{% endif %}>
     <header class="entete" data-pagefind-ignore>
         <div class="titre">
             {% if page.url != '/' %}
@@ -30,6 +30,7 @@
                     <li><a href="{{ article.url }}">{{ article.data.title }}</a> ({{ article.date | strftime('%d-%m-%Y') }})</li>
                     {% endfor %}
                     <li class="plus"><a href="/archives.html">Archives</a> ({{ collections.billets | length }} billets)</li>
+                    <li class="plus"><a href="/tags.html">Tags</a> ({{ collections.allTags | length }} tags)</li>
                 </ul>
             </section>
             <nav class="navigation">

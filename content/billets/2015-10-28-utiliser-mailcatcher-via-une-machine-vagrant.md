@@ -3,6 +3,8 @@ title: Utiliser Mailcatcher via une machine Vagrant
 category: billets
 date: 2015-10-28 09:30:00
 layout: article.njk
+tags: 
+  - outillage
 permalink: billets/2015/10/28/utiliser-mailcatcher-via-une-machine-vagrant/index.html
 ---
 

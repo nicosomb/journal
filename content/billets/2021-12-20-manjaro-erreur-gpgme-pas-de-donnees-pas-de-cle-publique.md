@@ -4,6 +4,8 @@ category: billets
 date: 2021-12-20 10:23:00
 layout: article.njk
 permalink: billets/2021/12/20/manjaro-erreur-gpgme-pas-de-donnees-pas-de-cle-publique/index.html
+tags:
+  - outillage
 ---
 
 Depuis quelques jours, à chaque fois que je lançais une commande de mise à jour avec `pacman` sur mon PC du boulot, j'avais cette erreur qui s'affichait :

@@ -4,6 +4,8 @@ category: billets
 date: 2022-11-04 10:45:00
 layout: article.njk
 permalink: billets/2022/11/04/changer-facilement-de-version-de-php-avec-homebrew/index.html
+tags: 
+  - outillage
 ---
 
 Le code ci-dessous (à ajouter dans dans votre `~/.zshrc` ou `~/.bashrc`) ne fonctionne que si vous avez `homebrew` d'installé.

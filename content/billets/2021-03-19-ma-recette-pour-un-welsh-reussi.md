@@ -4,6 +4,8 @@ category: billets
 date: 2021-03-19 10:01:00
 layout: article.njk
 permalink: billets/2021/03/19/ma-recette-pour-un-welsh-reussi/index.html
+tags:
+  - recette
 ---
 
 Depuis le temps que certains (Luc, Stéphane : je vous vois 👀) me la réclament, voici ma recette pour un welsh réussi (ou presque).

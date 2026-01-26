@@ -1,14 +1,14 @@
 {% extends "base.njk" %}
 
-{% block title %}Tag: {{ tag }} | {{ site.siteName }}{% endblock title %}
+{% block title %}Billets sans tag | {{ site.siteName }}{% endblock title %}
 
 {% block content %}
 <main data-pagefind-ignore>
     <article>
-        <h1>Tag : {{ tag }}</h1>
-        {% set taggedBillets = collections.billets | filterByTag(tag) %}
-        {% if taggedBillets and taggedBillets.length > 0 %}
-        {% set grouped = taggedBillets | groupByYear %}
+        <h1>Billets sans tag</h1>
+        {% set billetsSansTags = collections.billets | filterWithoutTags %}
+        {% if billetsSansTags and billetsSansTags.length > 0 %}
+        {% set grouped = billetsSansTags | groupByYear %}
         {% for group in grouped %}
             {% set year = group[0] %}
             {% set articles = group[1] %}
@@ -25,7 +25,7 @@
             </ul>
         {% endfor %}
         {% else %}
-        <p>Aucun billet trouvé pour ce tag.</p>
+        <p>Tous les billets ont au moins un tag.</p>
         {% endif %}
     </article>
 </main>

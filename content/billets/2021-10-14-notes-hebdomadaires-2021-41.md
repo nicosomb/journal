@@ -4,6 +4,9 @@ category: billets
 date: 2021-10-14 15:59:00
 layout: article.njk
 permalink: billets/2021/10/14/notes-hebdomadaires-2021-41/index.html
+tags: 
+  - perso
+  - conférence
 ---
 
 ![Clavier Typematrix](/images/2021-10-14-notes-hebdomadaires-2021-41/typematrix.jpg)

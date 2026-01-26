@@ -4,6 +4,8 @@ category: billets
 date: 2024-08-25 17:00:00
 layout: article.njk
 permalink: billets/2024/08/25/creer-une-note-bien-rangee-dans-obsidian-grace-a-une-seule-lettre/index.html
+tags: 
+  - outillage
 ---
 
 [Il y a plus de trois ans déjà](https://nicolas.loeuillet.org/billets/2021/03/02/obsidian-mon-nouvel-outil-de-prise-de-notes/), je vous parlais d'Obsidian. 

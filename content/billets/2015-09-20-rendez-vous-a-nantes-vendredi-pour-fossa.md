@@ -5,6 +5,8 @@ date: 2015-09-20 14:00:00
 layout: article.njk
 tags:
   - wallabag
+  - conférence
+  - opensource
 permalink: billets/2015/09/20/rendez-vous-a-nantes-vendredi-pour-fossa/index.html
 ---
 

@@ -4,6 +4,8 @@ category: billets
 date: 2026-01-22 12:00:00
 layout: article.njk
 permalink: billets/2026/01/22/todolist-cerveau/index.html
+tags:
+  - outillage
 ---
 
 2026 et on n’a toujours pas réussi à connecter mon cerveau à mon outil de todo list.
