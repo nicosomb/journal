@@ -16,5 +16,5 @@ Ma carte bancaire sauvegardée chez Gandi avait expiré depuis quelques jours (t
 
 Et hier soir, le renouvellement a logiquement échoué, et les noms de domaine ont expiré.
 
-J'ai donc du renouveller en urgence tout ça ce matin, sans avoir pu les transférer chez un prestataire qui ne me vole pas autant d'argent.  
+J'ai donc du renouveler en urgence tout ça ce matin, sans avoir pu les transférer chez un prestataire qui ne me vole pas autant d'argent.  
 Grrrr.
