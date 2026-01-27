@@ -5,7 +5,7 @@ date: 2026-01-26 16:19:15
 layout: article.njk
 tags: 
   - outillage 
-  - source
+  - opensource
   - vie privée
 permalink: billets/2026/01/26/outil-de-satisfaction-opensource-ethique/index.html
 ---
