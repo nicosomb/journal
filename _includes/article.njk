@@ -52,32 +52,32 @@
       <div class="separator"></div>
 
       {% set currentIndex = -1 %}
-      {% for post in collections.billets %}
-        {% if post.url == page.url %}
+      {%- for post in collections.billets -%}
+        {%- if post.url == page.url -%}
           {% set currentIndex = loop.index0 %}
-        {% endif %}
-      {% endfor %}
-      
-      {% if currentIndex >= 0 %}
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- if currentIndex >= 0 -%}
         {% set prevPost = collections.billets[currentIndex + 1] %}
         {% set nextPost = collections.billets[currentIndex - 1] %}
-        {% if prevPost or nextPost %}
+        {%- if prevPost or nextPost -%}
         <nav class="article-navigation">
           <div class="article-nav-container">
             <div class="article-nav-prev">
-              {% if prevPost %}
+              {%- if prevPost -%}
               <a href="{{ prevPost.url }}">← {{ prevPost.data.title }}</a>
-              {% endif %}
+              {%- endif -%}
             </div>
             <div class="article-nav-next">
-              {% if nextPost %}
+              {%- if nextPost -%}
               <a href="{{ nextPost.url }}">{{ nextPost.data.title }} →</a>
-              {% endif %}
+              {%- endif -%}
             </div>
           </div>
         </nav>
-        {% endif %}
-      {% endif %}
+        {%- endif -%}
+      {%- endif -%}
 
       <div class="separator"></div>
 
