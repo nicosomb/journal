@@ -84,4 +84,4 @@ const handler = async (event, context) => {
 };
 
 // Schedule: run every hour using @hourly alias
-module.exports.handler = schedule('@hourly', handler);
+module.exports.handler = schedule('@daily', handler);
