@@ -3,7 +3,8 @@ title: Comment j'organise mes notes dans Obsidian
 category: billets
 date: 2026-03-02 08:30:00
 layout: article.njk
-tags: 
+tags:
+  - outillage
 permalink: billets/2026/03/02/comment-j-organise-mes-notes-dans-obsidian/index.html
 ---
 

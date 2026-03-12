@@ -3,11 +3,12 @@ title: Mes templates de notes Obsidian
 category: billets
 date: 2026-03-12 18:07:04
 layout: article.njk
-tags: 
+tags:
+  - outillage
 permalink: billets/2026/03/12/mes-templates-de-notes-obsidian/index.html
 ---
 
-Il y a quelques jours, [je détaillais mon organisation dans Obsidian](billets/2026/03/02/comment-j-organise-mes-notes-dans-obsidian/).
+Il y a quelques jours, [je détaillais mon organisation dans Obsidian](/billets/2026/03/02/comment-j-organise-mes-notes-dans-obsidian/).
 
 Concernant les templates de notes, j'utilise le plugin [Templater](https://silentvoid13.github.io/Templater/introduction.html), et je n'ai — à ce jour — que deux modèles. 
 
@@ -24,7 +25,7 @@ Il est assez simple et correspond à mon organisation. Il prend la date du jour 
 title: <% tp.date.now('YYYY-MM-DD') %>
 created_at: <% tp.date.now('YYYY-MM-DD') %>
 tags:
-- perso/journal
+  - perso/journal
 <% "---" %>
 ``` 
 
