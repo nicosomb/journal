@@ -43,7 +43,8 @@ D'abord, la date de la note. Par défaut, c'est fixé à la date du jour. Mais �
 
 Puis, on demande le nom de la note (`Réunion d'équipe`, `Commission développement durable`, `Mme Durand`, etc.). Ce nom est ajouté à la date pour le nom du fichier et le titre de la note. Ce qui fait que ma note sera nommée `2026-03-23 Réunion d'équipe` par exemple. 
 
-Et enfin, dernière chose qui me permet de pré-remplir ma note : une fenêtre de suggestion des tags. Je ne peux en choisir qu'un seul (il faudrait que je vois si c'est possible de faire une sélection multiple), mais c'est déjà une bonne chose. Pour cette fenêtre de suggestion, [j'ai trouvé l'astuce ici](https://zachyoung.dev/posts/templater-snippets). 
+Et enfin, dernière chose qui me permet de pré-remplir ma note : une fenêtre de suggestion des tags. On peut choisir plusieurs tags et ils sont ajoutés à la note.  
+Pour cette fenêtre de suggestion, [j'ai trouvé l'astuce ici](https://zachyoung.dev/posts/templater-snippets). 
 
 ```
 <%*
@@ -89,8 +90,10 @@ let filename = await tp.system.prompt("Titre ?");
 <% "---" %>
 title: <% reunion_date + " " + filename %>
 created_at: <% reunion_date %> 
-tags:
-  -  <% tp.system.suggester(item => item, Object.keys(tp.app.metadataCache.getTags()).map(x => x.replace("#", ""))) %>
+<%*
+let tags = await tp.system.multi_suggester(item => item, Object.keys(tp.app.metadataCache.getTags()).map(x => x.replace("#", "")))
+%>
+tags: [<% tags.join(", ") %>]
 <% "---" %>
 <%
 await tp.file.rename(reunion_date + " " + filename)
