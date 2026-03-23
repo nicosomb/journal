@@ -4,6 +4,7 @@ category: billets
 date: 2026-03-23 08:55:42
 layout: article.njk
 tags: 
+  - wallabag
 permalink: billets/2026/03/23/la-hype-ia-dans-wallabag/index.html
 ---
 
@@ -24,4 +25,4 @@ Donc ça vaut pour la question de "la hype IA" comme évoqué dans le message, m
 
 C'est ce qui fait également que nous ayons parfois une différence importante entre l'application Android et l'application iOS en terme de fonctionnalités. Chacun avance avec le temps qu'il a à consacrer au projet, avec ses priorités et ses envies. 
 
-Oui, cette organisation a des inconvénients, mais c'est aussi l'avantage d'avoir des personnes qui contribuent en gérant eux mêmes leurs envies. Sans qu'on ne leur impose quoique ce soit. 
+Oui, cette organisation a des inconvénients, mais c'est aussi l'avantage d'avoir des personnes qui contribuent en gérant eux mêmes leurs envies. Sans qu'on ne leur impose quoique ce soit.
