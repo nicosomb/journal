@@ -14,7 +14,8 @@ Je suis **papa de deux enfants** de 13 et bientôt 12 ans, en garde alternée. E
 
 ## Maire de Rinxent
 
-Début 2018, j'ai souhaité m'impliquer dans la vie de ma commune. C'est ainsi que j'ai été **élu maire de Rinxent en mars 2018.** [J'en parle plus longuement ici](/billets/2018/10/09/pourquoi-et-comment-je-suis-devenu-le-maire-de-ma-commune-non-je-ne-suis-pas-tombe-sur-la-tete/). J'ai été réélu en mars 2020 pour un mandat de 6 ans. Tous les jours, nous gérons donc une collectivité de 3.000 habitants avec une équipe de 30 agents municipaux et une équipe d'élus de 25 personnes. Comptabilité, RH, organisation de festivités, urbanisme, travaux, relationnel avec les associations, les concitoyens, les écoles ou encore les entreprises sont une partie des sujets qui rythment la vie municipale.
+Début 2018, j'ai souhaité m'impliquer dans la vie de ma commune. C'est ainsi que j'ai été **élu maire de [Rinxent](https://www.ville-rinxent.fr/) en mars 2018.** [J'en parle plus longuement ici](/billets/2018/10/09/pourquoi-et-comment-je-suis-devenu-le-maire-de-ma-commune-non-je-ne-suis-pas-tombe-sur-la-tete/). J'ai été réélu en mars 2026. Tous les jours, nous gérons donc une collectivité de 3.000 habitants avec une équipe de 30 agents municipaux et une équipe d'élus de 25 personnes. Comptabilité, RH, organisation de festivités, urbanisme, travaux, relationnel avec les associations, les concitoyens, les écoles ou encore les entreprises sont une partie des sujets qui rythment la vie municipale.  
+Depuis avril 2026, je suis également le premier vice-président de la [Communauté de Communes de la Terre des 2 Caps](https://terredes2caps.fr/). 
 
 J'ai un blog où je parle de mon actualité en tant qu'élu : [nicolasloeuillet.fr](https://www.nicolasloeuillet.fr/).
 
