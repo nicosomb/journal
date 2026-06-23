@@ -1,11 +1,9 @@
 ---
 title: PHP Tour à Clermont-Ferrand, les slides
-category: billets
 date: 2016-05-27 12:00:00
-layout: article.njk
 tags:
   - wallabag
-permalink: billets/2016/05/27/php-tour-a-clermont-ferrand-les-slides/index.html
+url: /billets/2016/05/27/php-tour-a-clermont-ferrand-les-slides/
 ---
 
 Cette semaine, c'était le PHP Tour à Clermont-Ferrand. On était présent avec [Jérémy](https://twitter.com/j0k) pour parler de wallabag et de la migration d'un projet PHP tout pourri mais qui marche à une application plus qualitative, basée sur Symfony (mais c'est pas uniquement pour ça que c'est plus qualitatif, lisez les slides).

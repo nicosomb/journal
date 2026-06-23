@@ -1,0 +1,49 @@
+{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<p>
+  <i>
+    <time datetime='{{ .Date.Format "2006-01-02" }}'>
+      {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+    </time>
+  </i>
+  {{ with .GetTerms "tags" }}
+    {{ range . }}
+      {{ $tagURL := index hugo.Data.tag_urls .LinkTitle }}
+      <a href="{{ default .RelPermalink $tagURL }}">#{{ .LinkTitle }}</a>
+    {{ end }}
+  {{ end }}
+  {{ $reactionCount := partial "webmentions/count.html" . }}
+  {{ if gt $reactionCount 0 }}
+    <a href="#webmentions">{{ $reactionCount }} {{ cond (gt $reactionCount 1) "réactions" "réaction" }}</a>
+  {{ end }}
+</p>
+<content>
+  {{ .Content }}
+</content>
+<article>
+  <div class="separator"></div>
+  {{ partial "webmentions/list.html" . }}
+  <p class="article-meta">
+    {{ with partial "webmentions/domain.html" . }}
+    Réagissez via webmention en citant ce lien : <code>{{ printf "%s%s" $.Site.Params.siteUrl $.RelPermalink | strings.TrimRight "/" }}</code> ou <a href="mailto:nicolas@loeuillet.org?subject={{ $.Title | urlquery }}">contactez-moi par mail</a>.
+    {{ end }}
+    <br><a href="{{ .Site.Params.githubRepo }}/blob/{{ .Site.Params.githubBranch }}/content/{{ .File.Path }}">Vous avez trouvé une coquille ? Proposez une correction</a>
+  </p>
+  <div class="separator"></div>
+  {{ $posts := where .Site.RegularPages "Section" "billets" }}
+  {{ with $posts.Next . }}{{ $.Scratch.Set "prevPost" . }}{{ end }}
+  {{ with $posts.Prev . }}{{ $.Scratch.Set "nextPost" . }}{{ end }}
+  {{ $prevPost := .Scratch.Get "prevPost" }}
+  {{ $nextPost := .Scratch.Get "nextPost" }}
+  {{ if or $prevPost $nextPost }}
+  <nav class="article-navigation">
+    <div class="article-nav-container">
+      <div class="article-nav-prev">{{ with $prevPost }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}</div>
+      <div class="article-nav-next">{{ with $nextPost }}<a href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}</div>
+    </div>
+  </nav>
+  {{ end }}
+  <div class="separator"></div>
+</article>
+{{ end }}

@@ -1,11 +1,9 @@
 ---
 title: Mon workflow de publication de photos
-category: billets
 date: 2023-03-17 09:30:00
-layout: article.njk
 tags:
   - photo
-permalink: billets/2023/03/17/mon-workflow-de-publication-de-photos/index.html
+url: /billets/2023/03/17/mon-workflow-de-publication-de-photos/
 ---
 
 L’autre jour, [j’annonçais un nouvel espace de publication](/billets/2023/03/10/publier-des-photos-cest-intime/) de certaines de mes photos.

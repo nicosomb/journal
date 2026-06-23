@@ -1,12 +1,10 @@
 ---
 title: Lettre à vos élu-es qui utilisent Twitter / X
-category: billets
 date: 2026-01-23 08:00:00
-layout: article.njk
 tags:
   - mairie
   - vie privée
-permalink: billets/2026/01/23/lettre-maire/index.html
+url: /billets/2026/01/23/lettre-maire/
 ---
 
 Joachim a publié récemment une [« lettre à mon maire qui poste encore sur X/Twitter »](https://fourbi.eu/billet/2026-01-10-lettre-a-mon-maire-qui-poste-encore-sur-x-twitter). 

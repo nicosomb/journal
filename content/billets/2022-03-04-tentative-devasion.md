@@ -1,11 +1,9 @@
 ---
 title: "Tentative d'évasion"
-category: billets
 date: 2022-03-04 13:30:00
-layout: article.njk
 tags:
   - perso
-permalink: billets/2022/03/04/tentative-devasion/index.html
+url: /billets/2022/03/04/tentative-devasion/
 ---
 
 Je ne sais pas si vous avez suivi, mais côté actualité, c'est pas foufou. Alors, faut tenter de s'évader.

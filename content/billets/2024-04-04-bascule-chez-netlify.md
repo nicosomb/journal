@@ -1,12 +1,10 @@
 ---
 title: Bascule chez Netlify
-category: billets
 date: 2024-04-04 18:00:00
-layout: article.njk
 tags:
   - photo
   - blog
-permalink: billets/2024/04/04/bascule-chez-netlify/index.html
+url: /billets/2024/04/04/bascule-chez-netlify/
 ---
 
 Depuis quelques mois, je publie des photos sur [instantanes.loeuillet.org](https://instantanes.loeuillet.org). J'étais content du résultat visuel, mais techniquement, la solution en place ne me plaisait pas du tout. 

@@ -1,11 +1,9 @@
 ---
 title: "[Traduction] Dans les entrailles de Git"
-category: billets
 date: 2017-02-07 15:49:00
-layout: article.njk
 tags: 
   - outillage
-permalink: billets/2017/02/07/traduction-dans-les-entrailles-de-git/index.html
+url: /billets/2017/02/07/traduction-dans-les-entrailles-de-git/
 ---
 
 Ce billet est une traduction de l'excellent billet de **Mary Rose Cook**, [Git from the inside out](https://maryrosecook.com/blog/post/git-from-the-inside-out). On y apprend vraiment plein de choses sur le fonctionnement de Git.

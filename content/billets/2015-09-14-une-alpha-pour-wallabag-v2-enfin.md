@@ -1,12 +1,10 @@
 ---
 title: une alpha pour wallabag v2, enfin
-category: billets
 date: 2015-09-14 21:30:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2015/09/14/une-alpha-pour-wallabag-v2-enfin/index.html
+url: /billets/2015/09/14/une-alpha-pour-wallabag-v2-enfin/
 ---
 
 Et voila ! Enfin. Nous venons de publier la première alpha de wallabag v2. Vous pouvez aller [le billet complet sur le blog du projet](https://www.wallabag.org/blog/2015/09/14/wallabag-v2-alpha-finally).

@@ -1,11 +1,9 @@
 ---
 title: Retours sur la mise en ligne de wallabag.it
-category: billets
 date: 2016-12-07 23:00:00
-layout: article.njk
 tags:
   - wallabag
-permalink: billets/2016/12/07/retours-sur-la-mise-en-ligne-de-wallabagit/index.html
+url: /billets/2016/12/07/retours-sur-la-mise-en-ligne-de-wallabagit/
 ---
 
 Bon, on peut souffler un peu. La mise en ligne de wallabag.it s'est plutôt bien passé : beaucoup de retours, quasiment que des retours positifs. [Un article sur NextInpact](http://www.nextinpact.com/news/102394-wallabag-propose-desormais-solution-hebergee-a-12-euros-par-an.htm) (un peu critique, mais ces critiques sont justifiées donc bon).

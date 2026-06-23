@@ -1,11 +1,9 @@
 ---
 title: Utiliser Mailcatcher via une machine Vagrant
-category: billets
 date: 2015-10-28 09:30:00
-layout: article.njk
 tags: 
   - outillage
-permalink: billets/2015/10/28/utiliser-mailcatcher-via-une-machine-vagrant/index.html
+url: /billets/2015/10/28/utiliser-mailcatcher-via-une-machine-vagrant/
 ---
 
 [Mailcatcher](http://mailcatcher.me/), c'est un serveur SMTP pour le local. Bien pratique, ça vous évite de devoir réellement envoyer des emails sur une boite mail toutes les deux minutes pour voir si la modification que vous venez de faire sur votre email s'affiche bien comme il faut.

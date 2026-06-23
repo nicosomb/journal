@@ -1,11 +1,9 @@
 ---
 title: Un mal pour un bien
-category: billets
 date: 2014-02-04 20:35:00
-layout: article.njk
 tags:
   - wallabag
-permalink: billets/2014/02/04/un-mal-pour-un-bien/index.html
+url: /billets/2014/02/04/un-mal-pour-un-bien/
 ---
 
 Quelques jours après la période d'excitation liée à poche / wallabag, voici mes retours à tête reposée :

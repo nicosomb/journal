@@ -1,12 +1,10 @@
 ---
 title: La version 1 de wallabag est officiellement gelée
-category: billets
 date: 2014-05-19 15:00:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2014/05/19/la-version-1-de-wallabag-est-officiellement-gelee/index.html
+url: /billets/2014/05/19/la-version-1-de-wallabag-est-officiellement-gelee/
 ---
 
 La [version 2](/billets/2013/07/31/avenir-de-poche/) de wallabag est prévue de [longue](https://www.wallabag.org/2013/11/06/first-commit-for-poche-v2/) [date](https://www.wallabag.org/2014/01/15/working-poche-v2/).

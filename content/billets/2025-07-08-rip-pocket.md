@@ -1,11 +1,9 @@
 ---
 title: RIP Pocket
-category: billets
 date: 2025-07-08 20:00:00
-layout: article.njk
 tags:
   - wallabag
-permalink: billets/2025/07/08/rip-pocket/index.html
+url: /billets/2025/07/08/rip-pocket/
 ---
 
 RIP Pocket. Ça y est : annoncée le 22 mai dernier, la fermeture de Pocket vient d'arriver.

@@ -50,21 +50,18 @@ function createBillet(title) {
   const filename = `${dateInfo.date}-${slug}.md`;
   const filepath = join(billetsDir, filename);
 
-  // Vérifier si le fichier existe déjà
   if (existsSync(filepath)) {
     console.error(`Erreur: Le fichier ${filename} existe déjà.`);
     process.exit(1);
   }
 
-  const permalink = `billets/${dateInfo.year}/${dateInfo.month}/${dateInfo.day}/${slug}/index.html`;
+  const url = `/billets/${dateInfo.year}/${dateInfo.month}/${dateInfo.day}/${slug}/`;
 
   const content = `---
 title: ${title}
-category: billets
 date: ${dateInfo.datetime}
-layout: article.njk
-tags: 
-permalink: ${permalink}
+tags:
+url: ${url}
 ---
 
 `;
@@ -79,7 +76,6 @@ permalink: ${permalink}
   }
 }
 
-// Récupérer le titre depuis les arguments de ligne de commande
 const title = process.argv.slice(2).join(' ');
 
 createBillet(title);

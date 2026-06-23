@@ -1,11 +1,9 @@
 ---
 title: Soutien à mes collègues des communes voisines
-category: billets
 date: 2023-11-20 10:00:00
-layout: article.njk
 tags:
   - mairie
-permalink: billets/2023/11/20/soutien-a-mes-collegues-des-communes-voisines/index.html
+url: /billets/2023/11/20/soutien-a-mes-collegues-des-communes-voisines/
 ---
 
 _(fil publié initialement sur Mastodon : [https://piaille.fr/@nicosomb/111430399741728800](https://piaille.fr/@nicosomb/111430399741728800))_

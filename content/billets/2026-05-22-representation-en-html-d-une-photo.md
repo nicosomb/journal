@@ -1,11 +1,9 @@
 ---
 title: Représentation en HTML d'une photo
-category: billets
 date: 2026-05-22 09:55:46
-layout: article.njk
 tags: 
   - photo
-permalink: billets/2026/05/22/representation-en-html-d-une-photo/index.html
+url: /billets/2026/05/22/representation-en-html-d-une-photo/
 ---
 
 Ce matin sur mastodon, [je postais cette photo](https://piaille.fr/@nicosomb/116616678427466993) : 

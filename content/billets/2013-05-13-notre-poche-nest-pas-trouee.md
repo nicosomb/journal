@@ -1,12 +1,10 @@
 ---
 title: Notre poche n’est pas trouée
-category: billets
 date: 2013-05-13 12:00:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2013/05/13/notre-poche-nest-pas-trouee/index.html
+url: /billets/2013/05/13/notre-poche-nest-pas-trouee/
 ---
 
 poche, l’alternative open source à pocket et autre instapaper n’est pas trouée. Mais mon planning ne me permettait pas de bosser dessus dernièrement. C’est du passé : j’ai remis les mains dans le code.

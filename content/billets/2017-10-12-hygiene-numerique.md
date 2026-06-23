@@ -1,11 +1,9 @@
 ---
 title: Hygiène numérique
-category: billets
 date: 2017-10-12 17:14:00
-layout: article.njk
 tags:
   - vie privée
-permalink: billets/2017/10/12/hygiene-numerique/index.html
+url: /billets/2017/10/12/hygiene-numerique/
 ---
 
 Journée hygiène numérique. Je partage.

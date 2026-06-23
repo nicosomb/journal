@@ -1,13 +1,11 @@
 ---
 title: Je participerai aux RMLL 2015 à Beauvais
-category: billets
 date: 2015-05-22 22:30:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
   - conférence
-permalink: billets/2015/05/22/je-participerai-aux-rmll-2015-a-beauvais/index.html
+url: /billets/2015/05/22/je-participerai-aux-rmll-2015-a-beauvais/
 ---
 
 Et voila, j'ai eu la confirmation hier soir, je parlerai lors des 16èmes **Rencontres Mondiales du Logiciel Libre**, qui se tiennent cette année à Beauvais.

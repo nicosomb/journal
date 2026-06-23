@@ -1,11 +1,9 @@
 ---
 title: Pourquoi et comment je suis devenu le maire de ma commune 😱 (non je ne suis pas tombé sur la tête)
-category: billets
 date: 2018-10-09 12:08:00
-layout: article.njk
 tags:
   - mairie
-permalink: billets/2018/10/09/pourquoi-et-comment-je-suis-devenu-le-maire-de-ma-commune-non-je-ne-suis-pas-tombe-sur-la-tete/index.html
+url: /billets/2018/10/09/pourquoi-et-comment-je-suis-devenu-le-maire-de-ma-commune-non-je-ne-suis-pas-tombe-sur-la-tete/
 ---
 
 *Janvier 2026 : j'ai publié une suite à cet article, [« Pourquoi et comment je souhaite rester le maire de ma commune »](/billets/2026/01/21/pourquoi-et-comment-je-souhaite-rester-le-maire-de-ma-commune/index.html).*

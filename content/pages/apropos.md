@@ -1,7 +1,6 @@
 ---
 title: À propos
-layout: page.njk
-permalink: pages/a-propos.html
+url: /pages/a-propos.html
 ---
 
 ## Développeur PHP / Symfony
@@ -50,4 +49,4 @@ Il y a quelques années, [j'ai détaillé ici comment j'aimerais me rendre utile
 
 ## Ce site 
 
-Ce site est généré par Eleventy, déployé et hébergé par Netlify. Le thème est adapté de [quaternum.net](https://www.quaternum.net/) d'Antoine (avec son accord, évidemment).
+Ce site est généré avec Hugo, déployé et hébergé par Netlify. Le thème utilisé est [Hugo ʕ•ᴥ•ʔ Bear](https://github.com/janraasch/hugo-bearblog/).

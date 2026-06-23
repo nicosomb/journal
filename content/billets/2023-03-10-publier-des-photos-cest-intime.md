@@ -1,12 +1,10 @@
 ---
 title: Publier des photos, c’est intime
-category: billets
 date: 2023-03-10 14:00:00
-layout: article.njk
 tags:
   - photo
   - blog
-permalink: billets/2023/03/10/publier-des-photos-cest-intime/index.html
+url: /billets/2023/03/10/publier-des-photos-cest-intime/
 ---
 
 Ça fait des années que je tente de faire de la photographie.

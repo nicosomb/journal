@@ -1,0 +1,27 @@
+{{ define "title" }}Tag : {{ .Params.tag }} | {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+<content>
+  <h3 style="margin-bottom:0">Billets avec le tag "{{ .Params.tag }}"</h3>
+  <small>
+    <a href="/tags.html">Tous les tags</a>
+  </small>
+  <ul class="blog-posts">
+    {{ range where (where .Site.RegularPages "Section" "billets") "Params.tags" "intersect" (slice .Params.tag) }}
+    <li>
+      <span>
+        <i>
+          <time datetime='{{ .Date.Format "2006-01-02" }}'>
+            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+          </time>
+        </i>
+      </span>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ else }}
+    <li>
+      Aucun billet pour ce tag
+    </li>
+    {{ end }}
+  </ul>
+</content>
+{{ end }}

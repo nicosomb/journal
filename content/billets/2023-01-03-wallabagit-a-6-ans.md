@@ -1,11 +1,9 @@
 ---
 title: wallabag.it a 6 ans
-category: billets
 date: 2023-01-03 13:30:00
-layout: article.njk
 tags:
   - wallabag
-permalink: billets/2023/01/03/wallabagit-a-6-ans/index.html
+url: /billets/2023/01/03/wallabagit-a-6-ans/
 ---
 
 Billet traditionnel pour faire le bilan de l'année écoulée sur [le service en ligne wallabag.it](https://wallabag.it/fr), lancé en décembre 2016.

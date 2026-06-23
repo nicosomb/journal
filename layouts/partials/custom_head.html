@@ -1,0 +1,82 @@
+<style>
+  .nolist,
+  .blog-posts,
+  .webmentions-list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .article-tags a,
+  .tag-list a {
+    margin-right: .25rem;
+  }
+
+  .separator,
+  hr {
+    border: 0;
+    border-top: 1px dashed #aaa;
+    margin: 2rem 0;
+  }
+
+  content p > img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: min(75%, 500px);
+    max-height: 60vh;
+    margin: 1.5rem auto;
+    object-fit: contain;
+  }
+
+  .photos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+  }
+
+  .photo-thumbnail img {
+    aspect-ratio: 1;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .article-nav-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .article-nav-next {
+    text-align: right;
+  }
+
+  .webmention-author {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+  }
+
+  .webmention-avatar {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .webmentions-list-compact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .35rem;
+  }
+
+  @media (max-width: 640px) {
+    .article-nav-container {
+      grid-template-columns: 1fr;
+    }
+
+    .article-nav-next {
+      text-align: left;
+    }
+
+    .photos-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>

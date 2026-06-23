@@ -1,28 +1,22 @@
 {
-  "name": "11ty",
+  "name": "journal",
   "version": "1.0.0",
-  "description": "Blog personnel migré vers Eleventy",
-  "main": ".eleventy.js",
+  "description": "Blog personnel généré avec Hugo",
+  "main": "hugo.toml",
   "scripts": {
-    "build": "eleventy && node scripts/pagefind-build.mjs output",
-    "serve": "eleventy --serve",
-    "clean": "rm -rf output",
-    "convert": "node convert-pelican.js",
-    "rename": "node rename-billets.js",
+    "build": "node scripts/fetch-external-data.mjs && HUGO_CACHEDIR=$PWD/resources/hugo-cache hugo --gc --cleanDestinationDir --minify --baseURL https://nicolas.loeuillet.org/",
+    "serve": "node scripts/fetch-external-data.mjs && HUGO_CACHEDIR=$PWD/resources/hugo-cache hugo server",
+    "clean": "rm -rf public resources",
+    "convert:hugo": "node scripts/convert-eleventy-to-hugo.mjs",
     "new-post": "node scripts/create-post.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2",
-    "@11ty/eleventy-plugin-rss": "^2.0.4",
-    "luxon": "^3.4.4",
-    "pagefind": "^1.4.0",
     "rss-parser": "^3.13.0"
   },
   "dependencies": {
-    "@netlify/functions": "^5.1.2",
-    "markdown-it-footnote": "^4.0.0"
+    "@netlify/functions": "^5.1.2"
   }
 }

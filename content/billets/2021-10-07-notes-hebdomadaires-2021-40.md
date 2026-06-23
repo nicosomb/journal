@@ -1,11 +1,9 @@
 ---
 title: Notes hebdomadaires 2021-40
-category: billets
 date: 2021-10-07 15:37:00
-layout: article.njk
 tags:
   - perso
-permalink: billets/2021/10/07/notes-hebdomadaires-2021-40/index.html
+url: /billets/2021/10/07/notes-hebdomadaires-2021-40/
 ---
 
 ![Arc en ciel](/images/2021-10-07-notes-hebdomadaires-2021-40/arcenciel.jpeg)

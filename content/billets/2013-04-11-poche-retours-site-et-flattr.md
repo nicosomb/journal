@@ -1,12 +1,10 @@
 ---
 title: "poche : retours, site et Flattr"
-category: billets
 date: 2013-04-11 20:26:00
-layout: article.njk
 tags:
   - opensource
   - wallabag
-permalink: billets/2013/04/11/poche-retours-site-et-flattr/index.html
+url: /billets/2013/04/11/poche-retours-site-et-flattr/
 ---
 
 Après quelques jours de mise en ligne, petit bilan sur poche, un remplaçant open source et gratuit à Pocket, Readability, instapaper et les autres.

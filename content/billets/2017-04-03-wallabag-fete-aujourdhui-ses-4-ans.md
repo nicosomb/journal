@@ -1,12 +1,10 @@
 ---
 title: "wallabag fête aujourd'hui ses 4 ans"
-category: billets
 date: 2017-04-03 15:38:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2017/04/03/wallabag-fete-aujourdhui-ses-4-ans/index.html
+url: /billets/2017/04/03/wallabag-fete-aujourdhui-ses-4-ans/
 ---
 
 Aujourd'hui, [wallabag](https://wallabag.org/fr) a 4 ans. Je ne vous refais pas l'histoire du projet, mais y'a eu pas mal de choses de faites depuis le début. Le projet évolue toujours, et pour ça, **je tiens à remercier ceux qui m'aident depuis longtemps (coucou Thomas et Jérémy) et tous ceux qui s'occupent des projets applications smartphones / extensions de navigateur**. Et merci forcément aux utilisateurs (ça me surprend tout le temps que vous soyez aussi nombreux).

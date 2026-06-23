@@ -1,0 +1,24 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ .Site.Title }}</title>
+  <link href="{{ .Site.BaseURL }}" rel="alternate"></link>
+  <link href="{{ .Site.BaseURL }}feeds/all.atom.xml" rel="self"></link>
+  <id>{{ .Site.BaseURL }}</id>
+  {{- $posts := first 20 (where .Site.RegularPages "Section" "billets") }}
+  <updated>{{ with index $posts 0 }}{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}{{ else }}{{ now.Format "2006-01-02T15:04:05Z07:00" }}{{ end }}</updated>
+  <subtitle>{{ .Site.Params.description }}</subtitle>
+  {{- range $posts }}
+  <entry>
+    <title>{{ .Title | htmlEscape | safeHTML }}</title>
+    <link href="{{ .Permalink }}" rel="alternate"></link>
+    <published>{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</published>
+    <updated>{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</updated>
+    <author>
+      <name>{{ .Site.Params.author }}</name>
+    </author>
+    <id>tag:{{ replaceRE "^https?://|/$" "" .Site.BaseURL }},{{ .Date.Format "2006-01-02" }}:{{ .RelPermalink }}</id>
+    <summary type="html">{{ .Content | htmlEscape | safeHTML }}</summary>
+    <content type="html">{{ .Content | htmlEscape | safeHTML }}</content>
+  </entry>
+  {{- end }}
+</feed>

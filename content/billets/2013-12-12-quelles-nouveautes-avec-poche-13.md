@@ -1,11 +1,9 @@
 ---
 title: Quelles nouveautés avec poche 1.3 ?
-category: billets
 date: 2013-12-12 10:24:00
-layout: article.njk
 tags:
   - wallabag
-permalink: billets/2013/12/12/quelles-nouveautes-avec-poche-13/index.html
+url: /billets/2013/12/12/quelles-nouveautes-avec-poche-13/
 ---
 
 La version 1.3 de poche sera disponible avant la fin d'année 2013. C'est une version qui apporte pas mal de nouveautés attendues. Allons y pour les présentations.

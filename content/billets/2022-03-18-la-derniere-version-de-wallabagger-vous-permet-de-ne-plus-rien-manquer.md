@@ -1,12 +1,10 @@
 ---
 title: La dernière version de wallabagger vous permet de ne plus rien manquer
-category: billets
 date: 2022-03-18 11:00:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2022/03/18/la-derniere-version-de-wallabagger-vous-permet-de-ne-plus-rien-manquer/index.html
+url: /billets/2022/03/18/la-derniere-version-de-wallabagger-vous-permet-de-ne-plus-rien-manquer/
 ---
 
 Grâce à [Adrien Gallou](http://blog.adrien-gallou.fr/), une super version de wallabagger, l'extension wallabag pour Chrome, Firefox et Opera, vient de voir le jour.

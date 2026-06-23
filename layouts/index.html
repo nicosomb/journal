@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article>
+  {{ .Site.Params.subtextBefore | safeHTML }}
+  {{ with hugo.Data.photos }}
+  <section class="photos">
+    <div class="photos-grid">
+      {{ range . }}
+      <a href="{{ .url }}" title="{{ .title }}" class="photo-thumbnail">
+        <img src="{{ .imageUrl }}" alt="{{ .title }}" loading="lazy">
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+</article>
+{{ end }}

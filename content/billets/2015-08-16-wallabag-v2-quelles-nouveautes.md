@@ -1,12 +1,10 @@
 ---
 title: wallabag v2, quelles nouveautés ?
-category: billets
 date: 2015-08-16 13:30:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2015/08/16/wallabag-v2-quelles-nouveautes/index.html
+url: /billets/2015/08/16/wallabag-v2-quelles-nouveautes/
 ---
 
 Bon maintenant, on ne rigole plus, depuis que j'ai annoncé [aux RMLL](/billets/2015/07/27/effectuez-votre-veille-en-toute-liberte-aux-rmll-2015-de-beauvais/) qu'une alpha de wallabag v2 allait sortir en septembre 2015, il a fallu se mettre à bosser activement.

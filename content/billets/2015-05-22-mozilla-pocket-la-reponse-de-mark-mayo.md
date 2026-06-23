@@ -1,12 +1,10 @@
 ---
 title: "Mozilla / Pocket : la réponse de Mark Mayo"
-category: billets
 date: 2015-05-22 11:42:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2015/05/22/mozilla-pocket-la-reponse-de-mark-mayo/index.html
+url: /billets/2015/05/22/mozilla-pocket-la-reponse-de-mark-mayo/
 ---
 
 *Ajout le 21 mai 2015 : NextInpact m'a contacté pour évoquer le sujet et a publié un article : [Mozilla critiquée pour son intégration prochaine de Pocket dans Firefox](http://www.nextinpact.com/news/95144-mozilla-critiquee-pour-son-integration-prochaine-pocket-dans-firefox.htm)*.

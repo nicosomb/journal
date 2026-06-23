@@ -1,12 +1,10 @@
 ---
 title: Bye Strava
-category: billets
 date: 2026-01-05 16:00:00
-layout: article.njk
 tags:
   - perso
   - vie privée
-permalink: billets/2026/01/05/bye-strava/index.html
+url: /billets/2026/01/05/bye-strava/
 ---
 
 L'an dernier, [je me suis remis sérieusement au sport](https://nicolas.loeuillet.org/billets/2025/12/26/2025-lannee-des-changements-impactants/), en pratiquant régulièrement la course à pied. Au bout de quelques semaines, je suis rapidement tombé dans la tendance « Strava », histoire de partager avec mes copains les dernières sorties. 

@@ -1,11 +1,9 @@
 ---
 title: Shrink pinned tabs, le plugin pour Obsidian qui vous fait gagner de la place
-category: billets
 date: 2024-07-07 12:30:00
-layout: article.njk
 tags:
   - opensource
-permalink: billets/2024/07/07/shrink-pinned-tabs-le-plugin-pour-obsidian-qui-vous-fait-gagner-de-la-place/index.html
+url: /billets/2024/07/07/shrink-pinned-tabs-le-plugin-pour-obsidian-qui-vous-fait-gagner-de-la-place/
 ---
 
 J'utilise Obsidian depuis maintenant plus de 3 ans, [j'en parlais ici](https://nicolas.loeuillet.org/billets/2021/03/02/obsidian-mon-nouvel-outil-de-prise-de-notes/). J'ai d'ailleurs un billet en cours de rédaction concernant l'usage que j'en ai aujourd'hui, mais ça sera pour un autre jour. 

@@ -1,12 +1,10 @@
 ---
 title: Deux ans après le début du projet, faisons un point sur wallabag
-category: billets
 date: 2015-05-18 12:00:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2015/05/18/deux-ans-apres-le-debut-du-projet-faisons-un-point-sur-wallabag/index.html
+url: /billets/2015/05/18/deux-ans-apres-le-debut-du-projet-faisons-un-point-sur-wallabag/
 ---
 
 [Le dernier point sur ce blog remonte à Juillet 2014](/billets/2014/07/07/un-petit-point-rapide-sur-wallabag-et-son-avancement/).

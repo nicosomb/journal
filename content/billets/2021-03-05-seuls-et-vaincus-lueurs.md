@@ -1,11 +1,9 @@
 ---
 title: Seuls et vaincus / Lueurs
-category: billets
 date: 2021-03-05 11:16:00
-layout: article.njk
-permalink: billets/2021/03/05/seuls-et-vaincus-lueurs/index.html
 tags: 
   - pensées
+url: /billets/2021/03/05/seuls-et-vaincus-lueurs/
 ---
 
 ![Gaël Faye](/images/2021-03-05-seuls-et-vaincus-lueurs/faye.jpg)

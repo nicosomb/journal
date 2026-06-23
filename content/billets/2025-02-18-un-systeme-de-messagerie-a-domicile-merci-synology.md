@@ -1,11 +1,9 @@
 ---
 title: Un système de messagerie à domicile, merci Synology
-category: billets
 date: 2025-02-18 13:30:00
-layout: article.njk
 tags:
   - perso
-permalink: billets/2025/02/18/un-systeme-de-messagerie-a-domicile-merci-synology/index.html
+url: /billets/2025/02/18/un-systeme-de-messagerie-a-domicile-merci-synology/
 ---
 
 À la maison, il y a des enfants de tout âge. Ça va de 10 jusque 40 ans 😁.

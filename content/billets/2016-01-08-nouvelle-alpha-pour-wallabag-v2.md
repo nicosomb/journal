@@ -1,12 +1,10 @@
 ---
 title: Nouvelle alpha pour wallabag v2
-category: billets
 date: 2016-01-08 13:37:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2016/01/08/nouvelle-alpha-pour-wallabag-v2/index.html
+url: /billets/2016/01/08/nouvelle-alpha-pour-wallabag-v2/
 ---
 
 Et voila, après 4 mois de travail plus ou moins acharnés, on vient de sortir une nouvelle alpha avec pas mal de nouvelles fonctionnalités bien sympas, comme :

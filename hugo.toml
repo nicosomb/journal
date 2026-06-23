@@ -1,0 +1,68 @@
+baseURL = "https://nicolas.loeuillet.org/"
+locale = "fr-FR"
+title = "Journal personnel d'un dev web, père et maire"
+theme = "hugo-bearblog"
+timeZone = "Europe/Paris"
+enableRobotsTXT = true
+summaryLength = 30
+
+[permalinks]
+  billets = "/billets/:year/:month/:day/:slug/"
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "Atom"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
+[mediaTypes."application/atom+xml"]
+  suffixes = ["xml"]
+
+[outputFormats.Atom]
+  mediaType = "application/atom+xml"
+  baseName = "all.atom"
+  path = "feeds"
+  isPlainText = false
+  noUgly = false
+  rel = "alternate"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[params]
+  author = "Nicolas Lœuillet"
+  description = "Journal personnel d'un dev web, père et maire"
+  siteUrl = "https://nicolas.loeuillet.org"
+  dateFormat = "02-01-2006"
+  githubRepo = "https://github.com/nicosomb/journal"
+  githubBranch = "main"
+  feedAllAtom = "feeds/all.atom.xml"
+  webmentionDomain = ""
+  subtextBefore = "<h1>Bienvenue ici !</h1><h3>Je suis papa de deux enfants à mi-temps, développeur PHP à 80% chez PrestaShop, et maire de Rinxent à temps plein.</h3><p>Il m'arrive parfois d'avoir un peu de temps pour rédiger des <a href=\"archives.html\">billets qui me paraissent intéressants</a> (mais attention, parfois, ils le sont moins).</p><p>Je <strong>tente aussi de faire un peu de photo</strong>, et j'en poste quelques-unes sur un joli (enfin, moi je trouve) site qui s'appelle <a href=\"https://instantanes.loeuillet.org/\">Instantanés</a>.</p><p>Si vous voulez en savoir un peu plus sur moi, <a href=\"/pages/a-propos.html\">j'ai détaillé un peu plus ma vie ici</a>. Et pour que l'on discute ensemble, n'hésitez pas à <a href=\"contact.html\">me contacter</a>.</p><p>Nicolas Lœuillet (<a href=\"https://piaille.fr/@nicosomb\">@nicosomb</a>)</p>"
+
+[[menus.main]]
+  name = "Accueil"
+  url = "/"
+  weight = 10
+
+[[menus.main]]
+  name = "Billets"
+  url = "/archives.html"
+  weight = 20
+
+[[menus.main]]
+  name = "Tags"
+  url = "/tags.html"
+  weight = 30
+
+[[menus.main]]
+  name = "À propos"
+  url = "/pages/a-propos.html"
+  weight = 40

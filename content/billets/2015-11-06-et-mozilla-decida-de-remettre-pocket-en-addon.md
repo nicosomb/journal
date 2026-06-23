@@ -1,11 +1,9 @@
 ---
 title: Et Mozilla décida de remettre Pocket en addon
-category: billets
 date: 2015-11-06 11:00:00
 tags:
   - wallabag
-layout: article.njk
-permalink: billets/2015/11/06/et-mozilla-decida-de-remettre-pocket-en-addon/index.html
+url: /billets/2015/11/06/et-mozilla-decida-de-remettre-pocket-en-addon/
 ---
 
 **move pocket to a built-in add-on**, c'est le titre du [ticket ouvert sur Bugzilla](https://bugzilla.mozilla.org/show_bug.cgi?id=1215694) le 16 octobre dernier par Shane Caraveo.

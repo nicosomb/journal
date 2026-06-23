@@ -1,11 +1,9 @@
 ---
 title: Obsidian, mon nouvel outil de prise de notes
-category: billets
 date: 2021-03-02 17:51:00
-layout: article.njk
-permalink: billets/2021/03/02/obsidian-mon-nouvel-outil-de-prise-de-notes/index.html
 tags:
   - outillage
+url: /billets/2021/03/02/obsidian-mon-nouvel-outil-de-prise-de-notes/
 ---
 
 Il y a quelques jours, j'ai découvert [Obsidian](https://obsidian.md/), un logiciel de prise de notes.

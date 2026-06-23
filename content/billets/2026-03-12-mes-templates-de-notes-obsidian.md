@@ -1,11 +1,9 @@
 ---
 title: Mes templates de notes Obsidian
-category: billets
 date: 2026-03-12 18:07:04
-layout: article.njk
 tags:
   - outillage
-permalink: billets/2026/03/12/mes-templates-de-notes-obsidian/index.html
+url: /billets/2026/03/12/mes-templates-de-notes-obsidian/
 ---
 
 Il y a quelques jours, [je détaillais mon organisation dans Obsidian](/billets/2026/03/02/comment-j-organise-mes-notes-dans-obsidian/).

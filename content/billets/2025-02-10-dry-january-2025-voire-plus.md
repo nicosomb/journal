@@ -1,11 +1,9 @@
 ---
 title: Dry January 2025. Voire plus.
-category: billets
 date: 2025-02-10 14:45:00
-layout: article.njk
 tags:
   - perso
-permalink: billets/2025/02/10/dry-january-2025-voire-plus/index.html
+url: /billets/2025/02/10/dry-january-2025-voire-plus/
 ---
 
 Fin 2023, je décidais de me lancer dans le challenge du Dry January. J'avais publié les raisons et les conclusions de ce test [ici-même](<https://nicolas.loeuillet.org/billets/2024/02/01/dry-january-2024/> "ici-même").

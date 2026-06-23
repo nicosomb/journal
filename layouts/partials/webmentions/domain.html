@@ -1,0 +1,6 @@
+{{- $domain := .Site.Params.webmentionDomain -}}
+{{- if not $domain -}}
+  {{- $base := urls.Parse .Site.BaseURL -}}
+  {{- $domain = $base.Hostname -}}
+{{- end -}}
+{{- return $domain -}}

@@ -1,11 +1,9 @@
 ---
 title: Pourquoi Mozilla se trompe
-category: billets
 date: 2015-05-15 22:00:00
-layout: article.njk
 tags:
   - wallabag
-permalink: billets/2015/05/15/pourquoi-mozilla-se-trompe/index.html
+url: /billets/2015/05/15/pourquoi-mozilla-se-trompe/
 ---
 
 Vous avez peut-être manqué ça, mais [Mozilla va intégrer nativement le plugin Pocket dans la prochaine version de Firefox](http://techdows.com/2015/05/mozilla-integrates-pocket-into-firefox-nightly.html).

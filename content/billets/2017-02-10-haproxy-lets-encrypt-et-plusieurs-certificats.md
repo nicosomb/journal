@@ -1,11 +1,9 @@
 ---
 title: "HAProxy, Let's Encrypt et plusieurs certificats"
-category: billets
 date: 2017-02-10 15:46:00
-layout: article.njk
 tags: 
   - outillage
-permalink: billets/2017/02/10/haproxy-lets-encrypt-et-plusieurs-certificats/index.html
+url: /billets/2017/02/10/haproxy-lets-encrypt-et-plusieurs-certificats/
 ---
 
 Voici ma recette pour gérer plusieurs noms de domaine avec donc forcément plusieurs certificats SSL.

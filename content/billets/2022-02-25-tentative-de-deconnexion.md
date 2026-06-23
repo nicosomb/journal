@@ -1,12 +1,10 @@
 ---
 title: Tentative de déconnexion
-category: billets
 date: 2022-02-25 09:00:00
-layout: article.njk
 tags:
   - perso
   - mairie
-permalink: billets/2022/02/25/tentative-de-deconnexion/index.html
+url: /billets/2022/02/25/tentative-de-deconnexion/
 ---
 
 Il y a quelques jours, discussion avec ma fille (9 ans).

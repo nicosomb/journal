@@ -1,11 +1,9 @@
 ---
 title: Acte de candidature pour 1983
-category: billets
 date: 2026-02-12 15:26:54
-layout: article.njk
 tags: 
   - mairie
-permalink: billets/2026/02/12/acte-de-candidature-pour-1983/index.html
+url: /billets/2026/02/12/acte-de-candidature-pour-1983/
 ---
 
 Document retrouvé dans les archives de mon bureau. Lettre du maire de l'époque envoyée à ses colistiers en 1982 (ou fin 1981 ?) pour connaitre les intentions de tout le monde pour [les municipales de 1983](https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_1983).

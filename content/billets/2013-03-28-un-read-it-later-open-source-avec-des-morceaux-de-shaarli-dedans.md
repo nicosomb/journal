@@ -1,12 +1,10 @@
 ---
 title: Un read it later open source avec des morceaux de Shaarli dedans
-category: billets
 date: 2013-03-28 12:00:00
-layout: article.njk
 tags:
   - opensource
   - wallabag
-permalink: billets/2013/03/28/un-read-it-later-open-source-avec-des-morceaux-de-shaarli-dedans/index.html
+url: /billets/2013/03/28/un-read-it-later-open-source-avec-des-morceaux-de-shaarli-dedans/
 ---
 
 Edit du 4 avril 2013 : je me suis en route, j’ai commencé le développement de poche, un read it later open source en PHP.

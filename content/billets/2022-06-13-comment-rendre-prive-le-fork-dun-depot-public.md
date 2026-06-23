@@ -1,12 +1,10 @@
 ---
 title: "Comment rendre privé le fork d'un dépôt public ?"
-category: billets
 date: 2022-06-13 14:00:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2022/06/13/comment-rendre-prive-le-fork-dun-depot-public/index.html
+url: /billets/2022/06/13/comment-rendre-prive-le-fork-dun-depot-public/
 ---
 
 J'ai ce lien dans mes favoris vers Stackoverflow depuis quelques années, il est temps de l'archiver ici une bonne fois pour toute :  [how to make a fork of public repository private?](https://stackoverflow.com/questions/10065526/github-how-to-make-a-fork-of-public-repository-private)

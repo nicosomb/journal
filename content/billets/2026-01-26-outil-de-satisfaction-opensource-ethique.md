@@ -1,13 +1,11 @@
 ---
 title: Outil opensource / éthique de satisfaction
-category: billets
 date: 2026-01-26 16:19:15
-layout: article.njk
 tags: 
   - outillage 
   - opensource
   - vie privée
-permalink: billets/2026/01/26/outil-de-satisfaction-opensource-ethique/index.html
+url: /billets/2026/01/26/outil-de-satisfaction-opensource-ethique/
 ---
 
 Afin de voir si c'est possible d'implémenter une enquête de satisfaction dans un logiciel opensource (ce n'est pas pour wallabag), je cherche une solution elle-même opensource.  

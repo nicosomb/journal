@@ -1,11 +1,9 @@
 ---
 title: Vasectomie
-category: billets
 date: 2021-03-19 15:45:00
-layout: article.njk
 tags:
   - perso
-permalink: billets/2021/03/19/vasectomie/index.html
+url: /billets/2021/03/19/vasectomie/
 ---
 
 ![Ça va couper chérie.](/images/2021-03-19-vasectomie/ca-va-couper-720x340.webp)

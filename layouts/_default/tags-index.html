@@ -1,0 +1,12 @@
+{{ define "title" }}Tags | {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+<article>
+  <h1>Tags</h1>
+  <ul class="tag-list">
+    {{ range .Site.Taxonomies.tags.Alphabetical }}
+    {{ $tagURL := index hugo.Data.tag_urls .Page.LinkTitle }}
+    <li><a href="{{ default .Page.RelPermalink $tagURL }}">{{ .Page.LinkTitle }}</a> ({{ .Count }})</li>
+    {{ end }}
+  </ul>
+</article>
+{{ end }}

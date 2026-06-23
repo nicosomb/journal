@@ -1,12 +1,10 @@
 ---
 title: "poche - Le mode déconnecté disponible avec l''appli Android"
-category: billets
 date: 2014-01-06 08:28:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2014/01/06/poche-le-mode-deconnecte-disponible-avec-lappli-android/index.html
+url: /billets/2014/01/06/poche-le-mode-deconnecte-disponible-avec-lappli-android/
 ---
 
 C'était sûrement la fonctionnalité qui manquait le plus à tout le monde : **pouvoir lire ses articles en étant dans le bus / sous la couette / dans le métro / au bureau et sans utiliser le Wifi ou la 3G**.

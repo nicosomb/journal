@@ -1,12 +1,10 @@
 ---
 title: Nouvelle version de wallabag, la 2.4.3
-category: billets
 date: 2022-02-15 08:45:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2022/02/15/nouvelle-version-de-wallabag-la-243/index.html
+url: /billets/2022/02/15/nouvelle-version-de-wallabag-la-243/
 ---
 
 Un petit billet par ici pour signaler que wallabag vit encore et ce n'est certainement pas grâce à moi.
