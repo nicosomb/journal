@@ -1,12 +1,10 @@
 ---
 title: wallabag, ex-poche, application de lecture différée
-category: billets
 date: 2014-01-27 19:26:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2014/01/27/wallabag-ex-poche-application-de-lecture-differee/index.html
+url: /billets/2014/01/27/wallabag-ex-poche-application-de-lecture-differee/
 ---
 
 Suite aux derniers épisodes, j'ai préféré renommer poche. Faites place à [wallabag](http://www.wallabag.org).

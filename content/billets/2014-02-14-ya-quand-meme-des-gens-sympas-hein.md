@@ -1,11 +1,9 @@
 ---
 title: "Y'a quand même des gens sympas hein"
-category: billets
 date: 2014-02-14 07:52:00
-layout: article.njk
 tags: 
   - wallabag
-permalink: billets/2014/02/14/ya-quand-meme-des-gens-sympas-hein/index.html
+url: /billets/2014/02/14/ya-quand-meme-des-gens-sympas-hein/
 ---
 
 Cette semaine, j'étais [un peu grognon](/billets/2014/02/11/on-ma-prevenu/).

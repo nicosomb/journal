@@ -1,12 +1,10 @@
 ---
 title: La première beta de poche est disponible
-category: billets
 date: 2013-08-07 20:24:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2013/08/07/la-premiere-beta-de-poche-est-disponible/index.html
+url: /billets/2013/08/07/la-premiere-beta-de-poche-est-disponible/
 ---
 
 Petit rappel pour celles & ceux qui ne connaissent pas poche : c’est l’alternative open source à Pocket / Readability / Instapaper. Vos données vous appartiennent et ne dépendent pas d’une société.

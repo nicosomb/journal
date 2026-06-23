@@ -1,11 +1,9 @@
 ---
 title: Comment j'organise mes notes dans Obsidian
-category: billets
 date: 2026-03-02 08:30:00
-layout: article.njk
 tags:
   - outillage
-permalink: billets/2026/03/02/comment-j-organise-mes-notes-dans-obsidian/index.html
+url: /billets/2026/03/02/comment-j-organise-mes-notes-dans-obsidian/
 ---
 
 J'utilise [Obsidian](https://obsidian.md/) depuis quelques années maintenant (j'ai tenté un passage vers Notesnook, j'y reviendrai peut-être).

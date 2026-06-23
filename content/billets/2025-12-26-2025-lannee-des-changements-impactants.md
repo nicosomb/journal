@@ -1,13 +1,11 @@
 ---
 title: "2025, l'année des changements impactants"
-category: billets
 date: 2025-12-26 16:00:00
-layout: article.njk
 tags:
   - mairie
   - perso
   - vie privée
-permalink: billets/2025/12/26/2025-lannee-des-changements-impactants/index.html
+url: /billets/2025/12/26/2025-lannee-des-changements-impactants/
 ---
 
 Fin 2024, quarante ans. L'occasion pour réfléchir à vivre plus sainement. 

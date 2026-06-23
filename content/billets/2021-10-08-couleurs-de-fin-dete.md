@@ -1,11 +1,9 @@
 ---
 title: "Couleurs de fin d'été"
-category: billets
 date: 2021-10-08 14:08:00
-layout: article.njk
 tags:
   - photo
-permalink: billets/2021/10/08/couleurs-de-fin-dete/index.html
+url: /billets/2021/10/08/couleurs-de-fin-dete/
 ---
 
 Quelques photos prises depuis un mois, sous le ciel de Rinxent. D'autres photos de ma commune se trouvent sur mon site dédié à la photo.

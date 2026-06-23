@@ -1,12 +1,10 @@
 ---
 title: Ma méthodologie pour le suivi des projets à la mairie
-category: billets
 date: 2026-02-26 14:00:00
-layout: article.njk
 tags:
   - mairie
   - outillage
-permalink: billets/2026/02/26/ma-methodologie-pour-le-suivi-des-projets/index.html
+url: /billets/2026/02/26/ma-methodologie-pour-le-suivi-des-projets/
 ---
 
 Puisque ça peut éventuellement intéresser certain-es d'entre vous, j'avais en tête depuis un moment de partager ici ma manière de suivre les projets en cours à la mairie.

@@ -1,11 +1,9 @@
 ---
 title: Nos enfants, ces OVNIs
-category: billets
 date: 2025-08-29 12:00:00
-layout: article.njk
 tags:
   - perso
-permalink: billets/2025/08/29/nos-enfants-ces-ovnis/index.html
+url: /billets/2025/08/29/nos-enfants-ces-ovnis/
 ---
 
 Mail reçu par mon assurance ce matin : « [Comment gérer l’arrivée d’un téléphone pour ses enfants ?](https://numeriqueethique.fr/ressources/fiches-pratiques/gerer_arrivee_du_telephone_pour_ses_enfants) ».

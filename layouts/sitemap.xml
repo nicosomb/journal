@@ -1,0 +1,36 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{{- $posts := where .Site.RegularPages "Section" "billets" }}
+{{- $last := now }}
+{{- with index $posts 0 }}{{ $last = .Date }}{{ end }}
+<url>
+<loc>{{ .Site.BaseURL }}</loc>
+<lastmod>{{ $last.Format "2006-01-02T15:04:05Z07:00" }}</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>{{ .Site.BaseURL }}archives.html</loc>
+<lastmod>{{ $last.Format "2006-01-02T15:04:05Z07:00" }}</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+{{- range where .Site.RegularPages "Section" "pages" }}
+<url>
+<loc>{{ .Permalink }}</loc>
+<lastmod>{{ with .Date }}{{ .Format "2006-01-02T15:04:05Z07:00" }}{{ else }}{{ now.Format "2006-01-02T15:04:05Z07:00" }}{{ end }}</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+{{- end }}
+{{- range $posts }}
+<url>
+<loc>{{ .Permalink }}</loc>
+<lastmod>{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+{{- end }}
+</urlset>

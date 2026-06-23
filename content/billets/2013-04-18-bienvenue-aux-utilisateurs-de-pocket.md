@@ -1,12 +1,10 @@
 ---
 title: Bienvenue aux utilisateurs de Pocket !
-category: billets
 date: 2013-04-18 09:00:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2013/04/18/bienvenue-aux-utilisateurs-de-pocket/index.html
+url: /billets/2013/04/18/bienvenue-aux-utilisateurs-de-pocket/
 ---
 
 Ça a pas mal bougé sur #poche depuis quelques jours. L’une des grandes nouveautés, c’est l’apparition d’un import pour récupérer son contenu de Pocket : on met l’export HTML de Pocket à la racine de sa poche, on va sur import.php et on suit les instructions, on boit un café ou deux, et c’est terminé.

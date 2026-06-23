@@ -1,13 +1,11 @@
 ---
 title: Rendez-vous à Nantes vendredi pour fOSSa
-category: billets
 date: 2015-09-20 14:00:00
-layout: article.njk
 tags:
   - wallabag
   - conférence
   - opensource
-permalink: billets/2015/09/20/rendez-vous-a-nantes-vendredi-pour-fossa/index.html
+url: /billets/2015/09/20/rendez-vous-a-nantes-vendredi-pour-fossa/
 ---
 
 Je serai vendredi en fin de matinée (11h30) à Nantes à [fOSSa](https://fossa.inria.fr/), événement organisé par l'Inria de Nantes.

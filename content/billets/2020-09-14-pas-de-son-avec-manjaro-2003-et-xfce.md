@@ -1,11 +1,9 @@
 ---
 title: Pas de son avec Manjaro 20.0.3 et xfce
-category: billets
 date: 2020-09-14 14:48:00
-layout: article.njk
-permalink: billets/2020/09/14/pas-de-son-avec-manjaro-2003-et-xfce/index.html
 tags: 
   - outillage
+url: /billets/2020/09/14/pas-de-son-avec-manjaro-2003-et-xfce/
 ---
 
 Je viens tout juste d'installer Manjaro 20.0.3 sur mon HP Probook 450 et surprise, pas de son.

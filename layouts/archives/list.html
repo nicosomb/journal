@@ -1,0 +1,23 @@
+{{ define "title" }}Archives | {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+<content>
+  <ul class="blog-posts">
+    {{ range where .Site.RegularPages "Section" "billets" }}
+    <li>
+      <span>
+        <i>
+          <time datetime='{{ .Date.Format "2006-01-02" }}'>
+            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+          </time>
+        </i>
+      </span>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ else }}
+    <li>
+      Aucun billet pour le moment
+    </li>
+    {{ end }}
+  </ul>
+</content>
+{{ end }}

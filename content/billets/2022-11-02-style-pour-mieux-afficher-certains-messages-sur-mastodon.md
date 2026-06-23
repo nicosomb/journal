@@ -1,11 +1,9 @@
 ---
 title: Style pour mieux afficher certains messages sur Mastodon
-category: billets
 date: 2022-11-02 13:37:00
-layout: article.njk
-permalink: billets/2022/11/02/style-pour-mieux-afficher-certains-messages-sur-mastodon/index.html
 tags: 
   - outillage
+url: /billets/2022/11/02/style-pour-mieux-afficher-certains-messages-sur-mastodon/
 ---
 
 De retour sur Mastodon [par ici](https://piaille.fr/@nicosomb), je retrouve quelques soucis rencontrés précédemment.  

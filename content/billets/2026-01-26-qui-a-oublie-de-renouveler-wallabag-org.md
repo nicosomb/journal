@@ -1,11 +1,9 @@
 ---
 title: Qui a oublié de renouveler wallabag.org ? ☝️
-category: billets
 date: 2026-01-26 10:29:27
-layout: article.njk
 tags: 
   - wallabag
-permalink: billets/2026/01/26/qui-a-oublie-de-renouveler-wallabag-org/index.html
+url: /billets/2026/01/26/qui-a-oublie-de-renouveler-wallabag-org/
 ---
 
 Et surtout, qui a dû renouveler deux noms de domaine chez Gandi, alors que l'idée était de partir de ce prestataire, où les tarifs ont explosé ? 

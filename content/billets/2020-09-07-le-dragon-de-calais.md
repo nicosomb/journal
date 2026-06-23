@@ -1,11 +1,9 @@
 ---
 title: Le Dragon de Calais
-category: billets
 date: 2020-09-07 14:16:00
-layout: article.njk
 tags:
   - photo
-permalink: billets/2020/09/07/le-dragon-de-calais/index.html
+url: /billets/2020/09/07/le-dragon-de-calais/
 ---
 
 En ce dimanche de septembre, sous le soleil, nous avons rendu visite au Dragon de Calais.

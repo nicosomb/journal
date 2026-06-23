@@ -1,11 +1,9 @@
 ---
 title: "wallabag.it : 5 ans d'activité"
-category: billets
 date: 2022-01-03 17:02:00
-layout: article.njk
 tags:
   - wallabag
-permalink: billets/2022/01/03/wallabagit-5-ans-dactivite/index.html
+url: /billets/2022/01/03/wallabagit-5-ans-dactivite/
 ---
 
 Début d'année (ne) rime (pas) avec bilan. Il est donc l'heure de faire le bilan de mon activité wallabag.it.

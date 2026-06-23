@@ -1,11 +1,9 @@
 ---
 title: Symptômes
-category: billets
 date: 2022-02-09 17:00:00
-layout: article.njk
-permalink: billets/2022/02/09/symptomes/index.html
 tags:
   - perso
+url: /billets/2022/02/09/symptomes/
 ---
 
 Gros mal de crâne durant 24 heures et une toux, surtout le matin. Depuis lundi soir, c'est moins douloureux pour le crâne.

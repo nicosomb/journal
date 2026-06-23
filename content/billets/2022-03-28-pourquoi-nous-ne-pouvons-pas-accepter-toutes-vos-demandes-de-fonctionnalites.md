@@ -1,12 +1,10 @@
 ---
 title: Pourquoi nous ne pouvons pas accepter toutes vos demandes de fonctionnalités
-category: billets
 date: 2022-03-28 15:00:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2022/03/28/pourquoi-nous-ne-pouvons-pas-accepter-toutes-vos-demandes-de-fonctionnalites/index.html
+url: /billets/2022/03/28/pourquoi-nous-ne-pouvons-pas-accepter-toutes-vos-demandes-de-fonctionnalites/
 ---
 
 Je viens de rédiger un billet sur le blog de wallabag, intitulé [« Why we won't accept all your pull requests or feature requests »](https://wallabag.org/en/news/wallabag-wont-accept-pr-feature-request).

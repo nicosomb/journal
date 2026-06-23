@@ -1,12 +1,10 @@
 ---
 title: Mise en place des webmentions
-category: billets
 date: 2026-01-22 07:00:00
-layout: article.njk
 tags:
   - blog
   - outillage
-permalink: billets/2026/01/22/webmentions/index.html
+url: /billets/2026/01/22/webmentions/
 ---
 
 Il y a fort fort longtemps, sur ce site, on pouvait commenter via un formulaire classique (coucou le spam). Puis via Disqus (coucou le service externe pas respectueux de la vie privée). Puis plus rien. Puis via l'envoi de mail. 

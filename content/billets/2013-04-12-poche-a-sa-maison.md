@@ -1,12 +1,10 @@
 ---
 title: poche a sa maison
-category: billets
 date: 2013-04-12 16:00:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2013/04/12/poche-a-sa-maison/index.html
+url: /billets/2013/04/12/poche-a-sa-maison/
 ---
 
 Voila, c’est fait, comme dirait [@Gregoire_M](https://twitter.com/Gregoire_M), si à 28 stars t’as pas de nom de domaine, t’as un peu râté ta vie :-) . Donc dorénavant ça se passe sur [inthepoche.com](https://wallabag.org) (merci à lui pour la proposition).

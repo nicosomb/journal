@@ -1,0 +1,27 @@
+{{- $mention := .mention -}}
+{{- $author := index $mention "author" -}}
+<li class="webmention webmention-{{ index $mention "wm-property" }}">
+  <article class="webmention-content">
+    {{ with $author }}
+    <div class="webmention-author">
+      {{ with index . "photo" }}<img src="{{ . }}" alt="{{ index $author "name" }}" class="webmention-avatar" loading="lazy">{{ end }}
+      <div class="webmention-author-info">
+        <strong class="webmention-author-name">
+          {{ with index $mention "url" }}<a href="{{ . }}" rel="noopener noreferrer">{{ index $author "name" }}</a>{{ else }}{{ index $author "name" }}{{ end }}
+        </strong>
+        {{ if not $.compact }}
+          {{ with index $mention "published" }}<time class="webmention-date" datetime="{{ . }}">{{ dateFormat "02-01-2006 15:04" . }}</time>{{ end }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+    {{ if not .compact }}
+      {{ with index $mention "content" }}
+      <div class="webmention-text">
+        {{ with index . "html" }}{{ . | safeHTML }}{{ else }}{{ with index . "text" }}<p>{{ . }}</p>{{ end }}{{ end }}
+      </div>
+      {{ end }}
+      {{ with index $mention "url" }}<a href="{{ . }}" class="webmention-source" rel="noopener noreferrer" title="Voir la source">Source</a>{{ end }}
+    {{ end }}
+  </article>
+</li>

@@ -1,12 +1,10 @@
 ---
 title: wallabag project is 13
-category: billets
 date: 2026-04-03 07:13:18
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2026/04/03/wallabag-project-is-13/index.html
+url: /billets/2026/04/03/wallabag-project-is-13/
 ---
 
 [13 years ago (3 april 2013)](https://nicolas.loeuillet.org/billets/2013/04/03/poche-pour-remplacer-instapaper-pocket-et-readability/), between a bottle and a diaper, I started a little side project: "poche", an open source alternative to Pocket, a (closed and proprietary) read-it-later application. 

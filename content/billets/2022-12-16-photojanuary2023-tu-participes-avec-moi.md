@@ -1,11 +1,9 @@
 ---
 title: "#PhotoJanuary2023, tu participes avec moi ?"
-category: billets
 date: 2022-12-16 14:00:00
-layout: article.njk
 tags:
   - photo
-permalink: billets/2022/12/16/photojanuary2023-tu-participes-avec-moi/index.html
+url: /billets/2022/12/16/photojanuary2023-tu-participes-avec-moi/
 ---
 
 Je tente de faire de la photo depuis plusieurs années. J'ai même un site pour ça : https://photos.loeuillet.org *(MAJ en 2026 : ce site n'est plus en ligne, il est remplacé par [instantanes.loeuillet.org](https://instantanes.loeuillet.org/))*.

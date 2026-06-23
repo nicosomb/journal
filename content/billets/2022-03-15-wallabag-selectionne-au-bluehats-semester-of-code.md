@@ -1,12 +1,10 @@
 ---
 title: wallabag sélectionné au BlueHats 🧢 Semester of Code
-category: billets
 date: 2022-03-15 15:00:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2022/03/15/wallabag-selectionne-au-bluehats-semester-of-code/index.html
+url: /billets/2022/03/15/wallabag-selectionne-au-bluehats-semester-of-code/
 ---
 
 Je suis très heureux que wallabag (application de lecture différée créée en 2013) fasse partie des projets sélectionnés pour le premier #BlueHats Semester of Code 🧢, lancé par la Direction interministérielle du numérique (DINUM) et CentraleSupélec.

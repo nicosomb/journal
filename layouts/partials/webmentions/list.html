@@ -1,0 +1,52 @@
+{{- $mentions := partial "webmentions/get.html" . -}}
+{{- if gt (len $mentions) 0 -}}
+{{- $likes := where $mentions "wm-property" "in" (slice "like" "like-of") -}}
+{{- $reposts := where $mentions "wm-property" "in" (slice "repost" "repost-of") -}}
+{{- $replies := where $mentions "wm-property" "in" (slice "reply" "in-reply-to" "mention-of") -}}
+{{- $known := slice "like" "like-of" "repost" "repost-of" "reply" "in-reply-to" "mention-of" -}}
+{{- $others := slice -}}
+{{- range $mentions -}}
+  {{- if not (in $known (index . "wm-property")) -}}
+    {{- $others = $others | append . -}}
+  {{- end -}}
+{{- end -}}
+<section class="webmentions" id="webmentions">
+  <h2>Réactions</h2>
+
+  {{ if gt (len $likes) 0 }}
+  <div class="webmentions-group">
+    <h3 class="webmentions-group-title"><span class="webmention-icon webmention-icon-like">❤️</span> {{ len $likes }} {{ cond (gt (len $likes) 1) "likes" "like" }}</h3>
+    <ul class="webmentions-list webmentions-list-compact">
+      {{ range $likes }}{{ partial "webmentions/item.html" (dict "mention" . "compact" true) }}{{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
+  {{ if gt (len $reposts) 0 }}
+  <div class="webmentions-group">
+    <h3 class="webmentions-group-title"><span class="webmention-icon webmention-icon-repost">🔁</span> {{ len $reposts }} {{ cond (gt (len $reposts) 1) "reposts" "repost" }}</h3>
+    <ul class="webmentions-list webmentions-list-compact">
+      {{ range $reposts }}{{ partial "webmentions/item.html" (dict "mention" . "compact" true) }}{{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
+  {{ if gt (len $replies) 0 }}
+  <div class="webmentions-group">
+    <h3 class="webmentions-group-title"><span class="webmention-icon webmention-icon-reply">💬</span> {{ len $replies }} {{ cond (gt (len $replies) 1) "réponses" "réponse" }}</h3>
+    <ul class="webmentions-list webmentions-replies">
+      {{ range $replies }}{{ partial "webmentions/item.html" (dict "mention" . "compact" false) }}{{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
+  {{ if gt (len $others) 0 }}
+  <div class="webmentions-group">
+    <ul class="webmentions-list">
+      {{ range $others }}{{ partial "webmentions/item.html" (dict "mention" . "compact" false) }}{{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</section>
+<div class="separator"></div>
+{{- end -}}

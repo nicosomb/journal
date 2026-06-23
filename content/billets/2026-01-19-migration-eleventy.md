@@ -1,11 +1,9 @@
 ---
 title: Migration de Pelican à Eleventy
-category: billets
 date: 2026-01-19 12:00:00
-layout: article.njk
 tags:
   - blog
-permalink: billets/2026/01/19/migration-blog-eleventy/index.html
+url: /billets/2026/01/19/migration-blog-eleventy/
 ---
 
 Afin d'être cohérent avec les autres sites que je gère (notamment [instantanés](https://instantanes.loeuillet.org/)), je voulais migrer ce blog de Pelican à Eleventy ([11ty](https://www.11ty.dev/)). Et puis ça faisait 4 ans que j'avais pas touché à la structure de ce site. 

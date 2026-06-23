@@ -1,12 +1,10 @@
 ---
 title: "Je ne donne plus d'argent à Trump"
-category: billets
 date: 2025-09-02 09:00:00
-layout: article.njk
 tags:
   - vie privée
   - perso
-permalink: billets/2025/09/02/je-ne-donne-plus-dargent-a-trump/index.html
+url: /billets/2025/09/02/je-ne-donne-plus-dargent-a-trump/
 ---
 
 Bye bye Spotify 👋 C'était dans ma tête depuis quelques mois : je viens d'annuler mon abonnement Famille qu'on utilisait depuis des années.

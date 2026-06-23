@@ -1,13 +1,11 @@
 ---
 title: Mon après-moi numérique
-category: billets
 date: 2017-11-08 17:26:00
-layout: article.njk
-permalink: billets/2017/11/08/mon-apres-moi-numerique/index.html
 tags: 
   - outillage
   - vie privée
   - conférence
+url: /billets/2017/11/08/mon-apres-moi-numerique/
 ---
 
 > Comment préparer tout ça dès maintenant (parce qu’après il sera trop tard).

@@ -1,12 +1,10 @@
 ---
 title: wallabag.it a 7 ans
-category: billets
 date: 2024-02-21 14:30:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2024/02/21/wallabagit-a-7-ans/index.html
+url: /billets/2024/02/21/wallabagit-a-7-ans/
 ---
 
 Billet traditionnel pour faire le bilan de l'année écoulée sur [le service en ligne wallabag.it](https://wallabag.it/fr), lancé en décembre 2016.

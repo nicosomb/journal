@@ -1,11 +1,9 @@
 ---
 title: "Mozilla rachète Pocket : pourquoi c’est une bonne et une mauvaise chose pour wallabag"
-category: billets
 date: 2017-03-01 15:44:00
-layout: article.njk
 tags:
   - wallabag
-permalink: billets/2017/03/01/mozilla-rachete-pocket-pourquoi-cest-une-bonne-et-une-mauvaise-chose-pour-wallabag/index.html
+url: /billets/2017/03/01/mozilla-rachete-pocket-pourquoi-cest-une-bonne-et-une-mauvaise-chose-pour-wallabag/
 ---
 
 Voici ma réponse complète à la sollicitation de [Next INpact](https://www.nextinpact.com/news/103467-mozilla-rachete-pocket-sa-premiere-acquisition-strategique.htm) suite à l'annonce du rachat de Pocket par Mozilla.

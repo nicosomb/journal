@@ -1,12 +1,10 @@
 ---
 title: Une collaboration entre ownCloud et poche
-category: billets
 date: 2014-01-22 12:37:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2014/01/22/une-collaboration-entre-owncloud-et-poche/index.html
+url: /billets/2014/01/22/une-collaboration-entre-owncloud-et-poche/
 ---
 
 Hier, une petite surprise est arrivée sur le projet poche hébergé sur GitHub : Jan-Christoph Borchardt, du projet ownCloud, créait un nouveau ticket, **Possibility of collaboration between Poche and ownCloud** ([#408](https://github.com/wallabag/wallabag/issues/408)).

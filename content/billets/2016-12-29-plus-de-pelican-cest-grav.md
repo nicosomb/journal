@@ -1,11 +1,9 @@
 ---
 title: "Plus de pélican, c'est grav"
-category: billets
 date: 2016-12-29 15:43:00
-layout: article.njk
 tags:
   - blog
-permalink: billets/2016/12/29/plus-de-pelican-cest-grav/index.html
+url: /billets/2016/12/29/plus-de-pelican-cest-grav/
 ---
 
 Voila, on termine l'année avec un titre de billet bien pourri.

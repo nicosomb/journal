@@ -6,7 +6,6 @@
 <main data-pagefind-ignore>
     <article>
         <h1>Tags</h1>
-        {% set billetsSansTags = collections.billets | filterWithoutTags %}
         {% if collections.allTags and collections.allTags.length > 0 %}
         <ul class="nolist">
         {% for tag in collections.allTags %}
@@ -16,9 +15,6 @@
                 ({{ taggedBillets | length }} {% if taggedBillets | length > 1 %}billets{% else %}billet{% endif %})
             </li>
         {% endfor %}
-        {% if billetsSansTags and billetsSansTags.length > 0 %}
-            <li><a href="/sans-tag.html"><strong>sans tag</strong></a> ({{ billetsSansTags | length }} {% if billetsSansTags | length > 1 %}billets{% else %}billet{% endif %})</li>
-        {% endif %}
         </ul>
         {% else %}
         <p>Aucun tag disponible.</p>

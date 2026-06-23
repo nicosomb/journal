@@ -1,12 +1,10 @@
 ---
 title: Pro libre, oui. Intégriste du libre, pas du tout.
-category: billets
 date: 2014-06-10 20:59:00
-layout: article.njk
 tags:
   - opensource
   - vie privée
-permalink: billets/2014/06/10/pro-libre-oui-integriste-du-libre-pas-du-tout/index.html
+url: /billets/2014/06/10/pro-libre-oui-integriste-du-libre-pas-du-tout/
 ---
 
 [Libère l’intégriste qu’il y a en toi !](http://blog-libre.org/post/2014/06/01/libere-lintegriste-quil-y-a-en-toi) : c'est l'appel de Cyrille Borne.

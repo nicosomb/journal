@@ -1,11 +1,9 @@
 ---
 title: Applications web et logiciels
-category: billets
 date: 2025-01-25 11:00:00
-layout: article.njk
-permalink: billets/2025/01/25/applications-web-et-logiciels/index.html
 tags:
   - ailleurs
+url: /billets/2025/01/25/applications-web-et-logiciels/
 ---
 
 [Lu chez Karl Dubost](https://www.la-grange.net/2025/01/16/rose) :

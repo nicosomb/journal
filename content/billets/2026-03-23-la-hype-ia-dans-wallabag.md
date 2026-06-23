@@ -1,11 +1,9 @@
 ---
 title: La hype IA dans wallabag ?
-category: billets
 date: 2026-03-23 08:55:42
-layout: article.njk
 tags: 
   - wallabag
-permalink: billets/2026/03/23/la-hype-ia-dans-wallabag/index.html
+url: /billets/2026/03/23/la-hype-ia-dans-wallabag/
 ---
 
 Derrière ce titre se cache [une réaction légitime posée sur Mastodon](https://infosec.exchange/@x_cli/116271686697060035) hier : 

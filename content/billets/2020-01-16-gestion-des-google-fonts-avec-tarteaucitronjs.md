@@ -1,11 +1,9 @@
 ---
 title: Gestion des Google Fonts avec tarteaucitron.js
-category: billets
 date: 2020-01-16 10:50:00
-layout: article.njk
 tags: 
   - outillage
-permalink: billets/2020/01/16/gestion-des-google-fonts-avec-tarteaucitronjs/index.html
+url: /billets/2020/01/16/gestion-des-google-fonts-avec-tarteaucitronjs/
 ---
 
 [tarteaucitron.js](https://opt-out.ferank.eu/fr/) vous permet de "gérer facilement vos cookies" et les scripts externes chargés sur votre site.

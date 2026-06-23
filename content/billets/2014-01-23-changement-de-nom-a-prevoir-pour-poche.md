@@ -1,11 +1,9 @@
 ---
 title: Changement de nom à prévoir pour poche
-category: billets
 date: 2014-01-23 19:14:00
-layout: article.njk
 tags:
   - wallabag
-permalink: billets/2014/01/23/changement-de-nom-a-prevoir-pour-poche/index.html
+url: /billets/2014/01/23/changement-de-nom-a-prevoir-pour-poche/
 ---
 
 Il fallait s'y attendre. J'ai reçu un courrier ce soir de la part d'un cabinet d'avocats US représentant un grand nom des services « concurrents » à poche.

@@ -1,12 +1,10 @@
 ---
 title: Notes hebdomadaires 2021-41
-category: billets
 date: 2021-10-14 15:59:00
-layout: article.njk
-permalink: billets/2021/10/14/notes-hebdomadaires-2021-41/index.html
 tags: 
   - perso
   - conférence
+url: /billets/2021/10/14/notes-hebdomadaires-2021-41/
 ---
 
 ![Clavier Typematrix](/images/2021-10-14-notes-hebdomadaires-2021-41/typematrix.jpg)

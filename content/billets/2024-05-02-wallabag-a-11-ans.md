@@ -1,12 +1,10 @@
 ---
 title: wallabag a 11 ans
-category: billets
 date: 2024-05-02 09:00:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2024/05/02/wallabag-a-11-ans/index.html
+url: /billets/2024/05/02/wallabag-a-11-ans/
 ---
 
 Ça m'était légèrement sorti de la tête, mais il y a un mois, nous fêtions les 11 ans de wallabag. 

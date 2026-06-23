@@ -1,11 +1,9 @@
 ---
 title: Cannot start service ddev-ssh-agent
-category: billets
 date: 2020-09-15 14:47:00
-layout: article.njk
-permalink: billets/2020/09/15/cannot-start-service-ddev-ssh-agent/index.html
 tags: 
   - outillage
+url: /billets/2020/09/15/cannot-start-service-ddev-ssh-agent/
 ---
 
 Ce matin, impossible de démarrer mes projets en local qui tournent avec [ddev](https://ddev.readthedocs.io/en/stable/).

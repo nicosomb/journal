@@ -1,13 +1,11 @@
 ---
 title: F5 (quinquies)
-category: billets
 date: 2025-01-27 18:00:00
-layout: article.njk
 tags:
   - photo
   - mairie
   - blog
-permalink: billets/2025/01/27/f5-quinquies/index.html
+url: /billets/2025/01/27/f5-quinquies/
 ---
 
 Précédemment :

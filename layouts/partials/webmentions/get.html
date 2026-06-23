@@ -1,0 +1,15 @@
+{{- $mentions := slice -}}
+{{- $data := hugo.Data.webmentions -}}
+{{- if $data -}}
+  {{- $base := strings.TrimRight "/" .Site.BaseURL -}}
+  {{- $rel := .RelPermalink -}}
+  {{- $withoutTrailing := strings.TrimRight "/" $rel -}}
+  {{- $full := printf "%s%s" $base $rel -}}
+  {{- $fullWithoutTrailing := strings.TrimRight "/" $full -}}
+  {{- range slice $rel $withoutTrailing $full $fullWithoutTrailing -}}
+    {{- if and (not $mentions) (index $data .) -}}
+      {{- $mentions = index $data . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $mentions -}}

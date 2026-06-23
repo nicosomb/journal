@@ -1,12 +1,10 @@
 ---
 title: "J'ai quitté Facebook"
-category: billets
 date: 2025-04-07 09:00:00
-layout: article.njk
 tags:
   - vie privée
   - mairie
-permalink: billets/2025/04/07/jai-quitte-facebook/index.html
+url: /billets/2025/04/07/jai-quitte-facebook/
 ---
 
 Il y a quelques semaines, [j'ai annoncé sur mon blog de maire que je quittais Facebook](https://www.nicolasloeuillet.fr/2025/03/pourquoi-et-comment-je-vais-quitter-petit-a-petit-facebook/). Ça a fait parlé un peu certains médias et j'avoue que je n'imaginais pas trop ça.

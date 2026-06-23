@@ -1,6 +1,10 @@
 [build]
   command = "npm run build"
-  publish = "output"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.163.3"
+  NODE_VERSION = "22"
 
 [functions]
   directory = "netlify/functions"

@@ -1,12 +1,10 @@
 ---
 title: "9 années de wallabag.it, merci Pocket"
-category: billets
 date: 2026-03-31 10:27:28
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2026/03/31/9-annees-de-wallabag-it-merci-pocket/index.html
+url: /billets/2026/03/31/9-annees-de-wallabag-it-merci-pocket/
 ---
 
 Un peu plus tard que les années précédentes, je prends le temps de rédiger ce billet. Le début d'année a été (et est encore) chargé, avec notamment les élections municipales, mais ce n'est pas le sujet. 

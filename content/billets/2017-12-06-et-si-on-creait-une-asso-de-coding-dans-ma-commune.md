@@ -1,11 +1,9 @@
 ---
 title: Et si on créait une asso de coding dans ma commune ?
-category: billets
 date: 2017-12-06 08:07:00
-layout: article.njk
 tags:
   - mairie
-permalink: billets/2017/12/06/et-si-on-creait-une-asso-de-coding-dans-ma-commune/index.html
+url: /billets/2017/12/06/et-si-on-creait-une-asso-de-coding-dans-ma-commune/
 ---
 
 J'étais en train de rédiger un mail [au directeur de l'école où j'interviens](/billets/2017/11/06/cours-dinformatique-en-ecole-primaire/), et en fait, je me dis que ça pourrait être sympa d'avoir une association de coding / développement / programmation à Rinxent.

@@ -1,11 +1,9 @@
 ---
 title: Ma recette pour un welsh réussi 🧀
-category: billets
 date: 2021-03-19 10:01:00
-layout: article.njk
-permalink: billets/2021/03/19/ma-recette-pour-un-welsh-reussi/index.html
 tags:
   - recette
+url: /billets/2021/03/19/ma-recette-pour-un-welsh-reussi/
 ---
 
 Depuis le temps que certains (Luc, Stéphane : je vous vois 👀) me la réclament, voici ma recette pour un welsh réussi (ou presque).
@@ -59,7 +57,7 @@ Continuez à mélanger. Votre fromage doit être bien fondu mais pas trop liquid
 
 ![Ma recette pour un welsh réussi](/images/2021-03-19-ma-recette-pour-un-welsh-reussi/IMG_3938.jpg)
 
-![Ma recette pour un welsh réussi](/images/2021-03-19-ma-recette-pour-un-welsh-reussi/21-03-18 19-00-22 3937.gif)
+![Ma recette pour un welsh réussi](/images/2021-03-19-ma-recette-pour-un-welsh-reussi/21-03-18-19-00-22-3937.gif)
 
 Répartissez le fromage dans chaque plat de manière à recouvrir votre pain et le jambon.
 

@@ -1,11 +1,9 @@
 ---
 title: wallabag.it en chiffres, un peu de technique
-category: billets
 date: 2020-12-10 16:52:00
-layout: article.njk
 tags:
   - wallabag
-permalink: billets/2020/12/10/wallabagit-en-chiffres-un-peu-de-technique/index.html
+url: /billets/2020/12/10/wallabagit-en-chiffres-un-peu-de-technique/
 ---
 
 Dernièrement, j'ai publié [le bilan financier de l'année 2020](/billets/2020/12/03/quatre-annees-de-wallabagit/).

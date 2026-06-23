@@ -1,12 +1,10 @@
 ---
 title: Bientôt neuf ans, et une v3 ?
-category: billets
 date: 2022-03-25 13:30:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2022/03/25/bientot-neuf-ans-et-une-v3/index.html
+url: /billets/2022/03/25/bientot-neuf-ans-et-une-v3/
 ---
 
 Dans neuf jours, [wallabag fêtera ses neuf ans](/billets/2013/04/03/poche-pour-remplacer-instapaper-pocket-et-readability/).

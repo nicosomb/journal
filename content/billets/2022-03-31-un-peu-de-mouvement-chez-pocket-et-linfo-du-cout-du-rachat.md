@@ -1,11 +1,9 @@
 ---
 title: "Un peu de mouvement chez Pocket et l'info du coût du rachat"
-category: billets
 date: 2022-03-31 13:30:00
-layout: article.njk
 tags:
   - wallabag
-permalink: billets/2022/03/31/un-peu-de-mouvement-chez-pocket-et-linfo-du-cout-du-rachat/index.html
+url: /billets/2022/03/31/un-peu-de-mouvement-chez-pocket-et-linfo-du-cout-du-rachat/
 ---
 
 En lisant l'article allemand [« Bevorstehende Umstellung der Pocket-Konten auf Firefox-Konten »](https://www.soeren-hentzschel.at/mozilla/pocket-umstellung-firefox-konto/), on apprend qu'il sera très prochainement obligatoire d'avoir un compte Firefox pour accéder à son compte Pocket.

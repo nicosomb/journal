@@ -1,11 +1,9 @@
 ---
 title: Impact de nos partages
-category: billets
 date: 2022-02-24 08:30:00
-layout: article.njk
 tags:
   - photo
-permalink: billets/2022/02/24/impact-de-nos-partages/index.html
+url: /billets/2022/02/24/impact-de-nos-partages/
 ---
 
 Je lisais chez David l'autre jour [son billet Envie](https://larlet.fr/david/2022/02/17/).

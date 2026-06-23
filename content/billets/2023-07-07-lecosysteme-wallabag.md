@@ -1,12 +1,10 @@
 ---
 title: "L'écosystème wallabag"
-category: billets
 date: 2023-07-07 09:00:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2023/07/07/lecosysteme-wallabag/index.html
+url: /billets/2023/07/07/lecosysteme-wallabag/
 ---
 
 Il y a un peu plus de 10 ans (en avril 2013 😱), je démarrais un projet solo (pas dans mon garage). Juste quelque chose qui était là pour répondre à mes propres besoins, rien d'autre.

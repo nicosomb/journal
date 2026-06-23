@@ -1,11 +1,9 @@
 ---
 title: Ma super recette de cookies 🍪
-category: billets
 date: 2017-10-14 14:43:00
-layout: article.njk
-permalink: billets/2017/10/14/ma-super-recette-de-cookies/index.html
 tags:
   - recette
+url: /billets/2017/10/14/ma-super-recette-de-cookies/
 ---
 
 Histoire d'avoir toujours sous la main ma recette de 🍪, je la note ici, pas besoin de retrouver mes notes à chaque fois.

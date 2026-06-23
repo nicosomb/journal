@@ -1,12 +1,10 @@
 ---
 title: poche 1.3 disponible
-category: billets
 date: 2013-12-23 13:12:00
-layout: article.njk
 tags:
   - wallabag
   - opensource
-permalink: billets/2013/12/23/poche-13-disponible/index.html
+url: /billets/2013/12/23/poche-13-disponible/
 ---
 
 Je vous avais présenté il y a quelques jours les nouveautés qui seraient présentes dans poche 1.3 en vous promettant sa sortie pour Noël : c'est fait, poche 1.3 est disponible au téléchargement.

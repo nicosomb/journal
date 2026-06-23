@@ -1,11 +1,9 @@
 ---
 title: "Situation après trois années d'activité pour wallabag.it"
-category: billets
 date: 2020-01-02 09:14:00
-layout: article.njk
 tags:
   - wallabag
-permalink: billets/2020/01/02/situation-apres-trois-annees-dactivite-pour-wallabagit/index.html
+url: /billets/2020/01/02/situation-apres-trois-annees-dactivite-pour-wallabagit/
 ---
 
 Après trois années d'activité pour wallabag.it, je souhaite vous communiquer un petit bilan de mon service en ligne.
