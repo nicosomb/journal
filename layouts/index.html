@@ -1,6 +1,15 @@
 {{ define "main" }}
 <article>
-  {{ .Site.Params.subtextBefore | safeHTML }}
+  {{ $subtextBefore := .Site.Params.subtextBefore }}
+  {{ with index (first 1 (sort (where .Site.RegularPages "Section" "billets") "Date" "desc")) 0 }}
+    {{ $weekdays := dict "Monday" "lundi" "Tuesday" "mardi" "Wednesday" "mercredi" "Thursday" "jeudi" "Friday" "vendredi" "Saturday" "samedi" "Sunday" "dimanche" }}
+    {{ $months := dict "January" "janvier" "February" "février" "March" "mars" "April" "avril" "May" "mai" "June" "juin" "July" "juillet" "August" "août" "September" "septembre" "October" "octobre" "November" "novembre" "December" "décembre" }}
+    {{ $weekday := index $weekdays (printf "%s" .Date.Weekday) }}
+    {{ $month := index $months (printf "%s" .Date.Month) }}
+    {{ $latestPostLink := printf " Dernier exemple en date, le dernier billet publié %s %d %s est « <a href=\"%s\">%s</a> »." $weekday .Date.Day $month .RelPermalink (.Title | htmlEscape) }}
+    {{ $subtextBefore = replace $subtextBefore "(mais attention, parfois, ils le sont moins).</p>" (printf "(mais attention, parfois, ils le sont moins).%s</p>" $latestPostLink) }}
+  {{ end }}
+  {{ $subtextBefore | safeHTML }}
   {{ with hugo.Data.photos }}
   <section class="photos">
     <div class="photos-grid">
