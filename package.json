@@ -7,7 +7,6 @@
     "build": "node scripts/fetch-external-data.mjs && HUGO_CACHEDIR=$PWD/resources/hugo-cache hugo --gc --cleanDestinationDir --minify --baseURL https://nicolas.loeuillet.org/",
     "serve": "node scripts/fetch-external-data.mjs && HUGO_CACHEDIR=$PWD/resources/hugo-cache hugo server",
     "clean": "rm -rf public resources",
-    "convert:hugo": "node scripts/convert-eleventy-to-hugo.mjs",
     "new-post": "node scripts/create-post.js"
   },
   "keywords": [],

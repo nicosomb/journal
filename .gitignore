@@ -1,10 +1,7 @@
 node_modules/
-output/
 public/
 resources/
 .hugo_build.lock
 .DS_Store
 *.log
-migration-scripts/
 __pycache__/
-11ty/
