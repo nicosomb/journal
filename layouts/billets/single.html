@@ -10,7 +10,7 @@
   {{ with .GetTerms "tags" }}
     {{ range . }}
       {{ $tagURL := index hugo.Data.tag_urls .LinkTitle }}
-      <a href="{{ default .RelPermalink $tagURL }}">#{{ .LinkTitle }}</a>
+      <a href="{{ default .RelPermalink $tagURL }}">#{{ lower .LinkTitle }}</a>
     {{ end }}
   {{ end }}
   {{ $reactionCount := partial "webmentions/count.html" . }}
